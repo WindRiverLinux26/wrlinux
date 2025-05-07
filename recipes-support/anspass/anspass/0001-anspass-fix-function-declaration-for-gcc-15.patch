@@ -1,0 +1,45 @@
+From e93808ab694783b6e83dcb1da15b442a837da02c Mon Sep 17 00:00:00 2001
+From: Chen Qi <Qi.Chen@windriver.com>
+Date: Tue, 6 May 2025 20:04:28 -0700
+Subject: [PATCH] anspass: fix function declaration for gcc-15
+
+gcc-15 does not allow incompatible function declaration.
+Fix the declarations.
+
+Upstream-Status: Pending
+
+Signed-off-by: Chen Qi <Qi.Chen@windriver.com>
+---
+ anspass-lib.h | 2 +-
+ anspassd.h    | 2 +-
+ 2 files changed, 2 insertions(+), 2 deletions(-)
+
+diff --git a/anspass-lib.h b/anspass-lib.h
+index 9750b37..0ad7839 100644
+--- a/anspass-lib.h
++++ b/anspass-lib.h
+@@ -77,7 +77,7 @@ int get_data(struct anspass_packet *packet);
+ int info_check_env_path(struct anspass_info *info, int create);
+ int put_data(struct anspass_packet *packet);
+ int send_request(struct anspass_info *info, int type, char *msg);
+-int setup_socket();
++int setup_socket(struct anspass_info *info);
+ unsigned char* string_to_hex(char * str);
+ 
+ int get_secret(unsigned char* text, const uint max, const int echo);
+diff --git a/anspassd.h b/anspassd.h
+index e480ed3..d4fc98c 100644
+--- a/anspassd.h
++++ b/anspassd.h
+@@ -155,7 +155,7 @@ void print_gcry_err(const char *func, const char *call, gcry_error_t e);
+ int create_db2_entry(struct db1_entry *e, const char *secret);
+ 
+ /* Connection helpers */
+-int setup_socket();
++int setup_socket(struct anspass_info *info);
+ int check_for_request();
+ int is_request_valid(struct anspass_packet *packet);
+ void process_request(struct anspass_packet *packet);
+-- 
+2.48.1
+
