@@ -1,0 +1,174 @@
+OpenSSL FIPS support
+
+
+1. Overview
+
+The OpenSSL 3.x includes a cryptographic module that can be FIPS validated.
+The module is implemented as an OpenSSL provider. A provider is essentially
+a dynamically loadable module which implements cryptographic algorithms.
+
+See https://github.com/openssl/openssl/blob/master/README-FIPS.md for further
+details.
+
+
+2. Enable FIPS Mode in Kernel
+
+The 'fips=1' option needs to be added to the kernel command line so that key
+generation is done with FIPS approved algorithms:
+...
+[    0.000000] Linux version 6.12.44-yocto-standard (oe-user@oe-host) (x86_64-wrs-linux-gcc (GCC) 15.2.0, GNU ld (GNU Binutils) 2.45) #1 SMP PREEMPT_DYNAMIC Wed Sep  3 19:47:57 UTC 2025
+[    0.000000] Kernel command line: BOOT_IMAGE=/bzImage root=PARTUUID=67d53e9b-721b-40f6-976a-6f337a788f53 rootwait rootfstype=ext4 console=ttyS0,115200 console=tty0 fips=1
+[    0.000000] fips mode: enabled
+[    0.456128] alg: self-tests for sha3-256-generic (sha3-256) passed
+[    0.471970] alg: self-tests for crc32c-generic (crc32c) passed
+[    0.562995] alg: self-tests for sha512-generic (sha512) passed
+[    0.568985] alg: self-tests for rsa-generic (rsa) passed
+[    0.569484] alg: self-tests for pkcs1pad(rsa-generic,sha512) (pkcs1pad(rsa,sha512)) passed
+[    0.575403] alg: self-tests for sha256-generic (sha256) passed
+[    0.576313] alg: self-tests for aes-generic (aes) passed
+[    0.577137] alg: self-tests for ecb(aes-generic) (ecb(aes)) passed
+[    0.578028] alg: self-tests for cbc(ecb(aes-generic)) (cbc(aes)) passed
+[    0.579448] alg: self-tests for jitterentropy_rng (jitterentropy_rng) passed
+[    0.581846] alg: ecdh-nist-p192 (ecdh-nist-p192-generic) is disabled due to FIPS
+[    0.582683] alg: ghash (ghash-generic) is disabled due to FIPS
+[    0.583388] alg: self-tests for drbg_pr_hmac_sha512 (stdrng) passed
+[    0.584148] alg: des3_ede (des3_ede-generic) is disabled due to FIPS
+[    0.584869] alg: des (des-generic) is disabled due to FIPS
+[    0.585475] alg: blake2b-512 (blake2b-512-generic) is disabled due to FIPS
+[    0.586277] alg: blake2b-384 (blake2b-384-generic) is disabled due to FIPS
+[    0.587100] alg: blake2b-256 (blake2b-256-generic) is disabled due to FIPS
+[    0.587847] alg: blake2b-160 (blake2b-160-generic) is disabled due to FIPS
+[    0.588856] alg: self-tests for deflate-generic (deflate) passed
+[    0.589761] alg: self-tests for deflate-scomp (deflate) passed
+[    0.590499] alg: self-tests for lzo-generic (lzo) passed
+[    0.591140] alg: self-tests for lzo-scomp (lzo) passed
+[    0.591714] alg: self-tests for lzo-rle-generic (lzo-rle) passed
+[    0.592385] alg: self-tests for lzo-rle-scomp (lzo-rle) passed
+[    0.593955] alg: self-tests for sha224-generic (sha224) passed
+[    0.596432] alg: self-tests for sha3-512-generic (sha3-512) passed
+[    0.597240] alg: self-tests for sha3-384-generic (sha3-384) passed
+[    0.598092] alg: self-tests for sha3-224-generic (sha3-224) passed
+[    0.598957] alg: self-tests for sha384-generic (sha384) passed
+[    0.599849] alg: md5 (md5-generic) is disabled due to FIPS
+[    0.600541] alg: self-tests for sha1-generic (sha1) passed
+[    0.601472] alg: self-tests for ecdh-nist-p384-generic (ecdh-nist-p384) passed
+[    0.602495] alg: self-tests for hmac(sha512-generic) (hmac(sha512)) passed
+[    0.603331] alg: md4 (md4-generic) is disabled due to FIPS
+[    0.604009] alg: digest_null (digest_null-generic) is disabled due to FIPS
+[    0.604762] alg: self-tests for ecb-cipher_null (ecb(cipher_null)) passed
+[    0.605530] alg: compress_null (compress_null-generic) is disabled due to FIPS
+[    0.606446] alg: self-tests for xxhash64-generic (xxhash64) passed
+[    0.608632] alg: self-tests for hmac(sha256-generic) (hmac(sha256)) passed
+[    0.609453] alg: self-tests for cipher_null-generic (cipher_null) passed
+[    0.610291] alg: self-tests for drbg_nopr_hmac_sha512 (stdrng) passed
+[    0.612291] alg: self-tests for drbg_nopr_hmac_sha256 (stdrng) passed
+[    0.613124] alg: self-tests for drbg_pr_hmac_sha256 (stdrng) passed
+[    0.629571] alg: self-tests for ecdh-nist-p256-generic (ecdh-nist-p256) passed
+[    4.255391] alg: self-tests for pkcs1pad(rsa-generic,sha256) (pkcs1pad(rsa,sha256)) passed
+...
+
+Check if the kernel FIPS mode is enabled:
+$ cat /proc/sys/crypto/fips_enabled
+1
+
+$ sysctl crypto.fips_enabled
+crypto.fips_enabled = 1
+
+NOTE: 1 indicates enabled, while 0 indicates disabled.
+
+
+3. Using the OpenSSL FIPS Module in applications
+
+Note that the old functions FIPS_mode() and FIPS_mode_set() are no longer present
+so you must remove them from your application if you use them.
+
+A simple approach to use FIPS module is to cause all applications that are using
+OpenSSL to only use the FIPS module for cryptographic algorithms by default.
+
+This approach can be done purely via configuration. As long as applications are
+built and linked against OpenSSL 3.x and do not override the loading of the default
+config file or its settings then they can automatically start using the FIPS module
+without the need for any further code changes.
+
+Steps:
+
+a). Verify that the FIPS config file fipsmodule.cnf contains the correct info:
+
+$ openssl fipsinstall -module /usr/lib64/ossl-modules/fips.so -in /usr/lib64/ssl-3/fipsmodule.cnf -verify
+VERIFY PASSED
+
+b). Edit the OpenSSL config file /usr/lib64/ssl-3/openssl.cnf:
+
+  config_diagnostics = 1
+  openssl_conf = openssl_init
+
+  .include /usr/lib64/ssl-3/fipsmodule.cnf
+
+  [openssl_init]
+  providers = provider_sect
+  alg_section = algorithm_sect
+
+  [provider_sect]
+  fips = fips_sect
+  base = base_sect
+
+  [base_sect]
+  activate = 1
+
+  [algorithm_sect]
+  default_properties = fips=yes
+
+c). Check if the fips module is loaded:
+
+$ openssl list -providers
+Providers:
+  base
+    name: OpenSSL Base Provider
+    version: 3.5.2
+    status: active
+  fips
+    name: OpenSSL FIPS Provider
+    version: 3.5.2
+    status: active
+
+Any applications that use OpenSSL 3.x and are started after these changes
+are made will start using only the FIPS module.
+
+d). Setup OpenSSH server:
+
+We need to set FIPS-compliant algorithms in Ciphers and MACs for OpenSSH sever.
+Other algorithms will be disabled in FIPS mode.
+
+For example, add the follwing lines to /etc/ssh/sshd_config:
+  Ciphers aes256-ctr,aes192-ctr,aes128-ctr
+  MACs hmac-sha2-512,hmac-sha2-256
+
+$ ssh root@localhost
+Last login: Tue May 13 15:42:50 2025 from 127.0.0.1
+
+
+Another approach is selectively making applications use the FIPS module by
+default It is possible to override the default OpenSSL config file to be used
+via the OPENSSL_CONF environment variable. For example:
+
+$ OPENSSL_CONF=/my/nondefault/openssl.cnf myapplication
+
+
+See https://docs.openssl.org/3.5/man7/fips_module/ for more approaches.
+
+
+4. References:
+
+https://github.com/openssl/openssl/blob/master/README-FIPS.md
+https://docs.openssl.org/3.5/man7/fips_module/
+https://docs.openssl.org/3.5/man5/fips_config/
+https://docs.openssl.org/3.5/man1/openssl-fipsinstall/
+
+
+To use this template, add the following to your setup line:
+
+    --templates feature/openssl-fips
+
+#@TYPE: Wrtemplate
+#@NAME: openssl-fips
+#@DESCRIPTION: Add openssl-fips to the image
