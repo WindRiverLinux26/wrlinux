@@ -12,13 +12,16 @@ inherit update-rc.d
 INITSCRIPT_NAME = "rcinit"
 INITSCRIPT_PARAMS = "start 999 2 3 4 5 ."
 
+inherit features_check
+
+REQUIRED_DISTRO_FEATURES = "sysvinit"
+
 do_install () {
     install -d ${D}/${sysconfdir}/
     install -m 755 ${S}/rc.local.example ${D}/${sysconfdir}/rc.local
-    if ${@bb.utils.contains('DISTRO_FEATURES','sysvinit','true','false',d)}; then
-        install -d ${D}/${sysconfdir}/init.d
-        install -m 755 ${S}/rcinit ${D}/${sysconfdir}/init.d/rcinit
-    fi
+
+    install -d ${D}/${sysconfdir}/init.d
+    install -m 755 ${S}/rcinit ${D}/${sysconfdir}/init.d/rcinit
 } 
 
 # As the recipe doesn't inherit systemd.bbclass, we need to set this variable
