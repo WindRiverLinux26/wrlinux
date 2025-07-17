@@ -8,8 +8,7 @@ SRC_URI = "file://sidebar-logo.png \
            ${@oe.utils.conditional('WRLINUX_BRANCH', 'LTS', 'file://banner_windriver_LTS.png', 'file://banner_windriver.png', d)} \
            file://COPYING"
 
-S = "${WORKDIR}/sources"
-UNPACKDIR = "${S}"
+S = "${UNPACKDIR}"
 
 inherit allarch
 

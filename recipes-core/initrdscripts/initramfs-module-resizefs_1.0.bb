@@ -16,8 +16,7 @@ SRC_URI = "file://resizefs_grub \
            file://resizefs_uboot \
 "
 
-S = "${WORKDIR}/sources"
-UNPACKDIR = "${S}"
+S = "${UNPACKDIR}"
 
 do_install() {
     install -d ${D}/init.d

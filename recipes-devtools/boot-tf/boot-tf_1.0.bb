@@ -15,8 +15,7 @@ SRC_URI = "file://boot-tf \
            file://README.md \
 "
 
-S = "${WORKDIR}/sources"
-UNPACKDIR = "${S}"
+S = "${UNPACKDIR}"
 
 INHIBIT_DEFAULT_DEPS = "1"
 

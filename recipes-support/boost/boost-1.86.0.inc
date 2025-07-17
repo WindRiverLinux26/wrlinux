@@ -17,4 +17,4 @@ SRC_URI[sha256sum] = "1bed88e40401b2cb7a1f76d4bab499e352fa4d0c5f31c0dbae64e24d34
 UPSTREAM_CHECK_URI = "http://www.boost.org/users/download/"
 UPSTREAM_CHECK_REGEX = "release/(?P<pver>.*)/source/"
 
-S = "${WORKDIR}/${BOOST_P}"
+S = "${UNPACKDIR}/${BOOST_P}"

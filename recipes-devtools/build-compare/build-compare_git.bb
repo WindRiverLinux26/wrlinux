@@ -15,7 +15,6 @@ PE = "1"
 PV = "2020.05.29+git${SRCPV}"
 UPSTREAM_CHECK_COMMITS = "1"
 
-S = "${WORKDIR}/git"
 
 BBCLASSEXTEND = "native nativesdk"
 

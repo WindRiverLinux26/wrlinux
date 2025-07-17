@@ -20,7 +20,6 @@ SRCREV = "726c141fe582add0addf7d128aa33d1e3c532b56"
 
 PV = "1.0+git${SRCPV}"
 
-S = "${WORKDIR}/git"
 
 do_install() {
     make DESTDIR=${D} install

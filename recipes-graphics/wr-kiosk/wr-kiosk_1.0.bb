@@ -10,8 +10,7 @@ SRC_URI = "file://wr-chromium-web-kiosk.service \
            file://wr-chromium-web-kiosk.sh \
 "
 
-S = "${WORKDIR}/sources"
-UNPACKDIR = "${S}"
+S = "${UNPACKDIR}"
 
 PACKAGECONFIG ??= "vkeyboard"
 PACKAGECONFIG[vkeyboard] = ",,,chrome-virtual-keyboard"

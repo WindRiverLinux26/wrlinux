@@ -10,8 +10,7 @@ RDEPENDS:${PN} = "busybox"
 SRC_URI = "file://init \
 	   file://rc.local.sample \
 	  "
-S = "${WORKDIR}/sources"
-UNPACKDIR = "${S}"
+S = "${UNPACKDIR}"
 
 do_configure() {
 	:
