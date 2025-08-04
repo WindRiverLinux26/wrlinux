@@ -1,4 +1,4 @@
-From 2c0358bb05f60eb19a1d554efaba53a6bd1e5671 Mon Sep 17 00:00:00 2001
+From d860bf86c6b87254800f28c9de999f6cbc4d9c2c Mon Sep 17 00:00:00 2001
 From: Jin Li <jin.li@windriver.com>
 Date: Mon, 25 May 2020 18:59:02 -0700
 Subject: [PATCH] change some auto-detecting options to configurable ones
@@ -27,15 +27,19 @@ Signed-off-by: Kai Kang <kai.kang@windriver.com>
 Rebased on 20240605.
 
 Signed-off-by: Kai Kang <kai.kang@windriver.com>
+
+Rebased on 20250804
+
+Signed-off-by: Mingli Yu <mingli.yu@windriver.com>
 ---
  configure.ac | 60 ++++++++++++++++++++++++++++++++++++++++++++++++----
  1 file changed, 56 insertions(+), 4 deletions(-)
 
 diff --git a/configure.ac b/configure.ac
-index 795ea2162..223b36d04 100644
+index 7f475f6..09f900b 100644
 --- a/configure.ac
 +++ b/configure.ac
-@@ -388,20 +388,72 @@ fi
+@@ -368,19 +368,71 @@ fi
  
  AC_CONFIG_COMMANDS([syscalls.h], [cd ${ac_top_srcdir}/include/lapi/syscalls; ./generate_syscalls.sh ../syscalls.h; cd - >/dev/null])
  
@@ -107,11 +111,10 @@ index 795ea2162..223b36d04 100644
  LTP_CHECK_KERNEL_DEVEL
  LTP_CHECK_KEYUTILS_SUPPORT
  LTP_CHECK_LIBMNL
- LTP_CHECK_LINUXRANDOM
 -LTP_CHECK_SELINUX
  LTP_CHECK_SYNC_ADD_AND_FETCH
  LTP_CHECK_SYSCALL_EVENTFD
  LTP_CHECK_SYSCALL_FCNTL
 -- 
-2.47.0
+2.49.0
 
