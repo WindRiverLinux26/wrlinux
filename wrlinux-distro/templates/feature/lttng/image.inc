@@ -1,7 +1,7 @@
 IMAGE_INSTALL += "lttng-modules"
 IMAGE_INSTALL += "lttng-tools"
 IMAGE_INSTALL += "lttng-ust"
-IMAGE_INSTALL += "babeltrace"
+IMAGE_INSTALL += "babeltrace2"
 IMAGE_INSTALL += "python3-core"
 
 IMAGE_INSTALL += "${@bb.utils.contains('DISTRO_FEATURES', 'api-documentation', 'lttng-tools-doc', '', d)}"
