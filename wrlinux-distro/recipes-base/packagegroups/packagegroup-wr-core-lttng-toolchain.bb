@@ -16,6 +16,6 @@ LTTNG_TOOLS:riscv32 = ''
 
 RDEPENDS:${PN} = "\
 	${LTTNG_TOOLS} \
-	babeltrace \
+	babeltrace2 \
 	lttng-ust \
 "
