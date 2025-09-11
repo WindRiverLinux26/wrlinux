@@ -14,6 +14,9 @@ do_image_otaimg[depends] += "e2fsprogs-native:do_populate_sysroot \
 export FLUXDATA = "${@bb.utils.contains('DISTRO_FEATURES', 'luks', 'luks_fluxdata', 'fluxdata', d)}"
 export ROOT_LABEL = "${@bb.utils.contains('DISTRO_FEATURES', 'luks', 'luks_otaroot', 'otaroot', d)}"
 
+PHYS_SYSROOT = "${WORKDIR}/ota-sysroot"
+PSEUDO_INCLUDE_PATHS .= ",${PHYS_SYSROOT}"
+
 calculate_size () {
 	BASE=$1
 	SCALE=$2
@@ -66,9 +69,8 @@ IMAGE_CMD:otaimg () {
 		if [ -z "$OSTREE_BRANCHNAME" ]; then
 			bbfatal "OSTREE_BRANCHNAME should be set in your local.conf"
 		fi
-
-		PHYS_SYSROOT=`mktemp -d ${WORKDIR}/ota-sysroot-XXXXX`
-
+		rm -rf ${PHYS_SYSROOT}
+		mkdir ${PHYS_SYSROOT}
 		ostree admin --sysroot=${PHYS_SYSROOT} init-fs ${PHYS_SYSROOT}
 		ostree admin --sysroot=${PHYS_SYSROOT} os-init ${OSTREE_OSNAME}
 		ostree config --repo=${PHYS_SYSROOT}/ostree/repo set core.add-remotes-config-dir false

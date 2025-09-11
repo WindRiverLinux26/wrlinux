@@ -5,6 +5,9 @@ GPG_BIN ??= ""
 GPG_PATH ??= ""
 OSTREE_COMMIT_DEV ??= "0"
 OSTREE_CREATE_TARBALL ??= "0"
+OSTREE_ROOTFS = "${WORKDIR}/ostree-root"
+OSTREE_REPO_TEMP = "${WORKDIR}/ostree_repo.temp"
+PSEUDO_INCLUDE_PATHS .= ",${OSTREE_ROOTFS},${OSTREE_REPO_TEMP}"
 
 DEPENDS += "${@bb.utils.contains('DISTRO_FEATURES', 'selinux', 'policycoreutils-native', '', d)}"
 
@@ -213,8 +216,7 @@ IMAGE_CMD:ostree () {
 		bbfatal "OSTREE_BRANCHNAME should be set in your local.conf"
 	fi
 
-	OSTREE_REPO_TEMP="${WORKDIR}/ostree_repo.temp.$$"
-	OSTREE_ROOTFS=`mktemp -du ${WORKDIR}/ostree-root-XXXXX`
+	rm -rf ${OSTREE_ROOTFS}
 	cp -a ${IMAGE_ROOTFS} ${OSTREE_ROOTFS}
 	if [ "${@oe.types.boolean(d.getVar('IS_FMU_ENABLED'))}" = "True" ]; then
 		rm -rf ${OSTREE_ROOTFS}${APP_DIRECTORY}/*
