@@ -1,4 +1,4 @@
-From 2c79c968ab8b2cfab7d191054cb4ca74a59bc09f Mon Sep 17 00:00:00 2001
+From 3745f0e00561534397823544b9f861345d53d090 Mon Sep 17 00:00:00 2001
 From: Yi Zhao <yi.zhao@windriver.com>
 Date: Sun, 30 Oct 2022 12:09:10 +0800
 Subject: [PATCH] policy/modules/services/ntp: fix avc denials for ntpd_t with
@@ -31,10 +31,10 @@ Signed-off-by: Yi Zhao <yi.zhao@windriver.com>
  1 file changed, 3 insertions(+)
 
 diff --git a/policy/modules/services/ntp.te b/policy/modules/services/ntp.te
-index 3b2904547..f5b799ad4 100644
+index 5cf379769..8ce217189 100644
 --- a/policy/modules/services/ntp.te
 +++ b/policy/modules/services/ntp.te
-@@ -140,6 +140,9 @@ miscfiles_read_localization(ntpd_t)
+@@ -143,6 +143,9 @@ miscfiles_read_localization(ntpd_t)
  userdom_dontaudit_use_unpriv_user_fds(ntpd_t)
  userdom_list_user_home_dirs(ntpd_t)
  
@@ -45,5 +45,5 @@ index 3b2904547..f5b799ad4 100644
  	allow ntpd_t self:process setfscreate;
  
 -- 
-2.25.1
+2.34.1
 

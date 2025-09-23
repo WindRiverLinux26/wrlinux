@@ -1,4 +1,4 @@
-From ec21785ff87ee2fb265c11761392cf20d7bebcab Mon Sep 17 00:00:00 2001
+From 7f08a192b31dc7f291970d825a8d491275d0404c Mon Sep 17 00:00:00 2001
 From: Liwei Song <liwei.song@windriver.com>
 Date: Thu, 2 Jan 2020 17:32:58 +0800
 Subject: [PATCH] files: add lable for symlinks /mnt /opt and /root
@@ -31,7 +31,7 @@ index 177e7eadc..5c7e0d7fd 100644
  /var/home /home
  /var/rootdirs/mnt /mnt
 diff --git a/policy/modules/kernel/files.fc b/policy/modules/kernel/files.fc
-index c5012e6b4..885f2e090 100644
+index d393a6bc2..3104c2c03 100644
 --- a/policy/modules/kernel/files.fc
 +++ b/policy/modules/kernel/files.fc
 @@ -124,6 +124,7 @@ HOME_ROOT/lost\+found/.*	<<none>>
@@ -50,7 +50,7 @@ index c5012e6b4..885f2e090 100644
  /opt/.*				gen_context(system_u:object_r:usr_t,s0)
  
  /opt/(.*/)?var/lib(64)?(/.*)?	gen_context(system_u:object_r:var_lib_t,s0)
-@@ -230,6 +232,8 @@ ifndef(`distro_redhat',`
+@@ -225,6 +227,8 @@ ifndef(`distro_redhat',`
  /usr/src/kernels/.+/lib(/.*)?	gen_context(system_u:object_r:usr_t,s0)
  ')
  
@@ -74,5 +74,5 @@ index 173e314af..c4e3dc789 100644
  /run/user/[^/]+	-d	gen_context(system_u:object_r:user_runtime_t,s0)
  /run/user/[^/]+/.+	-d	<<none>>
 -- 
-2.25.1
+2.34.1
 

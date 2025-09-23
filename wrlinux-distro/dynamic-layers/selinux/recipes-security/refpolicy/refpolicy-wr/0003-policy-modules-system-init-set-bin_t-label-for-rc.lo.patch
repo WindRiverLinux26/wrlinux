@@ -1,4 +1,4 @@
-From 52f7c0cf87ef9c8505cba2097480311e7003e81b Mon Sep 17 00:00:00 2001
+From ab810b0224c834536709168fa8b9c412c96c43f0 Mon Sep 17 00:00:00 2001
 From: Yi Zhao <yi.zhao@windriver.com>
 Date: Wed, 8 Jul 2020 11:24:43 +0800
 Subject: [PATCH] policy/modules/system/init: set bin_t label for rc.local
@@ -30,5 +30,5 @@ index 962f18099..e6765de77 100644
  
  ifdef(`distro_gentoo',`
 -- 
-2.25.1
+2.34.1
 

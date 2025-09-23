@@ -1,4 +1,4 @@
-From c12edf01b1eb29432d01e4e132945f006f533d11 Mon Sep 17 00:00:00 2001
+From faf43a336e2ed3fdcc3016967bc627348c4df84d Mon Sep 17 00:00:00 2001
 From: Yi Zhao <yi.zhao@windriver.com>
 Date: Sun, 16 Oct 2022 12:19:38 +0800
 Subject: [PATCH] corenetwork: label port 18120 udp with radius
@@ -14,7 +14,7 @@ Signed-off-by: Yi Zhao <yi.zhao@windriver.com>
  1 file changed, 1 insertion(+), 1 deletion(-)
 
 diff --git a/policy/modules/kernel/corenetwork.te.in b/policy/modules/kernel/corenetwork.te.in
-index cfe11d2f0..c685e5bb5 100644
+index 1298a6ca8..ab84decf3 100644
 --- a/policy/modules/kernel/corenetwork.te.in
 +++ b/policy/modules/kernel/corenetwork.te.in
 @@ -240,7 +240,7 @@ network_port(puppet, tcp, 8140, s0)
@@ -27,5 +27,5 @@ index cfe11d2f0..c685e5bb5 100644
  network_port(razor, tcp,2703,s0)
  network_port(redis, tcp,6379,s0, tcp,26379,s0)
 -- 
-2.25.1
+2.34.1
 

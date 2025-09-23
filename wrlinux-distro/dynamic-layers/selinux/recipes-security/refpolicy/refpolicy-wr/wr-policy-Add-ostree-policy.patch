@@ -1,4 +1,4 @@
-From 956f484f467a72c33aa4f922aaf3dbb790bb472a Mon Sep 17 00:00:00 2001
+From 5b4fe7de9671e7a51a078101c4761b8234dc24c6 Mon Sep 17 00:00:00 2001
 From: Liwei Song <liwei.song@windriver.com>
 Date: Thu, 9 Jan 2020 02:21:51 +0000
 Subject: [PATCH] Add ostree policy
@@ -243,10 +243,10 @@ index 000000000..e1004e945
 +	usermanage_run_useradd(ostree_t, ostree_roles)
 +')
 diff --git a/policy/modules/roles/sysadm.te b/policy/modules/roles/sysadm.te
-index 8f34434d0..c40713ea2 100644
+index c9f349ea2..9b699609a 100644
 --- a/policy/modules/roles/sysadm.te
 +++ b/policy/modules/roles/sysadm.te
-@@ -779,6 +779,10 @@ optional_policy(`
+@@ -819,6 +819,10 @@ optional_policy(`
  	openvswitch_admin(sysadm_t, sysadm_r)
  ')
  
@@ -258,10 +258,10 @@ index 8f34434d0..c40713ea2 100644
  	pacemaker_admin(sysadm_t, sysadm_r)
  ')
 diff --git a/policy/modules/system/unconfined.te b/policy/modules/system/unconfined.te
-index 744037c03..82a9a8565 100644
+index 71e1b15ae..681e04980 100644
 --- a/policy/modules/system/unconfined.te
 +++ b/policy/modules/system/unconfined.te
-@@ -158,6 +158,10 @@ optional_policy(`
+@@ -178,6 +178,10 @@ optional_policy(`
  	oddjob_run_mkhomedir(unconfined_t, unconfined_r)
  ')
  
@@ -273,5 +273,5 @@ index 744037c03..82a9a8565 100644
  	portage_run(unconfined_t, unconfined_r)
  	portage_run_fetch(unconfined_t, unconfined_r)
 -- 
-2.25.1
+2.34.1
 

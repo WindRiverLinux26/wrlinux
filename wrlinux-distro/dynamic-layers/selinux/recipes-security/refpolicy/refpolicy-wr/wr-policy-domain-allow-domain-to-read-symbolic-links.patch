@@ -1,4 +1,4 @@
-From 415489c305d5757783937ddee78f3ebc0b6a3d7e Mon Sep 17 00:00:00 2001
+From eebeaac859d55aede641a15d266998a674f1d81f Mon Sep 17 00:00:00 2001
 From: Yi Zhao <yi.zhao@windriver.com>
 Date: Sat, 21 Oct 2023 11:20:54 +0800
 Subject: [PATCH] domain: allow domain to read symbolic links
@@ -41,5 +41,5 @@ index e3eee0590..e02400e11 100644
  	optional_policy(`
  		shutdown_sigchld(domain)
 -- 
-2.25.1
+2.34.1
 

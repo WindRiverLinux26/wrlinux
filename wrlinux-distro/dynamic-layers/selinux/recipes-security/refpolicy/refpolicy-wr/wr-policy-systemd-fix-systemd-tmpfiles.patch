@@ -1,4 +1,4 @@
-From 5e182a0c4e4fe4ea8d1e1037ead7c535d7093075 Mon Sep 17 00:00:00 2001
+From d91a3ab79a29b6524d54ee2e32e801e96b63a13f Mon Sep 17 00:00:00 2001
 From: Yi Zhao <yi.zhao@windriver.com>
 Date: Tue, 4 Aug 2020 15:06:58 +0800
 Subject: [PATCH] systemd: fix systemd-tmpfiles
@@ -51,20 +51,20 @@ Signed-off-by: Yi Zhao <yi.zhao@windriver.com>
  1 file changed, 5 insertions(+)
 
 diff --git a/policy/modules/system/systemd.te b/policy/modules/system/systemd.te
-index c6c080601..327e8649a 100644
+index 201f73bbc..98f272d96 100644
 --- a/policy/modules/system/systemd.te
 +++ b/policy/modules/system/systemd.te
-@@ -1994,6 +1994,9 @@ files_setattr_lock_dirs(systemd_tmpfiles_t)
+@@ -2207,6 +2207,9 @@ files_setattr_lock_dirs(systemd_tmpfiles_t)
  # for /etc/mtab
  files_manage_etc_symlinks(systemd_tmpfiles_t)
  
 +files_manage_non_auth_files(systemd_tmpfiles_t)
 +files_relabel_non_auth_files(systemd_tmpfiles_t)
 +
+ fs_getattr_cgroup(systemd_tmpfiles_t)
  fs_list_tmpfs(systemd_tmpfiles_t)
  fs_relabelfrom_tmpfs_dirs(systemd_tmpfiles_t)
- fs_getattr_all_fs(systemd_tmpfiles_t)
-@@ -2049,6 +2052,8 @@ mls_file_upgrade(systemd_tmpfiles_t)
+@@ -2265,6 +2268,8 @@ mls_file_upgrade(systemd_tmpfiles_t)
  userdom_manage_user_runtime_root_dirs(systemd_tmpfiles_t)
  userdom_relabel_user_runtime_root_dirs(systemd_tmpfiles_t)
  
@@ -74,5 +74,5 @@ index c6c080601..327e8649a 100644
  	# systemd-tmpfiles can be configured to manage anything.
  	# have a last-resort option for users to do this.
 -- 
-2.25.1
+2.34.1
 
