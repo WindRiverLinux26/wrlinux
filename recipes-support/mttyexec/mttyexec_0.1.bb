@@ -7,6 +7,8 @@ SRC_URI = "file://mttyexec-0.1/COPYING \
 	file://mttyexec-0.1/mttyexec.c \
 	file://mttyexec-0.1/Makefile"
 
+SOURCE_DATE_EPOCH = "1763643417"
+
 do_install() {
 	oe_runmake DEST=${D}${bindir} install
 }
