@@ -21,6 +21,8 @@ SRC_URI = "file://wallpapers;subdir=${BP} \
            file://COPYING;subdir=${BP} \
 "
 
+SOURCE_DATE_EPOCH = "1763643417"
+
 # We have two theme for now: gray and blue,
 # there maybe more in the future.
 #
