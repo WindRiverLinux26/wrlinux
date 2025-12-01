@@ -1,1 +1,0 @@
-IMAGE_INSTALL += "${VIRTUAL-RUNTIME_kexec_tools}"
