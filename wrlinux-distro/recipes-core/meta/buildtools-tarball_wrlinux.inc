@@ -10,6 +10,15 @@ TOOLCHAIN_HOST_TASK:append:osv-wrlinux = " \
 # use anspass to save and retrieve credentials
 TOOLCHAIN_HOST_TASK:append:osv-wrlinux = " nativesdk-anspass"
 
+# For meta-footprint
+TOOLCHAIN_HOST_TASK:append:osv-wrlinux = " \
+    nativesdk-python3-cssselect2 \
+    nativesdk-python3-graphviz \
+    nativesdk-python3-reportlab \
+    nativesdk-python3-svglib \
+    nativesdk-python3-tinycss2 \
+"
+
 SDK_POSTPROCESS_COMMAND:prepend:osv-wrlinux = " gen_buildtools_delete_target ;"
 
 gen_buildtools_delete_target() {
