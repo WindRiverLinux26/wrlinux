@@ -1,0 +1,13 @@
+This template enables kiosk mode for epiphany.
+
+To use this template, add the following to your setup line:
+
+    --templates feature/web-kiosk
+
+Set starting URL via variable STARTING_URL in local.conf.
+For example:
+STARTING_URL = "https://www.windriver.com"
+
+#@TYPE: Wrtemplate
+#@NAME: web-kiosk
+#@DESCRIPTION: Enable kiosk mode for epiphany

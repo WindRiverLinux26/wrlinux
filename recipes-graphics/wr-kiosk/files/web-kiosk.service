@@ -1,0 +1,15 @@
+[Unit]
+Description=Epiphany Browser Kiosk Mode
+Requires=network.target xserver-nodm.service
+After=network.target xserver-nodm.service
+
+[Service]
+Type=forking
+User=kiosk
+Environment=DISPLAY=:0
+ExecStart=@BINDIR@/web-kiosk.sh
+Restart=always
+RestartSec=1
+
+[Install]
+WantedBy=multi-user.target
