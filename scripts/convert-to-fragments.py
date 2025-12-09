@@ -75,6 +75,11 @@ def convert_line(line, srcfile_path, debug=False, template_path=None):
                 converted_line = converted_line.replace(pattern, replacement)
                 applied_conversion = True
                 debug_conv_line = converted_line
+        # Handle /templates/ value
+        if re.search(r"=.*/templates/", converted_line):
+            converted_line = converted_line.replace("/templates/", "/conf/fragments/")
+            applied_conversion = True
+            debug_conv_line = converted_line
 
     # Output debug information if a conversion was applied
     if debug and applied_conversion and template_path:
