@@ -98,7 +98,7 @@ OSTREE_COPY_IMAGE_BOOT_FILES ??= "0"
 
 # Use this WKS file with wic (WKS_FILE = "${OSTREE_WKS_FILE}" should be set in the feature
 # template or local.conf
-OSTREE_WKS_FILE ??= "${OSTREE_ARCH_WKS}${OSTREE_AB_WKS}.wks.in"
+OSTREE_WKS_FILE ?= "${OSTREE_ARCH_WKS}${OSTREE_AB_WKS}.wks.in"
 
 # Below are additional variables that can be set in local.conf which are the
 # defaults for the network installer
