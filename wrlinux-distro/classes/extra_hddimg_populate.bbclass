@@ -93,7 +93,7 @@ efi_populate_common() {
 
         install -d ${DEST}${EFIDIR}
 
-        if [ "${EFI_PROVIDER}" = "extra_hddimg_populate" ]; then
+        if [ "${EFI_CLASS}" = "extra_hddimg_populate" ]; then
             install -m 0644 ${DEPLOY_DIR_IMAGE}/${EFI_BOOT_IMAGE} ${DEST}${EFIDIR}/${EFI_BOOT_IMAGE}
         else
             install -m 0644 ${DEPLOY_DIR_IMAGE}/$2-${EFI_BOOT_IMAGE} ${DEST}${EFIDIR}/${EFI_BOOT_IMAGE}
