@@ -49,6 +49,7 @@ DEPENDS = "\
     fontconfig-native \
     freetype-native \
     fribidi-native \
+    gawk-native \
     gconf-native \
     gdbm-native \
     gdk-pixbuf-native \
@@ -101,7 +102,6 @@ DEPENDS = "\
     libmpc-native \
     libnsl2-native \
     libpciaccess-native \
-    libpcre-native \
     libpcre2-native \
     libpng-native \
     libpthread-stubs-native \
