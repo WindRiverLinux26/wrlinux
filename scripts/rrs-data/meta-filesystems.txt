@@ -1,0 +1,37 @@
+* e2tools 0.1.2 0.1.2 Up-to-date
+    - e2tools: upgrade 0.1.0 -> 0.1.2 | 0.1.2 | U | Default | 2024-09-29
+    - e2tools: Add tool recipe | 0.1.0+git | U | Default | 2024-02-09
+* f2fs-tools 1.16.0 1.16.0 Up-to-date
+    - f2fs-tools: upgrade 1.15.0 -> 1.16.0 | 1.16.0 | U | Default | 2023-05-25
+    - f2fs-tools: Upgrade to 1.15.0 | 1.15.0 | U | Default | 2022-12-27
+    - recipes: Update SRC_URI branch and protocols | 1.14.0 | U | Default | 2021-11-03
+* fuse 2.9.9  Unknown
+    - recipes: Update LICENSE variable to use SPDX license identifiers | 2.9.9 | U | Default | 2022-03-05
+* ntfs-3g-ntfsprogs 2022.10.3 2022.10.3 Up-to-date
+    - ntfs-3g-ntfsprogs: fix CVE-2023-52890 | 2022.10.3 | U | Default | 2024-11-22
+    - ntfs-3g-ntfsprogs: upgrade to 2022.5.17 | 2022.5.17 | U | Default | 2022-07-06
+    - ntfs-3g-ntfsprogs: upgrade to 2021.8.22 | 2021.8.22 | U | Default | 2021-10-19
+* ufs-utils 7.14.12 7.14.12-new-commits-available Not updated
+    - ufs-utils: upgrade 7.14.11 -> 7.14.12 | 7.14.12 | U | Default | 2025-07-17
+    - ufs-utils: upgrade 6.14.11 -> 7.14.11 | 7.14.11 | U | Default | 2025-07-13
+    - ufs-utils: upgrade 6.13.11 -> 6.14.11 | 6.14.11 | U | Default | 2025-06-20
+    - ufs-utils: upgrade 4.13.5 -> 6.13.11 | 6.13.11 | U | Default | 2025-05-02
+    - ufs-utils: upgrade 3.12.3 -> 4.13.5 | 4.13.5 | U | Default | 2023-11-12
+    - ufs-utils: upgrade 1.9 -> 3.12.3 | 3.12.3 | U | Default | 2023-02-24
+    - recipes: Update SRC_URI branch and protocols | 1.9 | U | Default | 2021-11-03
+* xfsdump 3.2.0 3.2.0 Up-to-date
+    - xfsdump: upgrade 3.1.12 -> 3.2.0 | 3.2.0 | U | Default | 2024-09-10
+    - xfsdump: upgrade 3.1.11 -> 3.1.12 | 3.1.12 | U | Default | 2022-12-23
+    - xfsdump: upgrade 3.1.10 -> 3.1.11 | 3.1.11 | U | Default | 2022-08-29
+    - xfsdump: upgrade 3.1.9 -> 3.1.10 | 3.1.10 | U | Default | 2022-02-16
+    - xfsdump: remove obsolete support for renamed libtool | 3.1.9 | U | Default | 2021-12-14
+* xfsprogs 6.6.0 6.18.0 Not updated
+    - xfsprogs: 6.5.0 -> 6.6.0 | 6.6.0 | U | Default | 2024-03-08
+    - xfsprogs: upgrade 6.1.1 -> 6.5.0 | 6.5.0 | U | Default | 2023-11-06
+    - xfsprogs: upgrade 6.1.0 -> 6.1.1 | 6.1.1 | U | Default | 2023-01-17
+    - xfsprogs: upgrade 6.0.0 -> 6.1.0 | 6.1.0 | U | Default | 2023-01-11
+    - xfsprogs: Upgrade to 6.0.0 | 6.0.0 | U | Default | 2022-12-23
+    - xfsprogs: Inherit pkgconfig | 5.13.0 | U | Default | 2021-09-24
+* yaffs2-utils 20221209 20221209 Up-to-date
+    - yaffs2-utils: Upgrade to 20221209 | 20221209 | U | Default | 2024-03-08
+    - recipes: Update LICENSE variable to use SPDX license identifiers | 0.0+gitAUTOINC+9a6f486e56 | U | Default | 2022-03-05

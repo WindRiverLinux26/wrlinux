@@ -1,0 +1,14 @@
+* dracut 109 109 Not updated
+    - dracut: upgrade 108 -> 109 | 109 | U | Default | 2025-12-25
+    - dracut: update to 108 | 108 | U | Default | 2025-09-23
+    - dracut: add 'git' recipe with DEFAULT_PREFERENCE = -1 | 107+git | U | Default | 2025-07-04
+    - dracut: upgrade 103 -> 106 | 106 | U | Default | 2025-02-25
+    - dracut: upgrade 102 -> 103 | 103 | U | Default | 2024-09-11
+    - dracut: Switch to dracut-ng and upgrade to version 102 | 102 | U | Default | 2024-06-08
+    - dracut: upgrade 055 -> 056 | 056 | U | Default | 2022-04-07
+    - dracut: upgrade 051 -> 055 | 055 | U | Default | 2022-01-18
+    - recipes: Update SRC_URI branch and protocols | 051 | U | Default | 2021-11-03
+* grubby git 8.40 Unknown
+    - grubby: drop version 8.40 | 8.40 | N | Default | 2023-01-04
+    - recipes: Update SRC_URI branch and protocols | git | U | Default | 2021-11-03
+    - recipes: Update SRC_URI branch and protocols | 8.40 | U | Default | 2021-11-03
