@@ -10,6 +10,8 @@ SRC_URI = "file://web-kiosk.service \
            file://virtual-keyboard.service \
           "
 
+S = "${UNPACKDIR}"
+
 inherit useradd features_check systemd
 
 USERADD_PACKAGES = "${PN}"
