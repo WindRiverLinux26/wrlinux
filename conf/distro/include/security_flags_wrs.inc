@@ -1,6 +1,3 @@
-# Base on oe-core security flags
-include conf/distro/include/security_flags.inc
-
 # To override for multilib, use SECURITY_CFLAGS:pn-<pkg>_pn-<mlib>-<pkg>.
 # If just SECURITY_CFLAGS:pn-<pkg> is defined, it will be used for all
 # multilib variants, too.
