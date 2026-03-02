@@ -14,10 +14,6 @@
 #
 INHERIT += "uninative"
 
-YOCTO_UNINATIVE_INC ?= "conf/distro/include/yocto-uninative.inc"
-YOCTO_UNINATIVE_INC:poky = ""
-require ${YOCTO_UNINATIVE_INC}
-
 # The local fetcher (file://) doesn't verify checksum, which means that there
 # is no error when yocto-uninative.inc is updated, this is not what we need.
 # Put checksum into UNINATIVE_URL, and move the tarball into a directory named
