@@ -29,12 +29,9 @@ include conf/distro/include/wrlinux-packageconfigs.inc
 # MIRRORS are used only if we don't have a local copy, and the stated upstream
 # is no longer available.
 MIRRORS =+ "\
-bzr://.*/.*      http://downloads.yoctoproject.org/mirror/sources/ \n \
-cvs://.*/.*      http://downloads.yoctoproject.org/mirror/sources/ \n \
 git://.*/.*      http://downloads.yoctoproject.org/mirror/sources/ \n \
 gitsm://.*/.*    http://downloads.yoctoproject.org/mirror/sources/ \n \
 hg://.*/.*       http://downloads.yoctoproject.org/mirror/sources/ \n \
-osc://.*/.*      http://downloads.yoctoproject.org/mirror/sources/ \n \
 p4://.*/.*       http://downloads.yoctoproject.org/mirror/sources/ \n \
 svn://.*/.*      http://downloads.yoctoproject.org/mirror/sources/ \n \
 ftp://.*/.*      http://downloads.yoctoproject.org/mirror/sources/ \n \
