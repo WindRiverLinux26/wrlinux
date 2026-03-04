@@ -1,7 +1,8 @@
-* 7zip 25.01 25.01 Up-to-date
+* 7zip 25.01 26.00 Not updated
     - 7zip: upgrade 24.09 -> 25.01 | 25.01 | U | Default | 2025-08-13
     - 7zip: install headers | 24.09 | U | Default | 2025-04-07
-* abseil-cpp 20250814.1 20260107.0 Not updated
+* abseil-cpp 20260107.0 20260107.1 Not updated
+    - abseil-cpp: upgrade 20250814.1 -> 20260107.0 | 20260107.0 | U | Default | 2026-01-13
     - abseil-cpp: Upgrade to 20250814.1 release | 20250814.1 | U | Default | 2025-10-11
     - meta-openembedded/all: adapt to UNPACKDIR changes | 20250512.1 | U | Default | 2025-06-25
     - abseil-cpp: upgrade 20250127.0 -> 20250127.1 | 20250127.1 | U | Default | 2025-03-25
@@ -29,7 +30,7 @@
     - meta-openembedded/all: adapt to UNPACKDIR changes | 1.97 | U | Default | 2025-06-25
 * atkmm 2.28.2 2.36.3 Not updated
     - recipes: Update LICENSE variable to use SPDX license identifiers | 2.28.2 | U | Default | 2022-03-05
-* audit 4.1.2 4.1.2 Up-to-date
+* audit 4.1.2 4.1.3 Not updated
     - audit: upgrade 4.0.5 -> 4.1.2 | 4.1.2 | U | Default | 2025-09-06
     - audit: upgrade 4.0.4 -> 4.0.5 | 4.0.5 | U | Default | 2025-06-10
     - audit: upgrade 4.0.3 -> 4.0.4 | 4.0.4 | U | Default | 2025-06-02
@@ -64,7 +65,7 @@
     - bats: upgrade 1.5.0 -> 1.6.0 | 1.6.0 | U | Default | 2022-03-01
     - bats: upgrade 1.4.1 -> 1.5.0 | 1.5.0 | U | Default | 2022-01-07
     - bats: source files from correct directory | 1.4.1 | U | Default | 2021-09-24
-* bcc 0.35.0 0.35.0 Up-to-date
+* bcc 0.35.0 0.36.1 Not updated
     - bpftrace,bcc: Migrate recipe from meta-clang to meta-oe | 0.35.0 | U | Default | 2025-07-16
 * bonnie++ 2.00a 2.00a Up-to-date
     - bonnie++: add UPSTREAM_CHECK_URI | 2.00a | U | Default | 2025-11-12
@@ -121,7 +122,8 @@
     - can-utils: Upgrade 2023.03 -> 2025.01 | 2025.01 | U | Default | 2025-02-13
     - can-utils: upgrade 2021.08.0 -> 2023.03 | 2023.03 | U | Default | 2023-03-24
     - recipes: Update SRC_URI branch and protocols | 2021.08.0 | U | Default | 2021-11-03
-* catch2 3.8.1 3.12.0 Not updated
+* catch2 3.12.0 3.13.0 Not updated
+    - catch2: upgrade 3.8.1 -> 3.12.0 | 3.12.0 | U | Default | 2026-01-23
     - catch2: upgrade 3.8.0 -> 3.8.1 | 3.8.1 | U | Default | 2025-04-15
     - catch2: upgrade 3.7.1 -> 3.8.0 | 3.8.0 | U | Default | 2025-03-11
     - catch2: upgrade 3.7.0 -> 3.7.1 | 3.7.1 | U | Default | 2024-09-29
@@ -131,7 +133,7 @@
     - recipes: Update SRC_URI branch and protocols | 2.13.7 | U | Default | 2021-11-03
 * cdrkit 1.1.11 1.1.11 Up-to-date
     - cdrkit: remove ${PN} from ${PN}-dev RDEPENDS | 1.1.11 | U | Default | 2021-12-24
-* cmocka 1.1.7+gitAUTOINC+a01cc69ee9 2.0.1 Not updated
+* cmocka 1.1.7+gitAUTOINC+a01cc69ee9 2.0.2 Not updated
     - cmocka: update from 1.1.5+ to 1.1.7 | 1.1.7+gitAUTOINC+a01cc69ee9 | U | Default | 2023-03-22
     - recipes: Update SRC_URI branch and protocols | 1.1.5+gitAUTOINC+a4fc3dd770 | U | Default | 2021-11-03
 * cpupower 1.0 1.0 Up-to-date
@@ -143,7 +145,8 @@
     - crash: Upgrade to 8.0.2 | 8.0.2 | U | Default | 2023-03-09
     - crash: Upgrade to 8.0.0 | 8.0.0 | U | Default | 2022-04-23
     - recipes: Update SRC_URI branch and protocols | 7.3.0 | U | Default | 2021-11-03
-* cryptsetup 2.8.3 2.8.3 Up-to-date
+* cryptsetup 2.8.4 2.8.4 Up-to-date
+    - cryptsetup: upgrade 2.8.3 -> 2.8.4 | 2.8.4 | U | Default | 2026-02-03
     - cryptsetup: upgrade 2.8.1 -> 2.8.3 | 2.8.3 | U | Default | 2025-12-24
     - cryptsetup: upgrade 2.8.0 -> 2.8.1 | 2.8.1 | U | Default | 2025-09-04
     - cryptsetup: upgrade 2.7.5 -> 2.8.0 | 2.8.0 | U | Default | 2025-07-07
@@ -189,14 +192,15 @@
     - dialog: upgrade 1.3-20230209 -> 1.3-20231002 | 1.3-20231002 | U | Default | 2023-10-23
     - dialog: upgrade 1.3-20210509 -> 1.3-20230209 | 1.3-20230209 | U | Default | 2023-09-07
     - recipes: Update LICENSE variable to use SPDX license identifiers | 1.3-20210509 | U | Default | 2022-03-05
-* dlt-daemon 2.18.10 2.18.11 Not updated
+* dlt-daemon 2.18.10 3.0.0 Not updated
     - dlt-daemon: upgrade 2.18.9 -> 2.18.10 (commit: 0f2d4cfffada6f8448a2cb27995b38eb4271044f) | 2.18.10 | U | Default | 2023-08-17
     - dlt-daemon: upgrade 2.18.8 -> 2.18.9 (commit: 9a2312d3512a27620d41b9a325338b6e7b3d42de) | 2.18.9 | U | Default | 2023-04-29
     - dlt-daemon: upgrade to commit 6a3bd901d8 to fix CVE-2022-31291 | 2.18.8+2.18.9gitAUTOINC+6a3bd901d8 | U | Default | 2022-07-06
     - dlt-daemon: Bump to latest revision on master | 2.18.8+2.18.9gitAUTOINC+0138c00811 | U | Default | 2022-01-26
     - dlt-daemon: upgrade 2.18.7 -> 2.18.8 | 2.18.8 | U | Default | 2022-01-25
     - dlt-daemon: Inherit pkgconfig | 2.18.7 | U | Default | 2021-09-24
-* doxygen 1.15.0 1.16.0 Not updated
+* doxygen 1.16.1 1.16.1 Up-to-date
+    - doxygen: upgrade 1.15.0 -> 1.16.1 | 1.16.1 | U | Default | 2026-01-13
     - doxygen: upgrade 1.14.0 -> 1.15.0 | 1.15.0 | U | Default | 2025-10-29
     - doxygen: upgrade 1.13.2 -> 1.14.0 | 1.14.0 | U | Default | 2025-06-10
     - doxygen: upgrade 1.13.1 -> 1.13.2 | 1.13.2 | U | Default | 2025-01-14
@@ -207,7 +211,8 @@
 * duktape 2.7.0 2.7.0 Up-to-date
     - duktape: Upgrade to 2.7.0 | 2.7.0 | U | Default | 2022-03-21
     - Add recipe for duktape | 2.6.0 | U | Default | 2022-01-19
-* edac-utils 0.18+gitAUTOINC+1c57818ece 0.18 Up-to-date
+* edac-utils 0.18+git 0.18 Up-to-date
+    - edac-utils: bump to latest revision | 0.18+git | U | Default | 2026-01-31
     - edac-utils: update to latest git head | 0.18+gitAUTOINC+1c57818ece | U | Default | 2022-03-24
     - recipes: Update SRC_URI branch and protocols | 0.18+gitAUTOINC+f9aa96205f | U | Default | 2021-11-03
 * eject 2.1.5 2.1.5 Up-to-date
@@ -216,7 +221,8 @@
     - recipes: Update LICENSE variable to use SPDX license identifiers | 2.1 | U | Default | 2022-03-05
 * fbset-modes 0.1.0 0.1.0 Up-to-date
     - recipes: Drop remaining PR values from recipes | 0.1.0 | U | Default | 2024-03-17
-* fio 3.39  Unknown
+* fio 3.41 3.41 Up-to-date
+    - fio: upgrade 3.39 -> 3.41 | 3.41 | U | Default | 2026-01-31
     - fio: upgrade 3.38 -> 3.39 | 3.39 | U | Default | 2025-03-11
     - fio: upgrade 3.37 -> 3.38 | 3.38 | U | Default | 2024-10-10
     - fio: upgrade 3.36 -> 3.37 | 3.37 | U | Default | 2024-09-29
@@ -285,7 +291,8 @@
     - gnulib: 2018-12-18 -> 202401 | 202401 | U | Default | 2024-03-08
     - gnulib: Update recipe name to 2018-12-18 | 2018-12-18 | U | Default | 2023-05-19
     - recipes: Update SRC_URI branch and protocols | 2018-03-07.03 | U | Default | 2021-11-03
-* googlebenchmark 1.9.4 1.9.4 Up-to-date
+* googlebenchmark 1.9.5 1.9.5 Up-to-date
+    - googlebenchmark: upgrade 1.9.4 -> 1.9.5 | 1.9.5 | U | Default | 2026-01-31
     - googlebenchmark: upgrade 1.9.3 -> 1.9.4 | 1.9.4 | U | Default | 2025-06-10
     - googlebenchmark: upgrade 1.9.2 -> 1.9.3 | 1.9.3 | U | Default | 2025-05-21
     - googlebenchmark: upgrade 1.9.1 -> 1.9.2 | 1.9.2 | U | Default | 2025-03-31
@@ -309,12 +316,14 @@
     - gosu: Upgrade to 1.17 | 1.17 | U | Default | 2024-03-08
     - gosu: Upgrade to 1.16 release | 1.16 | U | Default | 2023-06-16
     - gosu: add new recipe | 1.14 | U | Default | 2022-03-04
-* gperftools 2.16 2.17.2 Not updated
+* gperftools 2.18 2.18 Up-to-date
+    - gperftools: upgrade 2.16 -> 2.18 | 2.18 | U | Default | 2026-01-31
     - gperftools: upgrade from 2.15 to 2.16 | 2.16 | U | Default | 2025-02-28
     - gperftools: 2.10 -> 2.15 | 2.15 | U | Default | 2024-03-21
     - gperftools: upgrade 2.9.1 -> 2.10 | 2.10 | U | Default | 2022-07-02
     - recipes: Update SRC_URI branch and protocols | 2.9.1 | U | Default | 2021-11-03
-* graphviz 14.0.4 14.1.1 Not updated
+* graphviz 14.1.2 14.1.2 Up-to-date
+    - graphviz: upgrade 14.0.4 -> 14.1.2 | 14.1.2 | U | Default | 2026-01-31
     - graphviz: upgrade 14.0.2 -> 14.0.4 | 14.0.4 | U | Default | 2025-11-18
     - graphviz: upgrade 14.0.1 -> 14.0.2 | 14.0.2 | U | Default | 2025-10-29
     - graphviz: upgrade 14.0.0 -> 14.0.1 | 14.0.1 | U | Default | 2025-10-14
@@ -328,7 +337,8 @@
     - graphviz: Upgrade to 8.1.0 release | 8.1.0 | U | Default | 2023-07-13
     - graphviz: 2.44.1 -> 2.50.0 | 2.50.0 | U | Default | 2022-03-17
     - graphviz: native: create /usr/lib/graphviz/config6 in populate_sysroot | 2.44.1 | U | Default | 2022-02-14
-* grpc 1.71.0 1.78.0 Not updated
+* grpc 1.76.0 1.78.1 Not updated
+    - grpc: Upgrade to 1.76.0 | 1.76.0 | U | Default | 2026-01-15
     - grpc: Upgrade to 1.71.0 Release | 1.71.0 | U | Default | 2025-03-12
     - grpc: upgrade 1.66.1 -> 1.68.0 | 1.68.0 | U | Default | 2025-01-03
     - grpc: Upgrade to 1.66.1 release | 1.66.1 | U | Default | 2024-09-04
@@ -346,14 +356,16 @@
     - grpc: fix cross-compilation of grpc applications | 1.38.1 | U | Default | 2021-10-04
 * gtk+ 2.24.33 2.24.33 Up-to-date
     - gtk+: remove obsolete support for renamed libtool | 2.24.33 | U | Default | 2021-12-14
-* gtkmm 2.24.5 4.21.2 Not updated
+* gtkmm 2.24.5 4.21.3 Not updated
     - recipes: Update LICENSE variable to use SPDX license identifiers | 2.24.5 | U | Default | 2022-03-05
+* gtkmm3 3.24.7 4.21.3 Not updated
+    - gtkmm3/gtkmm4: not set BPN | 3.24.7 | U | Default | 2026-01-21
 * haveged 1.9.19 1.9.19 Up-to-date
     - haveged: upgrade 1.9.18 -> 1.9.19 | 1.9.19 | U | Default | 2024-10-10
     - haveged: upgrade 1.9.17 -> 1.9.18 | 1.9.18 | U | Default | 2022-04-11
     - haveged: update from 1.9.14 to 1.9.17 | 1.9.17 | U | Default | 2022-03-24
     - recipes: Update SRC_URI branch and protocols | 1.9.14 | U | Default | 2021-11-03
-* hdf5 2.0.0 2.0.0 Up-to-date
+* hdf5 2.0.0  Unknown
     - hdf5: upgrade 1.14.6 -> 2.0.0 | 2.0.0 | U | Default | 2025-11-14
     - hdf5: upgrade 1.14.4-3 -> 1.14.6 | 1.14.6 | U | Default | 2025-10-06
     - hdf5: upgrade to 1.14.4 | 1.14.4-3 | U | Default | 2024-08-01
@@ -406,7 +418,8 @@
     - recipes: Update SRC_URI branch and protocols | 3.20.11.0 | U | Default | 2021-11-03
 * intel-speed-select 1.0 1.0 Up-to-date
     - recipes: Update LICENSE variable to use SPDX license identifiers | 1.0 | U | Default | 2022-03-05
-* iotop 1.30 1.30 Up-to-date
+* iotop 1.31 1.31 Up-to-date
+    - iotop: upgrade 1.30 -> 1.31 | 1.31 | U | Default | 2026-01-31
     - iotop: upgrade 1.29 -> 1.30 | 1.30 | U | Default | 2025-06-10
     - iotop: upgrade 1.27 -> 1.29 | 1.29 | U | Default | 2025-05-21
     - iotop: upgrade 1.26 -> 1.27 | 1.27 | U | Default | 2025-01-25
@@ -415,7 +428,8 @@
     - iotop: upgrade 1.20 -> 1.21 | 1.21 | U | Default | 2022-02-22
     - iotop: move to the C port of iotop | 1.20 | U | Default | 2022-01-18
     - recipes: Update SRC_URI branch and protocols | 0.6+gitAUTOINC+1bfb3bc70f | U | Default | 2021-11-03
-* iozone3 507 508 Not updated
+* iozone3 508 508 Up-to-date
+    - iozone3: upgrade 507 -> 508 | 508 | U | Default | 2026-01-31
     - iozone3: upgrade 506 -> 507 | 507 | U | Default | 2025-03-12
     - iozone3: upgrade 492 -> 506 | 506 | U | Default | 2023-05-09
 * iperf3 3.20 3.20 Up-to-date
@@ -459,7 +473,8 @@
 * keyutils 1.6.3 1.6.3 Up-to-date
     - keyutils: Upgrade 1.6.1 -> 1.6.3 | 1.6.3 | U | Default | 2023-01-26
     - keyutils: fix install path | 1.6.1 | U | Default | 2021-10-14
-* krb5 1.21.3 1.22.1 Not updated
+* krb5 1.22.2 1.22.2 Up-to-date
+    - krb5: upgrade 1.21.3 -> 1.22.2 | 1.22.2 | U | Default | 2026-01-31
     - krb5: upgrade 1.21.2 -> 1.21.3 | 1.21.3 | U | Default | 2024-07-04
     - krb5: upgrade 1.20.2 -> 1.21.2 | 1.21.2 | U | Default | 2024-03-02
     - krb5: Upgrade 1.20.1 -> 1.20.2 | 1.20.2 | U | Default | 2023-09-07
@@ -470,13 +485,14 @@
     - lapack: upgrade 3.10.0 -> 3.10.1 | 3.10.1 | U | Default | 2022-04-25
     - lapack: upgrade 3.9.0 -> 3.10.0 | 3.10.0 | U | Default | 2022-04-12
     - recipes: Update SRC_URI branch and protocols | 3.9.0 | U | Default | 2021-11-03
-* lcms 2.17 2.18 Not updated
+* lcms 2.18 2.18 Up-to-date
+    - lcms: upgrade 2.17 -> 2.18 | 2.18 | U | Default | 2026-01-13
     - lcms: upgrade 2.16 -> 2.17 | 2.17 | U | Default | 2025-11-25
     - lcms: upgrade 2.15 -> 2.16 | 2.16 | U | Default | 2024-01-19
     - lcms: upgrade 2.14 -> 2.15 | 2.15 | U | Default | 2023-03-09
     - lcms: upgrade 2.13.1 -> 2.14 | 2.14 | U | Default | 2022-11-07
     - lcms: upgrade 2.12 -> 2.13.1 | 2.13.1 | U | Default | 2022-02-08
-* libatasmart 0.19 0.19 Up-to-date
+* libatasmart 0.19  Unknown
     - recipes: Update SRC_URI branch and protocols | 0.19 | U | Default | 2021-11-03
 * libblockdev 3.4.0 3.4.0 Up-to-date
     - libblockdev: Upgrade 3.2.1 -> 3.4.0 | 3.4.0 | U | Default | 2025-11-19
@@ -489,7 +505,7 @@
     - libblockdev: upgrade 2.27 -> 2.28 | 2.28 | U | Default | 2022-09-21
     - libblockdev: upgrade 2.26 -> 2.27 | 2.27 | U | Default | 2022-09-06
     - libblockdev: Inherit pkgconfig | 2.26 | U | Default | 2021-09-24
-* libbpf 1.6.2 1.6.2 Up-to-date
+* libbpf 1.6.2 1.6.3 Not updated
     - libbpf: upgrade 1.5.0 -> 1.6.2 | 1.6.2 | U | Default | 2025-11-14
     - libbpf: upgrade 1.4.7 -> 1.5.0 | 1.5.0 | U | Default | 2025-01-07
     - libbpf: upgrade 1.4.6 -> 1.4.7 | 1.4.7 | U | Default | 2025-01-02
@@ -513,7 +529,8 @@
     - libbytesize: upgrade 2.7 -> 2.8 | 2.8 | U | Default | 2023-04-04
     - libbytesize: upgrade 2.6 -> 2.7 | 2.7 | U | Default | 2022-05-31
     - libbytesize: Inherit pkgconfig | 2.6 | U | Default | 2021-09-24
-* libcanberra 0.30 0.30 Up-to-date
+* libcanberra 0.30-19 0.30 Unknown
+    - libcanberra: update 0.30 -> 0.30-19 | 0.30-19 | U | Default | 2026-01-12
     - Fix DeprecationWarning about regexps | 0.30 | U | Default | 2022-02-22
 * libcereal 1.3.2+gitAUTOINC+ebef1e9298 1.3.2 Up-to-date
     - libcereal: upgrade 1.3.1 -> 1.3.2 | 1.3.2+gitAUTOINC+ebef1e9298 | U | Default | 2022-03-07
@@ -599,7 +616,8 @@
 * liblogging 1.0.8 1.0.8 Up-to-date
     - liblogging: upgrade 1.0.6 -> 1.0.8 | 1.0.8 | U | Default | 2025-12-24
     - Drop unnecessary SRC_URI md5sum from the recipes in meta-oe. | 1.0.6 | U | Default | 2024-11-06
-* libmbim 1.33.1 1.34.0 Not updated
+* libmbim 1.34.0 1.34.0 Up-to-date
+    - libmbim: upgrade 1.33.1 -> 1.34.0 | 1.34.0 | U | Default | 2026-01-12
     - libmbim: upgrade 1.32.0 -> 1.33.1 | 1.33.1 | U | Default | 2025-06-10
     - libmbim: upgrade 1.30.0 -> 1.32.0 | 1.32.0 | U | Default | 2025-04-30
     - Revert "libmbim: upgrade 1.30.0 -> 1.31.2" | 1.30.0 | D | Default | 2024-04-05
@@ -640,7 +658,8 @@
     - libnvme: add recipe | 1.5 | U | Default | 2023-07-27
 * libosinfo 1.12.0 1.12.0 Up-to-date
     - libosinfo: update 1.11.0 -> 1.12.0 | 1.12.0 | U | Default | 2025-04-28
-* libp11 0.4.16 0.4.16 Up-to-date
+* libp11 0.4.17 0.4.18 Not updated
+    - libp11: upgrade 0.4.16 -> 0.4.17 | 0.4.17 | U | Default | 2026-02-06
     - libp11: version bump 0.4.13 -> 0.4.16 | 0.4.16 | U | Default | 2025-07-10
     - libp11: update 0.4.12 -> 0.4.13 | 0.4.13 | U | Default | 2024-12-19
     - libp11: upgrade 0.4.11 -> 0.4.12 | 0.4.12 | U | Default | 2022-07-20
@@ -648,7 +667,8 @@
 * libpwquality 1.4.5 1.4.5 Up-to-date
     - libpwquality: upgrade 1.4.4 -> 1.4.5 | 1.4.5 | U | Default | 2023-12-01
     - recipes: Update LICENSE variable to use SPDX license identifiers | 1.4.4 | U | Default | 2022-03-05
-* libqmi 1.34.0 1.38.0 Not updated
+* libqmi 1.38.0 1.38.0 Up-to-date
+    - libqmi: upgrade 1.34.0 -> 1.38.0 | 1.38.0 | U | Default | 2026-01-12
     - Revert "libqmi: upgrade 1.34.0 -> 1.35.2" | 1.34.0 | D | Default | 2024-04-05
     - libqmi: upgrade 1.34.0 -> 1.35.2 | 1.35.2 | U | Default | 2024-04-02
     - libqmi: Revert back to the latest stable 1.34.0 | 1.34.0 | D | Default | 2024-03-17
@@ -679,7 +699,7 @@
     - libsodium: upgrade 1.0.18 -> 1.0.19 | 1.0.19 | U | Default | 2023-11-06
 * libsoup-2.4 2.74.3 2.74.3 Up-to-date
     - libsoup-2.4: fix CVE-2025-32053 | 2.74.3 | U | Default | 2025-06-13
-* libssh 0.11.3 0.11.3 Up-to-date
+* libssh 0.11.3 0.12.0 Not updated
     - libssh: upgrade 0.11.2 -> 0.11.3 | 0.11.3 | U | Default | 2025-09-16
     - libssh: upgrade 0.11.1 -> 0.11.2 | 0.11.2 | U | Default | 2025-07-09
     - libssh: upgrade 0.10.6 -> 0.11.1 | 0.11.1 | U | Default | 2024-09-15
@@ -692,7 +712,8 @@
 * libteam 1.32 1.32 Up-to-date
     - libteam: Upgrade to 1.32 release | 1.32 | U | Default | 2024-05-13
     - recipes: Update SRC_URI branch and protocols | 1.31 | U | Default | 2021-11-03
-* libtracefs 1.8.2 1.8.3 Not updated
+* libtracefs 1.8.3 1.8.3 Up-to-date
+    - libtracefs: upgrade 1.8.2 -> 1.8.3 | 1.8.3 | U | Default | 2026-01-12
     - libtracefs: upgrade 1.8.1 -> 1.8.2 | 1.8.2 | U | Default | 2025-11-14
     - libtracefs: upgrade 1.8.0 -> 1.8.1 | 1.8.1 | U | Default | 2024-08-09
     - libtracefs: upgrade 1.7.0 -> 1.8.0 | 1.8.0 | U | Default | 2024-06-07
@@ -724,7 +745,8 @@
     - recipes: Update LICENSE variable to use SPDX license identifiers | 3.1.1 | U | Default | 2022-03-05
 * lmbench 3.0-a9 3.0-a9 Up-to-date
     - recipes: Update LICENSE variable to use SPDX license identifiers | 3.0-a9 | U | Default | 2022-03-05
-* lmdb 0.9.31 0.9.31 Up-to-date
+* lmdb 0.9.35 0.9.35 Up-to-date
+    - lmdb: upgrade 0.9.31 -> 0.9.35 | 0.9.35 | U | Default | 2026-02-11
     - lmdb: upgrade 0.9.29 -> 0.9.31 | 0.9.31 | U | Default | 2023-07-21
     - lmdb: replace tag with commit id in SRCREV | 0.9.29 | U | Default | 2021-09-24
 * lmsensors 3.6.0 3-6-0 Unknown
@@ -763,7 +785,7 @@
     - lvm2: do not install systemd units/initscripts when building native SDK tools | 2.03.11 | U | Default | 2021-11-17
 * lxdm 0.5.3 0.5.3 Up-to-date
     - lxdm: remove conflicts setting | 0.5.3 | U | Default | 2022-01-25
-* mariadb 11.4.9 12.2.1 Not updated
+* mariadb 11.4.9 12.3.1 Not updated
     - mariadb: Upgrade 11.4.8 -> 11.4.9 | 11.4.9 | U | Default | 2025-11-25
     - mariadb: 11.4.8 | 11.4.8 | U | Default | 2025-10-02
     - mariadb: upgrade 11.4.5 -> 11.4.6 | 11.4.6 | U | Default | 2025-05-14
@@ -817,7 +839,8 @@
     - mm-common: upgrade 1.0.6 -> 1.0.7 | 1.0.7 | U | Default | 2025-06-26
     - mm-common: upgrade 1.0.4 -> 1.0.6 | 1.0.6 | U | Default | 2024-09-12
     - mm-common: upgrade 1.0.3 -> 1.0.4 | 1.0.4 | U | Default | 2022-02-16
-* modemmanager 1.22.0 1.25.95 Not updated
+* modemmanager 1.24.2 1.25.95 Not updated
+    - modemmanager: upgrade 1.22.0 -> 1.24.2 | 1.24.2 | U | Default | 2026-01-12
     - Revert "modemmanager: upgrade 1.22.0 -> 1.23.1" | 1.22.0 | D | Default | 2023-11-07
     - modemmanager: upgrade 1.22.0 -> 1.23.1 | 1.23.1 | U | Default | 2023-11-06
     - modemmanager: upgrade 1.20.6 -> 1.22.0 | 1.22.0 | U | Default | 2023-10-26
@@ -828,7 +851,8 @@
     - modemmanager: update to 1.18.8 | 1.18.8 | U | Default | 2022-06-06
     - modemmanager: update 1.16.8 -> 1.18.6 | 1.18.6 | U | Default | 2022-03-04
     - modemmanager: remove intltool-native DEPENDS | 1.16.8 | U | Default | 2021-11-05
-* multipath-tools 0.12.1 0.13.0 Not updated
+* multipath-tools 0.12.2 0.14.3 Not updated
+    - multipath-tools: upgrade 0.12.1 -> 0.12.2 | 0.12.2 | U | Default | 2026-01-31
     - multipath-tools: upgrade 0.11.3 -> 0.12.1 | 0.12.1 | U | Default | 2025-12-09
     - multipath-tools: upgrade 0.11.1 -> 0.11.3 | 0.11.3 | U | Default | 2025-11-18
     - multipath-tools: upgrade 0.11.0 -> 0.11.1 | 0.11.1 | U | Default | 2025-02-26
@@ -837,7 +861,7 @@
     - multipath-tools: upgrade 0.9.3 -> 0.9.8 | 0.9.8 | U | Default | 2024-03-05
     - multipath-tools: upgrade 0.8.4 -> 0.9.3 | 0.9.3 | U | Default | 2022-12-12
     - recipes: Update SRC_URI branch and protocols | 0.8.4 | U | Default | 2021-11-03
-* nano 8.7 8.7 Up-to-date
+* nano 8.7 8.7.1 Not updated
     - nano: upgrade 8.6 -> 8.7 | 8.7 | U | Default | 2025-11-18
     - nano: upgrade 8.5 -> 8.6 | 8.6 | U | Default | 2025-09-04
     - nano: upgrade 8.3 -> 8.5 | 8.5 | U | Default | 2025-07-30
@@ -859,7 +883,7 @@
     - ndctl: Update to v78 | v78 | U | Default | 2024-01-27
     - ndctl: Upgrade to v73 | v73 | U | Default | 2022-03-27
     - recipes: Update SRC_URI branch and protocols | v69 | U | Default | 2021-11-03
-* netplan 1.1.2 1.2 Not updated
+* netplan 1.1.2 1.2.1 Not updated
     - netplan: upgrade 1.1.1 -> 1.1.2 | 1.1.2 | U | Default | 2025-03-31
     - netplan: upgrade 1.1 -> 1.1.1 | 1.1.1 | U | Default | 2024-10-22
     - netplan: upgrade 1.0.1 -> 1.1 | 1.1 | U | Default | 2024-09-15
@@ -877,7 +901,8 @@
     - nmap: add recipe for 7.92 | 7.92 | D | Default | 2025-05-05
     - nmap: Upgrade to 7.95 | 7.95 | U | Default | 2024-09-04
     - recipes: Update LICENSE variable to use SPDX license identifiers | 7.80 | U | Default | 2022-03-05
-* nodejs 22.21.1 25.2.1 Not updated
+* nodejs 22.22.0 25.6.1 Not updated
+    - nodejs: upgrade 22.21.1 -> 22.22.0 | 22.22.0 | U | Default | 2026-01-14
     - nodejs: upgrade 22.21.0 -> 22.21.1 | 22.21.1 | U | Default | 2025-10-29
     - nodejs: upgrade 22.20.0 -> 22.21.0 | 22.21.0 | U | Default | 2025-10-21
     - nodejs: upgrade 22.19.0 -> 22.20.0 | 22.20.0 | U | Default | 2025-09-24
@@ -916,7 +941,7 @@
     - nspr: upgrade 4.35 -> 4.36 | 4.36 | U | Default | 2025-01-02
     - nspr: Upgrade to 4.35 | 4.35 | U | Default | 2022-12-18
     - recipes: Update LICENSE variable to use SPDX license identifiers | 4.29 | U | Default | 2022-03-05
-* nss 3.119 3.120 Not updated
+* nss 3.119 3.121 Not updated
     - nss: upgrade 3.118.1 -> 3.119 | 3.119 | U | Default | 2025-12-09
     - nss: upgrade 3.117 -> 3.118.1 | 3.118.1 | U | Default | 2025-11-25
     - nss: upgrade 3.116 -> 3.117 | 3.117 | U | Default | 2025-10-13
@@ -949,7 +974,8 @@
 * opencl-icd-loader 2025.07.22 2025.07.22 Up-to-date
     - opencl-icd-loader: upgrade 2024.05.08 -> 2025.07.22 | 2025.07.22 | U | Default | 2025-10-24
     - meta-openembedded/all: adapt to UNPACKDIR changes | 2024.05.08 | U | Default | 2025-06-25
-* opencv 4.12.0 4.13.0 Not updated
+* opencv 4.13.0 4.13.0 Up-to-date
+    - opencv: upgrade 4.12.0 -> 4.13.0 | 4.13.0 | U | Default | 2026-01-12
     - opencv: Upgrade to 4.12.0 release | 4.12.0 | U | Default | 2025-07-12
     - opencv: upgrade 4.10.0 -> 4.11.0 | 4.11.0 | U | Default | 2025-02-04
     - opencv: upgrade 4.9.0 -> 4.10.0 | 4.10.0 | U | Default | 2024-09-20
@@ -965,7 +991,8 @@
     - openjpeg: upgrade 2.5.0 -> 2.5.2 | 2.5.2 | U | Default | 2024-09-15
     - openjpeg: upgrade 2.4.0 -> 2.5.0 | 2.5.0 | U | Default | 2022-05-16
     - recipes: Update SRC_URI branch and protocols | 2.4.0 | U | Default | 2021-11-03
-* openldap 2.6.10  Unknown
+* openldap 2.6.12 2.6.12 Up-to-date
+    - openldap: upgrade 2.6.10 -> 2.6.12 | 2.6.12 | U | Default | 2026-02-06
     - openldap: upgrade 2.6.9 -> 2.6.10 | 2.6.10 | U | Default | 2025-06-10
     - openldap: upgrade 2.6.8 -> 2.6.9 | 2.6.9 | U | Default | 2025-01-02
     - openldap: upgrade 2.6.7 -> 2.6.8 | 2.6.8 | U | Default | 2024-06-27
@@ -1003,7 +1030,8 @@
     - ostree: upgrade 2021.6 -> 2022.2 | 2022.2 | U | Default | 2022-04-25
     - ostree: upgrade 2021.5 -> 2021.6 | 2021.6 | U | Default | 2021-11-29
     - ostree: update to 2021.5 | 2021.5 | U | Default | 2021-10-16
-* pahole 1.29 1.31 Not updated
+* pahole 1.31 1.31 Up-to-date
+    - pahole: upgrade 1.29 -> 1.31 | 1.31 | U | Default | 2026-01-27
     - pahole: upgrade 1.28 -> 1.29 | 1.29 | U | Default | 2025-03-12
     - pahole: upgrade 1.27 -> 1.28 | 1.28 | U | Default | 2025-01-02
     - pahole: upgrade 1.25 -> 1.27 | 1.27 | U | Default | 2024-09-30
@@ -1015,7 +1043,7 @@
 * pangomm 2.46.4 2.56.1 Not updated
     - pangomm: upgrade 2.46.2 -> 2.46.4 | 2.46.4 | U | Default | 2025-03-12
     - pangomm: Add recipe for pangomm-2.48 | 2.46.2 | U | Default | 2022-02-22
-* parallel 20251122 20251222 Not updated
+* parallel 20251122 20260122 Not updated
     - parallel: upgrade 20251022 -> 20251122 | 20251122 | U | Default | 2025-12-02
     - parallel: upgrade 20250922 -> 20251022 | 20251022 | U | Default | 2025-11-07
     - parallel: upgrade 20250822 -> 20250922 | 20250922 | U | Default | 2025-10-09
@@ -1027,7 +1055,8 @@
 * passwdqc 2.0.3 2.0.3 Up-to-date
     - passwdqc: upgrade 2.0.2 -> 2.0.3 | 2.0.3 | U | Default | 2023-07-07
     - passwdqc: Upgrade to 2.0.2 | 2.0.2 | U | Default | 2022-09-07
-* pavucontrol 5.0 6.2 Not updated
+* pavucontrol 6.2 6.2 Up-to-date
+    - pavucontrol: update 5.0 -> 6.2 | 6.2 | U | Default | 2026-01-12
     - pavucontrol: update; fix build for wayland only | 5.0 | U | Default | 2022-05-29
     - pavucontrol: Inherit pkgconfig | 4.0 | U | Default | 2021-09-24
 * phoronix-test-suite 10.8.4 10.8.4 Up-to-date
@@ -1035,7 +1064,9 @@
     - phoronix-test-suite: upgrade 10.8.2 -> 10.8.3 | 10.8.3 | U | Default | 2022-05-09
     - phoronix-test-suite: upgrade 10.8.1 -> 10.8.2 | 10.8.2 | U | Default | 2022-04-14
     - phoronix-test-suite: upgrade 9.2.1 -> 10.8.1 | 10.8.1 | U | Default | 2022-02-03
-* php 8.5.1 8.5.1 Up-to-date
+* php 8.5.3 8.5.3 Up-to-date
+    - php: upgrade 8.5.2 -> 8.5.3 | 8.5.3 | U | Default | 2026-02-16
+    - php: upgrade 8.5.1 -> 8.5.2 | 8.5.2 | U | Default | 2026-01-20
     - php: upgrade 8.5.0 -> 8.5.1 | 8.5.1 | U | Default | 2025-12-21
     - php: upgrade 8.4.15 -> 8.5.0 | 8.5.0 | U | Default | 2025-12-05
     - php: upgrade 8.4.14 -> 8.4.15 | 8.4.15 | U | Default | 2025-11-24
@@ -1100,7 +1131,7 @@
     - polkit: upgrade 122 -> 123 | 123 | U | Default | 2023-09-18
     - polkit: add recipe for v122 | 122 | U | Default | 2022-11-28
     - polkit: update 0.116 -> 0.119 | 0.119 | U | Default | 2021-10-14
-* poppler 25.12.0 26.01.0 Not updated
+* poppler 25.12.0 26.02.0 Not updated
     - poppler: upgrade 25.11.0 -> 25.12.0 | 25.12.0 | U | Default | 2025-12-09
     - poppler: upgrade 25.10.0 -> 25.11.0 | 25.11.0 | U | Default | 2025-11-18
     - poppler: upgrade 25.08.0 -> 25.10.0 | 25.10.0 | U | Default | 2025-10-15
@@ -1133,7 +1164,7 @@
 * poppler-data 0.4.12 0.4.12 Up-to-date
     - poppler-data: upgrade 0.4.11 -> 0.4.12 | 0.4.12 | U | Default | 2023-02-20
     - poppler-data: set precise BSD license | 0.4.11 | U | Default | 2022-02-03
-* postgresql 17.7 18.1 Not updated
+* postgresql 17.7 18.2 Not updated
     - postgresql: upgrade 17.6 -> 17.7 | 17.7 | U | Default | 2025-12-17
     - postgresql: upgrade 17.5 -> 17.6 | 17.6 | U | Default | 2025-08-20
     - postgresql: upgrade 17.4 -> 17.5 | 17.5 | U | Default | 2025-05-21
@@ -1156,7 +1187,8 @@
 * pps-tools 1.0.3 1.0.3 Up-to-date
     - pps-tools: upgrade 1.0.2 -> 1.0.3 | 1.0.3 | U | Default | 2021-11-29
     - recipes: Update SRC_URI branch and protocols | 1.0.2 | U | Default | 2021-11-03
-* protobuf 6.31.1 6.31.1 Up-to-date
+* protobuf 6.33.5 6.31.1 Unknown
+    - protobuf: upgrade 6.31.1 -> 6.33.5 | 6.33.5 | U | Default | 2026-02-02
     - protobuf: 5.29.5 -> 6.31.1 | 6.31.1 | U | Default | 2025-06-26
     - protobuf: upgrade from 5.29.4 to 5.29.5 | 5.29.5 | U | Default | 2025-06-26
     - protobuf: 4.25.5 -> 5.29.4 | 5.29.4 | U | Default | 2025-03-21
@@ -1216,7 +1248,8 @@
 * rasdaemon 0.8.4 0.8.4 Up-to-date
     - rasdaemon: upgrade 0.8.3 -> 0.8.4 | 0.8.4 | U | Default | 2025-11-26
     - meta-openembedded/all: adapt to UNPACKDIR changes | 0.8.3 | U | Default | 2025-06-25
-* re2 2024.03.01 2025-11-05 Not updated
+* re2 2025.11.05 2025-11-05 Unknown
+    - re2: Upgrade to 2025.11.05 release | 2025.11.05 | U | Default | 2026-01-14
     - re2: Upgrade 2023.03.01 -> 2024.03.01 | 2024.03.01 | U | Default | 2024-03-08
     - re2: move to version 2023-03-01 | 2023.03.01 | U | Default | 2023-03-11
     - recipes: Update SRC_URI branch and protocols | 2020.11.01 | U | Default | 2021-11-03
@@ -1254,7 +1287,7 @@
     - redis: upgrade 6.2.5 -> 6.2.6 | 6.2.6 | U | Default | 2021-10-14
 * rfkill 1.0 1.0 Up-to-date
     - recipes: Update LICENSE variable to use SPDX license identifiers | 1.0 | U | Default | 2022-03-05
-* rocksdb 9.10.0 10.9.1 Not updated
+* rocksdb 9.10.0 10.10.1 Not updated
     - rocksdb: upgrade 9.0.0 -> 9.10.0 | 9.10.0 | U | Default | 2025-03-12
     - rocksdb: upgrade 7.9.2 -> 9.0.0 | 9.0.0 | U | Default | 2024-03-21
     - rocksdb: Upgrade to 7.9.2 | 7.9.2 | U | Default | 2023-01-26
@@ -1309,7 +1342,8 @@
 * snappy 1.2.2 1.2.2 Up-to-date
     - snappy: Upgrade 1.1.10 -> 1.2.2 to to allow CMake 4+ compatibility | 1.2.2 | U | Default | 2025-07-09
     - meta-openembedded/all: adapt to UNPACKDIR changes | 1.1.10 | U | Default | 2025-06-25
-* softhsm 2.6.1 2.6.1 Up-to-date
+* softhsm 2.7.0 2.7.0 Up-to-date
+    - softhsm: upgrade 2.6.1 -> 2.7.0 | 2.7.0 | U | Default | 2026-01-31
     - softhsm: avoid unnecessary check for native sqlite binary | 2.6.1 | U | Default | 2023-02-01
 * sound-theme-freedesktop 0.8 0.8 Up-to-date
     - recipes: Update LICENSE variable to use SPDX license identifiers | 0.8 | U | Default | 2022-03-05
@@ -1355,7 +1389,8 @@
     - thrift: Upgrade to 0.18.1 | 0.18.1 | U | Default | 2023-05-01
     - thrift: upgrade 0.16.0 -> 0.17.0 | 0.17.0 | U | Default | 2022-09-27
     - thrift: upgrade 0.14.2 -> 0.16.0 | 0.16.0 | U | Default | 2022-04-15
-* tigervnc 1.15.0 1.15.90 Not updated
+* tigervnc 1.16.0 1.16.0 Up-to-date
+    - tigervnc: upgrade 1.15.0 -> 1.16.0 | 1.16.0 | U | Default | 2026-01-31
     - tigervnc: upgrade 1.14.1 -> 1.15.0 | 1.15.0 | U | Default | 2025-03-14
     - tigervnc: upgrade 1.14.0 -> 1.14.1 | 1.14.1 | U | Default | 2025-01-02
     - tigervnc: upgrade 1.11.0 -> 1.14.0 | 1.14.0 | U | Default | 2024-10-11
@@ -1371,7 +1406,8 @@
     - tmux: upgrade 3.5a -> 3.6 | 3.6 | U | Default | 2025-12-02
     - tmux: upgrade 3.5 -> 3.5a | 3.5a | U | Default | 2025-11-19
     - tmux: update UPSTREAM_CHECK_REGEX | 3.5 | U | Default | 2025-11-19
-* tree 2.2.1 2.2.1 Up-to-date
+* tree 2.3.1 2.3.1 Up-to-date
+    - tree: upgrade 2.2.1 -> 2.3.1 | 2.3.1 | U | Default | 2026-02-06
     - tree: upgrade 2.1.3 -> 2.2.1 | 2.2.1 | U | Default | 2024-12-03
     - tree: upgrade 2.1.1 -> 2.1.3 | 2.1.3 | U | Default | 2024-07-15
     - tree: upgrade 2.1.0 -> 2.1.1 | 2.1.1 | U | Default | 2023-06-05
@@ -1393,7 +1429,7 @@
     - unixodbc: upgrade 2.3.9 -> 2.3.11 | 2.3.11 | U | Default | 2022-05-09
     - unixodbc: upgrade 2.3.7 -> 2.3.9 | 2.3.9 | U | Default | 2022-04-16
     - recipes: Update LICENSE variable to use SPDX license identifiers | 2.3.7 | U | Default | 2022-03-05
-* upower 1.91.0 1.91.0 Up-to-date
+* upower 1.91.0 1.91.1 Not updated
     - upower: upgrade 1.90.10 -> 1.91.0 | 1.91.0 | U | Default | 2025-12-02
     - upower: upgrade 1.90.6 -> 1.90.10 | 1.90.10 | U | Default | 2025-10-14
     - upower: bump to 1.90.6 | 1.90.6 | U | Default | 2024-12-12
@@ -1414,13 +1450,15 @@
     - v4l-utils: Update 1.22.1 -> 1.23.0+fd544473 | 1.23.0 | U | Default | 2022-10-02
     - v4l-utils: Update 1.20.0 -> 1.22.1 | 1.22.1 | U | Default | 2022-03-14
     - recipes: Update LICENSE variable to use SPDX license identifiers | 1.20.0 | U | Default | 2022-03-05
-* valkey 9.0.1 9.0.1 Up-to-date
+* valkey 9.0.2 9.0.2 Up-to-date
+    - valkey: Upgrade 9.0.1 -> 9.0.2 | 9.0.2 | U | Default | 2026-02-06
     - valkey: upgrade 9.0.0 -> 9.0.1 | 9.0.1 | U | Default | 2025-12-21
     - valkey: Upgrade 8.1.4 -> 9.0.0 | 9.0.0 | U | Default | 2025-11-25
     - valkey: Upgrade 8.1.3 -> 8.1.4 | 8.1.4 | U | Default | 2025-10-09
     - valkey: upgrade 8.1.1 -> 8.1.3 | 8.1.3 | U | Default | 2025-07-21
     - valkey: upgrade 8.1.0 -> 8.1.1 | 8.1.1 | U | Default | 2025-04-29
-* vboxguestdrivers 7.2.4 7.2.4 Up-to-date
+* vboxguestdrivers 7.2.6 7.2.6 Up-to-date
+    - vboxguestdrivers: Upgrade to 7.2.6 | 7.2.6 | U | Default | 2026-02-05
     - vboxguestdrivers: Upgrade to 7.2.4 | 7.2.4 | U | Default | 2025-12-24
     - vboxguestdrivers: Upgrade to 7.2.2 | 7.2.2 | U | Default | 2025-09-16
     - vboxguestdrivers: Upgrade to 7.2.0 | 7.2.0 | U | Default | 2025-08-26
@@ -1447,7 +1485,7 @@
     - recipes: Update LICENSE variable to use SPDX license identifiers | 2.2.3 | U | Default | 2022-03-05
 * volume-key 0.3.12 0.3.12 Up-to-date
     - volume-key: Inherit pkgconfig | 0.3.12 | U | Default | 2021-09-24
-* webkitgtk3 2.48.7 2.50.4 Not updated
+* webkitgtk3 2.48.7 2.50.5 Not updated
     - webkitgtk3: upgrade 2.48.3 -> 2.48.7 | 2.48.7 | U | Default | 2025-09-29
     - webkitgtk3: Upgrade to 2.48.3 | 2.48.3 | U | Default | 2025-07-26
     - meta-openembedded/all: adapt to UNPACKDIR changes | 2.48.1 | U | Default | 2025-06-25
@@ -1490,7 +1528,7 @@
 * yajl 2.1.0 1.0.12 Up-to-date
     - recipes: Update SRC_URI branch and protocols | 2.1.0 | U | Default | 2021-11-03
     - recipes: Update SRC_URI branch and protocols | 1.0.12 | U | Default | 2021-11-03
-* yaml-cpp 0.8.0+git 0.8.0 Up-to-date
+* yaml-cpp 0.8.0+git 0.9.0 Not updated
     - yaml-cpp: Upgrade to tip of trunk | 0.8.0+git | U | Default | 2025-03-20
     - yaml-cpp: upgrade 0.7.0 -> 0.8.0 | 0.8.0 | U | Default | 2023-08-16
     - yaml-cpp: bump 0.7.0 | 0.7.0 | U | Default | 2022-02-11

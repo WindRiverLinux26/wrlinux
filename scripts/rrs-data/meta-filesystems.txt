@@ -7,7 +7,7 @@
     - recipes: Update SRC_URI branch and protocols | 1.14.0 | U | Default | 2021-11-03
 * fuse 2.9.9  Unknown
     - recipes: Update LICENSE variable to use SPDX license identifiers | 2.9.9 | U | Default | 2022-03-05
-* ntfs-3g-ntfsprogs 2022.10.3 2022.10.3 Up-to-date
+* ntfs-3g-ntfsprogs 2022.10.3 20070925 Not updated
     - ntfs-3g-ntfsprogs: fix CVE-2023-52890 | 2022.10.3 | U | Default | 2024-11-22
     - ntfs-3g-ntfsprogs: upgrade to 2022.5.17 | 2022.5.17 | U | Default | 2022-07-06
     - ntfs-3g-ntfsprogs: upgrade to 2021.8.22 | 2021.8.22 | U | Default | 2021-10-19

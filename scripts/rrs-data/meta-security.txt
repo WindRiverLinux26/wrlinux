@@ -69,7 +69,7 @@
     - scap-security-guide: update to 0.1.67 | 0.1.67 | U | Default | 2023-06-11
     - recipes: Update SRC_URI branch and protocols | 0.1.44+gitAUTOINC+5fdfdcb2e9 | U | Default | 2021-11-04
     - recipes: Update SRC_URI branch and protocols | 0.1.44 | U | Default | 2021-11-04
-* sssd 2.10.2 2.11.1 Not updated
+* sssd 2.10.2 2.12.0 Not updated
     - sssd: upgrade 2.9.2 -> 2.10.2 | 2.10.2 | U | Default | 2025-04-13
     - sssd: Update to 2.9.2 | 2.9.2 | U | Default | 2023-09-25
     - sssd: 2.7.4 -> 2.9.1 | 2.9.1 | U | Default | 2023-08-06
