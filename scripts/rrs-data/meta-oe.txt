@@ -1,7 +1,9 @@
-* 7zip 25.01 26.00 Not updated
+* 7zip 26.00 26.00 Up-to-date
+    - 7zip: upgrade 25.01 -> 26.00 | 26.00 | U | Default | 2026-03-03
     - 7zip: upgrade 24.09 -> 25.01 | 25.01 | U | Default | 2025-08-13
     - 7zip: install headers | 24.09 | U | Default | 2025-04-07
-* abseil-cpp 20260107.0 20260107.1 Not updated
+* abseil-cpp 20260107.1 20260107.1 Up-to-date
+    - abseil-cpp: upgrade 20260107.0 -> 20260107.1 | 20260107.1 | U | Default | 2026-02-25
     - abseil-cpp: upgrade 20250814.1 -> 20260107.0 | 20260107.0 | U | Default | 2026-01-13
     - abseil-cpp: Upgrade to 20250814.1 release | 20250814.1 | U | Default | 2025-10-11
     - meta-openembedded/all: adapt to UNPACKDIR changes | 20250512.1 | U | Default | 2025-06-25
@@ -122,7 +124,8 @@
     - can-utils: Upgrade 2023.03 -> 2025.01 | 2025.01 | U | Default | 2025-02-13
     - can-utils: upgrade 2021.08.0 -> 2023.03 | 2023.03 | U | Default | 2023-03-24
     - recipes: Update SRC_URI branch and protocols | 2021.08.0 | U | Default | 2021-11-03
-* catch2 3.12.0 3.13.0 Not updated
+* catch2 3.13.0 3.13.0 Up-to-date
+    - catch2: upgrade 3.12.0 -> 3.13.0 | 3.13.0 | U | Default | 2026-02-25
     - catch2: upgrade 3.8.1 -> 3.12.0 | 3.12.0 | U | Default | 2026-01-23
     - catch2: upgrade 3.8.0 -> 3.8.1 | 3.8.1 | U | Default | 2025-04-15
     - catch2: upgrade 3.7.1 -> 3.8.0 | 3.8.0 | U | Default | 2025-03-11
@@ -577,7 +580,8 @@
     - libgphoto2: upgrade 2.5.30 -> 2.5.31 | 2.5.31 | U | Default | 2023-09-07
     - gphoto2: Upgrade to 2.5.28 | 2.5.30 | U | Default | 2022-09-06
     - recipes: Update LICENSE variable to use SPDX license identifiers | 2.5.27 | U | Default | 2022-03-05
-* libgpiod 2.2.2 2.2.2 Up-to-date
+* libgpiod 2.2.3 2.2.3 Up-to-date
+    - libgpiod: update to v2.2.3 | 2.2.3 | U | Default | 2026-02-25
     - libgpiod: update to v2.2.2 | 2.2.2 | U | Default | 2025-07-09
     - libgpiod: update to v2.2.1 | 2.2.1 | U | Default | 2025-02-19
     - libgpiod: update to v2.2 | 2.2 | U | Default | 2024-10-24
@@ -861,7 +865,8 @@
     - multipath-tools: upgrade 0.9.3 -> 0.9.8 | 0.9.8 | U | Default | 2024-03-05
     - multipath-tools: upgrade 0.8.4 -> 0.9.3 | 0.9.3 | U | Default | 2022-12-12
     - recipes: Update SRC_URI branch and protocols | 0.8.4 | U | Default | 2021-11-03
-* nano 8.7 8.7.1 Not updated
+* nano 8.7.1 8.7.1 Up-to-date
+    - nano: upgrade 8.7 -> 8.7.1 | 8.7.1 | U | Default | 2026-03-03
     - nano: upgrade 8.6 -> 8.7 | 8.7 | U | Default | 2025-11-18
     - nano: upgrade 8.5 -> 8.6 | 8.6 | U | Default | 2025-09-04
     - nano: upgrade 8.3 -> 8.5 | 8.5 | U | Default | 2025-07-30
@@ -901,7 +906,7 @@
     - nmap: add recipe for 7.92 | 7.92 | D | Default | 2025-05-05
     - nmap: Upgrade to 7.95 | 7.95 | U | Default | 2024-09-04
     - recipes: Update LICENSE variable to use SPDX license identifiers | 7.80 | U | Default | 2022-03-05
-* nodejs 22.22.0 25.6.1 Not updated
+* nodejs 22.22.0 25.8.0 Not updated
     - nodejs: upgrade 22.21.1 -> 22.22.0 | 22.22.0 | U | Default | 2026-01-14
     - nodejs: upgrade 22.21.0 -> 22.21.1 | 22.21.1 | U | Default | 2025-10-29
     - nodejs: upgrade 22.20.0 -> 22.21.0 | 22.21.0 | U | Default | 2025-10-21
@@ -991,7 +996,7 @@
     - openjpeg: upgrade 2.5.0 -> 2.5.2 | 2.5.2 | U | Default | 2024-09-15
     - openjpeg: upgrade 2.4.0 -> 2.5.0 | 2.5.0 | U | Default | 2022-05-16
     - recipes: Update SRC_URI branch and protocols | 2.4.0 | U | Default | 2021-11-03
-* openldap 2.6.12 2.6.12 Up-to-date
+* openldap 2.6.12  Unknown
     - openldap: upgrade 2.6.10 -> 2.6.12 | 2.6.12 | U | Default | 2026-02-06
     - openldap: upgrade 2.6.9 -> 2.6.10 | 2.6.10 | U | Default | 2025-06-10
     - openldap: upgrade 2.6.8 -> 2.6.9 | 2.6.9 | U | Default | 2025-01-02
@@ -1043,7 +1048,8 @@
 * pangomm 2.46.4 2.56.1 Not updated
     - pangomm: upgrade 2.46.2 -> 2.46.4 | 2.46.4 | U | Default | 2025-03-12
     - pangomm: Add recipe for pangomm-2.48 | 2.46.2 | U | Default | 2022-02-22
-* parallel 20251122 20260122 Not updated
+* parallel 20260222 20260222 Up-to-date
+    - parallel: upgrade 20251122 -> 20260222 | 20260222 | U | Default | 2026-03-03
     - parallel: upgrade 20251022 -> 20251122 | 20251122 | U | Default | 2025-12-02
     - parallel: upgrade 20250922 -> 20251022 | 20251022 | U | Default | 2025-11-07
     - parallel: upgrade 20250822 -> 20250922 | 20250922 | U | Default | 2025-10-09
@@ -1164,7 +1170,8 @@
 * poppler-data 0.4.12 0.4.12 Up-to-date
     - poppler-data: upgrade 0.4.11 -> 0.4.12 | 0.4.12 | U | Default | 2023-02-20
     - poppler-data: set precise BSD license | 0.4.11 | U | Default | 2022-02-03
-* postgresql 17.7 18.2 Not updated
+* postgresql 17.8 18.3 Not updated
+    - postgresql: upgrade 17.7 -> 17.8 | 17.8 | U | Default | 2026-02-21
     - postgresql: upgrade 17.6 -> 17.7 | 17.7 | U | Default | 2025-12-17
     - postgresql: upgrade 17.5 -> 17.6 | 17.6 | U | Default | 2025-08-20
     - postgresql: upgrade 17.4 -> 17.5 | 17.5 | U | Default | 2025-05-21
@@ -1253,38 +1260,6 @@
     - re2: Upgrade 2023.03.01 -> 2024.03.01 | 2024.03.01 | U | Default | 2024-03-08
     - re2: move to version 2023-03-01 | 2023.03.01 | U | Default | 2023-03-11
     - recipes: Update SRC_URI branch and protocols | 2020.11.01 | U | Default | 2021-11-03
-* redis 7.2.7  Unknown
-    - redis: upgrade 7.2.6 -> 7.2.7 | 7.2.7 | U | Default | 2025-01-25
-    - redis: upgrade 7.2.5 -> 7.2.6 | 7.2.6 | U | Default | 2024-10-10
-    - redis: upgrade 6.2.14 -> 6.2.16 | 6.2.16 | D | Default | 2024-10-10
-    - redis: upgrade 7.2.4 -> 7.2.5 | 7.2.5 | U | Default | 2024-05-28
-    - recipes: Start WORKDIR -> UNPACKDIR transition | 6.2.14 | D | Default | 2024-05-23
-    - redis: upgrade 7.2.3 -> 7.2.4 | 7.2.4 | U | Default | 2024-01-23
-    - redis: upgrade 6.2.13 -> 6.2.14 | 6.2.14 | D | Default | 2023-12-29
-    - redis: upgrade 7.2.2 -> 7.2.3 | 7.2.3 | U | Default | 2023-11-28
-    - redis: upgrade 7.2.1 -> 7.2.2 | 7.2.2 | U | Default | 2023-10-24
-    - redis: upgrade 7.2.0 -> 7.2.1 | 7.2.1 | U | Default | 2023-09-20
-    - redis: upgrade 7.0.12 -> 7.2.0 | 7.2.0 | U | Default | 2023-08-27
-    - redis: upgrade 7.0.11 -> 7.0.12 | 7.0.12 | U | Default | 2023-07-21
-    - redis: upgrade 6.2.12 -> 6.2.13 | 6.2.13 | D | Default | 2023-07-21
-    - redis: use the files path correctly | 7.0.11 | U | Default | 2023-06-14
-    - redis: upgrade 6.2.11 -> 6.2.12 | 6.2.12 | D | Default | 2023-05-11
-    - redis: upgrade 7.0.10 -> 7.0.11 | 7.0.11 | U | Default | 2023-04-24
-    - redis: upgrade 7.0.9 -> 7.0.10 | 7.0.10 | U | Default | 2023-03-22
-    - redis: Upgrade 7.x to 7.0.9 | 7.0.9 | U | Default | 2023-03-06
-    - redis: Upgrade 6.x recipe to 6.2.11 | 6.2.11 | U | Default | 2023-03-06
-    - redis: Upgrade to 6.2.9 | 6.2.9 | D | Default | 2023-01-18
-    - redis: Upgrade to 7.0.8 | 7.0.8 | U | Default | 2023-01-18
-    - redis: 7.0.5 -> 7.0.7 | 7.0.7 | U | Default | 2023-01-06
-    - redis: 6.2.7 -> 6.2.8 | 6.2.8 | D | Default | 2023-01-06
-    - redis: upgrade 7.0.4 to 7.0.5 | 7.0.5 | U | Default | 2022-10-14
-    - redis: upgrade 7.0.2 -> 7.0.4 | 7.0.4 | U | Default | 2022-07-27
-    - redis: upgrade 7.0.0 to 7.0.2 | 7.0.2 | U | Default | 2022-07-11
-    - redis: upgrade 6.2.6 -> 6.2.7 | 6.2.7 | D | Default | 2022-07-02
-    - redis: upgrade 7.0-rc3 -> 7.0.0 | 7.0.0 | U | Default | 2022-05-31
-    - redis: upgrade to 7.0-rc3 | 7.0-rc3 | U | Default | 2022-04-14
-    - redis: add recipe for 7.0-rc1 | 7.0-rc1 | U | Default | 2022-02-03
-    - redis: upgrade 6.2.5 -> 6.2.6 | 6.2.6 | U | Default | 2021-10-14
 * rfkill 1.0 1.0 Up-to-date
     - recipes: Update LICENSE variable to use SPDX license identifiers | 1.0 | U | Default | 2022-03-05
 * rocksdb 9.10.0 10.10.1 Not updated
@@ -1347,7 +1322,7 @@
     - softhsm: avoid unnecessary check for native sqlite binary | 2.6.1 | U | Default | 2023-02-01
 * sound-theme-freedesktop 0.8 0.8 Up-to-date
     - recipes: Update LICENSE variable to use SPDX license identifiers | 0.8 | U | Default | 2022-03-05
-* syslog-ng 4.10.2 4.10.2 Up-to-date
+* syslog-ng 4.10.2 4.11.0 Not updated
     - syslog-ng: upgrade 4.8.2 -> 4.10.2 | 4.10.2 | U | Default | 2025-12-09
     - syslog-ng: upgrade 4.8.1 -> 4.8.2 | 4.8.2 | U | Default | 2025-05-15
     - syslog-ng: upgrade 4.7.0 -> 4.8.1 | 4.8.1 | U | Default | 2025-03-28
@@ -1395,7 +1370,7 @@
     - tigervnc: upgrade 1.14.0 -> 1.14.1 | 1.14.1 | U | Default | 2025-01-02
     - tigervnc: upgrade 1.11.0 -> 1.14.0 | 1.14.0 | U | Default | 2024-10-11
     - tigervnc: Inherit pkgconfig | 1.11.0 | U | Default | 2021-09-24
-* tk 9.0.3 9.0.3 Up-to-date
+* tk 9.0.3 9.0.4 Not updated
     - tk: upgrade 9.0.2 -> 9.0.3 | 9.0.3 | U | Default | 2025-12-21
     - tk: upgrade 9.0.1 -> 9.0.2 | 9.0.2 | U | Default | 2025-07-09
     - tk: upgrade 9.0.0 -> 9.0.1 | 9.0.1 | U | Default | 2024-12-24
@@ -1420,7 +1395,7 @@
 * turbostat 1.0 1.0 Up-to-date
     - turbostat: make turbostat's version align with kernel version | 1.0 | D | Default | 2025-04-15
     - recipes: Update LICENSE variable to use SPDX license identifiers | 3.4 | U | Default | 2022-03-05
-* udisks2 2.10.2 2.11.0 Not updated
+* udisks2 2.10.2 2.11.1 Not updated
     - udisks2: upgrade 2.10.1 -> 2.10.2 | 2.10.2 | U | Default | 2025-09-30
     - udisks2: Upgrade 2.9.4 -> 2.10.1 | 2.10.1 | U | Default | 2023-09-25
     - udisks2: upgrade 2.9.3 -> 2.9.4 | 2.9.4 | U | Default | 2021-11-03
@@ -1429,7 +1404,8 @@
     - unixodbc: upgrade 2.3.9 -> 2.3.11 | 2.3.11 | U | Default | 2022-05-09
     - unixodbc: upgrade 2.3.7 -> 2.3.9 | 2.3.9 | U | Default | 2022-04-16
     - recipes: Update LICENSE variable to use SPDX license identifiers | 2.3.7 | U | Default | 2022-03-05
-* upower 1.91.0 1.91.1 Not updated
+* upower 1.91.1 1.91.1 Up-to-date
+    - upower: upgrade 1.91.0 -> 1.91.1 | 1.91.1 | U | Default | 2026-03-03
     - upower: upgrade 1.90.10 -> 1.91.0 | 1.91.0 | U | Default | 2025-12-02
     - upower: upgrade 1.90.6 -> 1.90.10 | 1.90.10 | U | Default | 2025-10-14
     - upower: bump to 1.90.6 | 1.90.6 | U | Default | 2024-12-12
@@ -1450,7 +1426,8 @@
     - v4l-utils: Update 1.22.1 -> 1.23.0+fd544473 | 1.23.0 | U | Default | 2022-10-02
     - v4l-utils: Update 1.20.0 -> 1.22.1 | 1.22.1 | U | Default | 2022-03-14
     - recipes: Update LICENSE variable to use SPDX license identifiers | 1.20.0 | U | Default | 2022-03-05
-* valkey 9.0.2 9.0.2 Up-to-date
+* valkey 9.0.3 9.0.3 Up-to-date
+    - valkey: upgrade 9.0.2 -> 9.0.3 | 9.0.3 | U | Default | 2026-03-03
     - valkey: Upgrade 9.0.1 -> 9.0.2 | 9.0.2 | U | Default | 2026-02-06
     - valkey: upgrade 9.0.0 -> 9.0.1 | 9.0.1 | U | Default | 2025-12-21
     - valkey: Upgrade 8.1.4 -> 9.0.0 | 9.0.0 | U | Default | 2025-11-25
@@ -1485,11 +1462,12 @@
     - recipes: Update LICENSE variable to use SPDX license identifiers | 2.2.3 | U | Default | 2022-03-05
 * volume-key 0.3.12 0.3.12 Up-to-date
     - volume-key: Inherit pkgconfig | 0.3.12 | U | Default | 2021-09-24
-* webkitgtk3 2.48.7 2.50.5 Not updated
+* webkitgtk3 2.50.5 2.50.5 Up-to-date
+    - webkitgtk3: upgrade 2.48.7 -> 2.50.5 | 2.50.5 | U | Default | 2026-02-16
     - webkitgtk3: upgrade 2.48.3 -> 2.48.7 | 2.48.7 | U | Default | 2025-09-29
     - webkitgtk3: Upgrade to 2.48.3 | 2.48.3 | U | Default | 2025-07-26
     - meta-openembedded/all: adapt to UNPACKDIR changes | 2.48.1 | U | Default | 2025-06-25
-* wxwidgets 3.2.8.1 3.3.1 Not updated
+* wxwidgets 3.2.8.1 3.3.2 Not updated
     - wxwidgets: Upgrade to 3.2.8.1 bugfix release | 3.2.8.1 | U | Default | 2025-11-27
     - wxwidget: Upgrade to 3.2.8 | 3.2.8 | U | Default | 2025-07-12
     - wxwidgets: upgrade 3.2.1 -> 3.2.6 | 3.2.6 | U | Default | 2024-10-13
@@ -1528,7 +1506,8 @@
 * yajl 2.1.0 1.0.12 Up-to-date
     - recipes: Update SRC_URI branch and protocols | 2.1.0 | U | Default | 2021-11-03
     - recipes: Update SRC_URI branch and protocols | 1.0.12 | U | Default | 2021-11-03
-* yaml-cpp 0.8.0+git 0.9.0 Not updated
+* yaml-cpp 0.9.0+git 0.9.0 Up-to-date
+    - yaml-cpp: upgrade 0.8.0 -> 0.9.0 | 0.9.0+git | U | Default | 2026-03-03
     - yaml-cpp: Upgrade to tip of trunk | 0.8.0+git | U | Default | 2025-03-20
     - yaml-cpp: upgrade 0.7.0 -> 0.8.0 | 0.8.0 | U | Default | 2023-08-16
     - yaml-cpp: bump 0.7.0 | 0.7.0 | U | Default | 2022-02-11

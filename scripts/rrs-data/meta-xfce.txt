@@ -46,7 +46,7 @@
     - menulibre: Upgrade to 2.4.0 | 2.4.0 | U | Default | 2024-05-23
     - menulibre: upgrade 2.2.3 -> 2.3.2 | 2.3.2 | U | Default | 2023-11-06
     - menulibre: upgrade 2.2.1 -> 2.2.3 | 2.2.3 | U | Default | 2022-01-05
-* mousepad 0.6.1 0.6.5 Not updated
+* mousepad 0.6.1 0.7.0 Not updated
     - mousepad: upgrade 0.5.9 -> 0.6.1 | 0.6.1 | U | Default | 2023-11-06
     - mousepad: upgrade 0.5.8 -> 0.5.9 | 0.5.9 | U | Default | 2022-04-07
     - mousepad: upgrade 0.5.7 -> 0.5.8 | 0.5.8 | U | Default | 2022-01-05
@@ -61,7 +61,8 @@
     - ristretto: upgrade 0.12.1 -> 0.12.2 | 0.12.2 | U | Default | 2022-04-07
     - ristretto: upgrade 0.12.0 -> 0.12.1 | 0.12.1 | U | Default | 2022-01-05
     - ristretto: upgrade 0.11.0 -> 0.12.0 | 0.12.0 | U | Default | 2021-11-20
-* thunar 4.20.5 4.21.4 Not updated
+* thunar 4.20.7 4.21.4 Not updated
+    - thunar: upgrade 4.20.5 -> 4.20.7 | 4.20.7 | U | Default | 2026-02-18
     - thunar: upgrade 4.20.3 -> 4.20.5 | 4.20.5 | U | Default | 2025-09-21
     - thunar: upgrade 4.20.0 -> 4.20.3 | 4.20.3 | U | Default | 2025-06-25
     - thunar: 4.19.0 -> 4.20.0 | 4.20.0 | U | Default | 2024-12-19
@@ -211,7 +212,7 @@
     - xfce4-pulseaudio-plugin: upgrade 0.4.8 -> 0.4.9 | 0.4.9 | U | Default | 2025-06-06
     - xfce4-pulseaudio-plugin: upgrade 0.4.3 -> 0.4.8 | 0.4.8 | U | Default | 2023-11-06
     - recipes: Update LICENSE variable to use SPDX license identifiers | 0.4.3 | U | Default | 2022-03-05
-* xfce4-screensaver 4.18.4 4.20.1 Not updated
+* xfce4-screensaver 4.18.4 4.20.2 Not updated
     - xfce4-screensaver: upgrade 4.18.1 -> 4.18.4 | 4.18.4 | U | Default | 2025-06-11
     - xfce4-screensaver: 4.16.0 -> 4.18.1 | 4.18.1 | U | Default | 2023-04-17
     - recipes: Update LICENSE variable to use SPDX license identifiers | 4.16.0 | U | Default | 2022-03-05
@@ -284,7 +285,7 @@
     - xfce4-weather-plugin: Upgrade to 0.11.3 | 0.11.3 | U | Default | 2025-05-18
     - xfce4-weather-plugin: upgrade 0.11.0 -> 0.11.1 | 0.11.1 | U | Default | 2023-11-06
     - recipes: Update LICENSE variable to use SPDX license identifiers | 0.11.0 | U | Default | 2022-03-05
-* xfce4-whiskermenu-plugin 2.10.0 2.10.0 Up-to-date
+* xfce4-whiskermenu-plugin 2.10.0 2.10.1 Not updated
     - xfce4-whiskermenu-plugin: Upgrade to 2.10.1 release | 2.10.0 | U | Default | 2025-07-12
     - xfce4-whiskermenu-plugin: upgrade 2.6.2 -> 2.7.1 | 2.7.1 | U | Default | 2022-01-05
     - xfce4-whiskermenu-plugin: upgrade 2.5.3 -> 2.6.2 | 2.6.2 | U | Default | 2021-11-20

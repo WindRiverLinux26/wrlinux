@@ -7,7 +7,8 @@
     - aardvark-dns: update to v1.9.0 | 1.9.0 | U | Default | 2024-01-04
     - aardvark-dns: update to v1.7.0 | 1.7.0 | U | Default | 2023-08-24
     - aardvark-dns: add the recipe | 1.2.0 | U | Default | 2023-03-08
-* buildah 1.41.5 1.43.0 Not updated
+* buildah 1.43.0 1.43.0 Up-to-date
+    - buildah: update to v1.43.0 | 1.43.0 | U | Default | 2026-03-02
     - buildah: update to v1.41.5 | 1.41.5 | U | Default | 2025-10-14
     - buildah: update to v1.41.3 | 1.41.3 | U | Default | 2025-08-21
     - buildah: update to v1.40.1 | 1.40.0 | U | Default | 2025-06-26
@@ -65,7 +66,7 @@
     - containerd: update to v2.0.0-rc.2 | v2.0.0-rc.2+git | U | Default | 2024-05-29
     - containerd: update to v2.0.0-rc.1 | v2.0.0-rc.1+git | U | Default | 2024-05-14
     - containerd: consolidate to "containerd" | v2.0.0-beta.0+git | U | Default | 2024-05-14
-* cri-o 1.34.1+git 1.35.0 Not updated
+* cri-o 1.34.1+git 1.35.1 Not updated
     - cri-o: update to v1.34.1 | 1.34.1+git | U | Default | 2025-10-16
     - cri-o: update to v1.33.0 | 1.33.0+git87ce1c120d022797913f0792e15dd0107d19dffe | U | Default | 2025-07-07
     - cri-o: update to v1.32.2 | 1.32.2+git318db72eb0b3d18c22c995aa7614a13142287296 | U | Default | 2025-03-11
@@ -102,7 +103,7 @@
     - criu: 3.17 -> 3.17.1 | 3.17.1+git${SRCPV} | U | Default | 2022-10-04
     - criu: Upgrade to 3.17 to fix restore and fix build | 3.17+git${SRCPV} | U | Default | 2022-05-12
     - criu: update to 3.16.1 | 3.16.1+git${SRCPV} | U | Default | 2021-10-18
-* docker-compose v5.0.0 5.0.2 Not updated
+* docker-compose v5.0.0 5.1.0 Not updated
     - docker-compose: update to v5.0.0 | v5.0.0 | U | Default | 2025-12-09
     - docker-compose: update to v2.33.1 | v2.33.1 | U | Default | 2025-03-11
     - Revert "docker-compose: WIP [needs go 1.22.10+]: not for merge: update to v2.32.2" | v2.28.1 | D | Default | 2025-01-17
@@ -162,7 +163,7 @@
     - irqbalance: update to 1.8.0-tip | 1.8.0+gitAUTOINC+b3adb5fd14 | U | Default | 2022-03-29
     - irqbalance: bump SRCREV to latest | 1.8.0+gitAUTOINC+a972665483 | U | Default | 2021-11-08
     - global: add explicit branch to all SRC_URIs | 1.8.0 | U | Default | 2021-11-02
-* kubernetes v1.34.1+git 1.35.1 Not updated
+* kubernetes v1.34.1+git 1.35.2 Not updated
     - kubernetes: update to v1.34.1 | v1.34.1+git | U | Default | 2025-10-19
     - k8s: update to v1.33.2 | v1.33.2+git | U | Default | 2025-07-07
     - Revert "k8s: WIP [needs newer go]: not for merge: update to -tip" | v1.30.2+git7e92bb98e3005b357974decc0b95235f74016082 | D | Default | 2025-01-17
@@ -192,7 +193,7 @@
     - libvirt: fix CVE-2021-3631 | 7.2.0 | U | Default | 2021-09-16
 * libvirt-glib 5.0.0 5.0.0 Up-to-date
     - libvirt: update to v11.0.0 -tip | 5.0.0 | U | Default | 2025-01-17
-* lxc v6.0.5 6.0.5 Up-to-date
+* lxc v6.0.5 6.0.6 Not updated
     - lxc: update to v6.0.5 | v6.0.5 | U | Default | 2025-10-19
     - lxc: update to v6.0.4 | v6.0.4 | U | Default | 2025-07-07
     - lxc: update to v6.0.3 | v6.0.3 | U | Default | 2025-01-17
@@ -283,7 +284,7 @@
     - python3-docker: Update to 7.0.0 | 7.0.0 | U | Default | 2024-02-01
 * python3-dockerpty 0.4.1 0.4.1 Up-to-date
     - layer-wide: drop PYTHON_PN | 0.4.1 | U | Default | 2024-02-21
-* python3-dotenv 1.1.0 1.2.1 Not updated
+* python3-dotenv 1.1.0 1.2.2 Not updated
     - devtools: update to latest | 1.1.0 | U | Default | 2025-04-17
 * python3-fastentrypoints 0.12 0.12 Up-to-date
     - layer-wide: drop PYTHON_PN | 0.12 | U | Default | 2024-02-21
@@ -327,9 +328,6 @@
 * virt-manager v5.1.0+git 5.1.0 Up-to-date
     - virt-manager: update to v5.1.0 | v5.1.0+git | U | Default | 2025-12-12
     - virt-manager: update to v5.0.0 | v5.0.0+git | U | Default | 2025-01-17
-* yocto-cfg-fragments-6.12 v6.12+git722f1da424c10f7a7cd02646657bbc56b86c2c7b  Unknown
-    - kernel-cfg: update to 6.12-tip | v6.12+git722f1da424c10f7a7cd02646657bbc56b86c2c7b | U | Default | 2025-04-04
-    - kernel: add v6.12 configuration and support | v6.12+git38b941ae2f4f28c0ba40b2ba6da466f6f5fe3ba0 | U | Default | 2024-12-10
 * yq 4.45.1+git 8 Not updated
     - yq: Correct the version (4.45.1+) | 4.45.1+git | U | Default | 2025-04-20
     - yq: Upgrade to 4.30.8 | 4.30.8+gitdd6cf3df146f3e2c0f8c765a6ef9e35780ad8cc1 | U | Default | 2023-02-10

@@ -6,10 +6,10 @@
     - Rename gnome-menus3 -> gnome-menus | 3.36.0 | U | Default | 2022-01-05
 * gtksourceview3 3.24.11 5.18.0 Not updated
     - recipes: Update LICENSE variable to use SPDX license identifiers | 3.24.11 | U | Default | 2022-03-05
-* gtksourceview4 4.8.4 5.18.0 Not updated
+* gtksourceview4 4.8.4 5.19.0 Not updated
     - gtksourceview4: Upgrade 4.8.2 -> 4.8.4 | 4.8.4 | U | Default | 2023-11-14
     - gtksourceview4: upgrade 4.8.1 -> 4.8.2 | 4.8.2 | U | Default | 2022-01-05
-* gvfs 1.58.1 1.58.1 Up-to-date
+* gvfs 1.58.1 1.58.2 Not updated
     - gvfs: upgrade 1.58.0 -> 1.58.1 | 1.58.1 | U | Default | 2026-02-06
     - gvfs: upgrade 1.57.2 -> 1.58.0 | 1.58.0 | U | Default | 2025-09-16
     - gvfs: update 1.56.1 -> 1.57.2 | 1.57.2 | U | Default | 2025-03-18
@@ -29,7 +29,8 @@
 * keybinder 3.0+git 3.0 Up-to-date
     - keybinder: upgrade to latest revision | 3.0+git | U | Default | 2025-12-21
     - recipes: Update SRC_URI branch and protocols | 3.0+gitAUTOINC+736ccef40d | U | Default | 2021-11-03
-* libgsf 1.14.54 1.14.55 Not updated
+* libgsf 1.14.55 1.14.55 Up-to-date
+    - libgsf: upgrade 1.14.54 -> 1.14.55 | 1.14.55 | U | Default | 2026-02-25
     - libgsf: upgrade 1.14.53 -> 1.14.54 | 1.14.54 | U | Default | 2025-12-20
     - libgsf: upgrade 1.14.52 -> 1.14.53 | 1.14.53 | U | Default | 2024-10-14
     - libgsf: upgrade 1.14.51 -> 1.14.52 | 1.14.52 | U | Default | 2024-02-09

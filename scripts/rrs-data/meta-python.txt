@@ -76,7 +76,8 @@
     - python3-argh: upgrade 0.28.1 -> 0.29.3 | 0.29.3 | U | Default | 2023-09-07
     - python3-argh: upgrade 0.26.2 -> 0.28.1 | 0.28.1 | U | Default | 2023-07-10
     - python3-flask-bootstrap: Update LICENSES | 0.26.2 | U | Default | 2021-09-20
-* python3-asgiref 3.11.0 3.11.1 Not updated
+* python3-asgiref 3.11.1 3.11.1 Up-to-date
+    - python3-asgiref: upgrade 3.11.0 -> 3.11.1 | 3.11.1 | U | Default | 2026-03-03
     - python3-asgiref: upgrade 3.10.0 -> 3.11.0 | 3.11.0 | U | Default | 2025-11-25
     - python3-asgiref: upgrade 3.9.2 -> 3.10.0 | 3.10.0 | U | Default | 2025-10-14
     - python3-asgiref: upgrade 3.9.1 -> 3.9.2 | 3.9.2 | U | Default | 2025-10-09
@@ -91,7 +92,9 @@
     - Use https:// in HOMEPAGE variable instead of http:// | 2.0.0 | U | Default | 2025-03-26
 * python3-astor 0.8.1 0.8.1 Up-to-date
     - python3-flask-bootstrap: Update LICENSES | 0.8.1 | U | Default | 2021-09-20
-* python3-astroid 4.0.3 4.1.0 Not updated
+* python3-astroid 4.1.1 4.1.1 Up-to-date
+    - python3-astroid: upgrade 4.0.3 -> 4.1.1 | 4.1.1 | U | Default | 2026-03-03
+    - python3-astroid: Upgrade 4.0.3 -> 4.1.0 | 4.1.0 | U | Default | 2026-02-21
     - python3-astroid: Upgrade 4.0.2 -> 4.0.3 | 4.0.3 | U | Default | 2026-01-07
     - python3-astroid: upgrade 4.0.1 -> 4.0.2 | 4.0.2 | U | Default | 2025-11-11
     - python3-astroid: upgrade 3.3.11 -> 4.0.1 | 4.0.1 | U | Default | 2025-10-14
@@ -100,7 +103,8 @@
     - Use https:// in HOMEPAGE variable instead of http:// | 3.3.9 | U | Default | 2025-03-26
 * python3-async-timeout 4.0.3 4.0.3 Up-to-date
     - Use https:// in HOMEPAGE variable instead of http:// | 4.0.3 | U | Default | 2025-03-26
-* python3-asyncinotify 4.3.2 4.4.0 Not updated
+* python3-asyncinotify 4.4.0 4.4.0 Up-to-date
+    - python3-asyncinotify: upgrade 4.3.2 -> 4.4.0 | 4.4.0 | U | Default | 2026-03-03
     - python3-asyncinotify: upgrade 4.2.1 -> 4.3.2 | 4.3.2 | U | Default | 2025-11-25
     - python3-asyncinotify: upgrade 4.2.0 -> 4.2.1 | 4.2.1 | U | Default | 2025-04-19
     - python3-asyncinotify: upgrade 4.1.0 -> 4.2.0 | 4.2.0 | U | Default | 2024-10-14
@@ -145,7 +149,7 @@
     - recipes: Update SRC_URI branch and protocols | 2.2.1 | U | Default | 2021-11-03
 * python3-cached-property 2.0.1 2.0.1 Up-to-date
     - Use https:// in HOMEPAGE variable instead of http:// | 2.0.1 | U | Default | 2025-03-26
-* python3-cachetools 7.0.0 7.0.1 Not updated
+* python3-cachetools 7.0.0 7.0.2 Not updated
     - python3-cachetools: upgrade 6.2.5 -> 7.0.0 | 7.0.0 | U | Default | 2026-02-06
     - python3-cachetools: upgrade 6.2.4 -> 6.2.5 | 6.2.5 | U | Default | 2026-01-31
     - python3-cachetools: upgrade 6.2.3 -> 6.2.4 | 6.2.4 | U | Default | 2025-12-24
@@ -169,7 +173,7 @@
     - python3-cachetools: upgrade 4.2.4 -> 5.0.0 | 5.0.0 | U | Default | 2022-03-28
     - python3-cachetools: upgrade 4.2.2 -> 4.2.4 | 4.2.4 | U | Default | 2021-10-25
     - python3-flask-bootstrap: Update LICENSES | 4.2.2 | U | Default | 2021-09-20
-* python3-cmake 4.2.1 4.2.1 Up-to-date
+* python3-cmake 4.2.1 4.2.3 Not updated
     - python3-cmake: upgrade 4.2.0 -> 4.2.1 | 4.2.1 | U | Default | 2025-12-24
     - python3-cmake: upgrade 4.1.2 -> 4.2.0 | 4.2.0 | U | Default | 2025-11-25
     - python3-cmake: upgrade 4.1.0 -> 4.1.2 | 4.1.2 | U | Default | 2025-10-29
@@ -194,7 +198,8 @@
     - python3-cmake: upgrade 3.26.0 -> 3.26.1 | 3.26.1 | U | Default | 2023-04-05
     - python3-cmake: upgrade 3.25.2 -> 3.26.0 | 3.26.0 | U | Default | 2023-03-23
     - python3-cmake: New recipe | 3.25.2 | U | Default | 2023-03-10
-* python3-cmd2 3.1.0 3.2.0 Not updated
+* python3-cmd2 3.2.2 3.4.0 Not updated
+    - python3-cmd2: upgrade 3.1.0 -> 3.2.2 | 3.2.2 | U | Default | 2026-03-03
     - python3-cmd2: upgrade 3.0.0 -> 3.1.0 | 3.1.0 | U | Default | 2026-01-04
     - python3-cmd2: upgrade 2.7.0 -> 3.0.0 | 3.0.0 | U | Default | 2025-12-09
     - python3-cmd2: Upgrade 2.6.2 -> 2.7.0 | 2.7.0 | U | Default | 2025-07-04
@@ -219,7 +224,8 @@
     - python3-flask-bootstrap: Update LICENSES | 15.1.0 | U | Default | 2021-09-20
 * python3-covdefaults 2.3.0 2.3.0 Up-to-date
     - Use https:// in HOMEPAGE variable instead of http:// | 2.3.0 | U | Default | 2025-03-26
-* python3-coverage 7.13.2 7.13.4 Not updated
+* python3-coverage 7.13.4 7.13.4 Up-to-date
+    - python3-coverage: upgrade 7.13.2 -> 7.13.4 | 7.13.4 | U | Default | 2026-03-03
     - python3-coverage: upgrade 7.13.1 -> 7.13.2 | 7.13.2 | U | Default | 2026-01-31
     - python3-coverage: upgrade 7.13.0 -> 7.13.1 | 7.13.1 | U | Default | 2025-12-31
     - python3-coverage: upgrade 7.12.0 -> 7.13.0 | 7.13.0 | U | Default | 2025-12-21
@@ -274,7 +280,8 @@
     - python3-flask-bootstrap: Update LICENSES | 5.5 | U | Default | 2021-09-20
 * python3-crypt-r 3.13.1 3.13.1 Up-to-date
     - Use https:// in HOMEPAGE variable instead of http:// | 3.13.1 | U | Default | 2025-03-26
-* python3-cssselect2 0.8.0 0.9.0 Not updated
+* python3-cssselect2 0.9.0 0.9.0 Up-to-date
+    - python3-cssselect2: upgrade 0.8.0 -> 0.9.0 | 0.9.0 | U | Default | 2026-03-03
     - python3-django: add ptest support | 0.8.0 | U | Default | 2026-01-20
 * python3-dasbus 1.7 1.7 Up-to-date
     - python3-dasbus: Add new recipe | 1.7 | U | Default | 2024-05-30
@@ -301,7 +308,7 @@
     - python3-distro: Upgrade 1.7.0 -> 1.8.0 | 1.8.0 | U | Default | 2022-10-18
     - python3-distro: Upgrade 1.6.0 -> 1.7.0 | 1.7.0 | U | Default | 2022-02-24
     - python3-flask-bootstrap: Update LICENSES | 1.6.0 | U | Default | 2021-09-20
-* python3-django 6.0.2 6.0.2 Up-to-date
+* python3-django 6.0.2 6.0.3 Not updated
     - python3-django: upgrade 6.0.1 -> 6.0.2 | 6.0.2 | U | Default | 2026-02-11
     - python3-django: upgrade 5.2.9 -> 5.2.11 | 5.2.11 | D | Default | 2026-02-11
     - python3-pendulum: add at v3.2.0 | 6.0.1 | U | Default | 2026-02-06
@@ -387,7 +394,9 @@
     - Use https:// in HOMEPAGE variable instead of http:// | 0.12.0 | U | Default | 2025-03-26
 * python3-fields 5.0.0 5.0.0 Up-to-date
     - Use https:// in HOMEPAGE variable instead of http:// | 5.0.0 | U | Default | 2025-03-26
-* python3-filelock 3.20.3 3.24.3 Not updated
+* python3-filelock 3.24.3 3.25.0 Not updated
+    - python3-filelock: upgrade 3.24.2 -> 3.24.3 | 3.24.3 | U | Default | 2026-03-03
+    - python3-filelock: Upgrade 3.20.3 -> 3.24.2 | 3.24.2 | U | Default | 2026-02-18
     - python3-filelock: Upgrade 3.20.2 -> 3.20.3 | 3.20.3 | U | Default | 2026-01-13
     - python3-filelock: Upgrade 3.20.1 -> 3.20.2 | 3.20.2 | U | Default | 2026-01-06
     - python3-filelock: upgrade 3.20.0 -> 3.20.1 | 3.20.1 | U | Default | 2025-12-24
@@ -399,7 +408,8 @@
     - python3-frozenlist: upgrade 1.6.0 -> 1.6.2 | 1.6.2 | U | Default | 2025-06-10
     - python3-frozenlist: upgrade 1.5.0 -> 1.6.0 | 1.6.0 | U | Default | 2025-04-24
     - Use https:// in HOMEPAGE variable instead of http:// | 1.5.0 | U | Default | 2025-03-26
-* python3-fsspec 2025.12.0 2026.2.0 Not updated
+* python3-fsspec 2026.2.0 2026.2.0 Up-to-date
+    - python3-fsspec: upgrade 2025.12.0 -> 2026.2.0 | 2026.2.0 | U | Default | 2026-03-03
     - python3-fsspec: Upgrade 2025.5.1 -> 2025.12.0 | 2025.12.0 | U | Default | 2026-01-12
     - python3-fsspec: upgrade 2025.3.2 -> 2025.5.1 | 2025.5.1 | U | Default | 2025-06-10
     - python3-fsspec: upgrade 2025.3.0 -> 2025.3.2 | 2025.3.2 | U | Default | 2025-04-07
@@ -407,7 +417,8 @@
 * python3-gast 0.7.0 0.7.0 Up-to-date
     - python3-gast: Upgrade 0.6.0 -> 0.7.0 | 0.7.0 | U | Default | 2025-12-02
     - Use https:// in HOMEPAGE variable instead of http:// | 0.6.0 | U | Default | 2025-03-26
-* python3-gmpy2 2.2.2 2.3.0 Not updated
+* python3-gmpy2 2.3.0 2.3.0 Up-to-date
+    - python3-gmpy2: upgrade 2.2.2 -> 2.3.0 | 2.3.0 | U | Default | 2026-03-03
     - python3-gmpy2: upgrade 2.2.1 -> 2.2.2 | 2.2.2 | U | Default | 2025-12-02
     - Use https:// in HOMEPAGE variable instead of http:// | 2.2.1 | U | Default | 2025-03-26
 * python3-gpiod 2.4.0 2.4.0 Up-to-date
@@ -497,7 +508,8 @@
 * python3-inotify 0.2.12 0.2.12 Up-to-date
     - python3-inotify: upgrade to 0.2.12 | 0.2.12 | U | Default | 2025-11-13
     - python3-inotify: new package | 0.2.10 | U | Default | 2022-05-16
-* python3-isort 7.0.0 8.0.0 Not updated
+* python3-isort 8.0.0 8.0.1 Not updated
+    - python3-isort: Upgrade 7.0.0 -> 8.0.0 | 8.0.0 | U | Default | 2026-02-25
     - python3-isort: upgrade 6.0.1 -> 7.0.0 | 7.0.0 | U | Default | 2025-10-14
     - Use https:// in HOMEPAGE variable instead of http:// | 6.0.1 | U | Default | 2025-03-26
 * python3-janus 2.0.0 2.0.0 Up-to-date
@@ -519,7 +531,8 @@
     - python3-flask-bootstrap: Update LICENSES | 1.0.8 | U | Default | 2021-09-20
 * python3-keras-preprocessing 1.1.2 1.1.2 Up-to-date
     - python3-flask-bootstrap: Update LICENSES | 1.1.2 | U | Default | 2021-09-20
-* python3-langtable 0.0.69 0.0.70 Not updated
+* python3-langtable 0.0.70 0.0.70 Up-to-date
+    - python3-langtable: Upgrade 0.0.69 -> 0.0.70 | 0.0.70 | U | Default | 2026-02-16
     - python3-langtable: Upgrade 0.0.68 -> 0.0.69 | 0.0.69 | U | Default | 2026-01-12
     - python3-langtable: upgrade 0.0.67 -> 0.0.68 | 0.0.68 | U | Default | 2024-08-09
     - python3-langtable: upgrade 0.0.66 -> 0.0.67 | 0.0.67 | U | Default | 2024-06-27
@@ -650,7 +663,8 @@
     - python3-paho-mqtt: Upgrade 1.6.1 -> 2.0.0 | 2.0.0 | U | Default | 2024-03-25
     - python3-paho-mqtt: Upgrade 1.5.1 -> 1.6.1 | 1.6.1 | U | Default | 2021-10-28
     - python3-flask-bootstrap: Update LICENSES | 1.5.1 | U | Default | 2021-09-20
-* python3-pandas 3.0.0 3.0.1 Not updated
+* python3-pandas 3.0.1 3.0.1 Up-to-date
+    - python3-pandas: upgrade 3.0.0 -> 3.0.1 | 3.0.1 | U | Default | 2026-03-03
     - python3-pandas: Upgrade 2.2.3 -> 3.0.0 | 3.0.0 | U | Default | 2026-01-31
     - python3-pandas: Upgrade to 2.2.3 | 2.2.3 | U | Default | 2025-05-19
     - python3-pandas: upgrade 2.0.3 -> 2.2.2 | 2.2.2 | U | Default | 2024-08-24
@@ -704,7 +718,8 @@
     - python3-flask-bootstrap: Update LICENSES | 4.8.0 | U | Default | 2021-09-20
 * python3-pid 3.0.4 3.0.4 Up-to-date
     - python3-flask-bootstrap: Update LICENSES | 3.0.4 | U | Default | 2021-09-20
-* python3-pillow 12.1.0 12.1.1 Not updated
+* python3-pillow 12.1.1 12.1.1 Up-to-date
+    - python3-pillow: upgrade 12.1.0 -> 12.1.1 | 12.1.1 | U | Default | 2026-02-25
     - python3-pillow: upgrade 12.0.0 -> 12.1.0 | 12.1.0 | U | Default | 2026-01-12
     - python3-pillow: Upgrade 11.3.0 -> 12.0.0 | 12.0.0 | U | Default | 2025-11-20
     - python3-pillow: upgrade 11.2.1 -> 11.3.0 | 11.3.0 | U | Default | 2025-07-09
@@ -726,7 +741,8 @@
     - python3-flask-bootstrap: Update LICENSES | 8.3.2 | U | Default | 2021-09-20
 * python3-pkgconfig 1.5.5 1.5.5 Up-to-date
     - python3-flask-bootstrap: Update LICENSES | 1.5.5 | U | Default | 2021-09-20
-* python3-platformdirs 4.5.1 4.9.2 Not updated
+* python3-platformdirs 4.9.2 4.9.2 Up-to-date
+    - python3-platformdirs: Upgrade 4.5.1 -> 4.9.2 | 4.9.2 | U | Default | 2026-02-18
     - python3-platformdirs: upgrade 4.5.0 -> 4.5.1 | 4.5.1 | U | Default | 2025-12-09
     - python3-platformdirs: upgrade 4.4.0 -> 4.5.0 | 4.5.0 | U | Default | 2025-10-14
     - python3-platformdirs: upgrade 4.3.8 -> 4.4.0 | 4.4.0 | U | Default | 2025-09-04
@@ -785,7 +801,7 @@
     - python3-propcache: 0.3.1 -> 0.3.2 | 0.3.2 | U | Default | 2025-06-25
     - python3-propcache: upgrade 0.3.0 -> 0.3.1 | 0.3.1 | U | Default | 2025-03-31
     - Use https:// in HOMEPAGE variable instead of http:// | 0.3.0 | U | Default | 2025-03-26
-* python3-protobuf 6.33.5 6.33.5 Up-to-date
+* python3-protobuf 6.33.5 7.34.0 Not updated
     - python3-protobuf: upgrade 6.33.4 -> 6.33.5 | 6.33.5 | U | Default | 2026-02-02
     - python3-protobuf: upgrade 6.33.2 -> 6.33.4 | 6.33.4 | U | Default | 2026-01-23
     - python3-protobuf: upgrade 6.33.1 -> 6.33.2 | 6.33.2 | U | Default | 2025-12-09
@@ -913,7 +929,8 @@
     - python3-pykickstart: update to 3.34 | 3.34 | U | Default | 2021-10-18
 * python3-pykwalify 1.8.0 1.8.0 Up-to-date
     - python3-flask-bootstrap: Update LICENSES | 1.8.0 | U | Default | 2021-09-20
-* python3-pylint 4.0.4 4.0.5 Not updated
+* python3-pylint 4.0.5 4.0.5 Up-to-date
+    - python3-pylint: upgrade 4.0.4 -> 4.0.5 | 4.0.5 | U | Default | 2026-03-03
     - python3-pylint: Upgrade 4.0.3 -> 4.0.4 | 4.0.4 | U | Default | 2026-01-13
     - python3-pylint: Upgrade to 4.0.3 release | 4.0.3 | U | Default | 2025-11-19
     - python3-pytest-pylint: 3.3.7 -> 3.3.8 | 3.3.8 | U | Default | 2025-09-21
@@ -1028,7 +1045,7 @@
     - python3-qface: upgrade 2.0.7 -> 2.0.8 | 2.0.8 | U | Default | 2022-05-17
     - python3-qface: upgrade 2.0.6 -> 2.0.7 | 2.0.7 | U | Default | 2022-04-06
     - python3-qface: add recipe | 2.0.6 | U | Default | 2022-03-03
-* python3-redis 5.2.1 7.2.0 Not updated
+* python3-redis 5.2.1 7.2.1 Not updated
     - python3-redis: upgrade 5.1.1 -> 5.2.1 | 5.2.1 | U | Default | 2024-12-24
     - python3-redis: Upgrade 5.0.8 -> 5.1.1 | 5.1.1 | U | Default | 2024-10-11
     - python3-redis: upgrade 5.0.8 -> 5.1.0 | 5.1.0 | U | Default | 2024-09-30
@@ -1056,7 +1073,8 @@
     - python3-redis: Upgrade 4.0.2 -> 4.1.1 | 4.1.1 | U | Default | 2022-01-25
     - python3-redis: update to 4.0.2 | 4.0.2 | U | Default | 2021-12-13
     - python3-flask-bootstrap: Update LICENSES | 3.5.3 | U | Default | 2021-09-20
-* python3-reportlab 4.4.9 4.4.10 Not updated
+* python3-reportlab 4.4.10 4.4.10 Up-to-date
+    - python3-reportlab: upgrade 4.4.9 -> 4.4.10 | 4.4.10 | U | Default | 2026-03-03
     - python3-reportlab: Upgrade 4.4.5 -> 4.4.9 | 4.4.9 | U | Default | 2026-01-27
     - python3-reportlab: set CVE_PRODUCT | 4.4.5 | U | Default | 2025-12-31
 * python3-requests-file 3.0.1 3.0.1 Up-to-date
@@ -1109,12 +1127,12 @@
     - python3-rsa: upgrade 4.8 -> 4.9 | 4.9 | U | Default | 2022-07-28
     - python3-rsa: upgrade 4.7.2 -> 4.8 | 4.8 | U | Default | 2021-12-08
     - python3-flask-bootstrap: Update LICENSES | 4.7.2 | U | Default | 2021-09-20
-* python3-scikit-build 0.18.1 0.18.1 Up-to-date
+* python3-scikit-build 0.18.1 0.19.0 Not updated
     - python3-scikit-build: upgrade 0.18.0 -> 0.18.1 | 0.18.1 | U | Default | 2024-09-10
     - python3-scikit-build: upgrade 0.17.6 -> 0.18.0 | 0.18.0 | U | Default | 2024-06-27
     - python3-scikit-build: upgrade 0.16.7 -> 0.17.6 | 0.17.6 | U | Default | 2024-02-04
     - python3-scikit-build: New recipe | 0.16.7 | U | Default | 2023-03-10
-* python3-scikit-build-core 0.11.6 0.11.6 Up-to-date
+* python3-scikit-build-core 0.11.6 0.12.1 Not updated
     - python3-scikit-build-core: upgrade 0.11.5 -> 0.11.6 | 0.11.6 | U | Default | 2025-09-04
     - python3-scikit-build-core: upgrade 0.11.4 -> 0.11.5 | 0.11.5 | U | Default | 2025-07-09
     - python3-scikit-build-core: upgrade 0.11.3 -> 0.11.4 | 0.11.4 | U | Default | 2025-06-10
@@ -1147,7 +1165,8 @@
     - python3-spidev: upgrade 3.6 -> 3.7 | 3.7 | U | Default | 2025-05-21
     - python3-spidev: upgrade 3.5 -> 3.6 | 3.6 | U | Default | 2022-11-09
     - python3-flask-bootstrap: Update LICENSES | 3.5 | U | Default | 2021-09-20
-* python3-sqlparse 0.5.4 0.5.5 Not updated
+* python3-sqlparse 0.5.5 0.5.5 Up-to-date
+    - python3-sqlparse: upgrade 0.5.4 -> 0.5.5 | 0.5.5 | U | Default | 2026-03-03
     - python3-sqlparse: upgrade 0.5.3 -> 0.5.4 | 0.5.4 | U | Default | 2025-12-02
     - python3-sqlparse: upgrade 0.5.2 -> 0.5.3 | 0.5.3 | U | Default | 2024-12-24
     - python3-sqlparse: upgrade 0.5.1 -> 0.5.2 | 0.5.2 | U | Default | 2024-11-20
@@ -1206,7 +1225,8 @@
     - python3-tornado: upgrade 6.2 -> 6.3 | 6.3 | U | Default | 2023-04-24
     - python3-tornado: Upgrade 6.1 -> 6.2 | 6.2 | U | Default | 2022-07-11
     - python3-flask-bootstrap: Update LICENSES | 6.1 | U | Default | 2021-09-20
-* python3-tox 4.27.0 4.44.0 Not updated
+* python3-tox 4.36.1 4.47.3 Not updated
+    - python3-tox: Upgrade 4.27.0 -> 4.36.1 | 4.36.1 | U | Default | 2026-02-18
     - python3-tox: upgrade 4.26.0 -> 4.27.0 | 4.27.0 | U | Default | 2025-06-26
     - python3-tox: upgrade 4.25.0 -> 4.26.0 | 4.26.0 | U | Default | 2025-05-21
     - python3-tox: upgrade 4.24.2 -> 4.25.0 | 4.25.0 | U | Default | 2025-03-31
@@ -1264,7 +1284,7 @@
     - python3-types-setuptools: add 68.0.0.3 | 68.0.0.3 | U | Default | 2023-08-11
 * python3-versioneer 0.29 0.29 Up-to-date
     - python3-versioneer: add recipe | 0.29 | U | Default | 2023-07-25
-* python3-virtualenv 20.36.1 20.38.0 Not updated
+* python3-virtualenv 20.36.1 21.1.0 Not updated
     - python3-virtualenv: upgrade 20.35.4 -> 20.36.1 | 20.36.1 | U | Default | 2026-01-13
     - python3-virtualenv: upgrade 20.35.3 -> 20.35.4 | 20.35.4 | U | Default | 2025-11-07
     - python3-virtualenv: upgrade 20.34.0 -> 20.35.3 | 20.35.3 | U | Default | 2025-10-14
@@ -1307,7 +1327,8 @@
     - python3-websocket-client: upgrade 1.2.3 -> 1.3.1 | 1.3.1 | U | Default | 2022-03-01
     - python3-websocket-client: upgrade 1.2.1 -> 1.2.3 | 1.2.3 | U | Default | 2021-12-21
     - python3-flask-bootstrap: Update LICENSES | 1.2.1 | U | Default | 2021-09-20
-* python3-werkzeug 3.1.5 3.1.6 Not updated
+* python3-werkzeug 3.1.6 3.1.6 Up-to-date
+    - python3-werkzeug: upgrade 3.1.5 -> 3.1.6 | 3.1.6 | U | Default | 2026-02-25
     - python3-werkzeug: upgrade 3.1.4 -> 3.1.5 | 3.1.5 | U | Default | 2026-01-20
     - python3-werkzeug: upgrade 3.1.3 -> 3.1.4 | 3.1.4 | U | Default | 2025-12-02
     - python3-werkzeug: Upgrade to 3.1.3 | 3.1.3 | U | Default | 2024-11-22
@@ -1324,7 +1345,8 @@
     - python3-werkzeug: upgrade 2.0.2 -> 2.0.3 | 2.0.3 | U | Default | 2022-02-16
     - python3-werkzeug: upgrade 2.0.1 -> 2.0.2 | 2.0.2 | U | Default | 2021-10-25
     - python3-flask-bootstrap: Update LICENSES | 2.0.1 | U | Default | 2021-09-20
-* python3-wrapt 2.0.1 2.1.1 Not updated
+* python3-wrapt 2.1.1 2.1.1 Up-to-date
+    - python3-wrapt: upgrade 2.0.1 -> 2.1.1 | 2.1.1 | U | Default | 2026-03-03
     - python3-wrapt: Upgrade to 2.0.1 | 2.0.1 | U | Default | 2026-01-06
     - python3-wrapt: upgrade 1.17.2 -> 1.17.3 | 1.17.3 | U | Default | 2025-09-16
     - python3-wrapt: Upgrade 1.17.1 -> 1.17.2 | 1.17.2 | U | Default | 2025-01-25
@@ -1338,21 +1360,23 @@
     - python3-wrapt: Upgrade 1.13.2 -> 1.13.3 | 1.13.3 | U | Default | 2021-11-08
     - python3-wrapt: update to 1.13.2 | 1.13.2 | U | Default | 2021-10-18
     - python3-flask-bootstrap: Update LICENSES | 1.12.1 | U | Default | 2021-09-20
-* python3-wxgtk4 4.2.4 4.2.5 Not updated
+* python3-wxgtk4 4.2.5 4.2.5 Up-to-date
+    - python3-wxgtk4: upgrade 4.2.4 -> 4.2.5 | 4.2.5 | U | Default | 2026-03-03
     - python3-wxgtk4: Upgrade to 4.2.4 | 4.2.4 | U | Default | 2025-11-27
     - python3-wxgtk4: Upgrade to 4.2.3 | 4.2.3 | U | Default | 2025-07-13
     - python3-wxgtk4: update 4.2.1 -> 4.2.2 | 4.2.2 | U | Default | 2024-10-16
     - python3-wxgtk4: upgrade 4.2.0 -> 4.2.1 | 4.2.1 | U | Default | 2023-11-06
     - python3-wxgtk4: replace deprecated inspect.getargspec | 4.2.0 | U | Default | 2022-12-06
     - python3-wxgtk4: add recipe | 4.1.1 | U | Default | 2022-03-30
-* python3-yarl 1.22.0 1.22.0 Up-to-date
+* python3-yarl 1.22.0 1.23.0 Not updated
     - python3-yarl: Upgrade 1.21.0 -> 1.22.0 | 1.22.0 | U | Default | 2025-10-14
     - python3-yarl: Upgrade 1.20.1 -> 1.21.0 | 1.21.0 | U | Default | 2025-10-06
     - python3-yarl: Upgrade 1.20.0 -> 1.20.1 | 1.20.1 | U | Default | 2025-06-25
     - python3-yarl: Upgrade 1.19.0 -> 1.20.0 | 1.20.0 | U | Default | 2025-04-19
     - python3-yarl: upgrade 1.18.3 -> 1.19.0 | 1.19.0 | U | Default | 2025-04-19
     - Use https:// in HOMEPAGE variable instead of http:// | 1.18.3 | U | Default | 2025-03-26
-* tftpy 0.8.6 0.8.7 Not updated
+* tftpy 0.8.7 0.8.7 Up-to-date
+    - tftpy: upgrade 0.8.6 -> 0.8.7 | 0.8.7 | U | Default | 2026-03-03
     - tftpy: upgrade 0.8.5 -> 0.8.6 | 0.8.6 | U | Default | 2025-06-26
     - tftpy: upgrade 0.8.2 -> 0.8.5 | 0.8.5 | U | Default | 2025-03-12
     - tftpy: Add it for python tftp server and client | 0.8.2 | U | Default | 2023-01-13

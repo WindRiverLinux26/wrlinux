@@ -51,7 +51,8 @@
     - phpmyadmin: upgrade 5.1.2 -> 5.1.3 | 5.1.3 | U | Default | 2022-02-23
     - phpmyadmin: upgrade 5.1.1 -> 5.1.2 | 5.1.2 | U | Default | 2022-01-25
     - phpmyadmin: upgrade 5.1.0 -> 5.1.1 | 5.1.1 | U | Default | 2021-09-30
-* xdebug 3.5.0 3.5.1 Not updated
+* xdebug 3.5.1 3.5.1 Up-to-date
+    - xdebug: upgrade 3.5.0 -> 3.5.1 | 3.5.1 | U | Default | 2026-03-03
     - xdebug: upgrade 3.4.7 -> 3.5.0 | 3.5.0 | U | Default | 2025-12-05
     - xdebug: upgrade 3.4.6 -> 3.4.7 | 3.4.7 | U | Default | 2025-11-23
     - xdebug: upgrade 3.4.5 -> 3.4.6 | 3.4.6 | U | Default | 2025-10-25
