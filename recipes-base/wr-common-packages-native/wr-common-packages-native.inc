@@ -70,6 +70,7 @@ DEPENDS = "\
     gtk+3-native \
     gtk-doc-native \
     harfbuzz-native \
+    help2man-native \
     icon-naming-utils-native \
     icu-native \
     intltool-native \
@@ -183,6 +184,7 @@ DEPENDS = "\
     python3-docutils-native \
     python3-editables-native \
     python3-flit-core-native \
+    python3-hatch-vcs-native \
     python3-hatchling-native \
     python3-installer-native \
     python3-jinja2-native \
@@ -242,7 +244,6 @@ DEPENDS = "\
     xrandr-native \
     xtrans-native \
     xz-native \
-    yocto-cfg-fragments-6.12-native \
     zlib-native \
     zstd-native \
     "
