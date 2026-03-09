@@ -43,12 +43,6 @@ python gen_vr_recipe_handler() {
 
     import hashlib
 
-    # Only generate vr for supported recipes
-    bpn = d.getVar('BPN')
-    wrl_supported = d.getVar('WRLINUX_SUPPORTED_RECIPE') or d.getVar('WRLINUX_SUPPORTED_RECIPE:pn-%s' % bpn)
-    if wrl_supported and wrl_supported.strip() == '0':
-        return
-
     if vr_need_skip(d):
         return
 

@@ -33,7 +33,6 @@ def is_work_shared(d):
     return d.getVar('S').startswith(sharedworkdir)
 
 def vr_need_skip(d):
-
     # Only enable vr for supported recipes
     if bb.utils.to_boolean(d.getVar('VENDOR_REVISION_WRLINUX_SUPPORTED_ONLY')):
         # Check whether the recipe is from Wind River Linux layers
@@ -43,12 +42,12 @@ def vr_need_skip(d):
             bb.debug(1, 'Skipping VR for %s since it is not from a WRLinux layer.' % d.getVar('PF'))
             return True
 
+        pn = d.getVar('PN')
         bpn = d.getVar('BPN')
-        wrl_supported = d.getVar('WRLINUX_SUPPORTED_RECIPE') or d.getVar('WRLINUX_SUPPORTED_RECIPE:pn-%s' % bpn)
-        if (not wrl_supported) or wrl_supported.strip() != '1':
+        support = d.getVarFlag('WRL_RECIPE_VERSION', pn) or d.getVarFlag('WRL_RECIPE_VERSION', bpn) or ''
+        if support == 'N' or not support:
             bb.debug(1, 'Skipping VR for %s since it is not a WRLinux supported recipe.' % pf)
             return True
-
 
     if bb.utils.to_boolean(d.getVar('VENDOR_REVISION_SKIP')):
         return True
