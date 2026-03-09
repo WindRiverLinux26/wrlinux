@@ -97,6 +97,7 @@ DISTRO_FEATURES_BACKFILL_CONSIDERED += "ldconfig"
 
 # Make sure that X11 is only enabled in a graphics configuration
 DISTRO_FEATURES_BACKFILL_CONSIDERED += "x11"
+DISTRO_FEATURES_BACKFILL_CONSIDERED += "wayland"
 
 # Multilib configuration
 MULTILIBS ?= ""
