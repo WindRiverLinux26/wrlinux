@@ -12,6 +12,7 @@ DEPENDS = "\
     binutils-native \
     bison-native \
     bmaptool-native \
+    boost-build-native \
     btrfs-tools-native \
     bzip2-native \
     ca-certificates-native \
@@ -152,6 +153,7 @@ DEPENDS = "\
     makedepend-native \
     makedevs-native \
     mesa-native \
+    mesa-tools-native \
     meson-native \
     mkfontscale-native \
     mpfr-native \
@@ -194,6 +196,7 @@ DEPENDS = "\
     python3-packaging-native \
     python3-pathspec-native \
     python3-pluggy-native \
+    python3-ply-native \
     python3-pyelftools-native \
     python3-pygments-native \
     python3-pyproject-hooks-native \
