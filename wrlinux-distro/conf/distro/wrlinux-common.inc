@@ -99,6 +99,9 @@ DISTRO_FEATURES_BACKFILL_CONSIDERED += "ldconfig"
 DISTRO_FEATURES_BACKFILL_CONSIDERED += "x11"
 DISTRO_FEATURES_BACKFILL_CONSIDERED += "wayland"
 
+# Make sure that ptest is only enable when using feature/ptest
+DISTRO_FEATURES_BACKFILL_CONSIDERED += "ptest"
+
 # Multilib configuration
 MULTILIBS ?= ""
 MULTILIB_CONF = "${@'conf/multilib.conf' if d.getVar('MULTILIBS') and d.getVar('PACKAGE_CLASSES').split()[0] != 'package_deb' else ''}"
