@@ -13,17 +13,15 @@ mkdir -p ${HOME}/.config
 unclutter -idle 1 -root &
 
 # Lanuch epiphany browser
-sleep 5
-WEBKIT_DISABLE_TBS=1 epiphany -a -i --profile ~/.config @STARTING_URL@ &
+sleep 10
+WEBKIT_DISABLE_TBS=1 epiphany -a -i --profile ~/.config --kiosk-mode @STARTING_URL@ &
 sleep 2
 
-# Fullscreen and refresh
+# Refresh
 while true; do
 	WID=$(xdotool search --onlyvisible --class epiphany 2>/dev/null | head -n 1)
 	if [ -n "$WID" ]; then
 		xdotool windowactivate "$WID"
-		sleep 0.5
-		xdotool key F11
 		sleep 0.5
 		xdotool key shift+F5
 		exit 0
