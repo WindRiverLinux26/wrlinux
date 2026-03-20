@@ -21,13 +21,6 @@ Building the wrlinux layer
 This layer should be added to the bblayers.conf file.
 
 
-Notes
------------
-It is recommended that you follow the instructions found in the header
-of recipes-extended/gawk/gawk_4.1.4.bbappend when using a custom kernel
-repo.
-
-
 License
 -------
 Copyright (C) 2012-2017 Wind River Systems, Inc.
