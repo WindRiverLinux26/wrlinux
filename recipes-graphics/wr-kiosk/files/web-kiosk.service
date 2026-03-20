@@ -4,12 +4,13 @@ Requires=network.target xserver-nodm.service
 After=network.target xserver-nodm.service
 
 [Service]
-Type=forking
+Type=simple
 User=kiosk
 Environment=DISPLAY=:0
 ExecStart=@BINDIR@/web-kiosk.sh
 Restart=always
 RestartSec=1
+KillMode=mixed
 
 [Install]
 WantedBy=multi-user.target
