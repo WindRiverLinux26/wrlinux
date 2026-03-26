@@ -1,6 +1,6 @@
-From 0ffd19e286dfdbc74dcce231b9c11340b64fb916 Mon Sep 17 00:00:00 2001
-From: Jiang Lu <lu.jiang@windriver.com>
-Date: Thu, 31 Jan 2019 15:27:03 +0800
+From 40eb33a2bcca0dbcb733907fd94cdaa3a9a02369 Mon Sep 17 00:00:00 2001
+From: Hongxu Jia <hongxu.jia@windriver.com>
+Date: Thu, 26 Mar 2026 16:20:06 +0800
 Subject: [PATCH] Make UEFI watchdog behaviour configurable
 
 Starting with d9a0c9413e81d3c0affc6383693bdd28dc863a5c, GRUB unconditionally
@@ -22,16 +22,19 @@ Rebase for grub 2.12
 Drop uses of efi_call_X()
 
 Signed-off-by: Yi Zhao <yi.zhao@windriver.com>
+
+Reabse for grub 2.14
+Signed-off-by: Hongxu Jia <hongxu.jia@windriver.com>
 ---
  docs/grub.texi            | 11 +++++++
  grub-core/kern/efi/init.c | 68 +++++++++++++++++++++++++++++++++++++++
  2 files changed, 79 insertions(+)
 
 diff --git a/docs/grub.texi b/docs/grub.texi
-index a225f9a..9363232 100644
+index c948e1e..bf8d3d5 100644
 --- a/docs/grub.texi
 +++ b/docs/grub.texi
-@@ -4359,6 +4359,7 @@ you forget a command, you can run the command @command{help}
+@@ -6687,6 +6687,7 @@ you forget a command, you can run the command @command{help}
  * distrust::                    Remove a pubkey from trusted keys
  * drivemap::                    Map a drive to another
  * echo::                        Display a line of text
@@ -39,7 +42,7 @@ index a225f9a..9363232 100644
  * efitextmode::                 Set/Get text output mode resolution
  * eval::                        Evaluate agruments as GRUB commands
  * export::                      Export an environment variable
-@@ -4825,6 +4826,16 @@ When interpreting backslash escapes, backslash followed by any other
+@@ -7383,6 +7384,16 @@ When interpreting backslash escapes, backslash followed by any other
  character will print that character.
  @end deffn
  
@@ -57,7 +60,7 @@ index a225f9a..9363232 100644
  @node efitextmode
  @subsection efitextmode
 diff --git a/grub-core/kern/efi/init.c b/grub-core/kern/efi/init.c
-index 6c54af6..1039860 100644
+index 1637077..d630907 100644
 --- a/grub-core/kern/efi/init.c
 +++ b/grub-core/kern/efi/init.c
 @@ -29,6 +29,8 @@
@@ -69,7 +72,7 @@ index 6c54af6..1039860 100644
  
  #ifdef GRUB_STACK_PROTECTOR
  
-@@ -103,6 +105,68 @@ stack_protector_init (void)
+@@ -94,6 +96,68 @@ grub_stack_protector_init (void)
  
  grub_addr_t grub_modbase;
  
@@ -135,10 +138,10 @@ index 6c54af6..1039860 100644
 +       return GRUB_ERR_NONE;
 +}
 +
- __attribute__ ((__optimize__ ("-fno-stack-protector"))) void
+ void
  grub_efi_init (void)
  {
-@@ -130,6 +194,9 @@ grub_efi_init (void)
+@@ -119,6 +183,9 @@ grub_efi_init (void)
  
    grub_efidisk_init ();
  
@@ -148,12 +151,12 @@ index 6c54af6..1039860 100644
    grub_efi_register_debug_commands ();
  }
  
-@@ -168,4 +235,5 @@ grub_efi_fini (void)
+@@ -157,4 +224,5 @@ grub_efi_fini (void)
  {
    grub_efidisk_fini ();
    grub_console_fini ();
 +  grub_unregister_command (cmd_list);
  }
 -- 
-2.25.1
+2.34.1
 
