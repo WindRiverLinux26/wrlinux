@@ -1,0 +1,45 @@
+From 143222509269fb3c36bc39ffe5f180939944563d Mon Sep 17 00:00:00 2001
+From: Yi Zhao <yi.zhao@windriver.com>
+Date: Fri, 27 Mar 2026 11:32:45 +0800
+Subject: [PATCH] userdomain: allow grant fowner capability to security admin
+
+Commit 62df06[1] removed fowner capability from
+userdom_unpriv_user_template(). However, changing SELinux security
+category of files requires this capability. Therefore, Add it to
+userdom_admin_user_template() to allow the security administrator role
+to grant this capability.
+
+Fixes:
+$ newrole -r secadm_r -p -- -c "chcat -- +Finance FinanceRecords.txt"
+chcon: failed to change context of 'FinanceRecords.txt' to 'mcs_u:object_r:user_home_t:s0:c0': Operation not permitted
+
+avc:  denied  { fowner } for  pid=1324 comm="chcon" capability=3
+scontext=root:secadm_r:secadm_t:s0-s15:c0.c1023
+tcontext=root:secadm_r:secadm_t:s0-s15:c0.c1023 tclass=capability
+permissive=0
+
+[1] https://github.com/SELinuxProject/refpolicy/commit/62df0656afdc0efc62c4552a585fd5030f885af7
+
+Upstream-Status: Inappropriate [wrlinux specific]
+
+Signed-off-by: Yi Zhao <yi.zhao@windriver.com>
+---
+ policy/modules/system/userdomain.if | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/policy/modules/system/userdomain.if b/policy/modules/system/userdomain.if
+index c7b6e0e5e..bf39b6f5c 100644
+--- a/policy/modules/system/userdomain.if
++++ b/policy/modules/system/userdomain.if
+@@ -1512,7 +1512,7 @@ template(`userdom_admin_user_template',`
+ ## </param>
+ #
+ interface(`userdom_security_admin_template',`
+-	allow $1 self:capability { dac_override dac_read_search };
++	allow $1 self:capability { dac_override dac_read_search fowner};
+ 	allow $1 self:capability2 mac_admin;
+ 
+ 	corecmd_exec_shell($1)
+-- 
+2.34.1
+
