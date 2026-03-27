@@ -1,7 +1,7 @@
-From 4066b6a10bba90568abd7e4525217628b6ac5bd9 Mon Sep 17 00:00:00 2001
+From d80f58d900e35fa520b9d615198ef414dedd82d5 Mon Sep 17 00:00:00 2001
 From: Hongxu Jia <hongxu.jia@windriver.com>
-Date: Mon, 29 Nov 2021 14:58:16 +0800
-Subject: [PATCH 5/9] create links to the deploy directory in /boot and /ostree
+Date: Thu, 26 Mar 2026 22:10:44 -0700
+Subject: [PATCH 5/8] create links to the deploy directory in /boot and /ostree
 
 Rework 0001-ostree-bootloader-uboot.c-Create-links-to-the-deploy.patch
 to implement function ostree_bootloader_create_link_to_sysroot to create
@@ -25,14 +25,15 @@ select a rollback or primary boot choices.
 
 Upstream-Status: Inappropriate [WRLinux Specific]
 
-Signed-off-by: Hongxu Jia <hongxu.jia@windriver.com>
-
 This patch is WRLinux specific because of the way ostree is integrated
 into WRLinux. OSTree has its own assumption of integration. WRLinux
 is using something different, thus this patch. This patch is needed
 in WRLinux until WRLinux changes the way ostree is integrated.
 
 Signed-off-by: Chen Qi <Qi.Chen@windriver.com>
+
+Rebase to v2025.7
+Signed-off-by: Hongxu Jia <hongxu.jia@windriver.com>
 ---
  src/libostree/ostree-bootloader-grub2.c |  7 +++
  src/libostree/ostree-bootloader-uboot.c |  7 +++
@@ -41,10 +42,10 @@ Signed-off-by: Chen Qi <Qi.Chen@windriver.com>
  4 files changed, 89 insertions(+)
 
 diff --git a/src/libostree/ostree-bootloader-grub2.c b/src/libostree/ostree-bootloader-grub2.c
-index e1ee786..592af72 100644
+index f2d73d33..53910328 100644
 --- a/src/libostree/ostree-bootloader-grub2.c
 +++ b/src/libostree/ostree-bootloader-grub2.c
-@@ -330,6 +330,13 @@ _ostree_bootloader_grub2_write_config (OstreeBootloader *bootloader, int bootver
+@@ -355,6 +355,13 @@ _ostree_bootloader_grub2_write_config (OstreeBootloader *bootloader, int bootver
  {
    OstreeBootloaderGrub2 *self = OSTREE_BOOTLOADER_GRUB2 (bootloader);
  
@@ -59,7 +60,7 @@ index e1ee786..592af72 100644
     * well */
    gboolean use_system_grub2_mkconfig = TRUE;
 diff --git a/src/libostree/ostree-bootloader-uboot.c b/src/libostree/ostree-bootloader-uboot.c
-index ecae544..12d1f34 100644
+index ecae5446..12d1f34a 100644
 --- a/src/libostree/ostree-bootloader-uboot.c
 +++ b/src/libostree/ostree-bootloader-uboot.c
 @@ -165,6 +165,13 @@ _ostree_bootloader_uboot_write_config (OstreeBootloader *bootloader, int bootver
@@ -77,12 +78,12 @@ index ecae544..12d1f34 100644
    g_autofree char *config_contents = glnx_file_get_contents_utf8_at (
        self->sysroot->sysroot_fd, uboot_config_path, NULL, cancellable, error);
 diff --git a/src/libostree/ostree-sysroot-deploy.c b/src/libostree/ostree-sysroot-deploy.c
-index 684d487..e23c958 100644
+index 7c519e6e..e78cb20c 100644
 --- a/src/libostree/ostree-sysroot-deploy.c
 +++ b/src/libostree/ostree-sysroot-deploy.c
-@@ -4033,3 +4033,71 @@ ostree_sysroot_deployment_set_mutable (OstreeSysroot *self, OstreeDeployment *de
- 
-   return TRUE;
+@@ -4584,3 +4584,71 @@ ostree_sysroot_deployment_kexec_load (OstreeSysroot *self, OstreeDeployment *dep
+   return FALSE;
+ #endif // SYS_kexec_file_load
  }
 +
 +gboolean
@@ -153,12 +154,12 @@ index 684d487..e23c958 100644
 +  return TRUE;
 +}
 diff --git a/src/libostree/ostree-sysroot.h b/src/libostree/ostree-sysroot.h
-index e84007a..7e4ba53 100644
+index c1fb1482..b03970cb 100644
 --- a/src/libostree/ostree-sysroot.h
 +++ b/src/libostree/ostree-sysroot.h
-@@ -257,4 +257,11 @@ gboolean ostree_sysroot_simple_write_deployment (OstreeSysroot *sysroot, const c
-                                                  OstreeSysrootSimpleWriteDeploymentFlags flags,
-                                                  GCancellable *cancellable, GError **error);
+@@ -285,4 +285,11 @@ _OSTREE_PUBLIC
+ gboolean ostree_sysroot_deployment_kexec_load (OstreeSysroot *self, OstreeDeployment *deployment,
+                                                GCancellable *cancellable, GError **error);
  
 +_OSTREE_PUBLIC
 +gboolean ostree_bootloader_create_link_to_sysroot (OstreeSysroot                 *sysroot,
@@ -169,5 +170,5 @@ index e84007a..7e4ba53 100644
 +
  G_END_DECLS
 -- 
-2.27.0
+2.49.0
 
