@@ -1,4 +1,4 @@
-From e9accec3d7156f650523a367d9fb17fc8057c2e8 Mon Sep 17 00:00:00 2001
+From 4920fc330b0e85e6722020597571058630748e7c Mon Sep 17 00:00:00 2001
 From: Yi Zhao <yi.zhao@windriver.com>
 Date: Thu, 26 Dec 2024 15:16:14 +0800
 Subject: [PATCH] modules/meson.build: enable build redhat pam modules
@@ -10,23 +10,26 @@ Enable build redhat pam modules:
 Upstream-Status: Inappropriate [WRLinux Specific]
 
 Signed-off-by: Yi Zhao <yi.zhao@windriver.com>
+
+Rebase to pam 1.7.2
+
+Signed-off-by: Mingli Yu <mingli.yu@windriver.com>
 ---
  modules/meson.build | 2 ++
  1 file changed, 2 insertions(+)
 
 diff --git a/modules/meson.build b/modules/meson.build
-index 20cebdb..f7a1a5e 100644
+index 68a7a63..cbe5c8a 100644
 --- a/modules/meson.build
 +++ b/modules/meson.build
-@@ -6,6 +6,7 @@ pam_module_link_args = ['-Wl,--version-script=' + pam_module_map_path]
- 
+@@ -1,5 +1,6 @@
  subdir('pam_access')
  subdir('pam_canonicalize_user')
 +subdir('pam_chroot')
  subdir('pam_debug')
  subdir('pam_deny')
  subdir('pam_echo')
-@@ -29,6 +30,7 @@ subdir('pam_motd')
+@@ -23,6 +24,7 @@ subdir('pam_motd')
  subdir('pam_namespace')
  subdir('pam_nologin')
  subdir('pam_permit')
@@ -35,5 +38,5 @@ index 20cebdb..f7a1a5e 100644
  subdir('pam_rhosts')
  subdir('pam_rootok')
 -- 
-2.25.1
+2.49.0
 
