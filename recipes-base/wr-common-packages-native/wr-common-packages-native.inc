@@ -44,6 +44,7 @@ DEPENDS = "\
     elfutils-native \
     erofs-utils-native \
     expat-native \
+    expect-native \
     file-native \
     flex-native \
     font-util-native \
@@ -227,6 +228,7 @@ DEPENDS = "\
     systemd-systemctl-native \
     tar-native \
     tcl-native \
+    tcl8-native \
     texinfo-dummy-native \
     tzcode-native \
     u-boot-tools-native \
