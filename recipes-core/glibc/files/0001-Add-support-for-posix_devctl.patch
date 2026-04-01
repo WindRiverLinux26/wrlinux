@@ -18,6 +18,10 @@ Upstream-Status: Pending
 Rebase to glibc 2.41
 
 Signed-off-by: Hongxu Jia <hongxu.jia@windriver.com>
+
+Rebase for glibc 2.43 on 20260401.
+
+Signed-off-by: Kai Kang <kai.kang@windriver.com>
 ---
  bits/confname.h                               |   2 +
  posix/Makefile                                |   2 +
@@ -178,9 +182,9 @@ index 4ba9c0de..5ed0c005 100644
  
 +    { "_POSIX_26_VERSION", _SC_POSIX_26_VERSION, SYSCONF },
 +
-     { NULL, 0, SYSCONF }
-   };
- 
+     /* limits.h symbolic constants.  */
+ #define DEF_LIMIT_H(name) { #name, name, LIMITS_H }
+     /* Maximum Values.  */
 diff --git a/posix/posix_devctl.c b/posix/posix_devctl.c
 new file mode 100644
 index 00000000..a002274b
@@ -255,7 +259,7 @@ diff --git a/sysdeps/mach/hurd/i386/libc.abilist b/sysdeps/mach/hurd/i386/libc.a
 index 40f35ee0..cee2e591 100644
 --- a/sysdeps/mach/hurd/i386/libc.abilist
 +++ b/sysdeps/mach/hurd/i386/libc.abilist
-@@ -2117,6 +2117,7 @@ GLIBC_2.27 wcstof64x F
+@@ -2191,6 +2191,7 @@ GLIBC_2.27 wcstof64x F
  GLIBC_2.27 wcstof64x_l F
  GLIBC_2.28 fcntl64 F
  GLIBC_2.28 renameat2 F
