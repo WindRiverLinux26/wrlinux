@@ -10,10 +10,10 @@ LICENSE_FLAGS:wr-themes = "commercial_windriver"
 
 DEPENDS += "libyaml"
 
-EXTRA_OECONF:append = " \
-                       --enable-desktop-icons \
-                       --enable-file-icons \
-                       --with-default-backdrop-filename=${datadir}/backgrounds/Windriver/windriver-${DEFAULT_WALLPAPER}-1.jpg \
-                       "
+EXTRA_OEMESON:append = " \
+                        -Ddesktop-icons=true \
+                        -Dfile-icons=true \
+                        -Ddefault-backdrop-filename=${datadir}/backgrounds/Windriver/windriver-${DEFAULT_WALLPAPER}-1.jpg \
+                        "
 
 RDEPENDS:${PN}:append:wr-themes = " wr-themes-wallpapers"
