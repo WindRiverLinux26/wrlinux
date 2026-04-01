@@ -177,7 +177,7 @@ DEPENDS = "\
     perlcross-native \
     pigz-native \
     pixman-native \
-    pkgconfig-native \
+    pkgconf-native \
     popt-native \
     postfix-native \
     pseudo-native \
