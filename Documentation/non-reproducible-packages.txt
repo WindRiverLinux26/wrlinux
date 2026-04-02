@@ -1,0 +1,14 @@
+# This file lists packages known to not support reproducible builds.
+
+* meta-openembedded
+  - freeradius
+  - libcamera*
+* meta-qt6
+  - *
+* meta-secure-core
+  - efitools
+  - seloader
+* meta-virtualization
+  - lxc-staticdev
+  - libvirt-libvirtd
+  - lib32-* (packages compiled with go)
