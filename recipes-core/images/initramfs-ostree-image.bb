@@ -70,8 +70,8 @@ add_gpg_key() {
 			cp $gpg_path/pubring.kbx ${IMAGE_ROOTFS}/usr/share/ostree/trusted.gpg.d/pubkbx.gpg
 			FAIL=0
 		fi
-		if $FAIL = 1; then
-			bb.fatal "Could not locate the public gpg signing key for OSTree"
+		if [ $FAIL = 1 ]; then
+			bbfatal "Could not locate the public gpg signing key for OSTree"
 		fi
 	fi
 }
