@@ -137,14 +137,15 @@ expand_fluxdata() {
 	nextpart=$(echo ${datapart} | sed 's/\(.*\)\(.\)$/\1/')${nextpartnum}
 	blkid ${nextpart} >/dev/null 2>&1
 	if [ $? -eq 0 ]; then
+		echo "The fluxdata ${datapart} is not last partition, no expansion."
 		datapart=""
-		echo "The fluxdata ${datapart} is not last partitioin, no expansion." && return 0
+		return 0
 	fi
 
 	echo "Expanding partition for ${fluxdata_label} ..."
 	echo ", +" | sfdisk -N $datadevnum /dev/$datadev
 	cnt=50
-	while [ $cnt ] ; do
+	while [ $cnt -gt 0 ] ; do
 		blockdev --rereadpt /dev/$datadev 2> /dev/null > /dev/null && break
 		sleep 0.1
 		cnt=$(($cnt - 1))
@@ -211,7 +212,7 @@ rm_var_check() {
 	fluxdata_label=$OSTREE_LABEL_FLUXDATA
 	[ -z $fluxdata_label ] && return 0
 	datapart=$(blkid -s LABEL | grep "LABEL=\"$fluxdata_label\"" |head -n 1| awk -F: '{print $1}')
-	if [ -n $datapart ] ; then
+	if [ -n "$datapart" ] ; then
 		reboot_flag=0
 		if [ -e "/sys/fs/selinux" ];then
 			do_mount_fs selinuxfs /sys/fs/selinux
@@ -318,8 +319,7 @@ done
 OSTREE_DEPLOY=`ostree-prepare-root ${ROOT_MOUNT} | awk -F ':' '{print $2}'`
 
 if [ -z ${OSTREE_DEPLOY} ]; then
-	echo "Unable to deploy ostree ${ROOT_MOUNT}"
-	fatal
+	fatal "Unable to deploy ostree ${ROOT_MOUNT}"
 fi
 
 which lsattr >/dev/null && which chattr >/dev/null && has_immutable_test=1
@@ -365,8 +365,7 @@ if [ ${skip} -lt 1 -a -n "$has_ostree_cmd" ] ; then
 
 	/usr/bin/ostree fsck --repo=/sysroot/ostree/repo
 	if [ $? -ne 0 ]; then
-		echo "Ostree repo is damaged..."
-		fatal
+		fatal "Ostree repo is damaged..."
 	fi
 fi
 
@@ -376,8 +375,7 @@ if [ ${skip} -lt 2 -a -n "$has_ostree_cmd" ] ; then
 	ostree_ref="${ostree_ref%%.*}"
 
 	if [ -z "${ostree_ref}" ]; then
-		echo "No ostree ref found"
-		fatal
+		fatal "No ostree ref found"
 	fi
 
 	log_info "Checking ostree ${ostree_ref} contents... with ${OSTREE_DEPLOY}"
@@ -385,8 +383,7 @@ if [ ${skip} -lt 2 -a -n "$has_ostree_cmd" ] ; then
 	/usr/bin/ostree diff --repo=/sysroot/ostree/repo ${ostree_ref} ${OSTREE_DEPLOY}| grep "[MD] */usr/"
 
 	if [ $? -eq 0 ]; then
-		echo "Ostree deploy content is corrupted..."
-		fatal
+		fatal "Ostree deploy content is corrupted..."
 	fi
 fi
 

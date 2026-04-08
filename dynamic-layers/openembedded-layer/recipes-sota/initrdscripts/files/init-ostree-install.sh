@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 #
 # Copyright (c) 2019 Wind River Systems, Inc.
 #
@@ -77,14 +77,14 @@ OPTIONAL:
  ecurl=URL_TO_SCRIPT		- Download+execute script before disk prep
  ecurlarg=ARGS_TO_ECURL_SCRIPT	- Arguments to pass to ecurl script
  lcurl=URL_TO_SCRIPT		- Download+execute script after install
- lcurlarg=ARGS_TO_ECURL_SCRIPT	- Arugments to pass to lcurl script
+ lcurlarg=ARGS_TO_ECURL_SCRIPT	- Arguments to pass to lcurl script
  instiso=ISO_LABEL		- The label of installer ISO image
  Disk sizing
  biosplusefi=1	 		- Create one GPT disk to support booting from both of BIOS and EFI
  defaultkernel=<kernel>	- Choose which kernel to boot, support filename wildcard
 		                  defaultkernel=vmlinuz-*[!t]-amd64 means standard kernel
 		                  defaultkernel=vmlinuz-*-rt-amd64 means real time kernel
- kernelparams=a=b,c=d	- Set kernel params to installed OS, use `,' to split multiple params
+ kernelparams=a=b,c=d	- Set kernel params to installed OS, use ',' to split multiple params
 
  efibootfirst=1		- Set EFI boot from disk entry as first order
  devmd=0			- Set to 0 to skip the call of 'mdadm --assemble --scan'
@@ -427,10 +427,10 @@ do_wifi() {
 				retry=$(($retry+1))
 			done
 			if [ "$state" != "${state/COMPLETED/}" -o "$state" != "${state/CONNECTED/}" ] ; then
-				echo "WiFi Acitvated"
+				echo "WiFi Activated"
 				break
 			fi
-			if [ "$psk" = "ask" -o "WIFI" = "scan" ] ; then
+			if [ "$psk" = "ask" -o "$WIFI" = "scan" ] ; then
 				echo "Error: Failed to connect to WiFi"
 				wpa_cli disable_network $netnum > /dev/null
 				wpa_cli flush $netnum > /dev/null
@@ -456,7 +456,7 @@ do_dhcp() {
         while [ "$(ls /sys/class/net |grep -v ^lo\$ |grep -v ^sit0 | grep -v can)" == "" ];
         do
              if [ $retries -ge $max_retries ]; then
-                 fatal "Retried $max_retries times,  but no valid interaface"
+                 fatal "Retried $max_retries times,  but no valid interface"
              fi
              retries=$((retries+1))
              sleep 1
@@ -745,6 +745,8 @@ read_args() {
 				if [ "$INSTPOST" = "" ] ; then INSTPOST=$optarg; fi ;;
 			instname=*)
 				INSTNAME=$optarg ;;
+			instos=*)
+				INSTOS=$optarg ;;
 			instsf=*)
 				INSTSF=$optarg ;;
 			instbr=*)
@@ -1406,7 +1408,7 @@ for arg in ${OSTREE_KERNEL_ARGS}; do
 done
 
 mkdir -p ${PHYS_SYSROOT}
-mount -o $mount_flags "${OSTREE_ROOT_DEVICE}" "${PHYS_SYSROOT}" || fatal "Error mouting ${OSTREE_ROOT_DEVICE}"
+mount -o $mount_flags "${OSTREE_ROOT_DEVICE}" "${PHYS_SYSROOT}" || fatal "Error mounting ${OSTREE_ROOT_DEVICE}"
 
 ostree admin --sysroot=${PHYS_SYSROOT} init-fs ${PHYS_SYSROOT}
 ostree admin --sysroot=${PHYS_SYSROOT} os-init ${INSTOS}
@@ -1427,7 +1429,7 @@ if [ ! -d "${PHYS_SYSROOT}/boot" ] ; then
    mkdir -p ${PHYS_SYSROOT}/boot
 fi
 
-mount "${OSTREE_BOOT_DEVICE}" "${PHYS_SYSROOT}/boot"  || fatal "Error mouting ${OSTREE_BOOT_DEVICE}"
+mount "${OSTREE_BOOT_DEVICE}" "${PHYS_SYSROOT}/boot"  || fatal "Error mounting ${OSTREE_BOOT_DEVICE}"
 
 mkdir /instboot
 bdev=$(blkid --label instboot || blkid --label ${ISO_INSTLABEL})
@@ -1440,7 +1442,7 @@ elif [ -n "$fdev" ] && [ -e "$fdev" ] && [ "$fdev" != "${fs_dev}${p1}"  ] ; then
 fi
 
 mkdir -p ${PHYS_SYSROOT}/boot/efi
-mount ${fs_dev}${p1} ${PHYS_SYSROOT}/boot/efi || fatal "Error mouting ${fs_dev}${p1}"
+mount ${fs_dev}${p1} ${PHYS_SYSROOT}/boot/efi || fatal "Error mounting ${fs_dev}${p1}"
 
 # Prep for Install
 mkdir -p ${PHYS_SYSROOT}/boot/loader.0
@@ -1492,7 +1494,7 @@ fi
 
 if [ "$INSTAB" = "1" ] ; then
 	mkdir -p ${PHYS_SYSROOT}_b
-	mount -o $mount_flags "${OSTREE_ROOT_DEVICE}_b" "${PHYS_SYSROOT}_b"  || fatal "Error mouting ${OSTREE_ROOT_DEVICE}_b"
+	mount -o $mount_flags "${OSTREE_ROOT_DEVICE}_b" "${PHYS_SYSROOT}_b"  || fatal "Error mounting ${OSTREE_ROOT_DEVICE}_b"
 
 	ostree admin --sysroot=${PHYS_SYSROOT}_b init-fs ${PHYS_SYSROOT}_b
 	ostree admin --sysroot=${PHYS_SYSROOT}_b os-init ${INSTOS}
@@ -1502,7 +1504,7 @@ if [ "$INSTAB" = "1" ] ; then
 		mkdir -p ${PHYS_SYSROOT}_b/boot
 	fi
 
-	mount "${OSTREE_BOOT_DEVICE}_b" "${PHYS_SYSROOT}_b/boot" || fatal "Error mouting ${OSTREE_BOOT_DEVICE}_b"
+	mount "${OSTREE_BOOT_DEVICE}_b" "${PHYS_SYSROOT}_b/boot" || fatal "Error mounting ${OSTREE_BOOT_DEVICE}_b"
 
 
 	mkdir -p ${PHYS_SYSROOT}_b/boot/efi
