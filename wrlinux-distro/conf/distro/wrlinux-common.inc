@@ -44,9 +44,9 @@ WRLINUX_DEFAULT_DISTRO_FEATURES = "largefile multiarch pulseaudio kvm virtualiza
 WRLINUX_DEFAULT_EXTRA_RDEPENDS = "packagegroup-core-boot"
 WRLINUX_DEFAULT_EXTRA_RRECOMMENDS = "kernel-module-af-packet"
 
-DISTRO_FEATURES ?= "${DISTRO_FEATURES_DEFAULT} ${WRLINUX_DEFAULT_DISTRO_FEATURES}"
-DISTRO_FEATURES:class-native ?= "${DISTRO_FEATURES_DEFAULT} ${WRLINUX_DEFAULT_DISTRO_FEATURES}"
-DISTRO_FEATURES:class-nativesdk ?= "${DISTRO_FEATURES_DEFAULT} ${WRLINUX_DEFAULT_DISTRO_FEATURES}"
+DISTRO_FEATURES ?= "${DISTRO_FEATURES_DEFAULTS} ${WRLINUX_DEFAULT_DISTRO_FEATURES}"
+DISTRO_FEATURES:class-native ?= "${DISTRO_FEATURES_DEFAULTS} ${WRLINUX_DEFAULT_DISTRO_FEATURES}"
+DISTRO_FEATURES:class-nativesdk ?= "${DISTRO_FEATURES_DEFAULTS} ${WRLINUX_DEFAULT_DISTRO_FEATURES}"
 DISTRO_EXTRA_RDEPENDS += " ${WRLINUX_DEFAULT_EXTRA_RDEPENDS}"
 DISTRO_EXTRA_RRECOMMENDS += " ${WRLINUX_DEFAULT_EXTRA_RRECOMMENDS}"
 
@@ -89,15 +89,15 @@ require conf/distro/include/wrlinux-lsb-distro-adjust.inc
 # Make sure DISTRO_FEATURES backfill has pulseaudio 
 # this is a temporary fix until pulseaudio is fixed
 
-DISTRO_FEATURES_BACKFILL_CONSIDERED += "pulseaudio"
+DISTRO_FEATURES_OPTED_OUT += "pulseaudio"
 
 # Make sure that ldconfig is only enabled when the user has added ldconfig
 # to the DISTRO_FEATURES
-DISTRO_FEATURES_BACKFILL_CONSIDERED += "ldconfig"
+DISTRO_FEATURES_OPTED_OUT += "ldconfig"
 
 # Make sure that X11 is only enabled in a graphics configuration
-DISTRO_FEATURES_BACKFILL_CONSIDERED += "x11"
-DISTRO_FEATURES_BACKFILL_CONSIDERED += "wayland"
+DISTRO_FEATURES_OPTED_OUT += "x11"
+DISTRO_FEATURES_OPTED_OUT += "wayland"
 
 # Make sure that ptest is only enable when using feature/ptest
 DISTRO_FEATURES_BACKFILL_CONSIDERED += "ptest"

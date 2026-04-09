@@ -14,7 +14,7 @@ as a setup.sh option.
   - Comment the following lines in conf/local.conf to use 'sysvinit' as the
     init manager:
     DISTRO_FEATURES:append = " systemd"
-    DISTRO_FEATURES_BACKFILL_CONSIDERED += "sysvinit"
+    DISTRO_FEATURES_OPTED_OUT += "sysvinit"
     VIRTUAL-RUNTIME_init_manager = "systemd"
     VIRTUAL-RUNTIME_initscripts = "systemd-compat-units"
     KERNEL_FEATURES:append = " cfg/systemd.scc"
