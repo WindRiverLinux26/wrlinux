@@ -32,8 +32,8 @@ python() {
 
 do_install:append() {
     # The ld is /usr/lib64/ld-linux-x86-64.so.2 when multilib is enabled, and
-    # is /usr/lib/ld-linux-x86-64.so.2 when mutilib is not enabeld, Distro
-    # doesn't enable mutilib, so create a symlink
+    # is /usr/lib/ld-linux-x86-64.so.2 when multilib is not enabled, Distro
+    # doesn't enable multilib, so creates a symlink
     # /usr/lib64/ld-linux-x86-64.so.2 to /usr/lib/ld-linux-x86-64.so.2 (or
     # /lib64/ld-linux-x86-64.so.2 when usrmerge is enabled) for compatibility.
     if [ -n "${GLIBC_GETLOADER64}" ]; then
