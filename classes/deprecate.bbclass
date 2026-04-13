@@ -1,8 +1,8 @@
 #
 # 
 # e.g.
-# In the depreated old recipe, write as follows:
-# inherit dprecate
+# In the deprecated old recipe, write as follows:
+# inherit deprecate
 # ALTERNATIVE_NEW_RECIPE = "new_recipe_name"
 #
 
@@ -14,7 +14,7 @@ python do_warn_deprecate() {
     if alternative_new_recipe:
         bb.warn("Deprecated recipe %s, use %s instead" % (pn, alternative_new_recipe))
     else:
-        bb.warn("Deprecated recipe %s")
+        bb.warn("Deprecated recipe %s" % pn)
 }
 
 do_warn_deprecate[nostamp] = "1"
