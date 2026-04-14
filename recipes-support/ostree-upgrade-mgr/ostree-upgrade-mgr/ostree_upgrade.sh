@@ -102,16 +102,20 @@ rwmount() {
 	    flags=",${flags}"
     fi
 
-    # First mount read-only and transition to rw, or mount straight to
-    # rw if the volume is available
-    mount -r $dev $mount 2> /dev/null
-    if [ $? = 0 ] ; then
-	CLEANUP_MOUNTS="$mount $CLEANUP_MOUNTS"
-	mount -o remount,rw${flags} $dev $mount 2> /dev/null || fatal "Error mounting $3"
+    # Direclty mount to rw if the device is already mounted as read-only
+    if mount | grep "^$dev " | grep -q "(ro,\|,ro,\|,ro)"; then
+        mount -o rw${flags} $dev $mount || fatal "Error mounting $3"
     else
-	mount -o rw${flags} $dev $mount || fatal "Error mounting $3"
-	CLEANUP_MOUNTS="$mount $CLEANUP_MOUNTS"
+        # First mount read-only and transition to rw, or mount straight to
+        # rw if the volume is available
+        mount -r $dev $mount 2> /dev/null
+        if [ $? = 0 ] ; then
+            mount -o remount,rw${flags} $dev $mount 2> /dev/null || fatal "Error mounting $3"
+        else
+            mount -o rw${flags} $dev $mount || fatal "Error mounting $3"
+        fi
     fi
+    CLEANUP_MOUNTS="$mount $CLEANUP_MOUNTS"
 }
 
 #arg1 ROOT label
