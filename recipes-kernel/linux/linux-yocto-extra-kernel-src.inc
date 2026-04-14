@@ -1,5 +1,8 @@
 EXTRA_KERNEL_FILES =. "${THISDIR}/linux-yocto:"
-EXTRA_KERNEL_SRC_URI += "file://0001-tools-build-make-in-target-rule-robust-against-too-l.patch"
+EXTRA_KERNEL_SRC_URI += " \
+    file://0001-tools-build-make-in-target-rule-robust-against-too-l.patch \
+    file://0001-gcc-plugins-Make-host-paths-not-leak-for-out-of-tree.patch \
+"
 EXTRA_KERNEL_SRC_URI:append:bcm-2xxx-rpi4 = " \
     file://0001-Revert-Revert-mmc-sdhci-Mask-spurious-interrupts.patch \
 "

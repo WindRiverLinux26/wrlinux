@@ -1,0 +1,72 @@
+From 8facf35e29874216e169ad151c07b980e58d3aeb Mon Sep 17 00:00:00 2001
+From: He Zhe <zhe.he@windriver.com>
+Date: Tue, 14 Apr 2026 16:37:15 +0800
+Subject: [PATCH] gcc-plugins: Make host paths not leak for out of tree modules
+
+When enabling GCC plugins, kernel would automatically append -fplugin= with
+absolute paths into compiling command line for in-tree features or out-of-tree
+modules, which is against the QA issue like below:
+
+ERROR: cryptodev-module-1.14-r0 do_package_qa: QA Issue:
+File /usr/lib/modules/6.18.20-yocto-standard/updates/.debug/cryptodev.ko
+in package cryptodev-module-dbg contains reference to TMPDIR [buildpaths]
+
+This patch tunes all related kernel makefile to pass the relative paths to GCC
+when necessary.
+
+Upstream-Status: Pending
+
+Signed-off-by: He Zhe <zhe.he@windriver.com>
+---
+ scripts/Makefile.gcc-plugins  | 4 +++-
+ scripts/Makefile.kstack_erase | 3 ++-
+ scripts/Makefile.randstruct   | 3 ++-
+ 3 files changed, 7 insertions(+), 3 deletions(-)
+
+diff --git a/scripts/Makefile.gcc-plugins b/scripts/Makefile.gcc-plugins
+index b0e1423b09c2..f10370c7b784 100644
+--- a/scripts/Makefile.gcc-plugins
++++ b/scripts/Makefile.gcc-plugins
+@@ -10,7 +10,9 @@ export DISABLE_LATENT_ENTROPY_PLUGIN
+ 
+ # All the plugin CFLAGS are collected here in case a build target needs to
+ # filter them out of the KBUILD_CFLAGS.
+-GCC_PLUGINS_CFLAGS := $(strip $(addprefix -fplugin=$(objtree)/scripts/gcc-plugins/, $(gcc-plugin-y)) $(gcc-plugin-cflags-y)) -DGCC_PLUGINS
++# Use relative path to avoid embedding absolute host paths in binaries
++gcc-plugins-dir := $(shell realpath --relative-to=$(CURDIR) $(objtree)/scripts/gcc-plugins)
++GCC_PLUGINS_CFLAGS := $(strip $(addprefix -fplugin=$(gcc-plugins-dir)/, $(gcc-plugin-y)) $(gcc-plugin-cflags-y)) -DGCC_PLUGINS
+ export GCC_PLUGINS_CFLAGS
+ 
+ # Add the flags to the build!
+diff --git a/scripts/Makefile.kstack_erase b/scripts/Makefile.kstack_erase
+index ee7e4ef7b892..8553b1741d32 100644
+--- a/scripts/Makefile.kstack_erase
++++ b/scripts/Makefile.kstack_erase
+@@ -1,7 +1,8 @@
+ # SPDX-License-Identifier: GPL-2.0
+ 
+ ifdef CONFIG_GCC_PLUGIN_STACKLEAK
+-kstack-erase-cflags-y += -fplugin=$(objtree)/scripts/gcc-plugins/stackleak_plugin.so
++gcc-plugins-dir := $(shell realpath --relative-to=$(CURDIR) $(objtree)/scripts/gcc-plugins)
++kstack-erase-cflags-y += -fplugin=$(gcc-plugins-dir)/stackleak_plugin.so
+ kstack-erase-cflags-y += -fplugin-arg-stackleak_plugin-track-min-size=$(CONFIG_KSTACK_ERASE_TRACK_MIN_SIZE)
+ kstack-erase-cflags-y += -fplugin-arg-stackleak_plugin-arch=$(SRCARCH)
+ kstack-erase-cflags-$(CONFIG_GCC_PLUGIN_STACKLEAK_VERBOSE) += -fplugin-arg-stackleak_plugin-verbose
+diff --git a/scripts/Makefile.randstruct b/scripts/Makefile.randstruct
+index 24e283e89893..333a547fc8f9 100644
+--- a/scripts/Makefile.randstruct
++++ b/scripts/Makefile.randstruct
+@@ -3,8 +3,9 @@
+ randstruct-cflags-y += -DRANDSTRUCT
+ 
+ ifdef CONFIG_GCC_PLUGIN_RANDSTRUCT
++gcc-plugins-dir := $(shell realpath --relative-to=$(CURDIR) $(objtree)/scripts/gcc-plugins)
+ randstruct-cflags-y	\
+-	+= -fplugin=$(objtree)/scripts/gcc-plugins/randomize_layout_plugin.so
++	+= -fplugin=$(gcc-plugins-dir)/randomize_layout_plugin.so
+ randstruct-cflags-$(CONFIG_RANDSTRUCT_PERFORMANCE)		\
+ 	+= -fplugin-arg-randomize_layout_plugin-performance-mode
+ else
+-- 
+2.34.1
+
