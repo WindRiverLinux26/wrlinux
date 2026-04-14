@@ -17,39 +17,6 @@ export ROOT_LABEL = "${@bb.utils.contains('DISTRO_FEATURES', 'luks', 'luks_otaro
 PHYS_SYSROOT = "${WORKDIR}/ota-sysroot"
 PSEUDO_INCLUDE_PATHS .= ",${PHYS_SYSROOT}"
 
-calculate_size () {
-	BASE=$1
-	SCALE=$2
-	MIN=$3
-	MAX=$4
-	EXTRA=$5
-	ALIGN=$6
-
-	SIZE=`echo "$BASE * $SCALE" | bc -l`
-	REM=`echo $SIZE | cut -d "." -f 2`
-	SIZE=`echo $SIZE | cut -d "." -f 1`
-
-	if [ -n "$REM" -o ! "$REM" -eq 0 ]; then
-		SIZE=`expr $SIZE \+ 1`
-	fi
-
-	if [ "$SIZE" -lt "$MIN" ]; then
-		$SIZE=$MIN
-	fi
-
-	SIZE=`expr $SIZE \+ $EXTRA`
-	SIZE=`expr $SIZE \+ $ALIGN \- 1`
-	SIZE=`expr $SIZE \- $SIZE \% $ALIGN`
-
-	if [ -n "$MAX" ]; then
-		if [ "$SIZE" -gt "$MAX" ]; then
-			return -1
-		fi
-	fi
-	
-	echo "${SIZE}"
-}
-
 export OSTREE_OSNAME
 export OSTREE_BRANCHNAME
 export OSTREE_REPO
