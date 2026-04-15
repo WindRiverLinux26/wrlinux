@@ -60,7 +60,7 @@ Network Install options:
 Image Creation Options:
  -B         Skip build of the bootfs directory and use what ever is in there
  -e <file>  env file for reference image e.g. core-image-minimal.env
- -n         Turn off the commpression of the image
+ -n         Turn off the compression of the image
  -N         Do not modify the boot.scr file on the image
  -s <#>     Size in MB of the boot partition (default 256)
             Setting this to zero will make the partition as small as possible
@@ -161,27 +161,23 @@ sign_grub() {
 	for e in `ls $OUTDIR/EFI/BOOT/grub.cfg`; do
 		echo Signing: $e
 		rm -f $e.sig
-		echo "$BOOT_GPG_PASSPHRASE" | gpg --pinentry-mode loopback --homedir $GRUB_KEY -u "$BOOT_GPG_NAME" --batch --detach-sign --passphrase-fd 0 $e || fatal "Error signing $e"
+		echo "$BOOT_GPG_PASSPHRASE" | gpg --pinentry-mode loopback --homedir $GRUB_KEY -u "$BOOT_GPG_NAME" --batch --detach-sign --passphrase-fd 0 $e || { rm -rf $GRUB_KEY; fatal "Error signing $e"; }
 	done
 	rm -rf $GRUB_KEY
 }
 
 create_grub_cfg() {
-	if [ "$grubcfg" != "" ] ; then
-		echo "Using grub.cfg: $grubcfg"
-		cp $grubcfg $OUTDIR/EFI/BOOT/grub.cfg
-		return
-	fi
-	if [ ${UUID} != "" ]; then
+	if [ "${UUID}" != "" ]; then
 	    idev="PUUID=_PUUID_,UUID=_UUID_"
+	    fromdev="PUUID=_PUUID_,UUID=_UUID_"
 	else
 	    idev="LABEL=instboot,LABEL=boot,LABEL=otaefi"
+	    fromdev="LABEL=instboot,LABEL=boot,LABEL=otaefi"
 	fi
 	if [ "$INST_DEV" != "" ] ; then
 		idev=$INST_DEV
 	fi
-	if [ ${UUID} != "" ]; then
-	    fromdev="PUUID=_PUUID_,UUID=_UUID_"
+	if [ "${UUID}" != "" ]; then
 	    fromdev=$(echo "$fromdev" |sed "s/_PUUID_/${UUID}/g")
 	    fromdev=$(echo "$fromdev" |sed "s/_UUID_/$(echo ${UUID:0:4}-${UUID:4:4}|sed 's/[a-z]/\U&/g')/g")
 	    idev=$(echo "$idev" |sed "s/_PUUID_/${UUID}/g")
@@ -314,7 +310,7 @@ build_bootfs() {
 				    fatal "ostree branch $INST_BRANCH does not exist in ostree_repo"
 			fi
 			cp -r ${DEPLOY_DIR_IMAGE}/ostree_repo $OUTDIR/ostree_repo || \
-				fatal "Could not copy ${DEPLOY_DIR_IMAGE}/ostree_rep"
+				fatal "Could not copy ${DEPLOY_DIR_IMAGE}/ostree_repo."
 		fi
 		# Validate ostree_repo
 		local e
@@ -378,7 +374,7 @@ write_wic() {
 		ALIGNSZ="--align 2048"
 	fi
 
-	if [ ${UUID} != "" ]; then
+	if [ "${UUID}" != "" ]; then
 		echo "part / --source rootfs --rootfs-dir=$OUTDIR --ondisk sda --fstype=vfat --uuid ${UUID} --fsuuid $(echo ${UUID:0:8}|sed 's/[a-z]/\U&/g') --label instboot --active $ALIGNSZ $PARTSZ" >> ustart.wks
 	else
 		echo "part / --source rootfs --rootfs-dir=$OUTDIR --ondisk sda --fstype=vfat --label instboot --active $ALIGNSZ $PARTSZ" >> ustart.wks
@@ -435,7 +431,7 @@ write_wic() {
 }
 
 print_part_layout() {
-	if [ "$grubcfg" != "" ] ; then
+	if [ "$grub" != "" ] ; then
 		pt1="mount: /boot/efi"
 	fi
 	useab=$OSTREE_USE_AB
@@ -738,7 +734,7 @@ fi
 print_part_layout
 
 if [ $SKIP_WIC = 1 ] ; then
-	echo "bootfs.sh completed succesfully."
+	echo "bootfs.sh completed successfully."
 else
 	write_wic
 fi
