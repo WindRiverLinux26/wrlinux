@@ -21,4 +21,3 @@ WRL_RECIPE_VERSION[chrpath-native] ?= '${@d.getVarFlag("WRL_RECIPE_VERSION", "ch
 WRL_RECIPE_VERSION[gawk-native] ?= '${@d.getVarFlag("WRL_RECIPE_VERSION", "gawk")}'
 WRL_RECIPE_VERSION[patch-native] ?= '${@d.getVarFlag("WRL_RECIPE_VERSION", "patch")}'
 WRL_RECIPE_VERSION[tar-native] ?= '${@d.getVarFlag("WRL_RECIPE_VERSION", "tar")}'
-WRL_RECIPE_VERSION[python3] ?= '3.13.11 3.14.3'
