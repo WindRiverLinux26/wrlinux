@@ -56,7 +56,7 @@ python ostree_check_rpm_public_key () {
     if not os.path.exists(gpg_path):
         status, output = oe.utils.getstatusoutput('mkdir -m 0700 -p %s' % gpg_path)
         if status:
-            raise bb.fatal('Failed to create gpg keying %s: %s' %
+            bb.fatal('Failed to create gpg keyring %s: %s' %
                                       (gpg_path, output))
     gpg_bin = d.getVar('GPG_BIN', True) or \
               bb.utils.which(os.getenv('PATH'), 'gpg')
@@ -134,7 +134,7 @@ create_tarball_and_ostreecommit() {
 			--branch=${_image_basename} \
 			--timestamp="${_timestamp}" \
 			--subject="Commit-id: ${_image_basename}-${MACHINE}-${DATETIME}"
-		# Pull new commmit into old repo
+		# Pull new commit into old repo
 		flock ${OSTREE_REPO}.lock ostree --repo=${OSTREE_REPO} pull-local ${OSTREE_REPO_TEMP} ${_image_basename}
 	else
 		# Setup gpg key for signing
@@ -148,7 +148,7 @@ create_tarball_and_ostreecommit() {
 			elif [ "$gpg_ver" = "2" ] ; then
 				gpg_connect=$(dirname $gpg_bin)/gpg-connect-agent
 				if [ ! -f $gpg_connect ] ; then
-					bb.fatal "ERROR Could not locate gpg-connect-agent at: $gpg_connect"
+					bbfatal "ERROR Could not locate gpg-connect-agent at: $gpg_connect"
 				fi
 				if [ -f "$gpg_path/gpg-agent.conf" ] ; then
 					if ! grep -q allow-loopback-pin "$gpg_path/gpg-agent.conf" ; then
@@ -184,12 +184,12 @@ create_tarball_and_ostreecommit() {
 				--timestamp="${_timestamp}" \
 				--subject="Commit-id: ${_image_basename}-${MACHINE}-${DATETIME}"
 		fi
-		# Pull new commmit into old repo
+		# Pull new commit into old repo
 		flock ${OSTREE_REPO}.lock ostree --repo=${OSTREE_REPO} pull-local ${OSTREE_REPO_TEMP} ${_image_basename}
 
 		gpgconf=$(dirname $gpg_bin)/gpgconf
 		if [ ! -f $gpgconf ] ; then
-			bb.fatal "ERROR Could not find $gpgconf"
+			bbfatal "ERROR Could not find $gpgconf"
 		fi
 		GNUPGHOME="$gpg_path" flock ${OSTREE_REPO}.lock $gpgconf --kill gpg-agent
         fi
@@ -205,7 +205,7 @@ IMAGE_CMD:ostree () {
 		gpg_bin=`which gpg`
 	fi
 	if [ "${gpg_bin#/}" = "$gpg_bin" ] ; then
-		bb.fatal "The GPG_BIN variable must be an absolute path to the gpg binary"
+		bbfatal "The GPG_BIN variable must be an absolute path to the gpg binary"
 	fi
 
 	if [ -z "$OSTREE_REPO" ]; then
@@ -306,7 +306,7 @@ IMAGE_CMD:ostree () {
 			if [ -n "$SYSTEMD_USED" ]; then
 				echo "d /var/rootdirs/${dir} 0755 root root -" >>${tmpfiles_conf}
 			else
-				echo "mkdir -p /var/rootdirs/${dir}; chown 755 /var/rootdirs/${dir}" >>${tmpfiles_conf}
+				echo "mkdir -p /var/rootdirs/${dir}; chmod 755 /var/rootdirs/${dir}" >>${tmpfiles_conf}
 			fi
 			rm -rf ${dir}
 			ln -sf var/rootdirs/${dir} ${dir}
@@ -321,7 +321,7 @@ IMAGE_CMD:ostree () {
 		if [ -n "$SYSTEMD_USED" ]; then
                        echo "d /var/rootdirs/root 0755 root root -" >>${tmpfiles_conf}
 		else
-                       echo "mkdir -p /var/rootdirs/root; chown 755 /var/rootdirs/root" >>${tmpfiles_conf}
+                       echo "mkdir -p /var/rootdirs/root; chmod 755 /var/rootdirs/root" >>${tmpfiles_conf}
 		fi
 
 		rm -rf root
