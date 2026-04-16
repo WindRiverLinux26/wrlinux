@@ -1,0 +1,54 @@
+From f5a5f8f50ace621dc8bc58360de9c75495c8ea90 Mon Sep 17 00:00:00 2001
+From: Li Zhou <li.zhou@windriver.com>
+Date: Wed, 15 Apr 2026 14:10:47 +0800
+Subject: [PATCH] sequoia-openpgp: fix rpm compile error when openssl disable des support
+
+When openssl disabled des support with configuration 'no-des',
+it doesn't provide des related functions.
+Then ld reported below error when compiling rpm:
+librpm_sequoia.so.1: undefined reference to `EVP_des_ede3_cfb64'
+The calling sequence is:
+rpm->rpm-sequoia->sequoia-openpgp->libcrypto
+
+Fix this issue by checking OPENSSL_NO_DES before using
+the related functions in sequoia-openpgp.
+
+Closes #1241
+
+Upstream-Status: Submitted [https://gitlab.com/sequoia-pgp/sequoia/-/merge_requests/1844]
+Signed-off-by: Li Zhou <li.zhou@windriver.com>
+---
+ src/crypto/backend/openssl/symmetric.rs | 3 +++
+ 1 file changed, 3 insertions(+)
+
+diff --git a/src/crypto/backend/openssl/symmetric.rs b/src/crypto/backend/openssl/symmetric.rs
+index 3f60f93f..f4063e2c 100644
+--- a/src/crypto/backend/openssl/symmetric.rs
++++ b/src/crypto/backend/openssl/symmetric.rs
+@@ -154,6 +154,7 @@ impl SymmetricAlgorithm {
+             SymmetricAlgorithm::AES192 => Cipher::aes_192_cfb128(),
+             SymmetricAlgorithm::AES256 => Cipher::aes_256_cfb128(),
+ 
++            #[cfg(not(osslconf = "OPENSSL_NO_DES"))]
+             SymmetricAlgorithm::TripleDES => Cipher::des_ede3_cfb64(),
+ 
+             #[cfg(not(osslconf = "OPENSSL_NO_CAMELLIA"))]
+@@ -182,6 +183,7 @@ impl SymmetricAlgorithm {
+             SymmetricAlgorithm::AES192 => Cipher::aes_192_cbc(),
+             SymmetricAlgorithm::AES256 => Cipher::aes_256_cbc(),
+ 
++            #[cfg(not(osslconf = "OPENSSL_NO_DES"))]
+             SymmetricAlgorithm::TripleDES => Cipher::des_ede3_cbc(),
+ 
+             #[cfg(not(osslconf = "OPENSSL_NO_CAMELLIA"))]
+@@ -210,6 +212,7 @@ impl SymmetricAlgorithm {
+             SymmetricAlgorithm::AES192 => Cipher::aes_192_ecb(),
+             SymmetricAlgorithm::AES256 => Cipher::aes_256_ecb(),
+ 
++            #[cfg(not(osslconf = "OPENSSL_NO_DES"))]
+             SymmetricAlgorithm::TripleDES => Cipher::des_ede3_ecb(),
+ 
+             #[cfg(not(osslconf = "OPENSSL_NO_CAMELLIA"))]
+-- 
+2.34.1
+
