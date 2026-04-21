@@ -60,11 +60,11 @@ python() {
             d.appendVarFlag('do_build', 'recrdeptask', ' ' + pkgcomparefunc)
 
             if deploydirvarref in sstate_outputdirs:
-                deplor_dir_pkgtype = d.expand(deploydirvarref + '-prediff')
+                deploy_dir_pkgtype = d.expand(deploydirvarref + '-prediff')
                 # Set intermediate output directory
-                d.setVarFlag(pkgwritefunc, 'sstate-outputdirs', sstate_outputdirs.replace(deploydirvarref, deplor_dir_pkgtype))
+                d.setVarFlag(pkgwritefunc, 'sstate-outputdirs', sstate_outputdirs.replace(deploydirvarref, deploy_dir_pkgtype))
                 # Update SSTATE_ALLOW_OVERLAP_FILES to avoid shared location conflicted error
-                d.appendVar('SSTATE_ALLOW_OVERLAP_FILES', ' %s' % deplor_dir_pkgtype)
+                d.appendVar('SSTATE_ALLOW_OVERLAP_FILES', ' %s' % deploy_dir_pkgtype)
 
             d.setVar(pkgcomparefunc, d.getVar('do_package_compare', False))
             d.setVarFlags(pkgcomparefunc, d.getVarFlags('do_package_compare', False))
