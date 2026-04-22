@@ -67,7 +67,8 @@ IMAGE_LINGUAS ?= ""
 CONNECTIVITY_CHECK_URIS ?= "https://www.example.com/"
 
 # Default hash policy for distro
-BB_SIGNATURE_HANDLER ?= 'OEBasicHash'
+BB_SIGNATURE_HANDLER ?= "OEEquivHash"
+BB_HASHSERVE_DB_DIR ?= "${SSTATE_DIR}"
 
 # Add our license to the acceptable restricted license list
 LICENSE_FLAGS_ACCEPTED += "commercial_windriver"
