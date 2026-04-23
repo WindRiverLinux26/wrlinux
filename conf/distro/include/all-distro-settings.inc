@@ -66,3 +66,6 @@ PNI_NAMES_FEATURES ??= "pni-names"
 DISTRO_FEATURES:append = " ${PNI_NAMES_FEATURES}"
 
 EXTRA_IMAGEDEPENDS:remove:qemuriscv64:pn-${INITRAMFS_IMAGE} = "opensbi"
+
+# clear WRTEMPLATE for installer image
+WRTEMPLATE:wrlinux-installer = ""
