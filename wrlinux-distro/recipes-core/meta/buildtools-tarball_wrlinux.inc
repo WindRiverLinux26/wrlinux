@@ -10,6 +10,9 @@ TOOLCHAIN_HOST_TASK:append:osv-wrlinux = " \
 # use anspass to save and retrieve credentials
 TOOLCHAIN_HOST_TASK:append:osv-wrlinux = " nativesdk-anspass"
 
+# Provide wic tools
+TOOLCHAIN_HOST_TASK:append:osv-wrlinux = " nativesdk-wic"
+
 # For meta-footprint
 TOOLCHAIN_HOST_TASK:append:osv-wrlinux = " \
     nativesdk-python3-cssselect2 \
