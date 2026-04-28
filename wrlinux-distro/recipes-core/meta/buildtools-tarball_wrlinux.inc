@@ -10,6 +10,9 @@ TOOLCHAIN_HOST_TASK:append:osv-wrlinux = " \
 # use anspass to save and retrieve credentials
 TOOLCHAIN_HOST_TASK:append:osv-wrlinux = " nativesdk-anspass"
 
+# Provide git lfs
+TOOLCHAIN_HOST_TASK:append:osv-wrlinux = " nativesdk-git-lfs"
+
 # Provide wic tools
 TOOLCHAIN_HOST_TASK:append:osv-wrlinux = " nativesdk-wic"
 
