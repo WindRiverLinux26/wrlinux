@@ -46,6 +46,9 @@ INSTALL_FILES ?= " \
     /usr/${MC_BASELIB} \
     /${MC_BASELIB} \
 "
+REMOVE_FILES ?= " \
+    /usr/${MC_BASELIB}/locale \
+"
 do_install[vardeps] += "INSTALL_FILES MC_SDK_DEPLOY MC_TOOLCHAIN_OUTPUTNAME"
 
 # Extract and install toolchain libraries and include files into nativesdk sysroot
@@ -53,6 +56,10 @@ pkg_postinst:${PN} () {
     set -x
     $D${localstatedir}/machines/${MCNAME}/buildtools-tarball.sh -y -d $D/sdk-${MCNAME}
     src_prefix="$D/sdk-${MCNAME}/sysroots/${SDK_ARCH}${SDK_VENDOR}-${SDK_OS}"
+    # Clean up useless files
+    for remove_file in ${REMOVE_FILES}; do
+        rm -rf ${src_prefix}${remove_file};
+    done
     for install_file in ${INSTALL_FILES}; do
         if [ ! -e ${src_prefix}${install_file} ]; then
             echo "${src_prefix}${install_file} does not exist"
