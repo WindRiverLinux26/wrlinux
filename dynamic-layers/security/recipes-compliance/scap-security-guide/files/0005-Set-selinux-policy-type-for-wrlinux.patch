@@ -1,0 +1,34 @@
+From 3f5806ab3cd594144a5488dd86378f24ee638725 Mon Sep 17 00:00:00 2001
+From: Yi Zhao <yi.zhao@windriver.com>
+Date: Fri, 28 Jan 2022 17:14:51 +0800
+Subject: [PATCH] Set selinux policy type for wrlinux
+
+Set var_selinux_policy_name to wr-mls for WRLinux LTS26
+
+Upstream-Status: Inappropriate [WRLinux specific]
+
+Signed-off-by: Yi Zhao <yi.zhao@windriver.com>
+---
+ linux_os/guide/system/selinux/var_selinux_policy_name.var | 2 ++
+ 1 file changed, 2 insertions(+)
+
+diff --git a/linux_os/guide/system/selinux/var_selinux_policy_name.var b/linux_os/guide/system/selinux/var_selinux_policy_name.var
+index 891c5818..07be5098 100644
+--- a/linux_os/guide/system/selinux/var_selinux_policy_name.var
++++ b/linux_os/guide/system/selinux/var_selinux_policy_name.var
+@@ -7,6 +7,7 @@ description: |-
+     <br />targeted - Only targeted network daemons are protected.
+     <br />strict - Full SELinux protection.
+     <br />mls - Multiple levels of security
++    <br />wr-mls - Multiple levels of security on Wind River Linux
+ 
+ type: string
+ 
+@@ -18,3 +19,4 @@ options:
+     default: targeted
+     mls: mls
+     targeted: targeted
++    wr-mls: wr-mls
+-- 
+2.51.2
+

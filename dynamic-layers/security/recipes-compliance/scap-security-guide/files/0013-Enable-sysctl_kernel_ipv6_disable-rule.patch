@@ -1,0 +1,27 @@
+From c9930730e79d4446a8fb19972f7405e305c494a4 Mon Sep 17 00:00:00 2001
+From: Yi Zhao <yi.zhao@windriver.com>
+Date: Tue, 21 May 2024 15:58:26 +0800
+Subject: [PATCH] Enable sysctl_kernel_ipv6_disable rule
+
+Upstream-Status: Inappropriate [WRLinux specific]
+
+Signed-off-by: Yi Zhao <yi.zhao@windriver.com>
+---
+ shared/checks/oval/sysctl_kernel_ipv6_disable.xml | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/shared/checks/oval/sysctl_kernel_ipv6_disable.xml b/shared/checks/oval/sysctl_kernel_ipv6_disable.xml
+index b718ded2..ade7d185 100644
+--- a/shared/checks/oval/sysctl_kernel_ipv6_disable.xml
++++ b/shared/checks/oval/sysctl_kernel_ipv6_disable.xml
+@@ -21,6 +21,7 @@
+     <platform>multi_platform_slmicro</platform>
+     <platform>multi_platform_tencentos</platform>
+     <platform>multi_platform_ubuntu</platform>
++    <platform>multi_platform_wrlinux</platform>
+       </affected>
+       <description>Disables IPv6 for all network interfaces.</description>
+     </metadata>
+-- 
+2.51.2
+

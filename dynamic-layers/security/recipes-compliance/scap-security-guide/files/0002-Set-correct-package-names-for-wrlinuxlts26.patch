@@ -1,0 +1,132 @@
+From 4aea7e28b1f23cd9e3b58dbb17d45d1295825811 Mon Sep 17 00:00:00 2001
+From: Yi Zhao <yi.zhao@windriver.com>
+Date: Thu, 27 Jan 2022 09:47:52 +0800
+Subject: [PATCH] Set correct package names for wrlinuxlts26
+
+Set correct package names for WRLinuxlts26, otherwise the packages can
+not be found in STIG.
+
+Upstream-Status: Inappropriate [WRLinux specific]
+
+Signed-off-by: Yi Zhao <yi.zhao@windriver.com>
+---
+ products/wrlinuxlts26/product.yml             |  5 +++++
+ .../oval/installed_env_has_login_defs.xml     |  4 ++--
+ .../applicability/oval/system_with_kernel.xml |  2 ++
+ shared/applicability/package.yml              | 22 ++++++++++++++-----
+ 4 files changed, 26 insertions(+), 7 deletions(-)
+
+diff --git a/products/wrlinuxlts26/product.yml b/products/wrlinuxlts26/product.yml
+index c6596ccb..35600655 100644
+--- a/products/wrlinuxlts26/product.yml
++++ b/products/wrlinuxlts26/product.yml
+@@ -23,3 +23,8 @@ cpes:
+       name: "cpe:/o:windriver:wrlinux:lts26"
+       title: "Wind River Linux LTS26"
+       check_id: installed_OS_is_wrlinuxlts26
++
++# Mapping of CPE platform to package
++platform_package_overrides:
++  login_defs: "shadow"
++  pam: "libpam-runtime"
+diff --git a/shared/applicability/oval/installed_env_has_login_defs.xml b/shared/applicability/oval/installed_env_has_login_defs.xml
+index fdb8114c..da472d51 100644
+--- a/shared/applicability/oval/installed_env_has_login_defs.xml
++++ b/shared/applicability/oval/installed_env_has_login_defs.xml
+@@ -17,7 +17,7 @@
+ {{% if pkg_system == "rpm" %}}
+   <linux:rpminfo_test check="all" check_existence="at_least_one_exists"
+   id="test_env_has_login_defs_installed" version="1"
+-  {{% if 'sle' in product or 'slmicro' in product %}}
++  {{% if 'sle' in product or 'slmicro' in product or 'wrlinux' in product %}}
+   comment="system has package shadow installed, which provides the /etc/login.defs file.">
+   {{% else %}}
+   comment="system has package shadow-utils installed, which provides the /etc/login.defs file.">
+@@ -25,7 +25,7 @@
+     <linux:object object_ref="obj_env_has_login_defs_installed" />
+   </linux:rpminfo_test>
+   <linux:rpminfo_object id="obj_env_has_login_defs_installed" version="1">
+-    <linux:name>{{% if 'sle' in product or 'slmicro' in product %}}shadow{{% else %}}shadow-utils{{% endif %}}</linux:name>
++    <linux:name>{{% if 'sle' in product or 'slmicro' in product or 'wrlinux' in product %}}shadow{{% else %}}shadow-utils{{% endif %}}</linux:name>
+   </linux:rpminfo_object>
+ {{% elif pkg_system == "dpkg" %}}
+   <linux:dpkginfo_test check="all" check_existence="all_exist"
+diff --git a/shared/applicability/oval/system_with_kernel.xml b/shared/applicability/oval/system_with_kernel.xml
+index d1cbf79c..7fefe29b 100644
+--- a/shared/applicability/oval/system_with_kernel.xml
++++ b/shared/applicability/oval/system_with_kernel.xml
+@@ -16,6 +16,8 @@
+ {{% elif 'sle' in product or 'slmicro' in product %}}
+ {{{ oval_test_package_installed(package="kernel-default", test_id="inventory_test_kernel_installed") }}}
+ {{{ oval_test_package_installed(package="kernel-default-base", test_id="inventory_test_kernel_default_base_installed") }}}
++{{% elif 'wrlinux' in product %}}
++{{{ oval_test_package_installed(package="kernel", test_id="inventory_test_kernel_installed") }}}
+ {{% else %}}
+ {{{ oval_test_package_installed(package="kernel-core", test_id="inventory_test_kernel_installed") }}}
+ {{% endif %}}
+diff --git a/shared/applicability/package.yml b/shared/applicability/package.yml
+index 75cd60e0..fac12658 100644
+--- a/shared/applicability/package.yml
++++ b/shared/applicability/package.yml
+@@ -16,14 +16,18 @@ args:
+     pkgname: apport
+   audit:
+     {{% if pkg_system == "rpm" %}}
+-    pkgname: audit
++    {{% if 'wrlinux' in product %}}
++      pkgname: auditd
+     {{% else %}}
+-    pkgname: auditd
++      pkgname: audit
++    {{% endif %}}
++    {{% else %}}
++      pkgname: auditd
+     {{% endif %}}
+   autofs:
+     pkgname: autofs
+   avahi:
+-    {{% if 'ubuntu' in product %}}
++    {{% if 'ubuntu' in product or 'wrlinux' in product %}}
+     pkgname: avahi-daemon
+     {{% else %}}
+     pkgname: avahi
+@@ -96,10 +100,18 @@ args:
+   openssh:
+     pkgname: openssh
+   openssh-server:
++    {{% if 'wrlinux' in product %}}
++    pkgname: openssh-sshd
++    {{% else %}}
+     pkgname: openssh-server
++    {{% endif %}}
+   pam:
+     {{% if pkg_system == "rpm" %}}
++    {{% if 'wrlinux' in product %}}
++      pkgname: libpam-runtime
++    {{% else %}}
+       pkgname: pam
++    {{% endif %}}
+     {{% else %}}
+       pkgname: libpam-runtime
+     {{% endif %}}
+@@ -113,7 +125,7 @@ args:
+     pkgname: rsh-server
+   shadow-utils:
+     {{% if pkg_system == "rpm" %}}
+-    {{% if 'sle' in product or 'slmicro' in product or product in ["kylinserver10", "openeuler2203"] %}}
++    {{% if 'sle' in product or 'slmicro' in product or product in ["kylinserver10", "openeuler2203"] or 'wrlinux' in product %}}
+       pkgname: shadow
+     {{% else %}}
+       pkgname: shadow-utils
+@@ -133,7 +145,7 @@ args:
+   squid:
+     pkgname: squid
+   sssd:
+-    {{% if 'sle' in product or 'ubuntu' in product %}}
++    {{% if 'sle' in product or 'ubuntu' in product or 'wrlinux' in product %}}
+       pkgname: sssd
+     {{% else %}}
+       pkgname: sssd-common
+-- 
+2.51.2
+
