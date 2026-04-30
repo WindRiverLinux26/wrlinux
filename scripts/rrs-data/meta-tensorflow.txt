@@ -1,0 +1,48 @@
+* bazel-native 7.7.0 9.1.0 Not updated
+    - bazel-native: upgrade 6.0.0 -> 7.7.0 | 7.7.0 | U | Default | 2026-03-25
+    - bazel-native: 5.3.2 -> 6.0.0 | 6.0.0 | U | Default | 2023-09-21
+    - bazel-native: 5.1.1 -> 5.3.2 | 5.3.2 | U | Default | 2022-12-15
+    - bazel-native: upgrade 3.7.1 -> 5.1.1 | 5.1.1 | U | Default | 2022-05-19
+    - Initial import at master release start. | 3.7.1 | U | Default | 2021-10-22
+* openjdk-21-native 21.0.2  Unknown
+    - Upgrade openjdk-11 to openjdk-21 | 21.0.2 | U | Default | 2026-03-25
+* python3-astunparse 1.6.3 1.6.3 Up-to-date
+    - Initial import at master release start. | 1.6.3 | U | Default | 2021-10-22
+* python3-google-pasta 0.2.0 0.2.0 Up-to-date
+    - Initial import at master release start. | 0.2.0 | U | Default | 2021-10-22
+* python3-keras 3.13.2 3.14.0 Not updated
+    - Switch tf-keras to python3-keras 3.13.2 | 3.13.2 | U | Default | 2026-03-25
+* python3-mldtypes 0.5.4 0.5.4 Up-to-date
+    - python3-mldtypes: 0.5.1 -> 0.5.4 | 0.5.4 | U | Default | 2026-03-25
+    - python3-mldtypes: 0.2.0 -> 0.5.1 | 0.5.1 | U | Default | 2025-04-09
+    - python3-mldtypes: add version 0.2.0 | 0.2.0 | U | Default | 2023-09-21
+* python3-opt-einsum 3.4.0 3.4.0 Up-to-date
+    - python3-opt-einsum: 3.3.0 -> 3.4.0 | 3.4.0 | U | Default | 2026-03-25
+    - Initial import at master release start. | 3.3.0 | U | Default | 2021-10-22
+* python3-optree 0.19.0 0.19.0 Up-to-date
+    - python3-optree: add recipe 0.19.0 | 0.19.0 | U | Default | 2026-03-25
+* tensorflow 2.21.0 2.21.0 Up-to-date
+    - tensorflow/tensorflow-native/tensorflow-lite: upgrade 2.19.0 -> 2.21.0 | 2.21.0 | U | Default | 2026-03-25
+    - tensorflow: upgrade 2.17.0 -> 2.19.0 | 2.19.0 | U | Default | 2025-04-09
+    - tensorflow: 2.16.1 -> 2.17.0 | 2.17.0 | U | Default | 2024-08-23
+    - tensorflow/tensorflow-lite/tensorflow-native: upgrade to 2.16.1 | 2.16.1 | U | Default | 2024-03-15
+    - tensorflow/tensorflow-native/tensorflow-lite: 2.12.0 -> 2.14.0 | 2.14.0 | U | Default | 2023-09-21
+    - tensorflow/tensorflow-lite/tensorflow-native: 2.12.0rc1 -> 2.12.0 | 2.12.0 | D | Default | 2023-03-24
+    - tensorflow/tensorflow-native: 2.11.0 -> 2.12.0rc1 | 2.12.0rc1 | U | Default | 2023-03-15
+    - tensorflow/tensorflow-native/tensorflow-lite: 2.10.0 -> 2.11.0 | 2.11.0 | U | Default | 2022-12-15
+    - tensorflow/tensorflow-native/tensorflow-lite: 2.9.0 -> 2.10.0 | 2.10.0 | U | Default | 2022-09-21
+    - tensorflow-native/tensorflow: 2.6.0 -> 2.9.0 | 2.9.0 | U | Default | 2022-05-19
+    - tensorflow: 2.6.0 -> 2.6.1 | 2.6.1 | U | Default | 2021-11-04
+    - Initial import at master release start. | 2.6.0 | U | Default | 2021-10-22
+* tensorflow-lite 2.21.0 2.21.0 Up-to-date
+    - tensorflow/tensorflow-native/tensorflow-lite: upgrade 2.19.0 -> 2.21.0 | 2.21.0 | U | Default | 2026-03-25
+    - tensorflow: upgrade 2.17.0 -> 2.19.0 | 2.19.0 | U | Default | 2025-04-09
+    - tensorflow: 2.16.1 -> 2.17.0 | 2.17.0 | U | Default | 2024-08-23
+    - tensorflow/tensorflow-lite/tensorflow-native: upgrade to 2.16.1 | 2.16.1 | U | Default | 2024-03-15
+    - tensorflow/tensorflow-native/tensorflow-lite: 2.12.0 -> 2.14.0 | 2.14.0 | U | Default | 2023-09-21
+    - tensorflow/tensorflow-lite/tensorflow-native: 2.12.0rc1 -> 2.12.0 | 2.12.0 | D | Default | 2023-03-24
+    - tensorflow/tensorflow-native: 2.11.0 -> 2.12.0rc1 | 2.12.0rc1 | U | Default | 2023-03-15
+    - tensorflow/tensorflow-native/tensorflow-lite: 2.10.0 -> 2.11.0 | 2.11.0 | U | Default | 2022-12-15
+    - tensorflow/tensorflow-native/tensorflow-lite: 2.9.0 -> 2.10.0 | 2.10.0 | U | Default | 2022-09-21
+    - tensorflow-lite: upgrade 2.6.1 -> 2.9.0 | 2.9.0 | U | Default | 2022-05-19
+    - tensorflow-lite: add recipe | 2.6.1 | U | Default | 2022-01-24

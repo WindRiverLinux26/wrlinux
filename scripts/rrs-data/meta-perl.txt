@@ -1,6 +1,6 @@
-* adduser 3.118 3.154 Not updated
+* adduser 3.118  Unknown
     - Initial import at master release start. | 3.118 | U | Default | 2021-09-24
-* libdbd-sqlite-perl 1.78 1.78 Up-to-date
+* libdbd-sqlite-perl 1.78  Unknown
     - libdbd-sqlite-perl: upgrade 1.76 -> 1.78 | 1.78 | U | Default | 2026-01-12
     - libdbd-sqlite-perl: upgrade 1.74 -> 1.76 | 1.76 | U | Default | 2024-11-06
     - libdbd-sqlite-perl: upgrade 1.72 -> 1.74 | 1.74 | U | Default | 2023-11-06
@@ -11,7 +11,9 @@
     - Initial import at master release start. | 9999.19 | U | Default | 2021-09-24
 * libipc-signal-perl 1.00 1.00 Up-to-date
     - Initial import at master release start. | 1.00 | U | Default | 2021-09-24
-* libmime-types-perl 2.30 2.30 Up-to-date
+* libmime-base32-perl 1.303 1.303 Up-to-date
+    - libmime-base32-perl: add recipe | 1.303 | U | Default | 2025-10-25
+* libmime-types-perl 2.30  Unknown
     - libmime-types-perl: upgrade 2.29 -> 2.30 | 2.30 | U | Default | 2025-12-21
     - libmime-types-perl: upgrade 2.28 -> 2.29 | 2.29 | U | Default | 2025-09-25
     - libmime-types-perl: upgrade 2.27 -> 2.28 | 2.28 | U | Default | 2025-04-24

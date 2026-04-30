@@ -1,2 +1,4 @@
-* key-store 0.1 0.1 Up-to-date
-    - meta-secure-core: clean up getVar() usage | 0.1 | U | Default | 2023-05-17
+* key-store 0.1  Unknown
+    - Initial import at master release start. | 0.1 | U | Default | 2021-10-21
+* pesign 116+gitAUTOINC+227435af46 116 Up-to-date
+    - pesign: add recipe | 116+gitAUTOINC+227435af46 | U | Default | 2023-06-24

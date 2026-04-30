@@ -7,8 +7,8 @@
     - dracut: Switch to dracut-ng and upgrade to version 102 | 102 | U | Default | 2024-06-08
     - dracut: upgrade 055 -> 056 | 056 | U | Default | 2022-04-07
     - dracut: upgrade 051 -> 055 | 055 | U | Default | 2022-01-18
-    - recipes: Update SRC_URI branch and protocols | 051 | U | Default | 2021-11-03
-* grubby git 8.40 Unknown
+    - Initial import at master release start. | 051 | U | Default | 2021-09-24
+* grubby 8.40 8.40 Unknown
     - grubby: drop version 8.40 | 8.40 | N | Default | 2023-01-04
-    - recipes: Update SRC_URI branch and protocols | git | U | Default | 2021-11-03
-    - recipes: Update SRC_URI branch and protocols | 8.40 | U | Default | 2021-11-03
+    - Initial import at master release start. | 8.40 | U | Default | 2021-09-24
+    - Initial import at master release start. | git | U | Default | 2021-09-24

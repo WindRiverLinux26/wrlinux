@@ -1,4 +1,4 @@
-* apache2 2.4.66 2.4.66 Up-to-date
+* apache2 2.4.66  Unknown
     - apache2: upgrade 2.4.65 -> 2.4.66 | 2.4.66 | U | Default | 2025-12-05
     - apache2: upgrade 2.4.64 -> 2.4.65 | 2.4.65 | U | Default | 2025-07-30
     - apache2: upgrade 2.4.63 -> 2.4.64 | 2.4.64 | U | Default | 2025-07-16
@@ -16,7 +16,11 @@
     - apache2: upgrade 2.4.51 -> 2.4.52 | 2.4.52 | U | Default | 2021-12-27
     - Apache: Several CVE fixes | 2.4.51 | U | Default | 2021-10-22
     - apache2: upgrade 2.4.48 -> 2.4.49 | 2.4.49 | U | Default | 2021-09-24
-* nginx 1.29.5 1.29.5 Not updated
+    - Initial import at master release start. | 2.4.48 | U | Default | 2021-09-24
+* nginx 1.29.7  Unknown
+    - nginx: upgrade 1.29.6 -> 1.29.7 | 1.29.7 | U | Default | 2026-03-28
+    - nginx: upgrade 1.28.2 -> 1.28.3 | 1.28.3 | D | Default | 2026-03-28
+    - nginx: upgrade 1.29.5 -> 1.29.6 | 1.29.6 | U | Default | 2026-03-18
     - nginx: upgrade 1.29.1 -> 1.29.5 | 1.29.5 | U | Default | 2026-02-16
     - nginx: upgrade 1.28.1 -> 1.28.2 | 1.28.2 | U | Default | 2026-02-16
     - nginx: ignore CVE-2025-53859 for 1.28.1 | 1.28.1 | D | Default | 2026-01-12
@@ -41,8 +45,8 @@
     - nginx: upgrade to 1.24.0 release | 1.24.0 | U | Default | 2023-07-11
     - nginx: upgrade 1.23.3 -> 1.23.4 | 1.23.4 | U | Default | 2023-04-04
     - nginx: upgrade 1.20.1 -> 1.23.3 | 1.23.3 | U | Default | 2023-03-10
-    - nginx: use ln -rs | 1.20.1 | U | Default | 2021-11-11
-    - nginx: use ln -rs | 1.21.1 | U | Default | 2021-11-11
+    - Initial import at master release start. | 1.20.1 | U | Default | 2021-09-24
+    - Initial import at master release start. | 1.21.1 | U | Default | 2021-09-24
 * phpmyadmin 5.2.3 5.2.3 Up-to-date
     - phpmyadmin: upgrade 5.2.2 -> 5.2.3 | 5.2.3 | U | Default | 2025-10-25
     - phpmyadmin: upgrade 5.2.1 -> 5.2.2 | 5.2.2 | U | Default | 2025-02-10
@@ -51,7 +55,8 @@
     - phpmyadmin: upgrade 5.1.2 -> 5.1.3 | 5.1.3 | U | Default | 2022-02-23
     - phpmyadmin: upgrade 5.1.1 -> 5.1.2 | 5.1.2 | U | Default | 2022-01-25
     - phpmyadmin: upgrade 5.1.0 -> 5.1.1 | 5.1.1 | U | Default | 2021-09-30
-* xdebug 3.5.1 3.5.1 Up-to-date
+    - Initial import at master release start. | 5.1.0 | U | Default | 2021-09-24
+* xdebug 3.5.1  Unknown
     - xdebug: upgrade 3.5.0 -> 3.5.1 | 3.5.1 | U | Default | 2026-03-03
     - xdebug: upgrade 3.4.7 -> 3.5.0 | 3.5.0 | U | Default | 2025-12-05
     - xdebug: upgrade 3.4.6 -> 3.4.7 | 3.4.7 | U | Default | 2025-11-23
@@ -61,3 +66,4 @@
     - xdebug: upgrade 3.2.0 -> 3.2.2 | 3.2.2 | U | Default | 2023-11-11
     - xdebug: upgrade 3.1.1 -> 3.2.0 | 3.2.0 | U | Default | 2023-03-11
     - xdebug: upgrade 2.9.5 -> 3.1.1 | 3.1.1 | U | Default | 2021-10-20
+    - Initial import at master release start. | 2.9.5 | U | Default | 2021-09-24

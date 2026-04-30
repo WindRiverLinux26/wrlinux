@@ -1,0 +1,16 @@
+* flite 2.2 2.2 Up-to-date
+    - flite: add recipe | 2.2 | U | Default | 2022-05-31
+* libcamera 0.6.0  Unknown
+    - libcamera: upgrade 0.5.2 -> 0.6.0 | 0.6.0 | U | Default | 2025-12-08
+    - libcamera: upgrade 0.4.0 -> 0.5.2 | 0.5.2 | U | Default | 2025-09-16
+    - libcamera: update to 0.4.0 | 0.4.0 | U | Default | 2025-01-08
+    - libcamera: update to 0.3.0 | 0.3.0 | U | Default | 2024-06-05
+    - libcamera: update 0.1.0 -> 0.2.0 | 0.2.0 | U | Default | 2024-01-27
+    - libcamera: update 0.0.5 -> 0.1.0 | 0.1.0 | U | Default | 2023-07-23
+    - libcamera: update 0.0.4 -> 0.0.5 | 0.0.5 | U | Default | 2023-05-16
+    - libcamera: update 0.0.1 -> 0.0.4 | 0.0.4 | U | Default | 2023-03-25
+    - libcamera: upgrade -> 0.0.1 | 0.0.1 | D | Default | 2022-10-22
+    - libcamera: Bump SRCREV and add libyaml to DEPENDS | 202105+gitAUTOINC+ed591e705c | U | Default | 2022-10-04
+    - libcamera: Update to latest commit | 202105+gitAUTOINC+acf8d028ed | U | Default | 2021-12-08
+    - Upgrade libcamera | 202105+gitAUTOINC+f47c9c36ed | U | Default | 2021-12-01
+    - Initial import at master release start. | 202105+gitAUTOINC+193ca8c353 | U | Default | 2021-09-24

@@ -1,0 +1,18 @@
+* nvidia-kernel-oot 36.5.0+git  
+    - meta: update L4T R36.4.4 -> R36.5.0 | 36.5.0+git | U | Default | 2026-02-28
+    - meta: update L4T R36.4.4 -> R36.5.0 | 36.5.0 | U | Default | 2026-02-28
+    - nvidia-kernel-oot: update git recipe for R36.4.4 | 36.4.4+git | U | Default | 2025-08-09
+    - meta: update L4T R36.4.3 -> R36.4.4 | 36.4.4 | U | Default | 2025-08-09
+    - nvidia-kernel-oot_git: bump SRCREV for R36.4.3 updates | 36.4.3+git | U | Default | 2025-04-19
+    - meta: update recipes R36.4.0/JetPack 6.1 -> 36.4.3/JetPack 6.2 | 36.4.3 | U | Default | 2025-04-19
+    - nvidia-kernel-oot: update branch and SRCREV | 36.4.0+git | U | Default | 2025-04-18
+    - nvidia-kernel-oot: support external device-tree recipes | 36.4.0 | U | Default | 2025-04-12
+    - nvidia-kernel-oot: add recipe for using git-hosted repos | 36.4.0+git | U | Default | 2025-01-12
+    - meta: update recipes R36.3.0/JetPack 6 -> R36.4.0/JetPack 6.1 | 36.4.0 | U | Default | 2024-10-26
+    - nvidia-kernel-oot: add recipe | 36.3.0 | U | Default | 2024-05-30
+* nvidia-kernel-oot-dtb 36.5.0  
+    - meta: update L4T R36.4.4 -> R36.5.0 | 36.5.0 | U | Default | 2026-02-28
+    - meta: update L4T R36.4.3 -> R36.4.4 | 36.4.4 | U | Default | 2025-08-09
+    - meta: update recipes R36.4.0/JetPack 6.1 -> 36.4.3/JetPack 6.2 | 36.4.3 | U | Default | 2025-04-19
+    - meta: update recipes R36.3.0/JetPack 6 -> R36.4.0/JetPack 6.1 | 36.4.0 | U | Default | 2024-10-26
+    - nvidia-kernel-oot: deploy virtual/dtb in separate recipe | 36.3.0 | U | Default | 2024-07-12
