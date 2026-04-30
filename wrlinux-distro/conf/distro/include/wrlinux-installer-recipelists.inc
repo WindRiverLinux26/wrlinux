@@ -4,8 +4,6 @@ RECIPE_LIST_LAYERS:remove = "meta-anaconda"
 WRL_RECIPES:gnome-layer += "\
     keybinder \
     libnma \
-    libtimezonemap \
-    metacity \
     network-manager-applet \
     usermode \
 "
@@ -37,14 +35,8 @@ WRL_RECIPES:openembedded-layer += "\
     libnewt \
     libreport \
     libtar \
-    fltk \
     glade \
-    gnome-doc-utils-stub \
     isomd5sum \
     satyr \
-    tigervnc \
-    uthash \
     xmlrpc-c \
-    libsass \
-    sassc \
 "
