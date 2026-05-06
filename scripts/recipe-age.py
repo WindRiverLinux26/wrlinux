@@ -85,7 +85,10 @@ class AgeVersion(object):
                         line_split = line.split()
                         recipe = line_split[0]
                         current_version = line_split[1]
-                        upstream_version = line_split[2]
+                        if len(line_split) >2:
+                            upstream_version = line_split[2]
+                        else:
+                            upstream_version = 'Unknown'
                         if len(line_split) > 3:
                             status = ' '.join(line_split[3:])
                         else:
