@@ -247,7 +247,7 @@
     - base-passwd: Update to 3.6.1 | 3.6.1 | U |  | 2022-10-25
     - base-passwd: Update to 3.5.52 | 3.5.52 | U |  | 2022-05-16
     - Initial import at master release start. | 3.5.29 | U |  | 2021-09-21
-* bash 5.3 5.3 Up-to-date
+* bash 5.3  Unknown
     - bash: upgrade 5.2.37 -> 5.3 | 5.3 | U |  | 2025-07-31
     - bash: upgrade 5.2.32 -> 5.2.37 | 5.2.37 | U |  | 2024-10-29
     - bash: upgrade 5.2.21 -> 5.2.32 | 5.2.32 | U |  | 2024-08-23
@@ -1036,7 +1036,7 @@
     - desktop-file-utils: upgrade 0.27 -> 0.28 | 0.28 | U |  | 2024-11-18
     - desktop-file-utils: upgrade 0.26 -> 0.27 | 0.27 | U |  | 2023-11-30
     - Initial import at master release start. | 0.26 | U |  | 2021-09-21
-* dhcpcd 10.3.0 10.3.1 Not updated
+* dhcpcd 10.3.0 10.3.2 Not updated
     - dhcpcd: upgrade 10.2.4 -> 10.3.0 | 10.3.0 | U |  | 2025-12-08
     - dhcpcd: upgrade 10.2.2 -> 10.2.4 | 10.2.4 | U |  | 2025-06-05
     - dhcpcd: upgrade 10.1.0 -> 10.2.2 | 10.2.2 | U |  | 2025-03-18
@@ -1051,7 +1051,7 @@
     - dhcpcd: upgrade to v10.0.1 | 10.0.1 | U |  | 2023-05-22
     - dhcpcd: upgrade 9.4.0 -> 9.4.1 | 9.4.1 | U |  | 2021-10-27
     - Initial import at master release start. | 9.4.0 | U |  | 2021-09-21
-* diffoscope 314 317 Not updated
+* diffoscope 314 318 Not updated
     - diffoscope: upgrade 313 -> 314 | 314 | U |  | 2026-03-23
     - diffoscope: upgrade 311 -> 313 | 313 | U |  | 2026-03-09
     - diffoscope: upgrade 306 -> 311 | 311 | U |  | 2026-02-12
@@ -1284,7 +1284,7 @@
     - ell: upgrade 0.44 -> 0.45 | 0.45 | U |  | 2021-11-10
     - ell: upgrade 0.43 -> 0.44 | 0.44 | U |  | 2021-10-11
     - Initial import at master release start. | 0.43 | U |  | 2021-09-21
-* enchant2 2.8.15 2.8.15 Up-to-date
+* enchant2 2.8.15 2.8.16 Not updated
     - enchant2: upgrade 2.8.14 -> 2.8.15 | 2.8.15 | U |  | 2026-03-09
     - enchant2: upgrade 2.8.12 -> 2.8.14 | 2.8.14 | U |  | 2025-12-08
     - enchant2: upgrade 2.8.10 -> 2.8.12 | 2.8.12 | U |  | 2025-09-11
@@ -1573,7 +1573,7 @@
     - gcc: upgrade 11.3 -> 12.1 | 12.1.0 | U |  | 2022-05-10
     - gcc: Upgrade to 11.3 release | 11.3.0 | U |  | 2022-04-22
     - Initial import at master release start. | 11.2.0 | U |  | 2021-09-21
-* gcc-source-15.2.0 15.2.0  Unknown
+* gcc-source-15.2.0 15.2.0 16.1.0 Not updated
     - gcc: Upgrade to 15.2.0 release | 15.2.0 | U |  | 2025-08-14
 * gcompat 1.1.0 1.1.0-new-commits-available Not updated
     - gcompat: Upgrade to 1.1.0 release | 1.1.0 | U |  | 2023-10-16
@@ -1740,7 +1740,7 @@
 * glew 2.3.1 2.3.1 Up-to-date
     - glew: update 2.2.0 -> 2.3.1 | 2.3.1 | U |  | 2026-01-29
     - Initial import at master release start. | 2.2.0 | U |  | 2021-09-21
-* glib-2.0 2.88.0 2.88.0 Up-to-date
+* glib-2.0 2.88.0 2.88.1 Not updated
     - glib-2.0: upgrade 2.86.4 -> 2.88.0 | 2.88.0 | U |  | 2026-03-23
     - glib-2.0: upgrade 2.86.3 -> 2.86.4 | 2.86.4 | U |  | 2026-02-23
     - glib-2.0: upgrade 2.86.1 -> 2.86.3 | 2.86.3 | U |  | 2025-12-31
@@ -1778,7 +1778,7 @@
     - glib-2.0: upgrade 2.70.0 -> 2.70.1 | 2.70.1 | U |  | 2021-11-03
     - glib-2.0: update 2.68.4 -> 2.70.0 | 2.70.0 | U |  | 2021-10-14
     - Initial import at master release start. | 2.68.4 | U |  | 2021-09-21
-* glib-2.0-initial 2.88.0 2.88.0 Up-to-date
+* glib-2.0-initial 2.88.0 2.88.1 Not updated
     - glib-2.0: upgrade 2.86.4 -> 2.88.0 | 2.88.0 | U |  | 2026-03-23
     - glib-2.0: upgrade 2.86.3 -> 2.86.4 | 2.86.4 | U |  | 2026-02-23
     - glib-2.0: upgrade 2.86.1 -> 2.86.3 | 2.86.3 | U |  | 2025-12-31
@@ -2825,7 +2825,7 @@
     - hdparm: upgrade 9.63 -> 9.64 | 9.64 | U |  | 2022-07-23
     - hdparm: upgrade 9.62 -> 9.63 | 9.63 | U |  | 2022-01-18
     - Initial import at master release start. | 9.62 | U |  | 2021-09-21
-* help2man 1.49.3  Unknown
+* help2man 1.49.3 1.49.3 Up-to-date
     - help2man: upgrade 1.49.2 -> 1.49.3 | 1.49.3 | U |  | 2022-12-22
     - help2man: upgrade 1.49.1 -> 1.49.2 | 1.49.2 | U |  | 2022-04-19
     - help2man: upgrade 1.48.5 -> 1.49.1 | 1.49.1 | U |  | 2022-02-17
@@ -3492,7 +3492,7 @@
     - libhandy: upgrade 1.4.0 -> 1.5.0 | 1.5.0 | U |  | 2021-11-16
     - libhandy: update 1.2.3 -> 1.4.0 | 1.4.0 | U |  | 2021-10-11
     - Initial import at master release start. | 1.2.3 | U |  | 2021-09-21
-* libical 3.0.20 3.0.20 Up-to-date
+* libical 3.0.20 4.0.0 Not updated
     - libical: upgrade 3.0.19 -> 3.0.20 | 3.0.20 | U |  | 2025-03-17
     - libical: upgrade 3.0.18 -> 3.0.19 | 3.0.19 | U |  | 2025-01-02
     - libical: upgrade 3.0.17 -> 3.0.18 | 3.0.18 | U |  | 2024-04-16
@@ -3598,7 +3598,7 @@
     - libmodulemd: upgrade 2.14.0 -> 2.15.0 | 2.15.0 | U |  | 2023-06-16
     - libmodulemd: upgrade 2.13.0 -> 2.14.0 | 2.14.0 | U |  | 2022-02-10
     - Initial import at master release start. | 2.13.0 | U |  | 2021-09-21
-* libmpc 1.3.1  Unknown
+* libmpc 1.3.1 1.4.1 Not updated
     - libmpc: upgrade 1.2.1 -> 1.3.1 | 1.3.1 | U |  | 2022-12-22
     - Initial import at master release start. | 1.2.1 | U |  | 2021-09-21
 * libnl 3.12.0 3.12.0 Up-to-date
@@ -3935,7 +3935,7 @@
     - rust: Upgrade to 1.56.0 | 1.56.0 | U |  | 2021-10-23
     - rust: update 1.54.0 -> 1.55.0 | 1.55.0 | U |  | 2021-10-14
     - Initial import at master release start. | 1.54.0 | U |  | 2021-09-21
-* libtasn1 4.21.0 4.21.0 Up-to-date
+* libtasn1 4.21.0  Unknown
     - libtasn1: upgrade 4.20.0 -> 4.21.0 | 4.21.0 | U |  | 2026-01-19
     - libtasn1: upgrade 4.19.0 -> 4.20.0 | 4.20.0 | U |  | 2025-03-06
     - libtasn1: upgrade 4.18.0 -> 4.19.0 | 4.19.0 | U |  | 2022-09-01
@@ -4436,7 +4436,7 @@
     - linux-firmware: upgrade 20210919 -> 20211027 | 20211027 | U |  | 2021-11-03
     - linux-firmware: upgrade 20210818 -> 20210919 | 20210919 | U |  | 2021-10-23
     - Initial import at master release start. | 20210818 | U |  | 2021-09-21
-* linux-libc-headers 6.18 7.0.2 Can't be updated
+* linux-libc-headers 6.18 7.0.3 Can't be updated
     - linux-libc-headers: update to 6.18 | 6.18 | U |  | 2025-12-23
     - linux-libc-headers: update to 6.17 | 6.17 | U |  | 2025-10-30
     - linux-libc-headers: update to v6.16 | 6.16 | U |  | 2025-08-14
@@ -5904,11 +5904,11 @@
     - lzlib: add a recipe | 1.14 | U |  | 2024-02-08
 * lzo 2.10 2.10 Up-to-date
     - Initial import at master release start. | 2.10 | U |  | 2021-09-21
-* m4 1.4.21 1.4.21 Up-to-date
+* m4 1.4.21  Unknown
     - m4: upgrade to 1.4.21 | 1.4.21 | U |  | 2026-03-12
     - m4: Upgrade to 1.4.20 release | 1.4.20 | U |  | 2025-05-19
     - Initial import at master release start. | 1.4.19 | U |  | 2021-09-21
-* m4-native 1.4.21  Unknown
+* m4-native 1.4.21 1.4.21 Up-to-date
     - m4: upgrade to 1.4.21 | 1.4.21 | U |  | 2026-03-12
     - m4: Upgrade to 1.4.20 release | 1.4.20 | U |  | 2025-05-19
     - Initial import at master release start. | 1.4.19 | U |  | 2021-09-21
@@ -6290,7 +6290,7 @@
 * mtdev 1.1.7 1.1.7 Up-to-date
     - mtdev: upgrade 1.1.6 -> 1.1.7 | 1.1.7 | U |  | 2024-04-16
     - Initial import at master release start. | 1.1.6 | U |  | 2021-09-21
-* mtools 4.0.49 4.0.49 Up-to-date
+* mtools 4.0.49  Unknown
     - mtools: upgrade 4.0.48 -> 4.0.49 | 4.0.49 | U |  | 2025-06-30
     - mtools: upgrade 4.0.47 -> 4.0.48 | 4.0.48 | U |  | 2025-03-06
     - mtools: upgrade 4.0.46 -> 4.0.47 | 4.0.47 | U |  | 2025-02-03
@@ -6348,7 +6348,7 @@
     - Initial import at master release start. | 1.0 | U |  | 2021-09-21
 * nativesdk-clang-glue 1.0 1.0 Up-to-date
     - clang: Merge llvm/clang family recipes from meta-clang | 1.0 | U |  | 2025-05-05
-* nativesdk-libtool 2.5.4  Unknown
+* nativesdk-libtool 2.5.4 2.5.4 Up-to-date
     - libtool: update 2.5.2 -> 2.5.4 | 2.5.4 | U |  | 2024-12-06
     - libtool: 2.5.1 -> 2.5.2 | 2.5.2 | U |  | 2024-09-04
     - libtool: Upgrade 2.5.0 -> 2.5.1 | 2.5.1 | U |  | 2024-08-03
@@ -8320,7 +8320,7 @@
     - python3-unittest-automake-output: upgrade to 0.3 | 0.3 | U |  | 2025-08-07
     - python3-unittest-automake-output: upgrade to 0.2 | 0.2 | U |  | 2024-02-15
     - python3-unittest-automake-output: add new recipe for ptest integration | 0.1 | U |  | 2023-03-21
-* python3-uritools 6.0.1 6.0.2 Not updated
+* python3-uritools 6.0.1 6.1.0 Not updated
     - python3-uritools: upgrade 5.0.0 -> 6.0.1 | 6.0.1 | U |  | 2026-01-15
     - python3-uritools: upgrade 4.0.3 -> 5.0.0 | 5.0.0 | U |  | 2025-06-05
     - python3-uritools: upgrade 4.0.2 -> 4.0.3 | 4.0.3 | U |  | 2024-08-23
@@ -8952,7 +8952,7 @@
     - spirv-headers: upgrade 1.5.4 -> 1.5.5 | 1.5.5+gitAUTOINC+c8213b3c5a | U |  | 2021-11-15
     - spirv-tools: update 2021.2 -> 2021.3 | 1.5.4+gitAUTOINC+6cae8216a6 | U |  | 2021-10-11
     - Initial import at master release start. | 1.5.4+gitAUTOINC+bcf55210f1 | U |  | 2021-09-21
-* spirv-llvm-translator 22.1.1 22.1.1 Up-to-date
+* spirv-llvm-translator 22.1.1 22.1.2 Not updated
     - spirv-llvm-translator: Upgrade to 22.1.1 | 22.1.1 | U |  | 2026-04-02
     - spirv-llvm-translation: Upgrade to 22.0 | 22.0.0 | U |  | 2026-03-27
     - spirv-llvm-translator: upgrade 21.1.3 -> 21.1.5 | 21.1.5 | U |  | 2026-03-09
@@ -9064,7 +9064,7 @@
     - strace: update 5.14 -> 5.15 | 5.15 | U |  | 2021-12-08
     - strace: upgrade 5.13 -> 5.14 | 5.14 | U |  | 2021-10-01
     - Initial import at master release start. | 5.13 | U |  | 2021-09-21
-* stress-ng 0.20.01 0.21.00 Not updated
+* stress-ng 0.20.01 0.21.01 Not updated
     - stress-ng: upgrade 0.20.00 -> 0.20.01 | 0.20.01 | U |  | 2026-03-23
     - stress-ng: update 0.19.06 -> 0.20.00 | 0.20.00 | U |  | 2026-01-29
     - stress-ng: upgrade 0.19.04 -> 0.19.06 | 0.19.06 | U |  | 2025-12-31
@@ -9306,7 +9306,7 @@
     - systemd: upgrade 257.3 -> 257.4 | 257.4 | U |  | 2025-03-19
     - systemd-systemctl-native: correctly set PV | 257.3 | U |  | 2025-03-11
     - Initial import at master release start. | 1.0 | U |  | 2021-09-21
-* systemtap 5.4 5.4 Up-to-date
+* systemtap 5.4 5.5 Not updated
     - systemtap: upgrade 5.3 -> 5.4 | 5.4 | U |  | 2025-12-31
     - systemtap: upgrade 5.2 -> 5.3 | 5.3 | U |  | 2025-06-26
     - systemtap: upgrade 5.1 -> 5.2 | 5.2 | U |  | 2024-11-19
@@ -9317,7 +9317,7 @@
     - systemtap: update 4.6 -> 4.7 | 4.7 | U |  | 2022-05-20
     - systemtap: upgrade 4.5 -> 4.6 | 4.6 | U |  | 2021-11-23
     - Initial import at master release start. | 4.5 | U |  | 2021-09-21
-* systemtap-native 5.4 5.4 Up-to-date
+* systemtap-native 5.4 5.5 Not updated
     - systemtap: upgrade 5.3 -> 5.4 | 5.4 | U |  | 2025-12-31
     - systemtap: upgrade 5.2 -> 5.3 | 5.3 | U |  | 2025-06-26
     - systemtap: upgrade 5.1 -> 5.2 | 5.2 | U |  | 2024-11-19
@@ -9398,7 +9398,7 @@
     - Initial import at master release start. | 1.9 | U |  | 2021-09-21
 * ttf-bitstream-vera 1.10 1.10 Up-to-date
     - Initial import at master release start. | 1.10 | U |  | 2021-09-21
-* ttyrun 2.41.0 2.41.0 Up-to-date
+* ttyrun 2.41.0 2.42.0 Not updated
     - ttyrun: upgrade 2.40.0 -> 2.41.0 | 2.41.0 | U |  | 2026-03-09
     - ttyrun: upgrade 2.39.0 -> 2.40.0 | 2.40.0 | U |  | 2025-12-18
     - ttyrun: upgrade 2.38.0 -> 2.39.0 | 2.39.0 | U |  | 2025-12-08
@@ -9948,7 +9948,7 @@
     - wget: upgrade 1.21.2 -> 1.21.3 | 1.21.3 | U |  | 2022-03-02
     - wget: update 1.21.1 -> 1.21.2 | 1.21.2 | U |  | 2021-10-14
     - Initial import at master release start. | 1.21.1 | U |  | 2021-09-21
-* which 2.23 2.23 Up-to-date
+* which 2.23  Unknown
     - which: update 2.21 -> 2.23, build with meson | 2.23 | U |  | 2025-10-01
     - Initial import at master release start. | 2.21 | U |  | 2021-09-21
 * wic 0.3.0 0.3.0 Up-to-date

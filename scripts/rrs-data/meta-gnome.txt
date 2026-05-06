@@ -44,7 +44,7 @@
     - libgsf: upgrade 1.14.48 -> 1.14.49 | 1.14.49 | U | Default | 2022-03-29
     - libgsf: upgrade 1.14.47 -> 1.14.48 | 1.14.48 | U | Default | 2022-01-05
     - Initial import at master release start. | 1.14.47 | U | Default | 2021-09-24
-* libgtop 2.41.3  Unknown
+* libgtop 2.41.3 2.41.3 Up-to-date
     - libgtop: update 2.41.1 -> 2.41.3 | 2.41.3 | U | Default | 2024-03-23
     - libgtop: update 2.40.0 -> 2.41.1 | 2.41.1 | U | Default | 2023-03-28
     - Initial import at master release start. | 2.40.0 | U | Default | 2021-09-24
@@ -55,7 +55,7 @@
     - libnma: upgrade 1.8.32 -> 1.8.34 | 1.8.34 | U | Default | 2022-01-25
     - libnma: update to 1.8.32 | 1.8.32 | U | Default | 2021-12-10
     - Initial import at master release start. | 1.8.30 | U | Default | 2021-09-24
-* libtimezonemap 0.4.6  Unknown
+* libtimezonemap 0.4.6 0.4.6 Up-to-date
     - Initial import at master release start. | 0.4.6 | U | Default | 2021-09-24
 * libuser 0.64 0.64 Up-to-date
     - libuser: upgrade v0.63 -> v0.64 | 0.64 | U | Default | 2023-03-17
@@ -88,7 +88,8 @@
     - network-manager-applet: upgrade 1.26.0 -> 1.30.0 | 1.30.0 | U | Default | 2023-01-04
     - network-manager-applet: upgrade 1.24.0 -> 1.24.0 | 1.26.0 | U | Default | 2022-04-14
     - Initial import at master release start. | 1.24.0 | U | Default | 2021-09-24
-* onboard 1.4.3-9  Unknown
+* onboard 1.4.4-1  Unknown
+    - onboard: upgrade 1.4.3-9 -> 1.4.4-1 | 1.4.4-1 | U | Default | 2026-04-15
     - onboard: add recipe | 1.4.3-9 | U | Default | 2026-01-27
     - onboard: remove | 1.4.1 | R | Default | 2022-10-16
     - Initial import at master release start. | 1.4.1 | U | Default | 2021-09-24

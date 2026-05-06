@@ -1,4 +1,4 @@
-* optee-os git+git  Unknown
+* optee-os git+git 4.10.0 Unknown
     - arm/arm-bsp: optee-examples: drop patch included in 4.9.0 | git+git | U | Default | 2026-02-06
     - arm/arm-bsp: optee: drop version 4.7.0 | 4.7.0 | N | Default | 2026-01-27
     - arm/arm-bsp: optee: add version 4.9.0 | 4.7.0 | D | Default | 2026-01-27
@@ -37,7 +37,7 @@
     - arm/optee: remove redundant ${S} in LIC_FILES_CHKSUM | 3.14.0 | D | Default | 2022-05-06
     - arm/optee: Upgrade from 3.14 to 3.16 | 3.16.0 | U | Default | 2022-03-16
     - Initial import at master release start. | 3.14.0 | U | Default | 2021-09-21
-* trusted-firmware-a 2.14.1 git-new-commits-available Not updated
+* trusted-firmware-a 2.14.1 2.14.2 Not updated
     - arm/trusted-firmware-a: update LTSes | 2.14.1 | U | Default | 2026-03-02
     - arm/trusted-firmware-a: update LTSes | 2.12.10 | D | Default | 2026-03-02
     - arm/trusted-firmware-a: update LTSes | 2.10.30 | D | Default | 2026-03-02

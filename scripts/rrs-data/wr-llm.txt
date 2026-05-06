@@ -1,5 +1,3 @@
-* git-lfs 3.7.1 3.7.1 Up-to-date
-    - Add recipe git-lfs 3.7.1 | 3.7.1 | U | Default | 2026-04-23
 * hf-gemma-3-1b-it-gguf-q4 0.1 0.1 Up-to-date
     - Add recipe hf-gemma-3-1b-it-gguf-q4 and hf-gemma-3-1b-it-gguf-q8 | 0.1 | U | Default | 2026-04-20
 * hf-gemma-3-1b-it-gguf-q8 0.1 0.1 Up-to-date
@@ -10,7 +8,7 @@
     - Add recipe hf-qwen3.5-0.8b-gguf-ud-q4 and hf-qwen3.5-2b-gguf-ud-q4 | 0.1 | U | Default | 2026-04-21
 * llama-cpp b8783 9794052 Unknown
     - Add recipe llama-cpp b8783 | b8783 | U | Default | 2026-04-20
-* llama-swap 202 209 Not updated
+* llama-swap 202 210 Not updated
     - Add recipe llama-swap 202 | 202 | U | Default | 2026-04-20
 * ollama 0.20.3 0.22.1 Not updated
     - Add recipe ollama 0.20.3 | 0.20.3 | U | Default | 2026-04-20

@@ -2,13 +2,19 @@
     - Initial import at master release start. | 1.0 | U | Default | 2021-09-22
 * packagegroup-qt6-essentials 1.0 1.0 Up-to-date
     - Initial import at master release start. | 1.0 | U | Default | 2021-09-22
-* packagegroup-qt6-examples 1.0 1.0 Up-to-date
+* packagegroup-qt6-examples 1.0  Unknown
     - Add separate recipes for Qt module examples | 1.0 | U | Default | 2025-08-27
-* qt3d 6.12.0 6.11.0 Unknown
+* qt3d 6.12.0 6.11.0 Not updated
     - qtwebengine: update chromium branch | 6.12.0 | U | Default | 2026-01-28
     - Update submodule refs on 'dev' in yocto/meta-qt6 | 6.11.0 | U | Default | 2025-07-01
+    - Update submodule refs on '6.8' in yocto/meta-qt6 | 6.8.3 | D | Default | 2025-01-27
     - qtapplicationmanager: update revision | 6.10.0 | U | Default | 2025-01-10
+    - Update submodule refs on '6.8' in yocto/meta-qt6 | 6.8.2 | D | Default | 2024-11-22
+    - Update submodule refs on '6.8' in yocto/meta-qt6 | 6.8.1 | D | Default | 2024-10-03
+    - Update submodule refs on '6.8' in yocto/meta-qt6 | 6.8.0 | D | Default | 2024-08-21
     - ptest: use builtin test data | 6.9.0 | U | Default | 2024-06-24
+    - qt6-git.inc: Switch to 6.8 branch | 6.8.0 | D | Default | 2024-06-07
+    - Update submodule refs on '6.8' in yocto/meta-qt6 | 6.8.0 | D | Default | 2024-06-03
     - Add srcrev for QtDoc | 6.8.0 | U | Default | 2023-12-20
     - examples: add runtime dependency to main package | 6.7.0 | U | Default | 2023-08-15
     - Bump PV to 6.6.0 | 6.6.0 | U | Default | 2022-12-19
@@ -16,14 +22,20 @@
     - qt6: update version to Qt 6.5.0 | 6.5.0 | U | Default | 2022-06-14
     - qt6: bump version to 6.4.0 | 6.4.0 | U | Default | 2022-02-01
     - Initial import at master release start. | 6.3.0 | U | Default | 2021-09-22
-* qt3d-examples 6.12.0 6.11.0 Unknown
+* qt3d-examples 6.12.0  Unknown
     - qtwebengine: update chromium branch | 6.12.0 | U | Default | 2026-01-28
     - Add separate recipes for Qt module examples | 6.11.0 | U | Default | 2025-08-27
-* qt5compat 6.12.0 6.11.0 Unknown
+* qt5compat 6.12.0 6.11.0 Not updated
     - qtwebengine: update chromium branch | 6.12.0 | U | Default | 2026-01-28
     - Update submodule refs on 'dev' in yocto/meta-qt6 | 6.11.0 | U | Default | 2025-07-01
+    - Update submodule refs on '6.8' in yocto/meta-qt6 | 6.8.3 | D | Default | 2025-01-27
     - qtapplicationmanager: update revision | 6.10.0 | U | Default | 2025-01-10
+    - Update submodule refs on '6.8' in yocto/meta-qt6 | 6.8.2 | D | Default | 2024-11-22
+    - Update submodule refs on '6.8' in yocto/meta-qt6 | 6.8.1 | D | Default | 2024-10-03
+    - Update submodule refs on '6.8' in yocto/meta-qt6 | 6.8.0 | D | Default | 2024-08-21
     - ptest: use builtin test data | 6.9.0 | U | Default | 2024-06-24
+    - qt6-git.inc: Switch to 6.8 branch | 6.8.0 | D | Default | 2024-06-07
+    - Update submodule refs on '6.8' in yocto/meta-qt6 | 6.8.0 | D | Default | 2024-06-03
     - Add srcrev for QtDoc | 6.8.0 | U | Default | 2023-12-20
     - examples: add runtime dependency to main package | 6.7.0 | U | Default | 2023-08-15
     - Bump PV to 6.6.0 | 6.6.0 | U | Default | 2022-12-19
@@ -31,14 +43,20 @@
     - qt6: update version to Qt 6.5.0 | 6.5.0 | U | Default | 2022-06-14
     - qt6: bump version to 6.4.0 | 6.4.0 | U | Default | 2022-02-01
     - Initial import at master release start. | 6.3.0 | U | Default | 2021-09-22
-* qt5compat-examples 6.12.0 6.11.0 Unknown
+* qt5compat-examples 6.12.0  Unknown
     - qtwebengine: update chromium branch | 6.12.0 | U | Default | 2026-01-28
     - Add separate recipes for Qt module examples | 6.11.0 | U | Default | 2025-08-27
-* qtapplicationmanager 6.12.0 6.11.0 Unknown
+* qtapplicationmanager 6.12.0 6.11.0 Not updated
     - qtwebengine: update chromium branch | 6.12.0 | U | Default | 2026-01-28
     - qtapplicationmanager: add PACKAGECONFIG for bubblewrap | 6.11.0 | U | Default | 2025-06-27
+    - Update submodule refs on '6.8' in yocto/meta-qt6 | 6.8.3 | D | Default | 2025-01-27
     - qtapplicationmanager: update revision | 6.10.0 | U | Default | 2025-01-10
+    - Update submodule refs on '6.8' in yocto/meta-qt6 | 6.8.2 | D | Default | 2024-11-22
+    - Update submodule refs on '6.8' in yocto/meta-qt6 | 6.8.1 | D | Default | 2024-10-03
+    - Update submodule refs on '6.8' in yocto/meta-qt6 | 6.8.0 | D | Default | 2024-08-21
     - ptest: use builtin test data | 6.9.0 | U | Default | 2024-06-24
+    - qt6-git.inc: Switch to 6.8 branch | 6.8.0 | D | Default | 2024-06-07
+    - Update submodule refs on '6.8' in yocto/meta-qt6 | 6.8.0 | D | Default | 2024-06-03
     - Add srcrev for QtDoc | 6.8.0 | U | Default | 2023-12-20
     - examples: add runtime dependency to main package | 6.7.0 | U | Default | 2023-08-15
     - Bump PV to 6.6.0 | 6.6.0 | U | Default | 2022-12-19
@@ -46,14 +64,20 @@
     - qt6: update version to Qt 6.5.0 | 6.5.0 | U | Default | 2022-06-14
     - qt6: bump version to 6.4.0 | 6.4.0 | U | Default | 2022-02-01
     - QtApplicationManager: Add support | 6.3.0 | U | Default | 2021-10-06
-* qtapplicationmanager-examples 6.12.0 6.11.0 Unknown
+* qtapplicationmanager-examples 6.12.0  Unknown
     - qtwebengine: update chromium branch | 6.12.0 | U | Default | 2026-01-28
     - Add separate recipes for Qt module examples | 6.11.0 | U | Default | 2025-08-27
-* qtbase 6.12.0 6.11.0 Unknown
+* qtbase 6.12.0 6.11.0 Not updated
     - qtwebengine: update chromium branch | 6.12.0 | U | Default | 2026-01-28
     - Revert "qtbase: Add pending patch for waylandscanner" | 6.11.0 | U | Default | 2025-06-27
+    - qtbase: use correct relative path for scripts | 6.8.3 | D | Default | 2025-01-27
     - qtapplicationmanager: update revision | 6.10.0 | U | Default | 2025-01-10
+    - Update submodule refs on '6.8' in yocto/meta-qt6 | 6.8.2 | D | Default | 2024-11-22
+    - Update submodule refs on '6.8' in yocto/meta-qt6 | 6.8.1 | D | Default | 2024-10-03
+    - Update submodule refs on '6.8' in yocto/meta-qt6 | 6.8.0 | D | Default | 2024-08-21
     - ptest: use builtin test data | 6.9.0 | U | Default | 2024-06-24
+    - qt6-git.inc: Switch to 6.8 branch | 6.8.0 | D | Default | 2024-06-07
+    - Update submodule refs on '6.8' in yocto/meta-qt6 | 6.8.0 | D | Default | 2024-06-03
     - Add srcrev for QtDoc | 6.8.0 | U | Default | 2023-12-20
     - qtbase: Add a packageconfig knob to enable lld linker | 6.7.0 | U | Default | 2023-08-15
     - Bump PV to 6.6.0 | 6.6.0 | U | Default | 2022-12-19
@@ -61,20 +85,26 @@
     - qt6: update version to Qt 6.5.0 | 6.5.0 | U | Default | 2022-06-14
     - qt6: bump version to 6.4.0 | 6.4.0 | U | Default | 2022-02-01
     - Initial import at master release start. | 6.3.0 | U | Default | 2021-09-22
-* qtbase-examples 6.12.0 6.11.0 Unknown
+* qtbase-examples 6.12.0  Unknown
     - qtwebengine: update chromium branch | 6.12.0 | U | Default | 2026-01-28
     - Add separate recipes for Qt module examples | 6.11.0 | U | Default | 2025-08-27
-* qtcanvaspainter 6.12.0 6.11.0 Unknown
+* qtcanvaspainter 6.12.0  Unknown
     - qtwebengine: update chromium branch | 6.12.0 | U | Default | 2026-01-28
     - Add recipe for Qt Canvas Painter | 6.11.0 | U | Default | 2025-11-21
-* qtcanvaspainter-examples 6.12.0 6.11.0 Unknown
+* qtcanvaspainter-examples 6.12.0  Unknown
     - qtwebengine: update chromium branch | 6.12.0 | U | Default | 2026-01-28
     - qtcanvaspainter: add examples recipe | 6.11.0 | U | Default | 2025-11-25
-* qtcharts 6.12.0 6.11.0 Unknown
+* qtcharts 6.12.0 6.11.0 Not updated
     - qtwebengine: update chromium branch | 6.12.0 | U | Default | 2026-01-28
     - Update submodule refs on 'dev' in yocto/meta-qt6 | 6.11.0 | U | Default | 2025-07-01
+    - Update submodule refs on '6.8' in yocto/meta-qt6 | 6.8.3 | D | Default | 2025-01-27
     - qtapplicationmanager: update revision | 6.10.0 | U | Default | 2025-01-10
+    - Update submodule refs on '6.8' in yocto/meta-qt6 | 6.8.2 | D | Default | 2024-11-22
+    - Update submodule refs on '6.8' in yocto/meta-qt6 | 6.8.1 | D | Default | 2024-10-03
+    - Update submodule refs on '6.8' in yocto/meta-qt6 | 6.8.0 | D | Default | 2024-08-21
     - ptest: use builtin test data | 6.9.0 | U | Default | 2024-06-24
+    - qt6-git.inc: Switch to 6.8 branch | 6.8.0 | D | Default | 2024-06-07
+    - Update submodule refs on '6.8' in yocto/meta-qt6 | 6.8.0 | D | Default | 2024-06-03
     - Add srcrev for QtDoc | 6.8.0 | U | Default | 2023-12-20
     - examples: add runtime dependency to main package | 6.7.0 | U | Default | 2023-08-15
     - Bump PV to 6.6.0 | 6.6.0 | U | Default | 2022-12-19
@@ -82,14 +112,20 @@
     - qt6: update version to Qt 6.5.0 | 6.5.0 | U | Default | 2022-06-14
     - qt6: bump version to 6.4.0 | 6.4.0 | U | Default | 2022-02-01
     - Initial import at master release start. | 6.3.0 | U | Default | 2021-09-22
-* qtcharts-examples 6.12.0 6.11.0 Unknown
+* qtcharts-examples 6.12.0  Unknown
     - qtwebengine: update chromium branch | 6.12.0 | U | Default | 2026-01-28
     - Add separate recipes for Qt module examples | 6.11.0 | U | Default | 2025-08-27
-* qtcoap 6.12.0 6.11.0 Unknown
+* qtcoap 6.12.0 6.11.0 Not updated
     - qtwebengine: update chromium branch | 6.12.0 | U | Default | 2026-01-28
     - Update submodule refs on 'dev' in yocto/meta-qt6 | 6.11.0 | U | Default | 2025-07-01
+    - Update submodule refs on '6.8' in yocto/meta-qt6 | 6.8.3 | D | Default | 2025-01-27
     - qtapplicationmanager: update revision | 6.10.0 | U | Default | 2025-01-10
+    - Update submodule refs on '6.8' in yocto/meta-qt6 | 6.8.2 | D | Default | 2024-11-22
+    - Update submodule refs on '6.8' in yocto/meta-qt6 | 6.8.1 | D | Default | 2024-10-03
+    - Update submodule refs on '6.8' in yocto/meta-qt6 | 6.8.0 | D | Default | 2024-08-21
     - ptest: use builtin test data | 6.9.0 | U | Default | 2024-06-24
+    - qt6-git.inc: Switch to 6.8 branch | 6.8.0 | D | Default | 2024-06-07
+    - Update submodule refs on '6.8' in yocto/meta-qt6 | 6.8.0 | D | Default | 2024-06-03
     - Add srcrev for QtDoc | 6.8.0 | U | Default | 2023-12-20
     - examples: add runtime dependency to main package | 6.7.0 | U | Default | 2023-08-15
     - Bump PV to 6.6.0 | 6.6.0 | U | Default | 2022-12-19
@@ -97,14 +133,20 @@
     - qt6: update version to Qt 6.5.0 | 6.5.0 | U | Default | 2022-06-14
     - qt6: bump version to 6.4.0 | 6.4.0 | U | Default | 2022-02-01
     - Initial import at master release start. | 6.3.0 | U | Default | 2021-09-22
-* qtcoap-examples 6.12.0 6.11.0 Unknown
+* qtcoap-examples 6.12.0  Unknown
     - qtwebengine: update chromium branch | 6.12.0 | U | Default | 2026-01-28
     - Add separate recipes for Qt module examples | 6.11.0 | U | Default | 2025-08-27
-* qtconnectivity 6.12.0 6.11.0 Unknown
+* qtconnectivity 6.12.0 6.11.0 Not updated
     - qtwebengine: update chromium branch | 6.12.0 | U | Default | 2026-01-28
     - Update submodule refs on 'dev' in yocto/meta-qt6 | 6.11.0 | U | Default | 2025-07-01
+    - Update submodule refs on '6.8' in yocto/meta-qt6 | 6.8.3 | D | Default | 2025-01-27
     - qtapplicationmanager: update revision | 6.10.0 | U | Default | 2025-01-10
+    - Update submodule refs on '6.8' in yocto/meta-qt6 | 6.8.2 | D | Default | 2024-11-22
+    - Update submodule refs on '6.8' in yocto/meta-qt6 | 6.8.1 | D | Default | 2024-10-03
+    - Update submodule refs on '6.8' in yocto/meta-qt6 | 6.8.0 | D | Default | 2024-08-21
     - ptest: use builtin test data | 6.9.0 | U | Default | 2024-06-24
+    - qt6-git.inc: Switch to 6.8 branch | 6.8.0 | D | Default | 2024-06-07
+    - Update submodule refs on '6.8' in yocto/meta-qt6 | 6.8.0 | D | Default | 2024-06-03
     - Add srcrev for QtDoc | 6.8.0 | U | Default | 2023-12-20
     - examples: add runtime dependency to main package | 6.7.0 | U | Default | 2023-08-15
     - Bump PV to 6.6.0 | 6.6.0 | U | Default | 2022-12-19
@@ -112,14 +154,20 @@
     - qt6: update version to Qt 6.5.0 | 6.5.0 | U | Default | 2022-06-14
     - qt6: bump version to 6.4.0 | 6.4.0 | U | Default | 2022-02-01
     - Initial import at master release start. | 6.3.0 | U | Default | 2021-09-22
-* qtconnectivity-examples 6.12.0 6.11.0 Unknown
+* qtconnectivity-examples 6.12.0  Unknown
     - qtwebengine: update chromium branch | 6.12.0 | U | Default | 2026-01-28
     - Add separate recipes for Qt module examples | 6.11.0 | U | Default | 2025-08-27
-* qtdatavis3d 6.12.0 6.11.0 Unknown
+* qtdatavis3d 6.12.0 6.11.0 Not updated
     - qtwebengine: update chromium branch | 6.12.0 | U | Default | 2026-01-28
     - Update submodule refs on 'dev' in yocto/meta-qt6 | 6.11.0 | U | Default | 2025-07-01
+    - Update submodule refs on '6.8' in yocto/meta-qt6 | 6.8.3 | D | Default | 2025-01-27
     - qtapplicationmanager: update revision | 6.10.0 | U | Default | 2025-01-10
+    - Update submodule refs on '6.8' in yocto/meta-qt6 | 6.8.2 | D | Default | 2024-11-22
+    - Update submodule refs on '6.8' in yocto/meta-qt6 | 6.8.1 | D | Default | 2024-10-03
+    - Update submodule refs on '6.8' in yocto/meta-qt6 | 6.8.0 | D | Default | 2024-08-21
     - ptest: use builtin test data | 6.9.0 | U | Default | 2024-06-24
+    - qt6-git.inc: Switch to 6.8 branch | 6.8.0 | D | Default | 2024-06-07
+    - Update submodule refs on '6.8' in yocto/meta-qt6 | 6.8.0 | D | Default | 2024-06-03
     - Add srcrev for QtDoc | 6.8.0 | U | Default | 2023-12-20
     - examples: add runtime dependency to main package | 6.7.0 | U | Default | 2023-08-15
     - Bump PV to 6.6.0 | 6.6.0 | U | Default | 2022-12-19
@@ -127,14 +175,20 @@
     - qt6: update version to Qt 6.5.0 | 6.5.0 | U | Default | 2022-06-14
     - qt6: bump version to 6.4.0 | 6.4.0 | U | Default | 2022-02-01
     - Initial import at master release start. | 6.3.0 | U | Default | 2021-09-22
-* qtdatavis3d-examples 6.12.0 6.11.0 Unknown
+* qtdatavis3d-examples 6.12.0  Unknown
     - qtwebengine: update chromium branch | 6.12.0 | U | Default | 2026-01-28
     - Add separate recipes for Qt module examples | 6.11.0 | U | Default | 2025-08-27
-* qtdeclarative 6.12.0 6.11.0 Unknown
+* qtdeclarative 6.12.0 6.11.0 Not updated
     - qtwebengine: update chromium branch | 6.12.0 | U | Default | 2026-01-28
     - Update submodule refs on 'dev' in yocto/meta-qt6 | 6.11.0 | U | Default | 2025-07-01
+    - Update submodule refs on '6.8' in yocto/meta-qt6 | 6.8.3 | D | Default | 2025-01-27
     - qtapplicationmanager: update revision | 6.10.0 | U | Default | 2025-01-10
+    - Update submodule refs on '6.8' in yocto/meta-qt6 | 6.8.2 | D | Default | 2024-11-22
+    - Update submodule refs on '6.8' in yocto/meta-qt6 | 6.8.1 | D | Default | 2024-10-03
+    - Update submodule refs on '6.8' in yocto/meta-qt6 | 6.8.0 | D | Default | 2024-08-21
     - ptest: use builtin test data | 6.9.0 | U | Default | 2024-06-24
+    - qt6-git.inc: Switch to 6.8 branch | 6.8.0 | D | Default | 2024-06-07
+    - Update submodule refs on '6.8' in yocto/meta-qt6 | 6.8.0 | D | Default | 2024-06-03
     - Add srcrev for QtDoc | 6.8.0 | U | Default | 2023-12-20
     - examples: add runtime dependency to main package | 6.7.0 | U | Default | 2023-08-15
     - Bump PV to 6.6.0 | 6.6.0 | U | Default | 2022-12-19
@@ -142,14 +196,20 @@
     - qt6: update version to Qt 6.5.0 | 6.5.0 | U | Default | 2022-06-14
     - qt6: bump version to 6.4.0 | 6.4.0 | U | Default | 2022-02-01
     - Initial import at master release start. | 6.3.0 | U | Default | 2021-09-22
-* qtdeclarative-examples 6.12.0 6.11.0 Unknown
+* qtdeclarative-examples 6.12.0  Unknown
     - qtwebengine: update chromium branch | 6.12.0 | U | Default | 2026-01-28
     - Add separate recipes for Qt module examples | 6.11.0 | U | Default | 2025-08-27
 * qtdeviceutilities 6.12.0 6.5.4 Unknown
     - qtwebengine: update chromium branch | 6.12.0 | U | Default | 2026-01-28
     - Update submodule refs on 'dev' in yocto/meta-qt6 | 6.11.0 | U | Default | 2025-07-01
+    - Update submodule refs on '6.8' in yocto/meta-qt6 | 6.8.3 | D | Default | 2025-01-27
     - qtapplicationmanager: update revision | 6.10.0 | U | Default | 2025-01-10
+    - Update submodule refs on '6.8' in yocto/meta-qt6 | 6.8.2 | D | Default | 2024-11-22
+    - Update submodule refs on '6.8' in yocto/meta-qt6 | 6.8.1 | D | Default | 2024-10-03
+    - Update submodule refs on '6.8' in yocto/meta-qt6 | 6.8.0 | D | Default | 2024-08-21
     - ptest: use builtin test data | 6.9.0 | U | Default | 2024-06-24
+    - qt6-git.inc: Switch to 6.8 branch | 6.8.0 | D | Default | 2024-06-07
+    - Update submodule refs on '6.8' in yocto/meta-qt6 | 6.8.0 | D | Default | 2024-06-03
     - Add srcrev for QtDoc | 6.8.0 | U | Default | 2023-12-20
     - examples: add runtime dependency to main package | 6.7.0 | U | Default | 2023-08-15
     - Bump PV to 6.6.0 | 6.6.0 | U | Default | 2022-12-19
@@ -157,58 +217,88 @@
     - qt6: update version to Qt 6.5.0 | 6.5.0 | U | Default | 2022-06-14
     - qt6: bump version to 6.4.0 | 6.4.0 | U | Default | 2022-02-01
     - Initial import at master release start. | 6.3.0 | U | Default | 2021-09-22
-* qtdeviceutilities-examples 6.12.0 6.5.4 Unknown
+* qtdeviceutilities-examples 6.12.0  Unknown
     - qtwebengine: update chromium branch | 6.12.0 | U | Default | 2026-01-28
     - Add separate recipes for Qt module examples | 6.11.0 | U | Default | 2025-08-27
-* qtdoc 6.12.0 6.11.0 Unknown
+* qtdoc 6.12.0 6.11.0 Not updated
     - qtwebengine: update chromium branch | 6.12.0 | U | Default | 2026-01-28
     - Update submodule refs on 'dev' in yocto/meta-qt6 | 6.11.0 | U | Default | 2025-07-01
+    - Update submodule refs on '6.8' in yocto/meta-qt6 | 6.8.3 | D | Default | 2025-01-27
     - qtapplicationmanager: update revision | 6.10.0 | U | Default | 2025-01-10
+    - Update submodule refs on '6.8' in yocto/meta-qt6 | 6.8.2 | D | Default | 2024-11-22
+    - Update submodule refs on '6.8' in yocto/meta-qt6 | 6.8.1 | D | Default | 2024-10-03
+    - Update submodule refs on '6.8' in yocto/meta-qt6 | 6.8.0 | D | Default | 2024-08-21
     - ptest: use builtin test data | 6.9.0 | U | Default | 2024-06-24
+    - qt6-git.inc: Switch to 6.8 branch | 6.8.0 | D | Default | 2024-06-07
+    - Update submodule refs on '6.8' in yocto/meta-qt6 | 6.8.0 | D | Default | 2024-06-03
     - Add recipe for QtDoc | 6.8.0 | U | Default | 2024-01-26
-* qtgraphs 6.12.0 6.11.0 Unknown
+* qtgraphs 6.12.0 6.11.0 Not updated
     - qtwebengine: update chromium branch | 6.12.0 | U | Default | 2026-01-28
     - Update submodule refs on 'dev' in yocto/meta-qt6 | 6.11.0 | U | Default | 2025-07-01
+    - Update submodule refs on '6.8' in yocto/meta-qt6 | 6.8.3 | D | Default | 2025-01-27
     - qtapplicationmanager: update revision | 6.10.0 | U | Default | 2025-01-10
+    - Update submodule refs on '6.8' in yocto/meta-qt6 | 6.8.2 | D | Default | 2024-11-22
+    - Update submodule refs on '6.8' in yocto/meta-qt6 | 6.8.1 | D | Default | 2024-10-03
+    - Update submodule refs on '6.8' in yocto/meta-qt6 | 6.8.0 | D | Default | 2024-08-21
     - ptest: use builtin test data | 6.9.0 | U | Default | 2024-06-24
+    - qt6-git.inc: Switch to 6.8 branch | 6.8.0 | D | Default | 2024-06-07
+    - Update submodule refs on '6.8' in yocto/meta-qt6 | 6.8.0 | D | Default | 2024-06-03
     - Add srcrev for QtDoc | 6.8.0 | U | Default | 2023-12-20
     - examples: add runtime dependency to main package | 6.7.0 | U | Default | 2023-08-15
     - Add recipe for Qt Graphs | 6.6.0 | U | Default | 2023-04-19
-* qtgraphs-examples 6.12.0 6.11.0 Unknown
+* qtgraphs-examples 6.12.0  Unknown
     - qtwebengine: update chromium branch | 6.12.0 | U | Default | 2026-01-28
     - Add separate recipes for Qt module examples | 6.11.0 | U | Default | 2025-08-27
-* qtgrpc 6.12.0 6.11.0 Unknown
+* qtgrpc 6.12.0 6.11.0 Not updated
     - qtwebengine: update chromium branch | 6.12.0 | U | Default | 2026-01-28
     - Update submodule refs on 'dev' in yocto/meta-qt6 | 6.11.0 | U | Default | 2025-07-01
+    - Update submodule refs on '6.8' in yocto/meta-qt6 | 6.8.3 | D | Default | 2025-01-27
     - qtapplicationmanager: update revision | 6.10.0 | U | Default | 2025-01-10
+    - Update submodule refs on '6.8' in yocto/meta-qt6 | 6.8.2 | D | Default | 2024-11-22
+    - Update submodule refs on '6.8' in yocto/meta-qt6 | 6.8.1 | D | Default | 2024-10-03
+    - Update submodule refs on '6.8' in yocto/meta-qt6 | 6.8.0 | D | Default | 2024-08-21
     - ptest: use builtin test data | 6.9.0 | U | Default | 2024-06-24
+    - qt6-git.inc: Switch to 6.8 branch | 6.8.0 | D | Default | 2024-06-07
+    - Update submodule refs on '6.8' in yocto/meta-qt6 | 6.8.0 | D | Default | 2024-06-03
     - Add srcrev for QtDoc | 6.8.0 | U | Default | 2023-12-20
     - examples: add runtime dependency to main package | 6.7.0 | U | Default | 2023-08-15
     - Bump PV to 6.6.0 | 6.6.0 | U | Default | 2022-12-19
     - Bump PV to 6.5.1 | 6.5.1 | U | Default | 2022-12-15
     - Update submodule refs on 'dev' in yocto/meta-qt6 | 6.5.0 | U | Default | 2022-12-07
-* qtgrpc-examples 6.12.0 6.11.0 Unknown
+* qtgrpc-examples 6.12.0  Unknown
     - qtwebengine: update chromium branch | 6.12.0 | U | Default | 2026-01-28
     - Add separate recipes for Qt module examples | 6.11.0 | U | Default | 2025-08-27
-* qthttpserver 6.12.0 6.11.0 Unknown
+* qthttpserver 6.12.0 6.11.0 Not updated
     - qtwebengine: update chromium branch | 6.12.0 | U | Default | 2026-01-28
     - Update submodule refs on 'dev' in yocto/meta-qt6 | 6.11.0 | U | Default | 2025-07-01
+    - Update submodule refs on '6.8' in yocto/meta-qt6 | 6.8.3 | D | Default | 2025-01-27
     - qtapplicationmanager: update revision | 6.10.0 | U | Default | 2025-01-10
+    - Update submodule refs on '6.8' in yocto/meta-qt6 | 6.8.2 | D | Default | 2024-11-22
+    - Update submodule refs on '6.8' in yocto/meta-qt6 | 6.8.1 | D | Default | 2024-10-03
+    - Update submodule refs on '6.8' in yocto/meta-qt6 | 6.8.0 | D | Default | 2024-08-21
     - ptest: use builtin test data | 6.9.0 | U | Default | 2024-06-24
+    - qt6-git.inc: Switch to 6.8 branch | 6.8.0 | D | Default | 2024-06-07
+    - Update submodule refs on '6.8' in yocto/meta-qt6 | 6.8.0 | D | Default | 2024-06-03
     - Add srcrev for QtDoc | 6.8.0 | U | Default | 2023-12-20
     - examples: add runtime dependency to main package | 6.7.0 | U | Default | 2023-08-15
     - Bump PV to 6.6.0 | 6.6.0 | U | Default | 2022-12-19
     - Bump PV to 6.5.1 | 6.5.1 | U | Default | 2022-12-15
     - qt6: update version to Qt 6.5.0 | 6.5.0 | U | Default | 2022-06-14
     - Add support for QtHttpServer | 6.4.0 | U | Default | 2022-05-23
-* qthttpserver-examples 6.12.0 6.11.0 Unknown
+* qthttpserver-examples 6.12.0  Unknown
     - qtwebengine: update chromium branch | 6.12.0 | U | Default | 2026-01-28
     - Add separate recipes for Qt module examples | 6.11.0 | U | Default | 2025-08-27
-* qtimageformats 6.12.0 6.11.0 Unknown
+* qtimageformats 6.12.0 6.11.0 Not updated
     - qtwebengine: update chromium branch | 6.12.0 | U | Default | 2026-01-28
     - Update submodule refs on 'dev' in yocto/meta-qt6 | 6.11.0 | U | Default | 2025-07-01
+    - Update submodule refs on '6.8' in yocto/meta-qt6 | 6.8.3 | D | Default | 2025-01-27
     - qtapplicationmanager: update revision | 6.10.0 | U | Default | 2025-01-10
+    - Update submodule refs on '6.8' in yocto/meta-qt6 | 6.8.2 | D | Default | 2024-11-22
+    - Update submodule refs on '6.8' in yocto/meta-qt6 | 6.8.1 | D | Default | 2024-10-03
+    - Update submodule refs on '6.8' in yocto/meta-qt6 | 6.8.0 | D | Default | 2024-08-21
     - ptest: use builtin test data | 6.9.0 | U | Default | 2024-06-24
+    - qt6-git.inc: Switch to 6.8 branch | 6.8.0 | D | Default | 2024-06-07
+    - Update submodule refs on '6.8' in yocto/meta-qt6 | 6.8.0 | D | Default | 2024-06-03
     - Add srcrev for QtDoc | 6.8.0 | U | Default | 2023-12-20
     - examples: add runtime dependency to main package | 6.7.0 | U | Default | 2023-08-15
     - Bump PV to 6.6.0 | 6.6.0 | U | Default | 2022-12-19
@@ -216,11 +306,17 @@
     - qt6: update version to Qt 6.5.0 | 6.5.0 | U | Default | 2022-06-14
     - qt6: bump version to 6.4.0 | 6.4.0 | U | Default | 2022-02-01
     - Initial import at master release start. | 6.3.0 | U | Default | 2021-09-22
-* qtinterfaceframework 6.12.0 6.11.0 Unknown
+* qtinterfaceframework 6.12.0 6.11.0 Not updated
     - qtwebengine: update chromium branch | 6.12.0 | U | Default | 2026-01-28
     - Update submodule refs on 'dev' in yocto/meta-qt6 | 6.11.0 | U | Default | 2025-07-01
+    - Update submodule refs on '6.8' in yocto/meta-qt6 | 6.8.3 | D | Default | 2025-01-27
     - qtapplicationmanager: update revision | 6.10.0 | U | Default | 2025-01-10
+    - Update submodule refs on '6.8' in yocto/meta-qt6 | 6.8.2 | D | Default | 2024-11-22
+    - Update submodule refs on '6.8' in yocto/meta-qt6 | 6.8.1 | D | Default | 2024-10-03
+    - Update submodule refs on '6.8' in yocto/meta-qt6 | 6.8.0 | D | Default | 2024-08-21
     - ptest: use builtin test data | 6.9.0 | U | Default | 2024-06-24
+    - qt6-git.inc: Switch to 6.8 branch | 6.8.0 | D | Default | 2024-06-07
+    - Update submodule refs on '6.8' in yocto/meta-qt6 | 6.8.0 | D | Default | 2024-06-03
     - Add srcrev for QtDoc | 6.8.0 | U | Default | 2023-12-20
     - examples: add runtime dependency to main package | 6.7.0 | U | Default | 2023-08-15
     - Bump PV to 6.6.0 | 6.6.0 | U | Default | 2022-12-19
@@ -228,14 +324,20 @@
     - qt6: update version to Qt 6.5.0 | 6.5.0 | U | Default | 2022-06-14
     - qt6: bump version to 6.4.0 | 6.4.0 | U | Default | 2022-02-01
     - Initial import at master release start. | 6.3.0 | U | Default | 2021-09-22
-* qtinterfaceframework-examples 6.12.0 6.11.0 Unknown
+* qtinterfaceframework-examples 6.12.0  Unknown
     - qtwebengine: update chromium branch | 6.12.0 | U | Default | 2026-01-28
     - Add separate recipes for Qt module examples | 6.11.0 | U | Default | 2025-08-27
-* qtlanguageserver 6.12.0 6.11.0 Unknown
+* qtlanguageserver 6.12.0 6.11.0 Not updated
     - qtwebengine: update chromium branch | 6.12.0 | U | Default | 2026-01-28
     - Update submodule refs on 'dev' in yocto/meta-qt6 | 6.11.0 | U | Default | 2025-07-01
+    - Update submodule refs on '6.8' in yocto/meta-qt6 | 6.8.3 | D | Default | 2025-01-27
     - qtapplicationmanager: update revision | 6.10.0 | U | Default | 2025-01-10
+    - Update submodule refs on '6.8' in yocto/meta-qt6 | 6.8.2 | D | Default | 2024-11-22
+    - Update submodule refs on '6.8' in yocto/meta-qt6 | 6.8.1 | D | Default | 2024-10-03
+    - Update submodule refs on '6.8' in yocto/meta-qt6 | 6.8.0 | D | Default | 2024-08-21
     - ptest: use builtin test data | 6.9.0 | U | Default | 2024-06-24
+    - qt6-git.inc: Switch to 6.8 branch | 6.8.0 | D | Default | 2024-06-07
+    - Update submodule refs on '6.8' in yocto/meta-qt6 | 6.8.0 | D | Default | 2024-06-03
     - Add srcrev for QtDoc | 6.8.0 | U | Default | 2023-12-20
     - examples: add runtime dependency to main package | 6.7.0 | U | Default | 2023-08-15
     - Bump PV to 6.6.0 | 6.6.0 | U | Default | 2022-12-19
@@ -243,24 +345,36 @@
     - qt6: update version to Qt 6.5.0 | 6.5.0 | U | Default | 2022-06-14
     - qt6: bump version to 6.4.0 | 6.4.0 | U | Default | 2022-02-01
     - Add support for qtlanguageserver | 6.3.0 | U | Default | 2022-01-17
-* qtlocation 6.12.0 6.11.0 Unknown
+* qtlocation 6.12.0 6.11.0 Not updated
     - qtwebengine: update chromium branch | 6.12.0 | U | Default | 2026-01-28
     - Update submodule refs on 'dev' in yocto/meta-qt6 | 6.11.0 | U | Default | 2025-07-01
+    - Update submodule refs on '6.8' in yocto/meta-qt6 | 6.8.3 | D | Default | 2025-01-27
     - qtapplicationmanager: update revision | 6.10.0 | U | Default | 2025-01-10
+    - Update submodule refs on '6.8' in yocto/meta-qt6 | 6.8.2 | D | Default | 2024-11-22
+    - Update submodule refs on '6.8' in yocto/meta-qt6 | 6.8.1 | D | Default | 2024-10-03
+    - qtlocation: update licenses | 6.8.0 | D | Default | 2024-06-18
     - qtlocation: update licenses | 6.9.0 | U | Default | 2024-06-18
+    - qt6-git.inc: Switch to 6.8 branch | 6.8.0 | D | Default | 2024-06-07
+    - Update submodule refs on '6.8' in yocto/meta-qt6 | 6.8.0 | D | Default | 2024-06-03
     - Add srcrev for QtDoc | 6.8.0 | U | Default | 2023-12-20
     - examples: add runtime dependency to main package | 6.7.0 | U | Default | 2023-08-15
     - Bump PV to 6.6.0 | 6.6.0 | U | Default | 2022-12-19
     - Bump PV to 6.5.1 | 6.5.1 | U | Default | 2022-12-15
     - Update submodule refs on 'dev' in yocto/meta-qt6 | 6.5.0 | U | Default | 2022-12-07
-* qtlocation-examples 6.12.0 6.11.0 Unknown
+* qtlocation-examples 6.12.0  Unknown
     - qtwebengine: update chromium branch | 6.12.0 | U | Default | 2026-01-28
     - Add separate recipes for Qt module examples | 6.11.0 | U | Default | 2025-08-27
-* qtlottie 6.12.0 6.11.0 Unknown
+* qtlottie 6.12.0 6.11.0 Not updated
     - qtwebengine: update chromium branch | 6.12.0 | U | Default | 2026-01-28
     - qtlottie: add support for lottietoqml tool | 6.11.0 | U | Default | 2025-06-27
+    - Update submodule refs on '6.8' in yocto/meta-qt6 | 6.8.3 | D | Default | 2025-01-27
     - qtapplicationmanager: update revision | 6.10.0 | U | Default | 2025-01-10
+    - qt6: update licenses | 6.8.2 | D | Default | 2024-11-19
+    - Update submodule refs on '6.8' in yocto/meta-qt6 | 6.8.1 | D | Default | 2024-10-03
+    - Update submodule refs on '6.8' in yocto/meta-qt6 | 6.8.0 | D | Default | 2024-08-21
     - ptest: use builtin test data | 6.9.0 | U | Default | 2024-06-24
+    - qt6-git.inc: Switch to 6.8 branch | 6.8.0 | D | Default | 2024-06-07
+    - Update submodule refs on '6.8' in yocto/meta-qt6 | 6.8.0 | D | Default | 2024-06-03
     - Add srcrev for QtDoc | 6.8.0 | U | Default | 2023-12-20
     - examples: add runtime dependency to main package | 6.7.0 | U | Default | 2023-08-15
     - Bump PV to 6.6.0 | 6.6.0 | U | Default | 2022-12-19
@@ -268,11 +382,17 @@
     - qt6: update version to Qt 6.5.0 | 6.5.0 | U | Default | 2022-06-14
     - qt6: bump version to 6.4.0 | 6.4.0 | U | Default | 2022-02-01
     - Initial import at master release start. | 6.3.0 | U | Default | 2021-09-22
-* qtmqtt 6.12.0 6.11.0 Unknown
+* qtmqtt 6.12.0 6.11.0 Not updated
     - qtwebengine: update chromium branch | 6.12.0 | U | Default | 2026-01-28
     - Update submodule refs on 'dev' in yocto/meta-qt6 | 6.11.0 | U | Default | 2025-07-01
+    - Update submodule refs on '6.8' in yocto/meta-qt6 | 6.8.3 | D | Default | 2025-01-27
     - qtapplicationmanager: update revision | 6.10.0 | U | Default | 2025-01-10
+    - qt6: update licenses | 6.8.2 | D | Default | 2024-11-19
+    - Update submodule refs on '6.8' in yocto/meta-qt6 | 6.8.1 | D | Default | 2024-10-03
+    - Update submodule refs on '6.8' in yocto/meta-qt6 | 6.8.0 | D | Default | 2024-08-21
     - ptest: use builtin test data | 6.9.0 | U | Default | 2024-06-24
+    - qt6-git.inc: Switch to 6.8 branch | 6.8.0 | D | Default | 2024-06-07
+    - Update submodule refs on '6.8' in yocto/meta-qt6 | 6.8.0 | D | Default | 2024-06-03
     - Add srcrev for QtDoc | 6.8.0 | U | Default | 2023-12-20
     - examples: add runtime dependency to main package | 6.7.0 | U | Default | 2023-08-15
     - Bump PV to 6.6.0 | 6.6.0 | U | Default | 2022-12-19
@@ -280,14 +400,20 @@
     - qt6: update version to Qt 6.5.0 | 6.5.0 | U | Default | 2022-06-14
     - qt6: bump version to 6.4.0 | 6.4.0 | U | Default | 2022-02-01
     - Initial import at master release start. | 6.3.0 | U | Default | 2021-09-22
-* qtmqtt-examples 6.12.0 6.11.0 Unknown
+* qtmqtt-examples 6.12.0  Unknown
     - qtwebengine: update chromium branch | 6.12.0 | U | Default | 2026-01-28
     - Add separate recipes for Qt module examples | 6.11.0 | U | Default | 2025-08-27
-* qtmultimedia 6.12.0 6.11.0 Unknown
+* qtmultimedia 6.12.0 6.11.0 Not updated
     - qtwebengine: update chromium branch | 6.12.0 | U | Default | 2026-01-28
     - Update submodule refs on 'dev' in yocto/meta-qt6 | 6.11.0 | U | Default | 2025-07-01
+    - Update submodule refs on '6.8' in yocto/meta-qt6 | 6.8.3 | D | Default | 2025-01-27
     - qtapplicationmanager: update revision | 6.10.0 | U | Default | 2025-01-10
+    - Update submodule refs on '6.8' in yocto/meta-qt6 | 6.8.2 | D | Default | 2024-11-22
+    - Update submodule refs on '6.8' in yocto/meta-qt6 | 6.8.1 | D | Default | 2024-10-03
+    - Update submodule refs on '6.8' in yocto/meta-qt6 | 6.8.0 | D | Default | 2024-08-21
     - ptest: use builtin test data | 6.9.0 | U | Default | 2024-06-24
+    - qt6-git.inc: Switch to 6.8 branch | 6.8.0 | D | Default | 2024-06-07
+    - Update submodule refs on '6.8' in yocto/meta-qt6 | 6.8.0 | D | Default | 2024-06-03
     - Add srcrev for QtDoc | 6.8.0 | U | Default | 2023-12-20
     - examples: add runtime dependency to main package | 6.7.0 | U | Default | 2023-08-15
     - Bump PV to 6.6.0 | 6.6.0 | U | Default | 2022-12-19
@@ -295,14 +421,20 @@
     - qt6: update version to Qt 6.5.0 | 6.5.0 | U | Default | 2022-06-14
     - qt6: bump version to 6.4.0 | 6.4.0 | U | Default | 2022-02-01
     - Initial import at master release start. | 6.3.0 | U | Default | 2021-09-22
-* qtmultimedia-examples 6.12.0 6.11.0 Unknown
+* qtmultimedia-examples 6.12.0  Unknown
     - qtwebengine: update chromium branch | 6.12.0 | U | Default | 2026-01-28
     - Add separate recipes for Qt module examples | 6.11.0 | U | Default | 2025-08-27
-* qtnetworkauth 6.12.0 6.11.0 Unknown
+* qtnetworkauth 6.12.0 6.11.0 Not updated
     - qtwebengine: update chromium branch | 6.12.0 | U | Default | 2026-01-28
     - Update submodule refs on 'dev' in yocto/meta-qt6 | 6.11.0 | U | Default | 2025-07-01
+    - Update submodule refs on '6.8' in yocto/meta-qt6 | 6.8.3 | D | Default | 2025-01-27
     - qtapplicationmanager: update revision | 6.10.0 | U | Default | 2025-01-10
+    - qt6: update licenses | 6.8.2 | D | Default | 2024-11-19
+    - Update submodule refs on '6.8' in yocto/meta-qt6 | 6.8.1 | D | Default | 2024-10-03
+    - Update submodule refs on '6.8' in yocto/meta-qt6 | 6.8.0 | D | Default | 2024-08-21
     - ptest: use builtin test data | 6.9.0 | U | Default | 2024-06-24
+    - qt6-git.inc: Switch to 6.8 branch | 6.8.0 | D | Default | 2024-06-07
+    - Update submodule refs on '6.8' in yocto/meta-qt6 | 6.8.0 | D | Default | 2024-06-03
     - Add srcrev for QtDoc | 6.8.0 | U | Default | 2023-12-20
     - examples: add runtime dependency to main package | 6.7.0 | U | Default | 2023-08-15
     - Bump PV to 6.6.0 | 6.6.0 | U | Default | 2022-12-19
@@ -310,14 +442,20 @@
     - qt6: update version to Qt 6.5.0 | 6.5.0 | U | Default | 2022-06-14
     - qt6: bump version to 6.4.0 | 6.4.0 | U | Default | 2022-02-01
     - Initial import at master release start. | 6.3.0 | U | Default | 2021-09-22
-* qtnetworkauth-examples 6.12.0 6.11.0 Unknown
+* qtnetworkauth-examples 6.12.0  Unknown
     - qtwebengine: update chromium branch | 6.12.0 | U | Default | 2026-01-28
     - Add separate recipes for Qt module examples | 6.11.0 | U | Default | 2025-08-27
-* qtopcua 6.12.0 6.11.0 Unknown
+* qtopcua 6.12.0 6.11.0 Not updated
     - qtwebengine: update chromium branch | 6.12.0 | U | Default | 2026-01-28
     - Update submodule refs on 'dev' in yocto/meta-qt6 | 6.11.0 | U | Default | 2025-07-01
+    - Update submodule refs on '6.8' in yocto/meta-qt6 | 6.8.3 | D | Default | 2025-01-27
     - qtapplicationmanager: update revision | 6.10.0 | U | Default | 2025-01-10
+    - Update submodule refs on '6.8' in yocto/meta-qt6 | 6.8.2 | D | Default | 2024-11-22
+    - Update submodule refs on '6.8' in yocto/meta-qt6 | 6.8.1 | D | Default | 2024-10-03
+    - Update submodule refs on '6.8' in yocto/meta-qt6 | 6.8.0 | D | Default | 2024-08-21
     - ptest: use builtin test data | 6.9.0 | U | Default | 2024-06-24
+    - qt6-git.inc: Switch to 6.8 branch | 6.8.0 | D | Default | 2024-06-07
+    - Update submodule refs on '6.8' in yocto/meta-qt6 | 6.8.0 | D | Default | 2024-06-03
     - Add srcrev for QtDoc | 6.8.0 | U | Default | 2023-12-20
     - examples: add runtime dependency to main package | 6.7.0 | U | Default | 2023-08-15
     - Bump PV to 6.6.0 | 6.6.0 | U | Default | 2022-12-19
@@ -325,14 +463,20 @@
     - qt6: update version to Qt 6.5.0 | 6.5.0 | U | Default | 2022-06-14
     - qt6: bump version to 6.4.0 | 6.4.0 | U | Default | 2022-02-01
     - Initial import at master release start. | 6.3.0 | U | Default | 2021-09-22
-* qtopcua-examples 6.12.0 6.11.0 Unknown
+* qtopcua-examples 6.12.0  Unknown
     - qtwebengine: update chromium branch | 6.12.0 | U | Default | 2026-01-28
     - Add separate recipes for Qt module examples | 6.11.0 | U | Default | 2025-08-27
-* qtpositioning 6.12.0 6.11.0 Unknown
+* qtpositioning 6.12.0 6.11.0 Not updated
     - qtwebengine: update chromium branch | 6.12.0 | U | Default | 2026-01-28
     - Update submodule refs on 'dev' in yocto/meta-qt6 | 6.11.0 | U | Default | 2025-07-01
+    - Update submodule refs on '6.8' in yocto/meta-qt6 | 6.8.3 | D | Default | 2025-01-27
     - qtapplicationmanager: update revision | 6.10.0 | U | Default | 2025-01-10
+    - Update submodule refs on '6.8' in yocto/meta-qt6 | 6.8.2 | D | Default | 2024-11-22
+    - Update submodule refs on '6.8' in yocto/meta-qt6 | 6.8.1 | D | Default | 2024-10-03
+    - Update submodule refs on '6.8' in yocto/meta-qt6 | 6.8.0 | D | Default | 2024-08-21
     - ptest: use builtin test data | 6.9.0 | U | Default | 2024-06-24
+    - qt6-git.inc: Switch to 6.8 branch | 6.8.0 | D | Default | 2024-06-07
+    - Update submodule refs on '6.8' in yocto/meta-qt6 | 6.8.0 | D | Default | 2024-06-03
     - Add srcrev for QtDoc | 6.8.0 | U | Default | 2023-12-20
     - examples: add runtime dependency to main package | 6.7.0 | U | Default | 2023-08-15
     - Bump PV to 6.6.0 | 6.6.0 | U | Default | 2022-12-19
@@ -340,14 +484,20 @@
     - qt6: update version to Qt 6.5.0 | 6.5.0 | U | Default | 2022-06-14
     - qt6: bump version to 6.4.0 | 6.4.0 | U | Default | 2022-02-01
     - Initial import at master release start. | 6.3.0 | U | Default | 2021-09-22
-* qtpositioning-examples 6.12.0 6.11.0 Unknown
+* qtpositioning-examples 6.12.0  Unknown
     - qtwebengine: update chromium branch | 6.12.0 | U | Default | 2026-01-28
     - Add separate recipes for Qt module examples | 6.11.0 | U | Default | 2025-08-27
-* qtquick3d 6.12.0 6.11.0 Unknown
+* qtquick3d 6.12.0 6.11.0 Not updated
     - qtwebengine: update chromium branch | 6.12.0 | U | Default | 2026-01-28
     - Update submodule refs on 'dev' in yocto/meta-qt6 | 6.11.0 | U | Default | 2025-07-01
+    - Update submodule refs on '6.8' in yocto/meta-qt6 | 6.8.3 | D | Default | 2025-01-27
     - qtapplicationmanager: update revision | 6.10.0 | U | Default | 2025-01-10
+    - qt6: update licenses | 6.8.2 | D | Default | 2024-11-19
+    - Update submodule refs on '6.8' in yocto/meta-qt6 | 6.8.1 | D | Default | 2024-10-03
+    - Update submodule refs on '6.8' in yocto/meta-qt6 | 6.8.0 | D | Default | 2024-08-21
     - ptest: use builtin test data | 6.9.0 | U | Default | 2024-06-24
+    - qt6-git.inc: Switch to 6.8 branch | 6.8.0 | D | Default | 2024-06-07
+    - Update submodule refs on '6.8' in yocto/meta-qt6 | 6.8.0 | D | Default | 2024-06-03
     - Add srcrev for QtDoc | 6.8.0 | U | Default | 2023-12-20
     - examples: add runtime dependency to main package | 6.7.0 | U | Default | 2023-08-15
     - Bump PV to 6.6.0 | 6.6.0 | U | Default | 2022-12-19
@@ -355,28 +505,40 @@
     - qt6: update version to Qt 6.5.0 | 6.5.0 | U | Default | 2022-06-14
     - qt6: bump version to 6.4.0 | 6.4.0 | U | Default | 2022-02-01
     - Initial import at master release start. | 6.3.0 | U | Default | 2021-09-22
-* qtquick3d-examples 6.12.0 6.11.0 Unknown
+* qtquick3d-examples 6.12.0  Unknown
     - qtwebengine: update chromium branch | 6.12.0 | U | Default | 2026-01-28
     - Add separate recipes for Qt module examples | 6.11.0 | U | Default | 2025-08-27
-* qtquick3dphysics 6.12.0 6.11.0 Unknown
+* qtquick3dphysics 6.12.0 6.11.0 Not updated
     - qtwebengine: update chromium branch | 6.12.0 | U | Default | 2026-01-28
     - Update submodule refs on 'dev' in yocto/meta-qt6 | 6.11.0 | U | Default | 2025-07-01
+    - Update submodule refs on '6.8' in yocto/meta-qt6 | 6.8.3 | D | Default | 2025-01-27
     - qtapplicationmanager: update revision | 6.10.0 | U | Default | 2025-01-10
+    - Update submodule refs on '6.8' in yocto/meta-qt6 | 6.8.2 | D | Default | 2024-11-22
+    - Update submodule refs on '6.8' in yocto/meta-qt6 | 6.8.1 | D | Default | 2024-10-03
+    - Update submodule refs on '6.8' in yocto/meta-qt6 | 6.8.0 | D | Default | 2024-08-21
     - ptest: use builtin test data | 6.9.0 | U | Default | 2024-06-24
+    - qt6-git.inc: Switch to 6.8 branch | 6.8.0 | D | Default | 2024-06-07
+    - Update submodule refs on '6.8' in yocto/meta-qt6 | 6.8.0 | D | Default | 2024-06-03
     - Add srcrev for QtDoc | 6.8.0 | U | Default | 2023-12-20
     - examples: add runtime dependency to main package | 6.7.0 | U | Default | 2023-08-15
     - Bump PV to 6.6.0 | 6.6.0 | U | Default | 2022-12-19
     - Bump PV to 6.5.1 | 6.5.1 | U | Default | 2022-12-15
     - qt6: update version to Qt 6.5.0 | 6.5.0 | U | Default | 2022-06-14
     - Add support for QtQuick3DPhysics | 6.4.0 | U | Default | 2022-05-27
-* qtquick3dphysics-examples 6.12.0 6.11.0 Unknown
+* qtquick3dphysics-examples 6.12.0  Unknown
     - qtwebengine: update chromium branch | 6.12.0 | U | Default | 2026-01-28
     - Add separate recipes for Qt module examples | 6.11.0 | U | Default | 2025-08-27
 * qtquickdesigner-components 6.12.0 4.7 Unknown
     - qtwebengine: update chromium branch | 6.12.0 | U | Default | 2026-01-28
     - Update submodule refs on 'dev' in yocto/meta-qt6 | 6.11.0 | U | Default | 2025-07-01
+    - Update submodule refs on '6.8' in yocto/meta-qt6 | 6.8.3 | D | Default | 2025-01-27
     - qtapplicationmanager: update revision | 6.10.0 | U | Default | 2025-01-10
+    - Update submodule refs on '6.8' in yocto/meta-qt6 | 6.8.2 | D | Default | 2024-11-22
+    - Update submodule refs on '6.8' in yocto/meta-qt6 | 6.8.1 | D | Default | 2024-10-03
+    - Update submodule refs on '6.8' in yocto/meta-qt6 | 6.8.0 | D | Default | 2024-08-21
     - ptest: use builtin test data | 6.9.0 | U | Default | 2024-06-24
+    - qt6-git.inc: Switch to 6.8 branch | 6.8.0 | D | Default | 2024-06-07
+    - Update submodule refs on '6.8' in yocto/meta-qt6 | 6.8.0 | D | Default | 2024-06-03
     - Add srcrev for QtDoc | 6.8.0 | U | Default | 2023-12-20
     - examples: add runtime dependency to main package | 6.7.0 | U | Default | 2023-08-15
     - Bump PV to 6.6.0 | 6.6.0 | U | Default | 2022-12-19
@@ -384,11 +546,17 @@
     - qt6: update version to Qt 6.5.0 | 6.5.0 | U | Default | 2022-06-14
     - qt6: bump version to 6.4.0 | 6.4.0 | U | Default | 2022-02-01
     - Initial import at master release start. | 6.3.0 | U | Default | 2021-09-22
-* qtquicktimeline 6.12.0 6.11.0 Unknown
+* qtquicktimeline 6.12.0 6.11.0 Not updated
     - qtwebengine: update chromium branch | 6.12.0 | U | Default | 2026-01-28
     - Update submodule refs on 'dev' in yocto/meta-qt6 | 6.11.0 | U | Default | 2025-07-01
+    - Update submodule refs on '6.8' in yocto/meta-qt6 | 6.8.3 | D | Default | 2025-01-27
     - qtapplicationmanager: update revision | 6.10.0 | U | Default | 2025-01-10
+    - Update submodule refs on '6.8' in yocto/meta-qt6 | 6.8.2 | D | Default | 2024-11-22
+    - Update submodule refs on '6.8' in yocto/meta-qt6 | 6.8.1 | D | Default | 2024-10-03
+    - Update submodule refs on '6.8' in yocto/meta-qt6 | 6.8.0 | D | Default | 2024-08-21
     - ptest: use builtin test data | 6.9.0 | U | Default | 2024-06-24
+    - qt6-git.inc: Switch to 6.8 branch | 6.8.0 | D | Default | 2024-06-07
+    - Update submodule refs on '6.8' in yocto/meta-qt6 | 6.8.0 | D | Default | 2024-06-03
     - Add srcrev for QtDoc | 6.8.0 | U | Default | 2023-12-20
     - examples: add runtime dependency to main package | 6.7.0 | U | Default | 2023-08-15
     - Bump PV to 6.6.0 | 6.6.0 | U | Default | 2022-12-19
@@ -396,11 +564,17 @@
     - qt6: update version to Qt 6.5.0 | 6.5.0 | U | Default | 2022-06-14
     - qt6: bump version to 6.4.0 | 6.4.0 | U | Default | 2022-02-01
     - Initial import at master release start. | 6.3.0 | U | Default | 2021-09-22
-* qtremoteobjects 6.12.0 6.11.0 Unknown
+* qtremoteobjects 6.12.0 6.11.0 Not updated
     - qtwebengine: update chromium branch | 6.12.0 | U | Default | 2026-01-28
     - Update submodule refs on 'dev' in yocto/meta-qt6 | 6.11.0 | U | Default | 2025-07-01
+    - Update submodule refs on '6.8' in yocto/meta-qt6 | 6.8.3 | D | Default | 2025-01-27
     - qtapplicationmanager: update revision | 6.10.0 | U | Default | 2025-01-10
+    - Update submodule refs on '6.8' in yocto/meta-qt6 | 6.8.2 | D | Default | 2024-11-22
+    - Update submodule refs on '6.8' in yocto/meta-qt6 | 6.8.1 | D | Default | 2024-10-03
+    - Update submodule refs on '6.8' in yocto/meta-qt6 | 6.8.0 | D | Default | 2024-08-21
     - ptest: use builtin test data | 6.9.0 | U | Default | 2024-06-24
+    - qt6-git.inc: Switch to 6.8 branch | 6.8.0 | D | Default | 2024-06-07
+    - Update submodule refs on '6.8' in yocto/meta-qt6 | 6.8.0 | D | Default | 2024-06-03
     - Add srcrev for QtDoc | 6.8.0 | U | Default | 2023-12-20
     - examples: add runtime dependency to main package | 6.7.0 | U | Default | 2023-08-15
     - Bump PV to 6.6.0 | 6.6.0 | U | Default | 2022-12-19
@@ -408,14 +582,20 @@
     - qt6: update version to Qt 6.5.0 | 6.5.0 | U | Default | 2022-06-14
     - qt6: bump version to 6.4.0 | 6.4.0 | U | Default | 2022-02-01
     - Initial import at master release start. | 6.3.0 | U | Default | 2021-09-22
-* qtremoteobjects-examples 6.12.0 6.11.0 Unknown
+* qtremoteobjects-examples 6.12.0  Unknown
     - qtwebengine: update chromium branch | 6.12.0 | U | Default | 2026-01-28
     - Add separate recipes for Qt module examples | 6.11.0 | U | Default | 2025-08-27
-* qtscxml 6.12.0 6.11.0 Unknown
+* qtscxml 6.12.0 6.11.0 Not updated
     - qtwebengine: update chromium branch | 6.12.0 | U | Default | 2026-01-28
     - Update submodule refs on 'dev' in yocto/meta-qt6 | 6.11.0 | U | Default | 2025-07-01
+    - Update submodule refs on '6.8' in yocto/meta-qt6 | 6.8.3 | D | Default | 2025-01-27
     - qtapplicationmanager: update revision | 6.10.0 | U | Default | 2025-01-10
+    - Update submodule refs on '6.8' in yocto/meta-qt6 | 6.8.2 | D | Default | 2024-11-22
+    - Update submodule refs on '6.8' in yocto/meta-qt6 | 6.8.1 | D | Default | 2024-10-03
+    - Update submodule refs on '6.8' in yocto/meta-qt6 | 6.8.0 | D | Default | 2024-08-21
     - ptest: use builtin test data | 6.9.0 | U | Default | 2024-06-24
+    - qt6-git.inc: Switch to 6.8 branch | 6.8.0 | D | Default | 2024-06-07
+    - Update submodule refs on '6.8' in yocto/meta-qt6 | 6.8.0 | D | Default | 2024-06-03
     - Add srcrev for QtDoc | 6.8.0 | U | Default | 2023-12-20
     - examples: add runtime dependency to main package | 6.7.0 | U | Default | 2023-08-15
     - Bump PV to 6.6.0 | 6.6.0 | U | Default | 2022-12-19
@@ -423,14 +603,20 @@
     - qt6: update version to Qt 6.5.0 | 6.5.0 | U | Default | 2022-06-14
     - qt6: bump version to 6.4.0 | 6.4.0 | U | Default | 2022-02-01
     - Initial import at master release start. | 6.3.0 | U | Default | 2021-09-22
-* qtscxml-examples 6.12.0 6.11.0 Unknown
+* qtscxml-examples 6.12.0  Unknown
     - qtwebengine: update chromium branch | 6.12.0 | U | Default | 2026-01-28
     - Add separate recipes for Qt module examples | 6.11.0 | U | Default | 2025-08-27
-* qtsensors 6.12.0 6.11.0 Unknown
+* qtsensors 6.12.0 6.11.0 Not updated
     - qtwebengine: update chromium branch | 6.12.0 | U | Default | 2026-01-28
     - Update submodule refs on 'dev' in yocto/meta-qt6 | 6.11.0 | U | Default | 2025-07-01
+    - Update submodule refs on '6.8' in yocto/meta-qt6 | 6.8.3 | D | Default | 2025-01-27
     - qtapplicationmanager: update revision | 6.10.0 | U | Default | 2025-01-10
+    - Update submodule refs on '6.8' in yocto/meta-qt6 | 6.8.2 | D | Default | 2024-11-22
+    - Update submodule refs on '6.8' in yocto/meta-qt6 | 6.8.1 | D | Default | 2024-10-03
+    - Update submodule refs on '6.8' in yocto/meta-qt6 | 6.8.0 | D | Default | 2024-08-21
     - ptest: use builtin test data | 6.9.0 | U | Default | 2024-06-24
+    - qt6-git.inc: Switch to 6.8 branch | 6.8.0 | D | Default | 2024-06-07
+    - Update submodule refs on '6.8' in yocto/meta-qt6 | 6.8.0 | D | Default | 2024-06-03
     - Add srcrev for QtDoc | 6.8.0 | U | Default | 2023-12-20
     - examples: add runtime dependency to main package | 6.7.0 | U | Default | 2023-08-15
     - Bump PV to 6.6.0 | 6.6.0 | U | Default | 2022-12-19
@@ -438,14 +624,20 @@
     - qt6: update version to Qt 6.5.0 | 6.5.0 | U | Default | 2022-06-14
     - qt6: bump version to 6.4.0 | 6.4.0 | U | Default | 2022-02-01
     - Initial import at master release start. | 6.3.0 | U | Default | 2021-09-22
-* qtsensors-examples 6.12.0 6.11.0 Unknown
+* qtsensors-examples 6.12.0  Unknown
     - qtwebengine: update chromium branch | 6.12.0 | U | Default | 2026-01-28
     - Add separate recipes for Qt module examples | 6.11.0 | U | Default | 2025-08-27
-* qtserialbus 6.12.0 6.11.0 Unknown
+* qtserialbus 6.12.0 6.11.0 Not updated
     - qtwebengine: update chromium branch | 6.12.0 | U | Default | 2026-01-28
     - Update submodule refs on 'dev' in yocto/meta-qt6 | 6.11.0 | U | Default | 2025-07-01
+    - Update submodule refs on '6.8' in yocto/meta-qt6 | 6.8.3 | D | Default | 2025-01-27
     - qtapplicationmanager: update revision | 6.10.0 | U | Default | 2025-01-10
+    - Update submodule refs on '6.8' in yocto/meta-qt6 | 6.8.2 | D | Default | 2024-11-22
+    - Update submodule refs on '6.8' in yocto/meta-qt6 | 6.8.1 | D | Default | 2024-10-03
+    - Update submodule refs on '6.8' in yocto/meta-qt6 | 6.8.0 | D | Default | 2024-08-21
     - ptest: use builtin test data | 6.9.0 | U | Default | 2024-06-24
+    - qt6-git.inc: Switch to 6.8 branch | 6.8.0 | D | Default | 2024-06-07
+    - Update submodule refs on '6.8' in yocto/meta-qt6 | 6.8.0 | D | Default | 2024-06-03
     - Add srcrev for QtDoc | 6.8.0 | U | Default | 2023-12-20
     - examples: add runtime dependency to main package | 6.7.0 | U | Default | 2023-08-15
     - Bump PV to 6.6.0 | 6.6.0 | U | Default | 2022-12-19
@@ -453,14 +645,20 @@
     - qt6: update version to Qt 6.5.0 | 6.5.0 | U | Default | 2022-06-14
     - qt6: bump version to 6.4.0 | 6.4.0 | U | Default | 2022-02-01
     - Initial import at master release start. | 6.3.0 | U | Default | 2021-09-22
-* qtserialbus-examples 6.12.0 6.11.0 Unknown
+* qtserialbus-examples 6.12.0  Unknown
     - qtwebengine: update chromium branch | 6.12.0 | U | Default | 2026-01-28
     - Add separate recipes for Qt module examples | 6.11.0 | U | Default | 2025-08-27
-* qtserialport 6.12.0 6.11.0 Unknown
+* qtserialport 6.12.0 6.11.0 Not updated
     - qtwebengine: update chromium branch | 6.12.0 | U | Default | 2026-01-28
     - Update submodule refs on 'dev' in yocto/meta-qt6 | 6.11.0 | U | Default | 2025-07-01
+    - Update submodule refs on '6.8' in yocto/meta-qt6 | 6.8.3 | D | Default | 2025-01-27
     - qtapplicationmanager: update revision | 6.10.0 | U | Default | 2025-01-10
+    - qt6: update licenses | 6.8.2 | D | Default | 2024-11-19
+    - Update submodule refs on '6.8' in yocto/meta-qt6 | 6.8.1 | D | Default | 2024-10-03
+    - Update submodule refs on '6.8' in yocto/meta-qt6 | 6.8.0 | D | Default | 2024-08-21
     - ptest: use builtin test data | 6.9.0 | U | Default | 2024-06-24
+    - qt6-git.inc: Switch to 6.8 branch | 6.8.0 | D | Default | 2024-06-07
+    - Update submodule refs on '6.8' in yocto/meta-qt6 | 6.8.0 | D | Default | 2024-06-03
     - Add srcrev for QtDoc | 6.8.0 | U | Default | 2023-12-20
     - examples: add runtime dependency to main package | 6.7.0 | U | Default | 2023-08-15
     - Bump PV to 6.6.0 | 6.6.0 | U | Default | 2022-12-19
@@ -468,14 +666,20 @@
     - qt6: update version to Qt 6.5.0 | 6.5.0 | U | Default | 2022-06-14
     - qt6: bump version to 6.4.0 | 6.4.0 | U | Default | 2022-02-01
     - Initial import at master release start. | 6.3.0 | U | Default | 2021-09-22
-* qtserialport-examples 6.12.0 6.11.0 Unknown
+* qtserialport-examples 6.12.0  Unknown
     - qtwebengine: update chromium branch | 6.12.0 | U | Default | 2026-01-28
     - Add separate recipes for Qt module examples | 6.11.0 | U | Default | 2025-08-27
-* qtshadertools 6.12.0 6.11.0 Unknown
+* qtshadertools 6.12.0 6.11.0 Not updated
     - qtwebengine: update chromium branch | 6.12.0 | U | Default | 2026-01-28
     - Update submodule refs on 'dev' in yocto/meta-qt6 | 6.11.0 | U | Default | 2025-07-01
+    - Update submodule refs on '6.8' in yocto/meta-qt6 | 6.8.3 | D | Default | 2025-01-27
     - qtapplicationmanager: update revision | 6.10.0 | U | Default | 2025-01-10
+    - Update submodule refs on '6.8' in yocto/meta-qt6 | 6.8.2 | D | Default | 2024-11-22
+    - Update submodule refs on '6.8' in yocto/meta-qt6 | 6.8.1 | D | Default | 2024-10-03
+    - Update submodule refs on '6.8' in yocto/meta-qt6 | 6.8.0 | D | Default | 2024-08-21
     - ptest: use builtin test data | 6.9.0 | U | Default | 2024-06-24
+    - qt6-git.inc: Switch to 6.8 branch | 6.8.0 | D | Default | 2024-06-07
+    - Update submodule refs on '6.8' in yocto/meta-qt6 | 6.8.0 | D | Default | 2024-06-03
     - Add srcrev for QtDoc | 6.8.0 | U | Default | 2023-12-20
     - examples: add runtime dependency to main package | 6.7.0 | U | Default | 2023-08-15
     - Bump PV to 6.6.0 | 6.6.0 | U | Default | 2022-12-19
@@ -483,11 +687,17 @@
     - qt6: update version to Qt 6.5.0 | 6.5.0 | U | Default | 2022-06-14
     - qt6: bump version to 6.4.0 | 6.4.0 | U | Default | 2022-02-01
     - Initial import at master release start. | 6.3.0 | U | Default | 2021-09-22
-* qtspeech 6.12.0 6.11.0 Unknown
+* qtspeech 6.12.0 6.11.0 Not updated
     - qtwebengine: update chromium branch | 6.12.0 | U | Default | 2026-01-28
     - Update submodule refs on 'dev' in yocto/meta-qt6 | 6.11.0 | U | Default | 2025-07-01
+    - Update submodule refs on '6.8' in yocto/meta-qt6 | 6.8.3 | D | Default | 2025-01-27
     - qtapplicationmanager: update revision | 6.10.0 | U | Default | 2025-01-10
+    - Update submodule refs on '6.8' in yocto/meta-qt6 | 6.8.2 | D | Default | 2024-11-22
+    - Update submodule refs on '6.8' in yocto/meta-qt6 | 6.8.1 | D | Default | 2024-10-03
+    - Update submodule refs on '6.8' in yocto/meta-qt6 | 6.8.0 | D | Default | 2024-08-21
     - ptest: use builtin test data | 6.9.0 | U | Default | 2024-06-24
+    - qt6-git.inc: Switch to 6.8 branch | 6.8.0 | D | Default | 2024-06-07
+    - Update submodule refs on '6.8' in yocto/meta-qt6 | 6.8.0 | D | Default | 2024-06-03
     - Add srcrev for QtDoc | 6.8.0 | U | Default | 2023-12-20
     - examples: add runtime dependency to main package | 6.7.0 | U | Default | 2023-08-15
     - Bump PV to 6.6.0 | 6.6.0 | U | Default | 2022-12-19
@@ -496,14 +706,20 @@
     - Add support for QtSpeech | 6.4.0 | U | Default | 2022-05-23
     - qtspeech: remove recipe | 6.3.0 | R | Default | 2021-11-15
     - Initial import at master release start. | 6.3.0 | U | Default | 2021-09-22
-* qtspeech-examples 6.12.0 6.11.0 Unknown
+* qtspeech-examples 6.12.0  Unknown
     - qtwebengine: update chromium branch | 6.12.0 | U | Default | 2026-01-28
     - Add separate recipes for Qt module examples | 6.11.0 | U | Default | 2025-08-27
-* qtsvg 6.12.0 6.11.0 Unknown
+* qtsvg 6.12.0 6.11.0 Not updated
     - qtwebengine: update chromium branch | 6.12.0 | U | Default | 2026-01-28
     - Update submodule refs on 'dev' in yocto/meta-qt6 | 6.11.0 | U | Default | 2025-07-01
+    - Update submodule refs on '6.8' in yocto/meta-qt6 | 6.8.3 | D | Default | 2025-01-27
     - qtapplicationmanager: update revision | 6.10.0 | U | Default | 2025-01-10
+    - Update submodule refs on '6.8' in yocto/meta-qt6 | 6.8.2 | D | Default | 2024-11-22
+    - Update submodule refs on '6.8' in yocto/meta-qt6 | 6.8.1 | D | Default | 2024-10-03
+    - Update submodule refs on '6.8' in yocto/meta-qt6 | 6.8.0 | D | Default | 2024-08-21
     - ptest: use builtin test data | 6.9.0 | U | Default | 2024-06-24
+    - qt6-git.inc: Switch to 6.8 branch | 6.8.0 | D | Default | 2024-06-07
+    - Update submodule refs on '6.8' in yocto/meta-qt6 | 6.8.0 | D | Default | 2024-06-03
     - Add srcrev for QtDoc | 6.8.0 | U | Default | 2023-12-20
     - examples: add runtime dependency to main package | 6.7.0 | U | Default | 2023-08-15
     - Bump PV to 6.6.0 | 6.6.0 | U | Default | 2022-12-19
@@ -511,17 +727,23 @@
     - qt6: update version to Qt 6.5.0 | 6.5.0 | U | Default | 2022-06-14
     - qt6: bump version to 6.4.0 | 6.4.0 | U | Default | 2022-02-01
     - Initial import at master release start. | 6.3.0 | U | Default | 2021-09-22
-* qttasktree 6.12.0 6.11.0 Unknown
+* qttasktree 6.12.0  Unknown
     - qtwebengine: update chromium branch | 6.12.0 | U | Default | 2026-01-28
     - Add recipe for QtTaskTree | 6.11.0 | U | Default | 2025-11-05
-* qttasktree-examples 6.12.0 6.11.0 Unknown
+* qttasktree-examples 6.12.0  Unknown
     - qtwebengine: update chromium branch | 6.12.0 | U | Default | 2026-01-28
     - qttasktree: add examples recipe | 6.11.0 | U | Default | 2025-11-25
-* qttools 6.12.0 6.11.0 Unknown
+* qttools 6.12.0 6.11.0 Not updated
     - qtwebengine: update chromium branch | 6.12.0 | U | Default | 2026-01-28
     - Update submodule refs on 'dev' in yocto/meta-qt6 | 6.11.0 | U | Default | 2025-07-01
+    - Update submodule refs on '6.8' in yocto/meta-qt6 | 6.8.3 | D | Default | 2025-01-27
     - qtapplicationmanager: update revision | 6.10.0 | U | Default | 2025-01-10
+    - Update submodule refs on '6.8' in yocto/meta-qt6 | 6.8.2 | D | Default | 2024-11-22
+    - Update submodule refs on '6.8' in yocto/meta-qt6 | 6.8.1 | D | Default | 2024-10-03
+    - Update submodule refs on '6.8' in yocto/meta-qt6 | 6.8.0 | D | Default | 2024-08-21
     - ptest: use builtin test data | 6.9.0 | U | Default | 2024-06-24
+    - qt6-git.inc: Switch to 6.8 branch | 6.8.0 | D | Default | 2024-06-07
+    - Update submodule refs on '6.8' in yocto/meta-qt6 | 6.8.0 | D | Default | 2024-06-03
     - Add srcrev for QtDoc | 6.8.0 | U | Default | 2023-12-20
     - examples: add runtime dependency to main package | 6.7.0 | U | Default | 2023-08-15
     - Bump PV to 6.6.0 | 6.6.0 | U | Default | 2022-12-19
@@ -529,14 +751,20 @@
     - qt6: update version to Qt 6.5.0 | 6.5.0 | U | Default | 2022-06-14
     - qt6: bump version to 6.4.0 | 6.4.0 | U | Default | 2022-02-01
     - Initial import at master release start. | 6.3.0 | U | Default | 2021-09-22
-* qttools-examples 6.12.0 6.11.0 Unknown
+* qttools-examples 6.12.0  Unknown
     - qtwebengine: update chromium branch | 6.12.0 | U | Default | 2026-01-28
     - Add separate recipes for Qt module examples | 6.11.0 | U | Default | 2025-08-27
-* qttranslations 6.12.0 6.11.0 Unknown
+* qttranslations 6.12.0 6.11.0 Not updated
     - qtwebengine: update chromium branch | 6.12.0 | U | Default | 2026-01-28
     - Update submodule refs on 'dev' in yocto/meta-qt6 | 6.11.0 | U | Default | 2025-07-01
+    - Update submodule refs on '6.8' in yocto/meta-qt6 | 6.8.3 | D | Default | 2025-01-27
     - qtapplicationmanager: update revision | 6.10.0 | U | Default | 2025-01-10
+    - Update submodule refs on '6.8' in yocto/meta-qt6 | 6.8.2 | D | Default | 2024-11-22
+    - Update submodule refs on '6.8' in yocto/meta-qt6 | 6.8.1 | D | Default | 2024-10-03
+    - Update submodule refs on '6.8' in yocto/meta-qt6 | 6.8.0 | D | Default | 2024-08-21
     - ptest: use builtin test data | 6.9.0 | U | Default | 2024-06-24
+    - qt6-git.inc: Switch to 6.8 branch | 6.8.0 | D | Default | 2024-06-07
+    - Update submodule refs on '6.8' in yocto/meta-qt6 | 6.8.0 | D | Default | 2024-06-03
     - Add srcrev for QtDoc | 6.8.0 | U | Default | 2023-12-20
     - examples: add runtime dependency to main package | 6.7.0 | U | Default | 2023-08-15
     - Bump PV to 6.6.0 | 6.6.0 | U | Default | 2022-12-19
@@ -544,11 +772,17 @@
     - qt6: update version to Qt 6.5.0 | 6.5.0 | U | Default | 2022-06-14
     - qt6: bump version to 6.4.0 | 6.4.0 | U | Default | 2022-02-01
     - Initial import at master release start. | 6.3.0 | U | Default | 2021-09-22
-* qtvirtualkeyboard 6.12.0 6.11.0 Unknown
+* qtvirtualkeyboard 6.12.0 6.11.0 Not updated
     - qtwebengine: update chromium branch | 6.12.0 | U | Default | 2026-01-28
     - Update submodule refs on 'dev' in yocto/meta-qt6 | 6.11.0 | U | Default | 2025-07-01
+    - Update submodule refs on '6.8' in yocto/meta-qt6 | 6.8.3 | D | Default | 2025-01-27
     - qtapplicationmanager: update revision | 6.10.0 | U | Default | 2025-01-10
+    - Update submodule refs on '6.8' in yocto/meta-qt6 | 6.8.2 | D | Default | 2024-11-22
+    - Update submodule refs on '6.8' in yocto/meta-qt6 | 6.8.1 | D | Default | 2024-10-03
+    - Update submodule refs on '6.8' in yocto/meta-qt6 | 6.8.0 | D | Default | 2024-08-21
     - ptest: use builtin test data | 6.9.0 | U | Default | 2024-06-24
+    - qt6-git.inc: Switch to 6.8 branch | 6.8.0 | D | Default | 2024-06-07
+    - Update submodule refs on '6.8' in yocto/meta-qt6 | 6.8.0 | D | Default | 2024-06-03
     - Add srcrev for QtDoc | 6.8.0 | U | Default | 2023-12-20
     - examples: add runtime dependency to main package | 6.7.0 | U | Default | 2023-08-15
     - Bump PV to 6.6.0 | 6.6.0 | U | Default | 2022-12-19
@@ -556,14 +790,20 @@
     - qt6: update version to Qt 6.5.0 | 6.5.0 | U | Default | 2022-06-14
     - qt6: bump version to 6.4.0 | 6.4.0 | U | Default | 2022-02-01
     - Initial import at master release start. | 6.3.0 | U | Default | 2021-09-22
-* qtvirtualkeyboard-examples 6.12.0 6.11.0 Unknown
+* qtvirtualkeyboard-examples 6.12.0  Unknown
     - qtwebengine: update chromium branch | 6.12.0 | U | Default | 2026-01-28
     - Add separate recipes for Qt module examples | 6.11.0 | U | Default | 2025-08-27
-* qtwayland 6.12.0 6.11.0 Unknown
+* qtwayland 6.12.0 6.11.0 Not updated
     - qtwebengine: update chromium branch | 6.12.0 | U | Default | 2026-01-28
     - Update submodule refs on 'dev' in yocto/meta-qt6 | 6.11.0 | U | Default | 2025-07-01
+    - Update submodule refs on '6.8' in yocto/meta-qt6 | 6.8.3 | D | Default | 2025-01-27
     - qtapplicationmanager: update revision | 6.10.0 | U | Default | 2025-01-10
+    - Update submodule refs on '6.8' in yocto/meta-qt6 | 6.8.2 | D | Default | 2024-11-22
+    - Update submodule refs on '6.8' in yocto/meta-qt6 | 6.8.1 | D | Default | 2024-10-03
+    - Update submodule refs on '6.8' in yocto/meta-qt6 | 6.8.0 | D | Default | 2024-08-21
     - ptest: use builtin test data | 6.9.0 | U | Default | 2024-06-24
+    - qt6-git.inc: Switch to 6.8 branch | 6.8.0 | D | Default | 2024-06-07
+    - Update submodule refs on '6.8' in yocto/meta-qt6 | 6.8.0 | D | Default | 2024-06-03
     - Add srcrev for QtDoc | 6.8.0 | U | Default | 2023-12-20
     - examples: add runtime dependency to main package | 6.7.0 | U | Default | 2023-08-15
     - Bump PV to 6.6.0 | 6.6.0 | U | Default | 2022-12-19
@@ -571,14 +811,20 @@
     - qt6: update version to Qt 6.5.0 | 6.5.0 | U | Default | 2022-06-14
     - qt6: bump version to 6.4.0 | 6.4.0 | U | Default | 2022-02-01
     - Initial import at master release start. | 6.3.0 | U | Default | 2021-09-22
-* qtwayland-examples 6.12.0 6.11.0 Unknown
+* qtwayland-examples 6.12.0  Unknown
     - qtwebengine: update chromium branch | 6.12.0 | U | Default | 2026-01-28
     - Add separate recipes for Qt module examples | 6.11.0 | U | Default | 2025-08-27
-* qtwebchannel 6.12.0 6.11.0 Unknown
+* qtwebchannel 6.12.0 6.11.0 Not updated
     - qtwebengine: update chromium branch | 6.12.0 | U | Default | 2026-01-28
     - qtwebchannel: skip buildpath QA for examples | 6.11.0 | U | Default | 2025-06-27
+    - Update submodule refs on '6.8' in yocto/meta-qt6 | 6.8.3 | D | Default | 2025-01-27
     - qtapplicationmanager: update revision | 6.10.0 | U | Default | 2025-01-10
+    - qt6: update licenses | 6.8.2 | D | Default | 2024-11-19
+    - Update submodule refs on '6.8' in yocto/meta-qt6 | 6.8.1 | D | Default | 2024-10-03
+    - Update submodule refs on '6.8' in yocto/meta-qt6 | 6.8.0 | D | Default | 2024-08-21
     - ptest: use builtin test data | 6.9.0 | U | Default | 2024-06-24
+    - qt6-git.inc: Switch to 6.8 branch | 6.8.0 | D | Default | 2024-06-07
+    - Update submodule refs on '6.8' in yocto/meta-qt6 | 6.8.0 | D | Default | 2024-06-03
     - Add srcrev for QtDoc | 6.8.0 | U | Default | 2023-12-20
     - examples: add runtime dependency to main package | 6.7.0 | U | Default | 2023-08-15
     - Bump PV to 6.6.0 | 6.6.0 | U | Default | 2022-12-19
@@ -586,14 +832,20 @@
     - qt6: update version to Qt 6.5.0 | 6.5.0 | U | Default | 2022-06-14
     - qt6: bump version to 6.4.0 | 6.4.0 | U | Default | 2022-02-01
     - Initial import at master release start. | 6.3.0 | U | Default | 2021-09-22
-* qtwebchannel-examples 6.12.0 6.11.0 Unknown
+* qtwebchannel-examples 6.12.0  Unknown
     - qtwebengine: update chromium branch | 6.12.0 | U | Default | 2026-01-28
     - Add separate recipes for Qt module examples | 6.11.0 | U | Default | 2025-08-27
-* qtwebsockets 6.12.0 6.11.0 Unknown
+* qtwebsockets 6.12.0 6.11.0 Not updated
     - qtwebengine: update chromium branch | 6.12.0 | U | Default | 2026-01-28
     - Update submodule refs on 'dev' in yocto/meta-qt6 | 6.11.0 | U | Default | 2025-07-01
+    - Update submodule refs on '6.8' in yocto/meta-qt6 | 6.8.3 | D | Default | 2025-01-27
     - qtapplicationmanager: update revision | 6.10.0 | U | Default | 2025-01-10
+    - Update submodule refs on '6.8' in yocto/meta-qt6 | 6.8.2 | D | Default | 2024-11-22
+    - Update submodule refs on '6.8' in yocto/meta-qt6 | 6.8.1 | D | Default | 2024-10-03
+    - Update submodule refs on '6.8' in yocto/meta-qt6 | 6.8.0 | D | Default | 2024-08-21
     - ptest: use builtin test data | 6.9.0 | U | Default | 2024-06-24
+    - qt6-git.inc: Switch to 6.8 branch | 6.8.0 | D | Default | 2024-06-07
+    - Update submodule refs on '6.8' in yocto/meta-qt6 | 6.8.0 | D | Default | 2024-06-03
     - Add srcrev for QtDoc | 6.8.0 | U | Default | 2023-12-20
     - examples: add runtime dependency to main package | 6.7.0 | U | Default | 2023-08-15
     - Bump PV to 6.6.0 | 6.6.0 | U | Default | 2022-12-19
@@ -601,6 +853,6 @@
     - qt6: update version to Qt 6.5.0 | 6.5.0 | U | Default | 2022-06-14
     - qt6: bump version to 6.4.0 | 6.4.0 | U | Default | 2022-02-01
     - Initial import at master release start. | 6.3.0 | U | Default | 2021-09-22
-* qtwebsockets-examples 6.12.0 6.11.0 Unknown
+* qtwebsockets-examples 6.12.0  Unknown
     - qtwebengine: update chromium branch | 6.12.0 | U | Default | 2026-01-28
     - Add separate recipes for Qt module examples | 6.11.0 | U | Default | 2025-08-27
