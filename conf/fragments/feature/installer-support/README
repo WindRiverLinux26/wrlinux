@@ -80,7 +80,7 @@ Building the target installer
              edit local.conf
              ---
              DISTRO = 'wrlinux-installer'
-             INSTALLER_TARGET_BUILD = '<target_build-dir>/tmp-glibc/deploy/images/qemux86-64/wrlinux-image-std-qemux86-64.ext4'
+             INSTALLER_TARGET_BUILD = '<target_build-dir>/tmp/deploy/images/qemux86-64/wrlinux-image-std-qemux86-64.ext4'
              ---
 
              $ bitbake wrlinux-image-installer
@@ -218,8 +218,8 @@ Building the target installer
    bitbake package-index
 
    There is a repodata in deploy dir:
-   $ find tmp-glibc/deploy/rpm/ -name repodata
-   tmp-glibc/deploy/rpm/repodata
+   $ find tmp/deploy/rpm/ -name repodata
+   tmp/deploy/rpm/repodata
 
 9. Put multiple target builds into one installer image
    9.1 Create and build multiple target build projects.
@@ -353,7 +353,7 @@ Building the target installer
     $ bitbake grub-efi -cmkpxeimage
 
     3 Copy UEFI-base PXE image to tftp download dir
-    $ cp tmp-glibc/deploy/images/qemux86-64/bootx64-pxe.efi /srv/tftpboot/boot
+    $ cp tmp/deploy/images/qemux86-64/bootx64-pxe.efi /srv/tftpboot/boot
 
     4. Update the DHCP server config
     $ vi /etc/dhcp/dhcpd.conf

@@ -67,7 +67,7 @@ contribute additional information.
 In wrLinux project, ltp package is made of LTP, wrLtp, POSIX and wrPosix.
 All these components are placed under
 
-<Path to wrLinux project>/tmp-glibc/work/<PACKAGE_ARCH>-wrs-linux/ltp/<VERSION>/git
+<Path to wrLinux project>/tmp/work/<PACKAGE_ARCH>-wrs-linux/ltp/<VERSION>/git
 
     2.2 Configure project with ltp package
 ------------------------------------------
@@ -227,7 +227,7 @@ test execution.
 The wrLtp include script wr-runltp and test knowledge base. In wrLinux project,
 they are placed under
 
-<Path to wrLinux project>/tmp-glibc/work/<PACKAGE_ARCH>-wrs-linux/ltp/<VERSION>/git/wrLinux_ltp
+<Path to wrLinux project>/tmp/work/<PACKAGE_ARCH>-wrs-linux/ltp/<VERSION>/git/wrLinux_ltp
 
 On runtime target, you can find them under /opt/ltp/wrLinux_ltp/.
 
@@ -376,7 +376,7 @@ The wrPosix include script wr-runposix and test knowledge base.
 
 In wrLinux project, they are placed under
 
-<wrLinux project>/tmp-glibc/work/<PACKAGE_ARCH>-wrs-linux/ltp/<VERSION>/git/testcases/open_posix_testsuite/wrLinux_posix
+<wrLinux project>/tmp/work/<PACKAGE_ARCH>-wrs-linux/ltp/<VERSION>/git/testcases/open_posix_testsuite/wrLinux_posix
 
 In runtime target, they are placed under /opt/open_posix_testsuite/wrLinux_posix
 

@@ -53,7 +53,7 @@ To get a list of patches applied to the kernel specific to this BSP,
 along with patch descriptions, use git to see what changed on the default
 kernel (git whatchanged <kernel_type>..<bsp_name>). For example:
 
-  # cd tmp-glibc/work-shared/<machine>/kernel-source
+  # cd tmp/work-shared/<machine>/kernel-source
   # git whatchanged standard/base..HEAD
 
 
@@ -87,7 +87,7 @@ Build the gzip'd initramfs image with:
 $ bitbake wrlinux-image-initramfs
 
 The resulting file can be found at 
-tmp-glibc/deploy/images/qemux86/wrlinux-image-initramfs-<machine>.cpio.gz
+tmp/deploy/images/qemux86/wrlinux-image-initramfs-<machine>.cpio.gz
 
 3.2.2 Deployment
 ----------------
@@ -119,10 +119,10 @@ User can refer to the below URL to get more WIC details:
 https://docs.yoctoproject.org/singleindex.html#creating-partitioned-images-using-wic
 
 After build the project, user will get a WIC image under the directory
-tmp-glibc/deploy/images/<bsp name>/ ,such as:
+tmp/deploy/images/<bsp name>/ ,such as:
 
-tmp-glibc/deploy/images/qemux86/wrlinux-image-small-qemux86.wic
+tmp/deploy/images/qemux86/wrlinux-image-small-qemux86.wic
 
 Then user can use the below command to boot this image:
 
-$ runqemu qemux86 tmp-glibc/deploy/images/qemux86/wrlinux-image-small-qemux86.wic
+$ runqemu qemux86 tmp/deploy/images/qemux86/wrlinux-image-small-qemux86.wic
