@@ -119,4 +119,4 @@ Files of interest
 conf/local.conf
 layers/wrlinux/wrlinux-distro/recipes-core/images/wrlinux-image-initramfs.bb
 layers/wrlinux/wrlinux-distro/recipes-core/packagegroups/packagegroup-core-boot-wrs.bb
-tmp-glibc/deploy/images/<BSP_Name>/wrlinux-image-initramfs*
+tmp/deploy/images/<BSP_Name>/wrlinux-image-initramfs*
