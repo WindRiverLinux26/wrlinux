@@ -12,7 +12,7 @@
     - exo: upgrade 4.16.3 -> 4.16.4 | 4.16.4 | U | Default | 2022-07-02
     - exo: upgrade 4.16.1 -> 4.16.3 | 4.16.3 | U | Default | 2022-01-12
     - Initial import at master release start. | 4.16.1 | U | Default | 2021-09-24
-* garcon 4.21.0  Unknown
+* garcon 4.21.0 4.21.0 Up-to-date
     - garcon: upgrade 4.20.0 -> 4.21.0 | 4.21.0 | U | Default | 2026-03-24
     - garcon: 4.19.1 -> 4.20.0 | 4.20.0 | U | Default | 2024-12-19
     - garcon: Upgrade 4.19.0 -> 4.19.1 | 4.19.1 | U | Default | 2024-11-25
@@ -24,7 +24,7 @@
     - gigolo: upgrade 0.5.3 -> 0.6.0 | 0.6.0 | U | Default | 2025-11-18
     - gigolo: upgrade 0.5.2 -> 0.5.3 | 0.5.3 | U | Default | 2023-11-06
     - Initial import at master release start. | 0.5.2 | U | Default | 2021-09-24
-* libxfce4ui 4.21.7  Unknown
+* libxfce4ui 4.21.7 4.21.7 Up-to-date
     - libxfce4ui: upgrade 4.20.2 -> 4.21.7 | 4.21.7 | U | Default | 2026-03-24
     - libxfce4ui: upgrade 4.20.1 -> 4.20.2 | 4.20.2 | U | Default | 2025-09-21
     - libxfce4ui: upgrade 4.20.0 -> 4.20.1 | 4.20.1 | U | Default | 2025-06-25
@@ -72,7 +72,7 @@
     - ristretto: upgrade 0.12.0 -> 0.12.1 | 0.12.1 | U | Default | 2022-01-05
     - ristretto: upgrade 0.11.0 -> 0.12.0 | 0.12.0 | U | Default | 2021-11-20
     - Initial import at master release start. | 0.11.0 | U | Default | 2021-09-24
-* thunar 4.21.5  Unknown
+* thunar 4.21.5 4.21.5 Up-to-date
     - thunar: upgrade 4.21.4 -> 4.21.5 | 4.21.5 | U | Default | 2026-04-02
     - thunar: upgrade 4.20.7 -> 4.21.4 | 4.21.4 | U | Default | 2026-03-24
     - thunar: upgrade 4.20.5 -> 4.20.7 | 4.20.7 | U | Default | 2026-02-18
@@ -100,7 +100,7 @@
     - thunar-volman: 4.18.0 -> 4.20.0 | 4.20.0 | U | Default | 2024-12-19
     - thunar-volman: 4.16.0 -> 4.18.0 | 4.18.0 | U | Default | 2022-12-28
     - Initial import at master release start. | 4.16.0 | U | Default | 2021-09-24
-* tumbler 4.21.1  Unknown
+* tumbler 4.21.1 4.21.1 Up-to-date
     - tumbler: upgrade 4.20.1 -> 4.21.1 | 4.21.1 | U | Default | 2026-03-24
     - tumbler: upgrade 4.20.0 -> 4.20.1 | 4.20.1 | U | Default | 2026-01-13
     - tumbler: 4.18.0 -> 4.20.0 | 4.20.0 | U | Default | 2024-12-19
@@ -110,7 +110,7 @@
     - Initial import at master release start. | 1.3 | U | Default | 2021-09-24
 * xfce-polkit 0.3 0.3 Up-to-date
     - Initial import at master release start. | 0.3 | U | Default | 2021-09-24
-* xfce4-appfinder 4.21.0  Unknown
+* xfce4-appfinder 4.21.0 4.21.1 Not updated
     - xfce4-appfinder: upgrade 4.20.0 -> 4.21.0 | 4.21.0 | U | Default | 2026-03-24
     - xfce4-appfinder: 4.19.3 -> 4.20.0 | 4.20.0 | U | Default | 2024-12-19
     - xfce4-appfinder: Upgrade 4.19.2 -> 4.19.3 | 4.19.3 | U | Default | 2024-11-25
@@ -203,7 +203,7 @@
     - xfce4-notifyd: 0.6.3 -> 0.8.2 | 0.8.2 | U | Default | 2023-04-07
     - xfce4-notifyd: upgrade 0.6.2 -> 0.6.3 | 0.6.3 | U | Default | 2022-04-07
     - Initial import at master release start. | 0.6.2 | U | Default | 2021-09-24
-* xfce4-panel 4.21.1  Unknown
+* xfce4-panel 4.21.1 4.21.1 Up-to-date
     - xfce4-panel: upgrade 4.20.1 -> 4.21.1 | 4.21.1 | U | Default | 2026-03-24
     - xfce4-panel: upgrade 4.20.0 -> 4.20.1 | 4.20.1 | U | Default | 2026-01-06
     - xfce4-panel: 4.18.6 -> 4.20.0 | 4.20.0 | U | Default | 2024-12-19
@@ -223,7 +223,7 @@
     - xfce4-places-plugin: upgrade 1.8.3 -> 1.8.4 | 1.8.4 | U | Default | 2025-06-06
     - xfce4-places-plugin: upgrade 1.8.1 -> 1.8.3 | 1.8.3 | U | Default | 2023-11-06
     - Initial import at master release start. | 1.8.1 | U | Default | 2021-09-24
-* xfce4-power-manager 4.21.1  Unknown
+* xfce4-power-manager 4.21.1 4.21.1 Up-to-date
     - xfce4-power-manager: upgrade 4.20.0 -> 4.21.1 | 4.21.1 | U | Default | 2026-03-24
     - xfce4-power-manager: 4.18.2 -> 4.20.0 | 4.20.0 | U | Default | 2024-12-19
     - xfce4-power-manager: Upgrade 4.18.1 -> 4.18.2 | 4.18.2 | U | Default | 2024-11-23
@@ -256,7 +256,7 @@
     - xfce4-sensors-plugin: upgrade 1.4.1 -> 1.4.2 | 1.4.2 | U | Default | 2021-11-20
     - xfce4-sensors-plugin: upgrade 1.3.95 -> 1.4.1 | 1.4.1 | U | Default | 2021-11-03
     - Initial import at master release start. | 1.3.95 | U | Default | 2021-09-24
-* xfce4-session 4.21.1  Unknown
+* xfce4-session 4.21.1 4.21.1 Up-to-date
     - xfce4-session: upgrade 4.20.3 -> 4.21.1 | 4.21.1 | U | Default | 2026-03-24
     - xfce4-session: upgrade 4.20.0 -> 4.20.3 | 4.20.3 | U | Default | 2026-01-12
     - xfce4-session: 4.18.4 -> 4.20.0 | 4.20.0 | U | Default | 2025-03-14
@@ -265,7 +265,7 @@
     - xfce4-session: 4.18.0 -> 4.18.2 | 4.18.2 | U | Default | 2023-04-13
     - xfce4-session: 4.16.0 -> 4.18.0 | 4.18.0 | U | Default | 2022-12-28
     - Initial import at master release start. | 4.16.0 | U | Default | 2021-09-24
-* xfce4-settings 4.21.1  Unknown
+* xfce4-settings 4.21.1 4.21.1 Up-to-date
     - xfce4-settings: upgrade 4.20.1 -> 4.21.1 | 4.21.1 | U | Default | 2026-03-24
     - xfce4-settings: upgrade 4.20.0 -> 4.20.1 | 4.20.1 | U | Default | 2025-05-11
     - xfce4-settings: 4.18.3 -> 4.20.0 | 4.20.0 | U | Default | 2024-12-19
@@ -326,7 +326,7 @@
 * xfce4-xkb-plugin 0.9.0 0.9.0 Up-to-date
     - xfce4-xkb-plugin: upgrade 0.8.2 -> 0.9.0 | 0.9.0 | U | Default | 2025-10-06
     - Initial import at master release start. | 0.8.2 | U | Default | 2021-09-24
-* xfconf 4.21.2  Unknown
+* xfconf 4.21.2 4.21.2 Up-to-date
     - xfconf: upgrade 4.20.0 -> 4.21.2 | 4.21.2 | U | Default | 2026-03-24
     - xfconf: 4.18.2 -> 4.20.0 | 4.20.0 | U | Default | 2024-12-19
     - xfconf: Upgrade 4.18.1 -> 4.18.2 | 4.18.2 | U | Default | 2024-11-25

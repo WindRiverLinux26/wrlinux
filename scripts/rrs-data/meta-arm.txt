@@ -1,4 +1,4 @@
-* optee-os git+git 4.10.0 Unknown
+* optee-os git+git git-new-commits-available Not updated
     - arm/arm-bsp: optee-examples: drop patch included in 4.9.0 | git+git | U | Default | 2026-02-06
     - arm/arm-bsp: optee: drop version 4.7.0 | 4.7.0 | N | Default | 2026-01-27
     - arm/arm-bsp: optee: add version 4.9.0 | 4.7.0 | D | Default | 2026-01-27

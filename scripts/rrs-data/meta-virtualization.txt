@@ -1,4 +1,4 @@
-* aardvark-dns 1.17.0  Unknown
+* aardvark-dns 1.17.0 1.17.1 Not updated
     - aardvark-dns: update to v1.17.0 | 1.17.0 | U | Default | 2026-03-24
     - aardvark-dns: upate to v1.16.0 | 1.16.0 | U | Default | 2025-10-16
     - aardvark-dns: update to v1.15.0 | 1.15.0 | U | Default | 2025-06-26
@@ -70,7 +70,7 @@
     - containerd: update to v2.0.0-rc.2 | v2.0.0-rc.2+git | U | Default | 2024-05-29
     - containerd: update to v2.0.0-rc.1 | v2.0.0-rc.1+git | U | Default | 2024-05-14
     - containerd: consolidate to "containerd" | v2.0.0-beta.0+git | U | Default | 2024-05-14
-* cri-o 1.35.0+git 1.35.2 Not updated
+* cri-o 1.35.0+git 1.36.0 Not updated
     - cri-o: update to v1.35.0 | 1.35.0+git | U | Default | 2026-03-18
     - cri-o: update to v1.34.1 | 1.34.1+git | U | Default | 2025-10-16
     - cri-o: update to v1.33.0 | 1.33.0+git87ce1c120d022797913f0792e15dd0107d19dffe | U | Default | 2025-07-07
@@ -160,7 +160,7 @@
     - docker-distribution: upgrade to 2.8.1 | v2.8.1+gitAUTOINC+b5ca020cfb | U | Default | 2022-06-20
     - docker-distribution: update to 2.8.0 | v2.8.0+gitAUTOINC+3b7b534569 | U | Default | 2022-03-21
     - Initial import at master release start. | v2.7.1 | U | Default | 2021-09-22
-* docker-moby v29.3.0+git1da6517e1a4381297e56862f6f373f265c28d102 29.4.2 Not updated
+* docker-moby v29.3.0+git1da6517e1a4381297e56862f6f373f265c28d102 29.4.3 Not updated
     - docker: RDEPENDS on virtual-runc | v29.3.0+git1da6517e1a4381297e56862f6f373f265c28d102 | U | Default | 2026-04-20
     - docker-moby: remove local recipe to sync to upstream for LTS25 | 26.1.5 | R | Default | 2026-04-20
     - docker-moby: upgrade 26.0.2 -> 26.1.5 | 26.1.5 | U | Default | 2026-04-20
@@ -193,15 +193,15 @@
     - moby: update to v20.10.12 | 20.10.12+git906f57ff5b7100013dfef066ea8fe367706468df | U | Default | 2022-03-21
     - docker-moby: update to v20.10.10 | 20.10.10+git7bd682c48c076fd398275925a18394eba46cb8d0 | U | Default | 2021-11-16
     - Initial import at master release start. | 20.10.8+gitd24c6dc5cf5e68dfb30027b2db454099566a9b9e | U | Default | 2021-09-22
-* fuse-overlayfs 1.16  Unknown
+* fuse-overlayfs 1.16 1.16 Up-to-date
     - fuse-overlayfs: update to v1.16 | 1.16 | U | Default | 2026-03-24
     - fuse-overlayfs: update to v1.14 | 1.14 | U | Default | 2025-05-20
     - fuse-overlayfs: Update to v1.9 | 1.9 | U | Default | 2022-07-15
     - Initial import at master release start. | 0.6.4 | U | Default | 2021-09-22
-* go-md2man 2.0.7+git 2.0.7 Not updated
+* go-md2man 2.0.7+git 2.0.7 Up-to-date
     - go recipes: update to latest upstream releases | 2.0.7+git | U | Default | 2026-03-26
     - Initial import at master release start. | 1.0.10+gitAUTOINC+f79a8a8ca6 | U | Default | 2021-09-22
-* irqbalance 1.9.5+git 1.9.5 Not updated
+* irqbalance 1.9.5+git 1.9.5 Up-to-date
     - irqbalance: update to v1.9.5 | 1.9.5+git | U | Default | 2026-03-24
     - irqbalance: update to v1.9.4 | 1.9.4+git | U | Default | 2025-12-02
     - irqbalance: update to 1.8.0-tip | 1.8.0+gitAUTOINC+b3adb5fd14 | U | Default | 2022-03-29
@@ -259,7 +259,7 @@
     - lxc: update to 4.0.12 | 4.0.12+gitAUTOINC+5ba5725cb4 | U | Default | 2022-03-21
     - lxc: update to 4.0.11 | 4.0.11+gitAUTOINC+48e079bf31 | U | Default | 2021-11-02
     - Initial import at master release start. | 4.0.10+gitAUTOINC+cec7cb14b2 | U | Default | 2021-09-22
-* nerdctl v2.2.0 2.2.2 Not updated
+* nerdctl v2.2.0 2.3.0 Not updated
     - nerdctl: update to to v2.2.0 | v2.2.0 | U | Default | 2025-12-09
     - nerdctl: update to v2.0.3 | v2.0.3 | U | Default | 2025-03-24
     - nerdctl: update to v2.0.2 | v2.0.2 | U | Default | 2025-01-17
@@ -269,7 +269,7 @@
     - nerdctl: update to 0.22.2 | v0.22.2 | U | Default | 2022-08-09
     - nerdctl: update to v0.18 | v0.18.0 | U | Default | 2022-04-21
     - nerdctl: introduce recipe | v0.17.0 | U | Default | 2022-03-21
-* netavark 1.17.2  Unknown
+* netavark 1.17.2 1.17.2 Up-to-date
     - netavark: update to v1.17.2 | 1.17.2 | U | Default | 2026-03-23
     - netavark: update to v1.16.1 | 1.16.1 | U | Default | 2025-10-19
     - netavark: update to v1.15.2 | 1.15.2 | U | Default | 2025-07-07
@@ -289,7 +289,7 @@
     - Initial import at master release start. | 0.1.0+gitAUTOINC+6e7da8148f | U | Default | 2021-09-22
 * oci-systemd-hook 0.2.0+gitAUTOINC+05e692346c 0.2.0 Up-to-date
     - Initial import at master release start. | 0.2.0+gitAUTOINC+05e692346c | U | Default | 2021-09-22
-* openvswitch 3.7.0 3.5.0 Up-to-date
+* openvswitch 3.7.0 3.7.0 Up-to-date
     - openvswitch: update to v3.7.0 | 3.7.0 | U | Default | 2026-03-26
     - openvswitch: update to v3.5.0 | 3.5.0 | U | Default | 2025-03-24
     - openvswitch: update to v3.4.1 | 3.4.1 | U | Default | 2025-01-17
@@ -319,7 +319,7 @@
     - Initial import at master release start. | 0.17.0 | U | Default | 2021-09-22
 * python3-fastentrypoints 0.12 0.12 Up-to-date
     - Initial import at master release start. | 0.12 | U | Default | 2021-09-22
-* runc 1.5.0-rc.1+git 1.4.2 Not updated
+* runc 1.5.0-rc.1+git 1.4.2 Unknown
     - runc: fix RUNC_VERSION to match release-1.5 branch | 1.5.0-rc.1+git | U | Default | 2026-03-27
     - runc: update to v1.3.0 | 1.3.0+git | U | Default | 2025-08-21
     - runc: start removing 'opencontainers' reference | 1.2.0+git | U | Default | 2025-07-07
@@ -345,7 +345,7 @@
     - skopeo: update to 1.6.1 | v1.6.1+gitAUTOINC+3e2defd6d3 | U | Default | 2022-03-21
     - skopeo: update to v1.5.2 | v1.5.2+gitAUTOINC+1d24e657fa | U | Default | 2021-11-30
     - Initial import at master release start. | v1.4.1+gitAUTOINC+01e51ce610 | U | Default | 2021-09-22
-* slirp4netns 1.3.3+git 1.3.3 Not updated
+* slirp4netns 1.3.3+git 1.3.3 Up-to-date
     - slip4netns: update to v1.3.3 | 1.3.3+git | U | Default | 2026-03-26
     - slirp4netns: update to v1.3.1 | 1.3.1+git | U | Default | 2025-01-17
     - slip4netns: update to 1.2.0 | 1.2.0+gitAUTOINC+323aa69a68 | U | Default | 2022-03-21

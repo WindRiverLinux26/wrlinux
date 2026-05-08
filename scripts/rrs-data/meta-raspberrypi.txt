@@ -1,27 +1,21 @@
-* libcamera-apps 1.9.0  
+* libcamera-apps 1.9.0 1.12.0 Not updated
     - libcamera-apps: upgrade 1.4.2 -> 1.9.0 | 1.9.0 | U | Default | 2025-10-18
     - libcamera-apps: fix build with libcamera-0.2.0 | 1.4.2+git | U | Default | 2024-02-01
     - libcamera-apps: bump to latest main | 1.2.1+gitAUTOINC+1c1d1c1a2a | U | Default | 2023-08-08
     - libcamera-apps: bump to 3d9ac10 | 1.2.1+gitAUTOINC+3d9ac1087b | U | Default | 2023-08-08
     - rpi-libcamera-apps: rename to libcamera-apps | 1.1.2+gitAUTOINC+12098520a3 | U | Default | 2023-08-08
-* libpisp 1.3.0  
+* libpisp 1.3.0 1.5.0 Not updated
     - libpisp: Upgrade to 1.3.0 release | 1.3.0 | U | Default | 2025-10-25
     - libpisp: introduce recipe | 1.2.1 | U | Default | 2025-10-18
-* pi-bluetooth 0.1.19  
+* pi-bluetooth 0.1.19  Unknown
     - pi-bluetooth: Update version from 0.1.17 -> 0.1.19 | 0.1.19 | U | Default | 2025-08-20
     - Initial import at master release start. | 0.1.17 | U | Default | 2021-09-24
-* rpi-bootfiles 20250801  
-    - rpi-bootfiles: Update to latest tip as of 20250801 | 20250801 | U | Default | 2025-08-13
-    - rpi-bootfiles: update to latest release | 20250430 | U | Default | 2025-05-17
-    - rpi-bootfiles: Update to latest release | 20250326 | U | Default | 2025-05-10
-    - rpi-bootfiles: Resort to github APIs for tarballs | 20240319 | U | Default | 2024-03-27
-    - Initial import at master release start. | 20210914 | U | Default | 2021-09-24
-* rpi-cmdline 1.0  
+* rpi-cmdline 1.0 1.0 Up-to-date
     - Initial import at master release start. | 1.0 | U | Default | 2021-09-24
-* rpi-config git  
+* rpi-config git  Unknown
     - Initial import at master release start. | git | U | Default | 2021-09-24
-* rpi-u-boot-scr 1.0  
+* rpi-u-boot-scr 1.0 1.0 Up-to-date
     - Initial import at master release start. | 1.0 | U | Default | 2021-09-24
-* udev-rules-rpi 20230510  
+* udev-rules-rpi 20230510  Unknown
     - udev-rules-rpi: explicitly set PV | 20230510 | U | Default | 2026-04-13
     - Initial import at master release start. | 1.0 | U | Default | 2021-09-24

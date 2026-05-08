@@ -8,13 +8,13 @@
     - Add recipe hf-qwen3.5-0.8b-gguf-ud-q4 and hf-qwen3.5-2b-gguf-ud-q4 | 0.1 | U | Default | 2026-04-21
 * llama-cpp b8783 9794052 Unknown
     - Add recipe llama-cpp b8783 | b8783 | U | Default | 2026-04-20
-* llama-swap 202 210 Not updated
+* llama-swap 202 211 Not updated
     - Add recipe llama-swap 202 | 202 | U | Default | 2026-04-20
-* ollama 0.20.3 0.22.1 Not updated
+* ollama 0.20.3 0.23.1 Not updated
     - Add recipe ollama 0.20.3 | 0.20.3 | U | Default | 2026-04-20
 * python3-jiter 0.14.0 0.14.0 Up-to-date
     - Add recipe python3-jiter 0.14.0 | 0.14.0 | U | Default | 2026-04-21
 * python3-ollama 0.6.1 0.6.2 Not updated
     - Add recipe python3-ollama 0.6.1 | 0.6.1 | U | Default | 2026-04-21
-* python3-openai 2.32.0 2.33.0 Not updated
+* python3-openai 2.32.0 2.35.1 Not updated
     - Add recipe python3-openai 2.32.0 | 2.32.0 | U | Default | 2026-04-21
