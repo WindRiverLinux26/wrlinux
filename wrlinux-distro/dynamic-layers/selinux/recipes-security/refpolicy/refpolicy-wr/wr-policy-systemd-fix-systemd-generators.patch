@@ -1,4 +1,4 @@
-From 75102097af8b071781cf066159f67c43b7743635 Mon Sep 17 00:00:00 2001
+From 364ffe1833e3bf8aa4c98a66a011de10fc05fe95 Mon Sep 17 00:00:00 2001
 From: Yi Zhao <yi.zhao@windriver.com>
 Date: Mon, 3 Aug 2020 17:28:11 +0800
 Subject: [PATCH] systemd: fix systemd-generators
@@ -24,19 +24,24 @@ scontext=system_u:system_r:systemd_generator_t:s0-s15:c0.c1023
 tcontext=system_u:object_r:var_run_t:s0-s15:c0.c1023 tclass=dir
 permissive=0
 
+avc:  denied  { link } for  pid=231 comm="ostree-system-g" name="#725"
+dev="tmpfs" ino=725
+scontext=system_u:system_r:systemd_generator_t:s0-s15:c0.c1023
+tcontext=system_u:object_r:init_runtime_t:s0 tclass=file permissive=0
+
 Upstream-Status: Inappropriate [ostree specific]
 
 Signed-off-by: Yi Zhao <yi.zhao@windriver.com>
 ---
  policy/modules/kernel/files.if   | 20 ++++++++++++++++++++
- policy/modules/system/systemd.te |  4 ++++
- 2 files changed, 24 insertions(+)
+ policy/modules/system/systemd.te |  6 +++++-
+ 2 files changed, 25 insertions(+), 1 deletion(-)
 
 diff --git a/policy/modules/kernel/files.if b/policy/modules/kernel/files.if
-index 5d67cae99..13c6250b1 100644
+index 4e94f54..0a93780 100644
 --- a/policy/modules/kernel/files.if
 +++ b/policy/modules/kernel/files.if
-@@ -7234,6 +7234,26 @@ interface(`files_rw_runtime_files',`
+@@ -7252,6 +7252,26 @@ interface(`files_rw_runtime_files',`
  	rw_files_pattern($1, var_run_t, var_run_t)
  ')
  
@@ -64,10 +69,10 @@ index 5d67cae99..13c6250b1 100644
  ## <summary>
  ##	Delete generic runtime symlinks.
 diff --git a/policy/modules/system/systemd.te b/policy/modules/system/systemd.te
-index e4f53fe66..201f73bbc 100644
+index 2f28514..4ee6929 100644
 --- a/policy/modules/system/systemd.te
 +++ b/policy/modules/system/systemd.te
-@@ -627,6 +627,8 @@ files_exec_etc_files(systemd_generator_t)
+@@ -637,6 +637,8 @@ files_exec_etc_files(systemd_generator_t)
  files_read_etc_files(systemd_generator_t)
  files_read_etc_runtime_files(systemd_generator_t)
  files_search_runtime(systemd_generator_t)
@@ -76,7 +81,16 @@ index e4f53fe66..201f73bbc 100644
  files_list_boot(systemd_generator_t)
  files_read_boot_files(systemd_generator_t)
  files_read_config_files(systemd_generator_t)
-@@ -654,6 +656,8 @@ init_read_generic_units_files(systemd_generator_t)
+@@ -654,7 +656,7 @@ init_create_runtime_files(systemd_generator_t)
+ init_read_all_script_files(systemd_generator_t)
+ init_manage_runtime_dirs(systemd_generator_t)
+ init_manage_runtime_symlinks(systemd_generator_t)
+-init_read_runtime_files(systemd_generator_t)
++init_manage_runtime_files(systemd_generator_t)
+ init_read_state(systemd_generator_t)
+ init_rename_runtime_files(systemd_generator_t)
+ init_search_runtime(systemd_generator_t)
+@@ -664,6 +666,8 @@ init_read_generic_units_files(systemd_generator_t)
  init_read_generic_units_symlinks(systemd_generator_t)
  init_getattr_all_unit_files(systemd_generator_t)
  
