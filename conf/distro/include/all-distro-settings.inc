@@ -65,6 +65,10 @@ require conf/distro/include/security_flags_wrs.inc
 PNI_NAMES_FEATURES ??= "pni-names"
 DISTRO_FEATURES:append = " ${PNI_NAMES_FEATURES}"
 
+# Disable systemd osc-context support by default as it will affect minicom and telnet
+SYSTEMD_OSC_CONTEXT_SUPPORT ?= "0"
+PACKAGECONFIG:remove:pn-systemd = "${@oe.utils.vartrue('SYSTEMD_OSC_CONTEXT_SUPPORT', '', 'osc-context', d)}"
+
 EXTRA_IMAGEDEPENDS:remove:qemuriscv64:pn-${INITRAMFS_IMAGE} = "opensbi"
 
 # clear WRTEMPLATE for installer image
