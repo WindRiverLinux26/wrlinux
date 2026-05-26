@@ -27,9 +27,6 @@ ALLOW_EMPTY:${PN}-crypto = "1"
 ALLOW_EMPTY:${PN}-auth = "1"
 ALLOW_EMPTY:${PN} = "1"
 
-# afong: These two were originally in the package list, no apps were using them, removed.
-# 	libgssglue
-# 	libmhash
 RDEPENDS:${PN} = "\
 	${PN}-utils \
 	${PN}-trust \
