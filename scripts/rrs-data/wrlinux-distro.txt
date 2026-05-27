@@ -20,6 +20,8 @@
     - recipes: WORKDIR -> UNPACKDIR transition | 1.0 | U | Default | 2024-05-27
 * wr-init 1.0 1.0 Up-to-date
     - recipes: WORKDIR -> UNPACKDIR transition | 1.0 | U | Default | 2024-05-27
+* wr-kiosk 1.0  Unknown
+    - wr-kiosk: move recipe to wrlinux-distro layer | 1.0 | U | Default | 2026-05-22
 * wrlinux-image-initramfs 1.0 1.0 Up-to-date
     - wrlinux-image-initramfs: Set IMAGE_NAME_SUFFIX to empty | 1.0 | U | Default | 2023-11-15
 * wrlinux-image-std 1.0 1.0 Up-to-date

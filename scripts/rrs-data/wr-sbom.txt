@@ -31,7 +31,7 @@
 * python3-extractcode-libarchive-system-provided-native 33.0.0 33.0.0 Up-to-date
     - python3-extractcode-libarchive-system-provided-native: 32.0.0 -> 33.0.0 | 33.0.0 | U | Default | 2025-10-27
     - add recipe python3-scancode-native and its depends | 32.0.0 | U | Default | 2024-09-30
-* python3-extractcode-native 31.0.0 31.0.0 Up-to-date
+* python3-extractcode-native 31.0.0 31.1.0 Not updated
     - add recipe python3-scancode-native and its depends | 31.0.0 | U | Default | 2024-09-30
 * python3-fasteners-native 0.20 0.20 Up-to-date
     - python3-fasteners-native: 0.19 -> 0.20 | 0.20 | U | Default | 2025-10-27
@@ -53,7 +53,7 @@
 * python3-isodate-native 0.7.2 0.7.2 Up-to-date
     - python3-isodate-native: 0.6.1 -> 0.7.2 | 0.7.2 | U | Default | 2025-10-27
     - add recipe python3-scancode-native and its depends | 0.6.1 | U | Default | 2024-09-30
-* python3-jaraco-functools-native 4.4.0 4.4.0 Up-to-date
+* python3-jaraco-functools-native 4.4.0 4.5.0 Not updated
     - python3-jaraco-functools-native: 4.3.0 -> 4.4.0 | 4.4.0 | U | Default | 2026-04-03
     - python3-jaraco-functools-native: 4.0.1 -> 4.3.0 | 4.3.0 | U | Default | 2025-10-27
     - add recipe python3-scancode-native and its depends | 4.0.1 | U | Default | 2024-09-30
@@ -104,7 +104,7 @@
     - python3-scancode-native: 32.4.1 -> 32.5.0 | 32.5.0 | U | Default | 2026-04-01
     - python3-scancode-native: 32.1.0 -> 32.4.1 | 32.4.1 | U | Default | 2025-10-27
     - add recipe python3-scancode-native and its depends | 32.1.0 | U | Default | 2024-09-30
-* python3-setuptools-git-versioning-native 3.0.1 3.0.1 Up-to-date
+* python3-setuptools-git-versioning-native 3.0.1 3.1.0 Not updated
     - python3-setuptools-git-versioning-native: 2.0.0 -> 3.0.1 | 3.0.1 | U | Default | 2026-04-03
     - python3-setuptools-git-versioning-native: 1.13.6 -> 2.0.0 | 2.0.0 | U | Default | 2025-10-27
     - add recipe python3-scancode-native and its depends | 1.13.6 | U | Default | 2024-09-30

@@ -10,7 +10,7 @@
     - Initial import at master release start. | 1.6.3 | U | Default | 2021-10-22
 * python3-google-pasta 0.2.0 0.2.0 Up-to-date
     - Initial import at master release start. | 0.2.0 | U | Default | 2021-10-22
-* python3-keras 3.13.2 3.14.0 Not updated
+* python3-keras 3.13.2 3.14.1 Not updated
     - Switch tf-keras to python3-keras 3.13.2 | 3.13.2 | U | Default | 2026-03-25
 * python3-mldtypes 0.5.4 0.5.4 Up-to-date
     - python3-mldtypes: 0.5.1 -> 0.5.4 | 0.5.4 | U | Default | 2026-03-25

@@ -56,7 +56,7 @@
     - Initial import at master release start. | 2.0.29+gitAUTOINC+1ef246896b | U | Default | 2021-09-22
 * container-host-config 1.0 1.0 Up-to-date
     - containers: add container-host-config recipe | 1.0 | U | Default | 2023-02-17
-* containerd 2.2.2+git 2.3.0 Not updated
+* containerd 2.2.2+git 2.3.1 Not updated
     - containerd: update to v2.2.2 | 2.2.2+git | U | Default | 2026-03-18
     - containerd: update to v2.2.0-beta.1 | v2.2.0-beta.1+git | U | Default | 2025-10-16
     - containerd: update to v2.1.4 | v2.1.4+git | U | Default | 2025-08-21
@@ -138,7 +138,7 @@
     - crun: update to 1.4.3 | 1.4.3+git3b3061afdeb49d691cfbbeaca09c0a0f45694cb2 | U | Default | 2022-03-21
     - crun: bump to version 1.2 | 1.2+git718b94edc37e010a866d8b6b69ec0d30ada24613 | U | Default | 2021-10-18
     - Initial import at master release start. | 0.18+git360f5d02c37d5f7a67d38622010228ae2eeb80f1 | U | Default | 2021-09-22
-* docker-compose v5.0.0 5.1.3 Not updated
+* docker-compose v5.0.0 5.1.4 Not updated
     - docker-compose: update to v5.0.0 | v5.0.0 | U | Default | 2025-12-09
     - docker-compose: update to v2.33.1 | v2.33.1 | U | Default | 2025-03-11
     - Revert "docker-compose: WIP [needs go 1.22.10+]: not for merge: update to v2.32.2" | v2.28.1 | D | Default | 2025-01-17
@@ -160,7 +160,8 @@
     - docker-distribution: upgrade to 2.8.1 | v2.8.1+gitAUTOINC+b5ca020cfb | U | Default | 2022-06-20
     - docker-distribution: update to 2.8.0 | v2.8.0+gitAUTOINC+3b7b534569 | U | Default | 2022-03-21
     - Initial import at master release start. | v2.7.1 | U | Default | 2021-09-22
-* docker-moby v29.3.0+git1da6517e1a4381297e56862f6f373f265c28d102 29.4.3 Not updated
+* docker-moby v29.4.3+git56be73107b381194c27938965bca74c4e2bb475b 29.5.2 Not updated
+    - docker: upgrade to v29.4.3 | v29.4.3+git56be73107b381194c27938965bca74c4e2bb475b | U | Default | 2026-05-21
     - docker: RDEPENDS on virtual-runc | v29.3.0+git1da6517e1a4381297e56862f6f373f265c28d102 | U | Default | 2026-04-20
     - docker-moby: remove local recipe to sync to upstream for LTS25 | 26.1.5 | R | Default | 2026-04-20
     - docker-moby: upgrade 26.0.2 -> 26.1.5 | 26.1.5 | U | Default | 2026-04-20
@@ -207,7 +208,7 @@
     - irqbalance: update to 1.8.0-tip | 1.8.0+gitAUTOINC+b3adb5fd14 | U | Default | 2022-03-29
     - irqbalance: bump SRCREV to latest | 1.8.0+gitAUTOINC+a972665483 | U | Default | 2021-11-08
     - Initial import at master release start. | 1.8.0 | U | Default | 2021-09-22
-* kubernetes 1.35.2+git 1.36.0 Not updated
+* kubernetes 1.35.2+git 1.36.1 Not updated
     - kubernetes: fix runtime init error caused by git shallow tarball | 1.35.2+git | U | Default | 2026-04-20
     - kubernetes: remove local recipe to sync to upstream for LTS25 | v1.29.1 | R | Default | 2026-04-20
     - kubernetes: upgrade 1.26.8 -> 1.29.1 | v1.29.1 | U | Default | 2026-04-20
@@ -259,7 +260,7 @@
     - lxc: update to 4.0.12 | 4.0.12+gitAUTOINC+5ba5725cb4 | U | Default | 2022-03-21
     - lxc: update to 4.0.11 | 4.0.11+gitAUTOINC+48e079bf31 | U | Default | 2021-11-02
     - Initial import at master release start. | 4.0.10+gitAUTOINC+cec7cb14b2 | U | Default | 2021-09-22
-* nerdctl v2.2.0 2.3.0 Not updated
+* nerdctl v2.2.0 2.3.1 Not updated
     - nerdctl: update to to v2.2.0 | v2.2.0 | U | Default | 2025-12-09
     - nerdctl: update to v2.0.3 | v2.0.3 | U | Default | 2025-03-24
     - nerdctl: update to v2.0.2 | v2.0.2 | U | Default | 2025-01-17
@@ -306,6 +307,41 @@
     - Initial import at master release start. | 2.15+AUTOINC+8dc1733eae | U | Default | 2021-09-22
 * packagegroup-container 1.0 1.0 Up-to-date
     - Initial import at master release start. | 1.0 | U | Default | 2021-09-22
+* podman 5.8.3-dev 5.8.2 Unknown
+    - podman: update version to match golangs version.go | 5.8.3-dev | U | Default | 2026-04-28
+    - podman: update to v5.8.2 | 5.8.2 | U | Default | 2026-04-24
+    - podman: remove local recipe to sync to upstream for LTS25 | 5.3.1 | R | Default | 2026-04-20
+    - podman: upgrade to 5.3.1 | 5.3.1 | U | Default | 2026-04-20
+    - podman: Upgrade 4.4.2 -> 5.0.1 | 5.0.1 | U | Default | 2026-04-20
+    - podman: add 4.4.2 | 4.4.2 | D | Default | 2026-04-20
+    - podman: update to v5.7.1 | v5.7.1 | U | Default | 2026-02-10
+    - podman: update to v5.6.2 | v5.6.2 | U | Default | 2025-10-14
+    - podman: update to v5.6.0 | v5.6.0 | U | Default | 2025-08-21
+    - podman: update to v5.5.2 | v5.5.2 | U | Default | 2025-07-07
+    - podman: update to v5.4.1 | v5.4.1 | U | Default | 2025-03-24
+    - podman: update to v5.3.1 | v5.3.1 | U | Default | 2024-12-10
+    - podman: update to v5.2.3 | v5.2.3 | U | Default | 2024-11-15
+    - podman: update to v5.2.1 | v5.2.1 | U | Default | 2024-08-20
+    - podman: update to v5.2.0-rc1 | v5.2.0-rc1 | U | Default | 2024-07-16
+    - podman: update to 5.1.1 | 5.1.1+git | U | Default | 2024-07-10
+    - podman: update to 5.0.1 | 5.0.1+git | U | Default | 2024-04-04
+    - podman: update to 5.0.0 | 5.0.0+git | U | Default | 2024-03-22
+    - podman: update to 5.0.0-rc | 5.0.0-rc4+git | U | Default | 2024-03-15
+    - podman: update to v4.8.2 | 4.8.2+git | U | Default | 2024-01-04
+    - podman: update to 4.7.1 | 4.7.1+git | U | Default | 2023-11-06
+    - podman: update to 4.6.0 | 4.6.0+gitAUTOINC+2215847e66 | U | Default | 2023-08-24
+    - podman: update to 4.6 | 4.6.0-rc1+gitAUTOINC+932b8a997e | U | Default | 2023-08-01
+    - podman: update to 4.5.1 | 4.5.1+gitAUTOINC+dae7df5a13 | U | Default | 2023-07-25
+    - podman: update to 4.5.0 | 4.5.0+gitAUTOINC+c926b12c54 | U | Default | 2023-06-07
+    - podman: update to 4.4.3 | 4.4.3+gitAUTOINC+6172f29f98 | U | Default | 2023-03-24
+    - podman: update to 4.4 | 4.4.1+gitAUTOINC+73f52c051b | U | Default | 2023-02-17
+    - podman: update to 4.3 | 4.3.0+gitAUTOINC+9ce592fcb9 | U | Default | 2022-12-01
+    - podman: update to 4.2 | 4.2.0+gitAUTOINC+754ec89a8a | U | Default | 2022-08-26
+    - podman: update to v4.1.0 | 4.1.0+gitAUTOINC+cedbbfa543 | U | Default | 2022-06-03
+    - podman: update to v4.0.1 | 4.0.1+gitAUTOINC+717edd7b84 | U | Default | 2022-03-21
+    - podman: update to 3.4.2 | 3.4.2+gitAUTOINC+72031783c5 | U | Default | 2021-11-22
+    - podman: upate to v3.4.o | 3.4.0+gitAUTOINC+6e8de00bb2 | U | Default | 2021-10-04
+    - Initial import at master release start. | 3.3.1+gitAUTOINC+364efce396 | U | Default | 2021-09-22
 * python3-docker 7.1.0 7.1.0 Up-to-date
     - devtools: update to latest | 7.1.0 | U | Default | 2025-04-17
     - python3-docker: Update to 7.0.0 | 7.0.0 | U | Default | 2024-02-01

@@ -35,7 +35,7 @@
     - dhcp-relay: upgrade 4.4.3 -> 4.4.3-P1 | 4.4.3p1 | U | Default | 2022-10-11
     - dhcp-relay: upgrade 4.4.2p1 -> 4.4.3 | 4.4.3 | U | Default | 2022-03-24
     - Initial import at master release start. | 4.4.2p1 | U | Default | 2021-09-24
-* dnsmasq 2.92 2.92 Up-to-date
+* dnsmasq 2.92 2.92rel2 Not updated
     - dnsmasq: upgrade 2.91 -> 2.92 | 2.92 | U | Default | 2026-01-23
     - dnsmasq: upgrade 2.90 -> 2.91 | 2.91 | U | Default | 2025-03-24
     - dnsmasq: Upgrade 2.89 -> 2.90 | 2.90 | U | Default | 2024-02-26
@@ -61,7 +61,8 @@
     - freeradius: 3.0.26 -> 3.2.3 | 3.2.3 | U | Default | 2024-04-02
     - freeradius: upgrade 3.0.21 -> 3.0.26 | 3.0.26 | U | Default | 2023-01-09
     - Initial import at master release start. | 3.0.21 | U | Default | 2021-09-24
-* frr 10.5.3 10.6.1 Not updated
+* frr 10.6.1  Unknown
+    - frr: upgrade 10.5.3 -> 10.6.1 | 10.6.1 | U | Default | 2026-04-23
     - frr: upgrade 10.5.2 -> 10.5.3 | 10.5.3 | U | Default | 2026-03-23
     - frr: upgrade 10.5.1 -> 10.5.2 | 10.5.2 | U | Default | 2026-03-03
     - frr: upgrade 10.5.0 -> 10.5.1 | 10.5.1 | U | Default | 2026-01-13
@@ -177,7 +178,7 @@
     - lksctp-tools: upgrade 1.0.20 -> 1.0.21 | 1.0.21 | U | Default | 2024-09-29
     - lksctp-tools: upgrade 1.0.19 -> 1.0.20 | 1.0.20 | U | Default | 2024-09-23
     - Initial import at master release start. | 1.0.19+gitAUTOINC+05b50d379f | U | Default | 2021-09-24
-* lldpd 1.0.21 1.0.21 Up-to-date
+* lldpd 1.0.21 1.0.22 Not updated
     - lldpd: upgrade 1.0.20 -> 1.0.21 | 1.0.21 | U | Default | 2026-03-27
     - lldpd: upgrade 1.0.19 -> 1.0.20 | 1.0.20 | U | Default | 2025-09-16
     - lldpd: upgrade 1.0.18 -> 1.0.19 | 1.0.19 | U | Default | 2025-01-14
@@ -280,7 +281,7 @@
     - ntp: upgrade 4.2.8p16 -> 4.2.8p17 | 4.2.8p17 | U | Default | 2023-06-14
     - ntp: upgrade 4.2.8p15 -> 4.2.8p16 | 4.2.8p16 | U | Default | 2023-06-05
     - Initial import at master release start. | 4.2.8p15 | U | Default | 2021-09-24
-* open-vm-tools 13.0.10 13.0.10 Up-to-date
+* open-vm-tools 13.0.10 13.1.0 Not updated
     - open-vm-tools: upgrade 13.0.5 -> 13.0.10 | 13.0.10 | U | Default | 2026-02-11
     - open-vm-tools: upgrade 12.5.0 -> 13.0.5 | 13.0.5 | U | Default | 2025-10-09
     - open-vm-tools: upgrade 12.4.5 -> 12.5.0 | 12.5.0 | U | Default | 2024-10-13
@@ -323,7 +324,7 @@
 * phytool 2+git 2 Up-to-date
     - phytool: Update to latest | 2+git | U | Default | 2026-03-20
     - Initial import at master release start. | 2+gitAUTOINC+8882328c08 | U | Default | 2021-09-24
-* postfix 3.10.8 3.11.2 Not updated
+* postfix 3.10.8 3.11.3 Not updated
     - postfix: upgrade 3.10.6 -> 3.10.8 | 3.10.8 | U | Default | 2026-03-03
     - postfix: upgrade 3.10.5 -> 3.10.6 | 3.10.6 | U | Default | 2025-12-02
     - postfix: upgrade 3.10.1 -> 3.10.5 | 3.10.5 | U | Default | 2025-10-29
@@ -407,7 +408,7 @@
     - Initial import at master release start. | 1.5 | U | Default | 2021-09-24
 * vsftpd 3.0.5 3.0.5 Up-to-date
     - Initial import at master release start. | 3.0.5 | U | Default | 2021-09-24
-* vsomeip 3.5.11 3.7.2 Not updated
+* vsomeip 3.5.11 3.7.3 Not updated
     - vsomeip: upgrade 3.5.10 -> 3.5.11 | 3.5.11 | U | Default | 2025-11-20
     - vsomeip: upgrade 3.5.3 -> 3.5.10 | 3.5.10 | U | Default | 2025-11-07
     - vsomeip: Upgrade to 3.5.3 | 3.5.3 | U | Default | 2025-01-13

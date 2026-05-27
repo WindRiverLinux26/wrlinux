@@ -1,4 +1,4 @@
-* aws-c-auth 0.10.1 0.10.1 Up-to-date
+* aws-c-auth 0.10.1 0.10.3 Not updated
     - aws-c-auth: upgrade 0.10.0 -> 0.10.1 | 0.10.1 | U | Default | 2026-03-06
     - aws-c-auth: upgrade 0.9.6 -> 0.10.0 | 0.10.0 | U | Default | 2026-03-03
     - aws-c-auth: upgrade 0.9.5 -> 0.9.6 | 0.9.6 | U | Default | 2026-02-18
@@ -62,7 +62,7 @@
     - sdk: remove old versions of recipes | 0.4.9 | N | Default | 2022-02-25
     - Update git protocol (#235) | 0.6.1 | U | Default | 2021-11-04
     - Update git protocol (#235) | 0.4.9 | U | Default | 2021-11-04
-* aws-c-cal 0.9.13 0.9.13 Up-to-date
+* aws-c-cal 0.9.13 0.9.14 Not updated
     - aws-c-cal: upgrade 0.9.12 -> 0.9.13 | 0.9.13 | U | Default | 2025-11-27
     - aws-c-cal: upgrade 0.9.11 -> 0.9.12 | 0.9.12 | U | Default | 2025-11-26
     - aws-c-cal: upgrade 0.9.10 -> 0.9.11 | 0.9.11 | U | Default | 2025-11-20
@@ -114,7 +114,7 @@
     - sdk: remove old versions of recipes | 0.4.5 | N | Default | 2022-02-25
     - Update git protocol (#235) | 0.5.11 | U | Default | 2021-11-04
     - Update git protocol (#235) | 0.4.5 | U | Default | 2021-11-04
-* aws-c-common 0.12.6 0.12.6 Up-to-date
+* aws-c-common 0.12.6 0.13.1 Not updated
     - aws-c-common: upgrade 0.12.5 -> 0.12.6 | 0.12.6 | U | Default | 2025-11-20
     - aws-c-common: upgrade 0.12.4 -> 0.12.5 | 0.12.5 | U | Default | 2025-09-19
     - aws-c-common: upgrade 0.12.3 -> 0.12.4 | 0.12.4 | U | Default | 2025-07-17
@@ -208,7 +208,7 @@
     - sdk: remove old versions of recipes | 0.2.10 | N | Default | 2022-02-25
     - Update git protocol (#235) | 0.2.14 | U | Default | 2021-11-04
     - Update git protocol (#235) | 0.2.10 | U | Default | 2021-11-04
-* aws-c-event-stream 0.7.0 0.7.0 Up-to-date
+* aws-c-event-stream 0.7.0 0.7.1 Not updated
     - aws-c-event-stream: upgrade 0.6.0 -> 0.7.0 | 0.7.0 | U | Default | 2026-04-02
     - aws-c-event-stream: upgrade 0.5.9 -> 0.6.0 | 0.6.0 | U | Default | 2026-03-05
     - aws-c-event-stream: upgrade 0.5.8 -> 0.5.9 | 0.5.9 | U | Default | 2025-12-12
@@ -241,7 +241,7 @@
     - sdk: remove old versions of recipes | 0.2.6 | N | Default | 2022-02-25
     - Update git protocol (#235) | 0.2.7 | U | Default | 2021-11-04
     - Update git protocol (#235) | 0.2.6 | U | Default | 2021-11-04
-* aws-c-http 0.10.14 0.10.14 Up-to-date
+* aws-c-http 0.10.14 0.11.0 Not updated
     - aws-c-http: upgrade 0.10.11 -> 0.10.14 | 0.10.14 | U | Default | 2026-04-02
     - aws-c-http: upgrade 0.10.10 -> 0.10.11 | 0.10.11 | U | Default | 2026-03-03
     - aws-c-http: upgrade 0.10.9 -> 0.10.10 | 0.10.10 | U | Default | 2026-02-03
@@ -415,7 +415,7 @@
     - sdk: remove old versions of recipes | 0.0.2 | N | Default | 2022-02-25
     - Update git protocol (#235) | 0.0.7 | U | Default | 2021-11-04
     - Update git protocol (#235) | 0.0.2 | U | Default | 2021-11-04
-* aws-c-mqtt 0.15.2 0.15.2 Up-to-date
+* aws-c-mqtt 0.15.2 0.16.0 Not updated
     - aws-c-mqtt: upgrade 0.15.0 -> 0.15.2 | 0.15.2 | U | Default | 2026-03-30
     - aws-c-mqtt: upgrade 0.14.0 -> 0.15.0 | 0.15.0 | U | Default | 2026-03-12
     - aws-c-mqtt: upgrade 0.13.5 -> 0.14.0 | 0.14.0 | U | Default | 2026-02-18
@@ -469,7 +469,7 @@
     - sdk: remove old versions of recipes | 0.5.5 | N | Default | 2022-02-25
     - Update git protocol (#235) | 0.7.6 | U | Default | 2021-11-04
     - Update git protocol (#235) | 0.5.5 | U | Default | 2021-11-04
-* aws-c-s3 0.12.2 0.12.3 Not updated
+* aws-c-s3 0.12.2 0.12.4 Not updated
     - aws-c-s3: upgrade 0.12.1 -> 0.12.2 | 0.12.2 | U | Default | 2026-04-03
     - aws-c-s3: upgrade 0.11.5 -> 0.12.1 | 0.12.1 | U | Default | 2026-04-02
     - aws-c-s3: upgrade 0.11.4 -> 0.11.5 | 0.11.5 | U | Default | 2026-01-15
@@ -623,7 +623,7 @@
     - aws-checksums: upgrade 0.1.12 -> 0.1.13 | 0.1.13 | U | Default | 2022-08-30
     - aws-c-auth, aws-c-cal, aws-c-common, aws-c-compression, aws-c-event-stream, aws-c-http, aws-c-io, aws-c-iot, aws-c-mqtt, aws-c-s3, aws-checksums, aws-crt-cpp, aws-crt-python, aws-iot-device-sdk-cpp-v2, aws-lc, aws-sdk-cpp, s2n: bump versions and streamline recipe aws-c-sdkutils: added | 0.1.12 | U | Default | 2022-05-12
     - Update git protocol (#235) | 0.1.11 | U | Default | 2021-11-04
-* aws-cli 1.44.79 1.45.5 Not updated
+* aws-cli 1.44.79 1.45.14 Not updated
     - aws-cli: upgrade 1.44.77 -> 1.44.79 | 1.44.79 | U | Default | 2026-04-14
     - aws-cli: upgrade 1.44.76 -> 1.44.77 | 1.44.77 | U | Default | 2026-04-10
     - aws-cli: upgrade 1.44.74 -> 1.44.76 | 1.44.76 | U | Default | 2026-04-09
@@ -1271,7 +1271,7 @@
     - aws-cli: upgrade 1.25.84 -> 1.25.85 | 1.25.85 | U | Default | 2022-10-01
     - aws-cli: upgrade 1.25.82 -> 1.25.84 | 1.25.84 | U | Default | 2022-09-30
     - aws-cli: rename, fix autoupgrade, upgrade 1.25.24 - 1.25.82 | 1.25.82 | U | Default | 2022-09-30
-* aws-crt-cpp 0.38.5 0.38.6 Not updated
+* aws-crt-cpp 0.38.5 0.39.1 Not updated
     - aws-crt-cpp: upgrade 0.38.4 -> 0.38.5 | 0.38.5 | U | Default | 2026-04-14
     - aws-crt-cpp: upgrade 0.38.3 -> 0.38.4 | 0.38.4 | U | Default | 2026-04-03
     - aws-crt-cpp: upgrade 0.37.4 -> 0.38.3 | 0.38.3 | U | Default | 2026-04-02
@@ -1386,7 +1386,7 @@
     - device sdk: remove tag from SRC_URI | 0.15.0 | U | Default | 2022-02-15
     - Update git protocol (#235) | 0.11.8 | D | Default | 2021-11-04
     - Merge Master-next into Master (#228) | 0.15.0 | U | Default | 2021-10-29
-* aws-crt-python 0.32.0 0.32.2 Not updated
+* aws-crt-python 0.32.0 0.33.0 Not updated
     - aws-crt-python: upgrade 0.31.3 -> 0.32.0 | 0.32.0 | U | Default | 2026-04-02
     - aws-crt-python: upgrade 0.31.2 -> 0.31.3 | 0.31.3 | U | Default | 2026-03-10
     - aws-crt-python: upgrade 0.31.1 -> 0.31.2 | 0.31.2 | U | Default | 2026-02-13
@@ -1504,7 +1504,7 @@
     - Update git protocol (#235) | 0.5.11 | U | Default | 2021-11-04
     - Update git protocol (#235) | 0.12.1 | U | Default | 2021-11-04
     - Update git protocol (#235) | 0.10.3 | U | Default | 2021-11-04
-* aws-iot-device-sdk-cpp-v2 1.40.1 1.43.0 Not updated
+* aws-iot-device-sdk-cpp-v2 1.40.1 1.43.1 Not updated
     - aws-iot-device-sdk-cpp-v2: upgrade 1.35.1 -> 1.40.1 | 1.40.1 | U | Default | 2025-10-13
     - aws-iot-device-sdk-cpp-v2: upgrade 1.35.0 -> 1.35.1 | 1.35.1 | U | Default | 2025-03-14
     - aws-iot-device-sdk-cpp-v2: upgrade 1.34.0 -> 1.35.0 | 1.35.0 | U | Default | 2025-02-06
@@ -1553,7 +1553,8 @@
     - sdk: remove old versions of recipes | 1.10.5 | N | Default | 2022-02-25
     - Update git protocol (#235) | 1.14.1 | U | Default | 2021-11-04
     - Update git protocol (#235) | 1.10.5 | U | Default | 2021-11-04
-* aws-iot-device-sdk-cpp-v2-samples-mqtt5-pubsub 1.0  Unknown
+* aws-iot-device-sdk-cpp-v2-samples-mqtt5-pubsub 1.40.1  Unknown
+    - aws-iot-device-sdk-cpp-v2-samples-mqtt5-pubsub: correct version | 1.40.1 | U | Default | 2026-05-09
     - aws-iot-device-sdk-cpp-v2: upgrade 1.35.1 -> 1.40.1 | 1.0 | D | Default | 2025-10-13
     - aws-iot-device-sdk-cpp-v2-version.inc: explicitly set PV | 1.35.1 | U | Default | 2025-07-21
     - aws-iot-device-sdk-cpp-v2: add mqtt5-pubsub sample, ptest, oelint-adv | 1.0 | U | Default | 2023-01-05
@@ -1605,7 +1606,7 @@
     - python recipes: cope with upstream changes to python installs | 1.0.0.dev0 | D | Default | 2022-03-04
     - Update git protocol (#235) | 1.7.0 | U | Default | 2021-11-04
     - Update git protocol (#235) | 1.5.4 | U | Default | 2021-11-04
-* python3-boto3 1.42.89 1.43.5 Not updated
+* python3-boto3 1.42.89 1.43.14 Not updated
     - python3-boto3: upgrade 1.42.87 -> 1.42.89 | 1.42.89 | U | Default | 2026-04-14
     - python3-boto3: upgrade 1.42.86 -> 1.42.87 | 1.42.87 | U | Default | 2026-04-10
     - python3-boto3: upgrade 1.42.84 -> 1.42.86 | 1.42.86 | U | Default | 2026-04-09
@@ -2279,7 +2280,7 @@
     - python3-boto3: upgrade 1.21.44 -> 1.24.22 | 1.24.22 | U | Default | 2022-07-05
     - python3-boto3, python3-botocore, python3-s3transfer: bump versions | 1.21.44 | U | Default | 2022-04-25
     - Merge Master-next into Master (#228) | 1.17.54 | U | Default | 2021-10-29
-* python3-botocore 1.42.89 1.43.5 Not updated
+* python3-botocore 1.42.89 1.43.14 Not updated
     - python3-botocore: upgrade 1.42.87 -> 1.42.89 | 1.42.89 | U | Default | 2026-04-14
     - python3-botocore: upgrade 1.42.86 -> 1.42.87 | 1.42.87 | U | Default | 2026-04-10
     - python3-botocore: upgrade 1.42.84 -> 1.42.86 | 1.42.86 | U | Default | 2026-04-09

@@ -1,4 +1,6 @@
 * dpdk 23.11.5 25.11.2 Not updated
+    - dpdk: add a PACKAGECONFIG for examples | 23.11.5 | D | Default | 2026-05-19
+    - dpdk: move common code to inc | 25.11.0 | U | Default | 2026-05-19
     - dpdk: dont set COMPATIBLE_MACHINE to null | 23.11.5 | D | Default | 2026-04-13
     - dpdk: use v25.11 tag for 25.11.0 recipe | 25.11.0 | U | Default | 2025-12-30
     - dpdk: upgrade 23.11.1 -> 23.11.5 | 23.11.5 | D | Default | 2025-12-26

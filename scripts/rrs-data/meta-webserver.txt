@@ -17,7 +17,7 @@
     - Apache: Several CVE fixes | 2.4.51 | U | Default | 2021-10-22
     - apache2: upgrade 2.4.48 -> 2.4.49 | 2.4.49 | U | Default | 2021-09-24
     - Initial import at master release start. | 2.4.48 | U | Default | 2021-09-24
-* nginx 1.29.7 1.30.0 Not updated
+* nginx 1.29.7 1.31.1 Not updated
     - nginx: upgrade 1.29.6 -> 1.29.7 | 1.29.7 | U | Default | 2026-03-28
     - nginx: upgrade 1.28.2 -> 1.28.3 | 1.28.3 | D | Default | 2026-03-28
     - nginx: upgrade 1.29.5 -> 1.29.6 | 1.29.6 | U | Default | 2026-03-18

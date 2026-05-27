@@ -6,7 +6,7 @@
     - intel-cmt-cat: upgrade 4.6.0 -> 23.08 | 23.08 | U | Default | 2023-08-29
     - intel-cmt-cat: upgrade 4.5.0 -> 4.6.0 | 4.6.0 | U | Default | 2023-06-16
     - intel-cmt-cat: add recipe | 4.5.0 | U | Default | 2023-04-05
-* intel-microcode 20260210 20260227 Not updated
+* intel-microcode 20260210 20260512 Not updated
     - intel-microcode: upgrade 20251111 -> 20260210 | 20260210 | U | Default | 2026-02-25
     - intel-microcode: upgrade 20250812 -> 20251111 | 20251111 | U | Default | 2026-01-27
     - intel-microcode: upgrade 20250512 -> 20250812 | 20250812 | U | Default | 2025-08-21
