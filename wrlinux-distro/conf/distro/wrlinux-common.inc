@@ -130,12 +130,10 @@ SKIP_RECIPE[newlib] ?= "only glibc is supported for wrlinux"
 SANITY_TESTED_DISTROS ?= " \
             ubuntu-22.04 \n \
             ubuntu-24.04 \n \
-            fedora-42 \n \
-            fedora-43 \n \
+            ubuntu-26.04 \n \
             opensuseleap-16.0 \n \
             rhel-8.10 \n \
             rhel-9.6 \n \
             rhel-10 \n \
-            sled-15.7 \n \
-            elxr-12 \n \
+            elxr-26.04 \n \
             "
