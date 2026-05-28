@@ -98,11 +98,14 @@ python gen_vr_recipe_handler() {
 
         # No checking is needed in the following cases:
         # - No old_val: It's a new vr, just update it
+        # - The main version is changed(e.g., 24 -> 25): just update it
         if old_val:
             old_vr = old_val.split()[0]
             if old_vr:
+                old_vr_main = old_vr[:-2]
+                new_vr_main = vr[:-2]
                 # In different RCPL, check whether need update
-                if old_vr != vr:
+                if old_vr_main == new_vr_main and old_vr != vr:
                     old_patches = ' '.join(old_val.split()[1:])
                     # The patches are the same, no update is needed
                     if old_patches == new_patches:
