@@ -61,7 +61,7 @@
     - freeradius: 3.0.26 -> 3.2.3 | 3.2.3 | U | Default | 2024-04-02
     - freeradius: upgrade 3.0.21 -> 3.0.26 | 3.0.26 | U | Default | 2023-01-09
     - Initial import at master release start. | 3.0.21 | U | Default | 2021-09-24
-* frr 10.6.1  Unknown
+* frr 10.6.1 10.6.1 Up-to-date
     - frr: upgrade 10.5.3 -> 10.6.1 | 10.6.1 | U | Default | 2026-04-23
     - frr: upgrade 10.5.2 -> 10.5.3 | 10.5.3 | U | Default | 2026-03-23
     - frr: upgrade 10.5.1 -> 10.5.2 | 10.5.2 | U | Default | 2026-03-03
@@ -228,7 +228,7 @@
     - Initial import at master release start. | 1.195 | U | Default | 2021-09-24
 * netperf 2.7.0+gitAUTOINC+3bc455b23f 2.7.0 Up-to-date
     - Initial import at master release start. | 2.7.0+gitAUTOINC+3bc455b23f | U | Default | 2021-09-24
-* networkmanager 1.56.0 1.57.3 Not updated
+* networkmanager 1.56.0 1.57.4 Not updated
     - networkmanager: upgrade 1.52.2 -> 1.56.0 | 1.56.0 | U | Default | 2026-03-18
     - networkmanager: upgrade 1.52.0 -> 1.52.2 | 1.52.2 | U | Default | 2025-12-31
     - networkmanager: update 1.50.0 -> 1.52.0 | 1.52.0 | U | Default | 2025-05-28
@@ -339,7 +339,7 @@
     - Initial import at master release start. | 3.6.2 | U | Default | 2021-09-24
 * ptpd 2.3.1 2.3.1 Up-to-date
     - Initial import at master release start. | 2.3.1 | U | Default | 2021-09-24
-* radvd 2.20 2.20 Up-to-date
+* radvd 2.20 2.21 Not updated
     - radvd: upgrade 2.19 -> 2.20 | 2.20 | U | Default | 2025-02-24
     - Initial import at master release start. | 2.19 | U | Default | 2021-09-24
 * snort 2.9.20 2.9.20 Up-to-date

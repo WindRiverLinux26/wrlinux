@@ -43,7 +43,7 @@
     - libxfce4util: 4.18.0 -> 4.18.1 | 4.18.1 | U | Default | 2023-04-13
     - libxfce4util: 4.16.0 -> 4.18.0 | 4.18.0 | U | Default | 2022-12-28
     - Initial import at master release start. | 4.16.0 | U | Default | 2021-09-24
-* libxfce4windowing 4.20.5 4.20.5 Up-to-date
+* libxfce4windowing 4.20.5 4.20.6 Not updated
     - libxfce4windowing: upgrade 4.20.4 -> 4.20.5 | 4.20.5 | U | Default | 2026-01-15
     - libxfce4windowing: update 4.20.3 -> 4.20.4 | 4.20.4 | U | Default | 2025-09-17
     - libxfce4windowing: upgrade 4.20.0 -> 4.20.3 | 4.20.3 | U | Default | 2025-06-25

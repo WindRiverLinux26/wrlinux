@@ -7,7 +7,7 @@
     - Initial import at master release start. | 1.14.0 | U | Default | 2021-09-24
 * fuse 2.9.9  Unknown
     - Initial import at master release start. | 2.9.9 | U | Default | 2021-09-24
-* ntfs-3g-ntfsprogs 2026.2.25  Unknown
+* ntfs-3g-ntfsprogs 2026.2.25 2026.2.25 Up-to-date
     - ntfs-3g-ntfsprogs: upgrade 2022.10.3 -> 2026.2.25 | 2026.2.25 | U | Default | 2026-05-13
     - ntfs-3g-ntfsprogs: fix CVE-2023-52890 | 2022.10.3 | U | Default | 2024-11-22
     - ntfs-3g-ntfsprogs: upgrade to 2022.5.17 | 2022.5.17 | U | Default | 2022-07-06
@@ -35,6 +35,6 @@
     - xfsprogs: upgrade 6.0.0 -> 6.1.0 | 6.1.0 | U | Default | 2023-01-11
     - xfsprogs: Upgrade to 6.0.0 | 6.0.0 | U | Default | 2022-12-23
     - Initial import at master release start. | 5.13.0 | U | Default | 2021-09-24
-* yaffs2-utils 20221209 20221209 Up-to-date
+* yaffs2-utils 20221209 20221209-new-commits-available Not updated
     - yaffs2-utils: Upgrade to 20221209 | 20221209 | U | Default | 2024-03-08
     - Initial import at master release start. | 0.0+gitAUTOINC+9a6f486e56 | U | Default | 2021-09-24

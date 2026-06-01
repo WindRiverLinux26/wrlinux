@@ -534,7 +534,7 @@
 * cantarell-fonts 0.303.1 0.303.1 Up-to-date
     - cantarell-fonts: update 0.301 -> 0.303.1 | 0.303.1 | U |  | 2021-12-17
     - Initial import at master release start. | 0.301 | U |  | 2021-09-21
-* cargo 1.94.1 1.95.0 Not updated
+* cargo 1.94.1 1.96.0 Not updated
     - rust: Upgrade 1.94.0 -> 1.94.1 | 1.94.1 | U |  | 2026-04-09
     - rust: Upgrade 1.93.0 -> 1.94.0 | 1.94.0 | U |  | 2026-03-09
     - rust: Upgrade 1.92.0 -> 1.93.0 | 1.93.0 | U |  | 2026-02-12
@@ -1117,7 +1117,7 @@
     - diffstat: upgrade 1.65 -> 1.66 | 1.66 | U |  | 2024-02-03
     - diffstat: upgrade 1.64 -> 1.65 | 1.65 | U |  | 2022-11-07
     - Initial import at master release start. | 1.64 | U |  | 2021-09-21
-* diffutils 3.12 3.12 Up-to-date
+* diffutils 3.12  Unknown
     - diffutils: upgrade from 3.11 to 3.12 | 3.12 | U |  | 2025-05-29
     - diffutils: upgrade from 3.10 to 3.11 | 3.11 | U |  | 2025-02-17
     - diffutils: update 3.9 -> 3.10 | 3.10 | U |  | 2023-06-27
@@ -1157,7 +1157,7 @@
     - Initial import at master release start. | 4.5 | U |  | 2021-09-21
 * docbook-xsl-stylesheets 1.79.1 1.79.1 Up-to-date
     - Initial import at master release start. | 1.79.1 | U |  | 2021-09-21
-* dos2unix 7.5.4 7.5.5 Not updated
+* dos2unix 7.5.4 7.5.6 Not updated
     - dos2unix: upgrade 7.5.3 -> 7.5.4 | 7.5.4 | U |  | 2026-02-12
     - dos2unix: upgrade 7.5.2 -> 7.5.3 | 7.5.3 | U |  | 2025-11-27
     - dos2unix: upgrade 7.5.1 -> 7.5.2 | 7.5.2 | U |  | 2024-02-03
@@ -1200,7 +1200,7 @@
     - dropbear: upgrade 2022.82 -> 2022.83 | 2022.83 | U |  | 2022-12-06
     - dropbear: upgrade 2020.81 -> 2022.82 | 2022.82 | U |  | 2022-04-20
     - Initial import at master release start. | 2020.81 | U |  | 2021-09-21
-* dtc 1.7.2 1.7.2 Up-to-date
+* dtc 1.7.2 1.8.1 Not updated
     - dtc: upgrade 1.7.0 -> 1.7.2 | 1.7.2 | U |  | 2024-12-06
     - dtc: upgrade 1.6.1 -> 1.7.0 | 1.7.0 | U |  | 2023-02-19
     - Initial import at master release start. | 1.6.1 | U |  | 2021-09-21
@@ -1576,7 +1576,7 @@
     - gcc: upgrade 11.3 -> 12.1 | 12.1.0 | U |  | 2022-05-10
     - gcc: Upgrade to 11.3 release | 11.3.0 | U |  | 2022-04-22
     - Initial import at master release start. | 11.2.0 | U |  | 2021-09-21
-* gcc-source-15.2.0 15.2.0 16.1.0 Not updated
+* gcc-source-15.2.0 15.2.0 15.2.0 Up-to-date
     - gcc: Upgrade to 15.2.0 release | 15.2.0 | U |  | 2025-08-14
 * gcompat 1.1.0 1.1.0-new-commits-available Not updated
     - gcompat: Upgrade to 1.1.0 release | 1.1.0 | U |  | 2023-10-16
@@ -1639,7 +1639,7 @@
     - gdb: update 11.1 -> 11.2 | 11.2 | U |  | 2022-02-18
     - gdb: Upgrade to 11.1 | 11.1 | U |  | 2021-11-07
     - Initial import at master release start. | 10.2 | U |  | 2021-09-21
-* gdbm 1.26 1.26 Up-to-date
+* gdbm 1.26  Unknown
     - gdbm: upgrade 1.24 -> 1.26 | 1.26 | U |  | 2025-08-04
     - gdbm: upgrade 1.23 -> 1.24 | 1.24 | U |  | 2024-07-16
     - gdbm: upgrade 1.22 -> 1.23 | 1.23 | U |  | 2022-02-10
@@ -1902,7 +1902,7 @@
     - gn: Add recipe | 0+git | U |  | 2025-10-02
 * gnome-desktop-testing 2021.1 2021.1 Up-to-date
     - Initial import at master release start. | 2021.1 | U |  | 2021-09-21
-* gnu-config 20250709+git 20250709 Up-to-date
+* gnu-config 20250709+git  Unknown
     - gnu-config: Update to 20250709 | 20250709+git | U |  | 2025-07-24
     - gnu-config: update to latest revision | 20240823+git | U |  | 2024-08-27
     - gnu-config: Update to latest version | 20240101+git | U |  | 2024-02-06
@@ -2354,7 +2354,7 @@
     - grep: upgrade 3.8 -> 3.9 | 3.9 | U |  | 2023-03-16
     - grep: update 3.7 -> 3.8 | 3.8 | U |  | 2022-10-29
     - Initial import at master release start. | 3.7 | U |  | 2021-09-21
-* groff 1.24.0  Unknown
+* groff 1.24.0 1.24.1 Not updated
     - groff: upgrade 1.23.0 -> 1.24.0 | 1.24.0 | U |  | 2026-04-09
     - groff: update 1.22.4 -> 1.23.0 | 1.23.0 | U |  | 2023-09-07
     - Initial import at master release start. | 1.22.4 | U |  | 2021-09-21
@@ -2364,7 +2364,7 @@
     - Initial import at master release start. | 2.06 | U |  | 2021-09-21
 * grub-bootconf 1.00 1.00 Up-to-date
     - Initial import at master release start. | 1.00 | U |  | 2021-09-21
-* grub-efi 2.14 2.14 Up-to-date
+* grub-efi 2.14  Unknown
     - grub: upgrade 2.12 -> 2.14 | 2.14 | U |  | 2026-03-12
     - grub2: upgrade 2.06 -> 2.12 | 2.12 | U |  | 2024-01-24
     - Initial import at master release start. | 2.06 | U |  | 2021-09-21
@@ -2828,7 +2828,7 @@
     - hdparm: upgrade 9.63 -> 9.64 | 9.64 | U |  | 2022-07-23
     - hdparm: upgrade 9.62 -> 9.63 | 9.63 | U |  | 2022-01-18
     - Initial import at master release start. | 9.62 | U |  | 2021-09-21
-* help2man 1.49.3  Unknown
+* help2man 1.49.3 1.49.3 Up-to-date
     - help2man: upgrade 1.49.2 -> 1.49.3 | 1.49.3 | U |  | 2022-12-22
     - help2man: upgrade 1.49.1 -> 1.49.2 | 1.49.2 | U |  | 2022-04-19
     - help2man: upgrade 1.48.5 -> 1.49.1 | 1.49.1 | U |  | 2022-02-17
@@ -3026,7 +3026,7 @@
     - json-glib: upgrade 1.6.6 -> 1.8.0 | 1.8.0 | U |  | 2023-12-06
     - json-glib: upgrade 1.6.4 -> 1.6.6 | 1.6.6 | U |  | 2021-10-23
     - Initial import at master release start. | 1.6.4 | U |  | 2021-09-21
-* kbd 2.9.0 2.9.0 Up-to-date
+* kbd 2.9.0 2.10.0 Not updated
     - kbd: upgrade 2.8.0 -> 2.9.0 | 2.9.0 | U |  | 2025-12-31
     - kbd: upgrade 2.7.1 -> 2.8.0 | 2.8.0 | U |  | 2025-06-05
     - kbd: update 2.6.4 -> 2.7.1 | 2.7.1 | U |  | 2025-01-04
@@ -3115,7 +3115,7 @@
     - Initial import at master release start. | 590 | U |  | 2021-09-21
 * libacpi 0.2 0.2 Up-to-date
     - Initial import at master release start. | 0.2 | U |  | 2021-09-21
-* libadwaita 1.8.4 1.9.0 Not updated
+* libadwaita 1.8.4 1.9.1 Not updated
     - libadwaita: upgrade 1.8.2 -> 1.8.4 | 1.8.4 | U |  | 2026-03-05
     - libadwaita: upgrade 1.8.1 -> 1.8.2 | 1.8.2 | U |  | 2025-12-31
     - libadwaita: Upgrade 1.7.6 -> 1.8.1 | 1.8.1 | U |  | 2025-12-01
@@ -3310,7 +3310,7 @@
     - libdnf: upgrade 0.64.0 -> 0.65.0 | 0.65.0 | U |  | 2021-10-27
     - libdnf: update 0.63.1 -> 0.64.0 | 0.64.0 | U |  | 2021-10-14
     - Initial import at master release start. | 0.63.1 | U |  | 2021-09-21
-* libdrm 2.4.131 2.4.133 Not updated
+* libdrm 2.4.131 2.4.134 Not updated
     - libdrm: upgrade 2.4.128 -> 2.4.131 | 2.4.131 | U |  | 2025-12-31
     - libdrm: upgrade 2.4.125 -> 2.4.128 | 2.4.128 | U |  | 2025-11-27
     - libdrm: upgrade 2.4.124 -> 2.4.125 | 2.4.125 | U |  | 2025-06-16
@@ -3495,7 +3495,7 @@
     - libhandy: upgrade 1.4.0 -> 1.5.0 | 1.5.0 | U |  | 2021-11-16
     - libhandy: update 1.2.3 -> 1.4.0 | 1.4.0 | U |  | 2021-10-11
     - Initial import at master release start. | 1.2.3 | U |  | 2021-09-21
-* libical 3.0.20 4.0.1 Not updated
+* libical 3.0.20 4.0.2 Not updated
     - libical: upgrade 3.0.19 -> 3.0.20 | 3.0.20 | U |  | 2025-03-17
     - libical: upgrade 3.0.18 -> 3.0.19 | 3.0.19 | U |  | 2025-01-02
     - libical: upgrade 3.0.17 -> 3.0.18 | 3.0.18 | U |  | 2024-04-16
@@ -3511,7 +3511,7 @@
     - libice: upgrade 1.1.1 -> 1.1.2 | 1.1.2 | U |  | 2024-12-18
     - libice: update 1.0.10 -> 1.1.1 | 1.1.1 | U |  | 2022-12-28
     - Initial import at master release start. | 1.0.10 | U |  | 2021-09-21
-* libidn2 2.3.8 2.3.8 Up-to-date
+* libidn2 2.3.8  Unknown
     - libidn2: upgrade 2.3.7 -> 2.3.8 | 2.3.8 | U |  | 2025-03-17
     - libidn2: upgrade 2.3.4 -> 2.3.7 | 2.3.7 | U |  | 2024-02-03
     - libidn2: upgrade 2.3.3 -> 2.3.4 | 2.3.4 | U |  | 2022-11-08
@@ -3822,7 +3822,7 @@
     - libsecret: upgrade 0.20.5 -> 0.21.0 | 0.21.0 | U |  | 2023-09-02
     - libsecret: upgrade 0.20.4 -> 0.20.5 | 0.20.5 | U |  | 2022-03-09
     - Initial import at master release start. | 0.20.4 | U |  | 2021-09-21
-* libslirp 4.9.1 4.9.1 Up-to-date
+* libslirp 4.9.1 20201217 Not updated
     - libslirp: upgrade 4.9.0 -> 4.9.1 | 4.9.1 | U |  | 2025-06-05
     - libslirp: upgrade 4.8.0 -> 4.9.0 | 4.9.0 | U |  | 2025-02-03
     - libslirp: upgrade 4.7.0 -> 4.8.0 | 4.8.0 | U |  | 2024-05-28
@@ -3838,7 +3838,7 @@
     - libsndfile1: update 1.0.31 -> 1.1.0 | 1.1.0 | U |  | 2022-04-19
     - libsndfile1: bump to version 1.0.31 | 1.0.31 | U |  | 2022-02-25
     - Initial import at master release start. | 1.0.28 | U |  | 2021-09-21
-* libsolv 0.7.36 0.7.37 Not updated
+* libsolv 0.7.36 0.7.39 Not updated
     - libsolv: upgrade 0.7.35-> 0.7.36 | 0.7.36 | U |  | 2026-03-26
     - libsolv: upgrade 0.7.34 -> 0.7.35 | 0.7.35 | U |  | 2025-09-11
     - libsolv: upgrade 0.7.33 -> 0.7.34 | 0.7.34 | U |  | 2025-07-17
@@ -3883,7 +3883,7 @@
     - Initial import at master release start. | 1.9.0 | U |  | 2021-09-21
 * libssp-nonshared 1.0 1.0 Up-to-date
     - Initial import at master release start. | 1.0 | U |  | 2021-09-21
-* libstd-rs 1.94.1 1.95.0 Not updated
+* libstd-rs 1.94.1 1.96.0 Not updated
     - rust: Upgrade 1.94.0 -> 1.94.1 | 1.94.1 | U |  | 2026-04-09
     - rust: Upgrade 1.93.0 -> 1.94.0 | 1.94.0 | U |  | 2026-03-09
     - rust: Upgrade 1.92.0 -> 1.93.0 | 1.93.0 | U |  | 2026-02-12
@@ -3939,7 +3939,7 @@
     - rust: Upgrade to 1.56.0 | 1.56.0 | U |  | 2021-10-23
     - rust: update 1.54.0 -> 1.55.0 | 1.55.0 | U |  | 2021-10-14
     - Initial import at master release start. | 1.54.0 | U |  | 2021-09-21
-* libtasn1 4.21.0 4.21.0 Up-to-date
+* libtasn1 4.21.0  Unknown
     - libtasn1: upgrade 4.20.0 -> 4.21.0 | 4.21.0 | U |  | 2026-01-19
     - libtasn1: upgrade 4.19.0 -> 4.20.0 | 4.20.0 | U |  | 2025-03-06
     - libtasn1: upgrade 4.18.0 -> 4.19.0 | 4.19.0 | U |  | 2022-09-01
@@ -4012,7 +4012,7 @@
     - libucontext: upgrade 1.2 -> 1.3.2 | 1.3.2 | U |  | 2025-06-05
     - libucontext: Upgrade to 1.2 release | 1.2 | U |  | 2022-03-17
     - Initial import at master release start. | 1.1+${SRCPV} | U |  | 2021-09-21
-* libunistring 1.4.2 1.4.2 Up-to-date
+* libunistring 1.4.2  Unknown
     - libunistring: upgrade 1.4.1 -> 1.4.2 | 1.4.2 | U |  | 2026-03-09
     - libunistring: upgrade 1.3 -> 1.4.1 | 1.4.1 | U |  | 2025-11-27
     - libunistring: upgrade 1.2 -> 1.3 | 1.3 | U |  | 2024-10-29
@@ -4234,7 +4234,7 @@
     - libxinerama: upgrade 1.1.5 -> 1.1.6 | 1.1.6 | U |  | 2026-02-12
     - libxinerama: update 1.1.4 -> 1.1.5 | 1.1.5 | U |  | 2022-11-11
     - Initial import at master release start. | 1.1.4 | U |  | 2021-09-21
-* libxkbcommon 1.13.1 1.13.1 Up-to-date
+* libxkbcommon 1.13.1 1.13.2 Not updated
     - libxkbcommon: upgrade 1.11.0 -> 1.13.1 | 1.13.1 | U |  | 2025-12-31
     - libxkbcommon: upgrade 1.10.0 -> 1.11.0 | 1.11.0 | U |  | 2025-08-28
     - libxkbcommon: upgrade 1.9.2 -> 1.10.0 | 1.10.0 | U |  | 2025-06-05
@@ -4457,7 +4457,7 @@
     - linux-libc-headers: update to v5.15 | 5.15 | U |  | 2021-11-07
     - libc-headers: bump to v5.14 | 5.14 | U |  | 2021-09-24
     - Initial import at master release start. | 5.13 | U |  | 2021-09-21
-* linux-yocto 6.18.24+git 6.18.32 Can't be updated
+* linux-yocto 6.18.24+git 6.18.33 Can't be updated
     - linux-yocto/6.18: update to v6.18.24 | 6.18.24+git | U |  | 2026-04-23
     - linux-yocto/6.18: update to v6.18.23 | 6.18.23+git | U |  | 2026-04-23
     - linux-yocto/6.18: update to v6.18.22 | 6.18.22+git | U |  | 2026-04-23
@@ -4892,7 +4892,7 @@
     - Initial import at master release start. | 5.14++gitAUTOINC+29594404d7_29594404d7 | U |  | 2021-09-21
 * linux-yocto-fitimage 1.0 1.0 Up-to-date
     - kernel-fit-image.bbclass: add a new FIT image implementation | 1.0 | U |  | 2025-06-05
-* linux-yocto-rt 6.18.24+git 6.18.32 Can't be updated
+* linux-yocto-rt 6.18.24+git 6.18.33 Can't be updated
     - linux-yocto/6.18: update to v6.18.24 | 6.18.24+git | U |  | 2026-04-23
     - linux-yocto/6.18: update to v6.18.23 | 6.18.23+git | U |  | 2026-04-23
     - linux-yocto/6.18: update to v6.18.22 | 6.18.22+git | U |  | 2026-04-23
@@ -5301,7 +5301,7 @@
     - linux-yocto: introduce 5.14 reference kernel | 5.14.6+gitAUTOINC+42d2cf670e_7630ebb9fd | U |  | 2021-09-24
     - Initial import at master release start. | 5.10.63+gitAUTOINC+bce2813b16_31e2870ebf | U |  | 2021-09-21
     - Initial import at master release start. | 5.13.15+gitAUTOINC+c38435a3ca_eaf308f87d | U |  | 2021-09-21
-* linux-yocto-tiny 6.18.24+git 6.18.32 Can't be updated
+* linux-yocto-tiny 6.18.24+git 6.18.33 Can't be updated
     - linux-yocto/6.18: update to v6.18.24 | 6.18.24+git | U |  | 2026-04-23
     - linux-yocto/6.18: update to v6.18.23 | 6.18.23+git | U |  | 2026-04-23
     - linux-yocto/6.18: update to v6.18.22 | 6.18.22+git | U |  | 2026-04-23
@@ -5830,7 +5830,7 @@
     - lsof: update 4.94.0 -> 4.95.0 | 4.95.0 | U |  | 2022-05-05
     - lsof: update 4.91 -> 4.94.0 | 4.94.0 | U |  | 2021-10-11
     - Initial import at master release start. | 4.91 | U |  | 2021-09-21
-* ltp 20260130 20260130 Up-to-date
+* ltp 20260130 20260529 Not updated
     - ltp: upgrade 20250930 -> 20260130 | 20260130 | U |  | 2026-02-12
     - ltp: upgrade 20250530 -> 20250930 | 20250930 | U |  | 2025-10-13
     - ltp: upgrade 20250130 -> 20250530 | 20250530 | U |  | 2025-07-31
@@ -5927,7 +5927,7 @@
     - m4: upgrade to 1.4.21 | 1.4.21 | U |  | 2026-03-12
     - m4: Upgrade to 1.4.20 release | 1.4.20 | U |  | 2025-05-19
     - Initial import at master release start. | 1.4.19 | U |  | 2021-09-21
-* m4-native 1.4.21 1.4.21 Up-to-date
+* m4-native 1.4.21  Unknown
     - m4: upgrade to 1.4.21 | 1.4.21 | U |  | 2026-03-12
     - m4: Upgrade to 1.4.20 release | 1.4.20 | U |  | 2025-05-19
     - Initial import at master release start. | 1.4.19 | U |  | 2021-09-21
@@ -6313,7 +6313,7 @@
 * mtdev 1.1.7 1.1.7 Up-to-date
     - mtdev: upgrade 1.1.6 -> 1.1.7 | 1.1.7 | U |  | 2024-04-16
     - Initial import at master release start. | 1.1.6 | U |  | 2021-09-21
-* mtools 4.0.49 4.0.49 Up-to-date
+* mtools 4.0.49  Unknown
     - mtools: upgrade 4.0.48 -> 4.0.49 | 4.0.49 | U |  | 2025-06-30
     - mtools: upgrade 4.0.47 -> 4.0.48 | 4.0.48 | U |  | 2025-03-06
     - mtools: upgrade 4.0.46 -> 4.0.47 | 4.0.47 | U |  | 2025-02-03
@@ -6858,7 +6858,7 @@
 * powertop 2.15 2.15 Up-to-date
     - powertop: upgrade 2.14 -> 2.15 | 2.15 | U |  | 2022-10-26
     - Initial import at master release start. | 2.14 | U |  | 2021-09-21
-* ppp 2.5.2 2.5.2 Up-to-date
+* ppp 2.5.2 2.5.3 Not updated
     - ppp: update 2.5.1 -> 2.5.2 | 2.5.2 | U |  | 2025-01-10
     - ppp: Upgrade 2.5.0 -> 2.5.1 | 2.5.1 | U |  | 2024-10-22
     - ppp: upgrade 2.4.9 -> 2.5.0 | 2.5.0 | U |  | 2023-05-22
@@ -7167,7 +7167,7 @@
     - python3-cryptography-vectors: upgrade 36.0.2 -> 37.0.1 | 37.0.1 | U |  | 2022-05-05
     - python3-cryptography-vectors: upgrade to 36.0.2 | 36.0.2 | U |  | 2022-03-18
     - python3-cryptography-vectors: from meta-python | 36.0.1 | U |  | 2022-03-16
-* python3-cython 3.2.4 3.2.4 Up-to-date
+* python3-cython 3.2.4 3.2.5 Not updated
     - python3-cython: upgrade 3.2.3 -> 3.2.4 | 3.2.4 | U |  | 2026-01-15
     - python3-cython: upgrade 3.1.3 -> 3.2.3 | 3.2.3 | U |  | 2025-12-31
     - python3-cython: upgrade 3.1.2 -> 3.1.3 | 3.1.3 | U |  | 2025-08-28
@@ -7220,7 +7220,7 @@
     - python3-dbusmock: upgrade 0.24.0 -> 0.24.1 | 0.24.1 | U |  | 2021-11-03
     - python3-dbusmock: update to 0.24.0 | 0.24.0 | U |  | 2021-10-11
     - Initial import at master release start. | 0.23.1 | U |  | 2021-09-21
-* python3-docutils 0.22.4 0.22.4 Up-to-date
+* python3-docutils 0.22.4 0.23 Not updated
     - python3-docutils: upgrade 0.22.3 -> 0.22.4 | 0.22.4 | U |  | 2026-01-15
     - python3-docutils: Upgrade 0.22 -> 0.22.3 | 0.22.3 | U |  | 2025-12-08
     - python3-docutils: upgrade to 0.22 | 0.22 | U |  | 2025-08-04
@@ -7230,7 +7230,7 @@
     - python3-docutils: upgrade 0.18 -> 0.18.1 | 0.18.1 | U |  | 2021-12-01
     - python3-docutils: upgrade 0.17.1 -> 0.18 | 0.18 | U |  | 2021-11-03
     - Initial import at master release start. | 0.17.1 | U |  | 2021-09-21
-* python3-dtc 1.7.2 1.7.2 Up-to-date
+* python3-dtc 1.7.2 1.8.1 Not updated
     - python3-dtc: update 1.7.0 -> 1.7.2 | 1.7.2 | U |  | 2024-12-05
     - python3-dtc: upgrade 1.6.1 -> 1.7.0 | 1.7.0 | U |  | 2023-08-24
     - python3-dtc: add from meta-virtualization | 1.6.1+gitAUTOINC+c001fc01a4 | U |  | 2023-07-25
@@ -7341,7 +7341,7 @@
     - python3-hatchling: upgrade 1.3.1 -> 1.5.0 | 1.5.0 | U |  | 2022-07-12
     - python3-hatchling: upgrade 1.3.0 -> 1.3.1 | 1.3.1 | U |  | 2022-07-07
     - Add python3-hatchling (from meta-oe) | 1.3.0 | U |  | 2022-06-22
-* python3-hypothesis 6.151.9 6.152.9 Not updated
+* python3-hypothesis 6.151.9 6.155.1 Not updated
     - python3-hypothesis: upgrade 6.151.4 -> 6.151.9 | 6.151.9 | U |  | 2026-03-09
     - python3-hypothesis: upgrade 6.150.3 -> 6.151.4 | 6.151.4 | U |  | 2026-02-12
     - python3-hypothesis: upgrade 6.149.0 -> 6.150.3 | 6.150.3 | U |  | 2026-01-29
@@ -7437,7 +7437,7 @@
     - python3-hypothesis: upgrade 6.23.2 -> 6.24.0 | 6.24.0 | U |  | 2021-10-27
     - python3-hypothesis: upgrade 6.15.0 -> 6.23.2 | 6.23.2 | U |  | 2021-10-14
     - Initial import at master release start. | 6.15.0 | U |  | 2021-09-21
-* python3-idna 3.11 3.16 Not updated
+* python3-idna 3.11 3.17 Not updated
     - python3-idna: Upgrade 3.10 -> 3.11 | 3.11 | U |  | 2025-10-16
     - python3-idna: upgrade 3.8 -> 3.10 | 3.10 | U |  | 2024-09-30
     - python3-idna: upgrade 3.7 -> 3.8 | 3.8 | U |  | 2024-09-04
@@ -7773,7 +7773,7 @@
     - Initial import at master release start. | 1.0.0 | U |  | 2021-09-21
 * python3-ply 3.11 3.11 Up-to-date
     - python3-ply: move from meta-python | 3.11 | U |  | 2022-03-16
-* python3-poetry-core 2.3.1 2.4.0 Not updated
+* python3-poetry-core 2.3.1 2.4.1 Not updated
     - python3-poetry-core: upgrade 2.2.1 -> 2.3.1 | 2.3.1 | U |  | 2026-02-26
     - python3-poetry-core: upgrade 2.1.3 -> 2.2.1: | 2.2.1 | U |  | 2025-12-31
     - python3-poetry-core: upgrade 2.1.2 -> 2.1.3 | 2.1.3 | U |  | 2025-05-13
@@ -7868,7 +7868,7 @@
     - python3-pycryptodome: update to 3.12.0 | 3.12.0 | U |  | 2021-12-08
     - python3-pycryptodome: upgrade 3.10.1 -> 3.11.0 | 3.11.0 | U |  | 2021-10-16
     - Initial import at master release start. | 3.10.1 | U |  | 2021-09-21
-* python3-pyelftools 0.32 0.32 Up-to-date
+* python3-pyelftools 0.32 0.33 Not updated
     - python3-pyelftools: upgrade 0.31 -> 0.32 | 0.32 | U |  | 2025-03-06
     - python3-pyelftools: upgrade 0.30 -> 0.31 | 0.31 | U |  | 2024-04-16
     - python3-pyelftools: upgrade 0.29 -> 0.30 | 0.30 | U |  | 2023-09-14
@@ -8052,7 +8052,7 @@
     - python: import rfc3987 from meta-pyton | 1.3.8 | U |  | 2021-11-26
 * python3-roman-numerals 4.1.0 4.1.0 Up-to-date
     - python3-roman-numerals-py: upgrade 3.1.0 -> 4.1.0 | 4.1.0 | U |  | 2026-01-15
-* python3-rpds-py 0.30.0 0.30.0 Up-to-date
+* python3-rpds-py 0.30.0 2026.5.1 Not updated
     - python3-rpds-py: upgrade 0.27.1 -> 0.30.0 | 0.30.0 | U |  | 2025-12-31
     - python3-rpds-py: upgrade 0.27.0 -> 0.27.1 | 0.27.1 | U |  | 2025-09-08
     - python3-rpds-py: Upgrade to 0.27.0 | 0.27.0 | U |  | 2025-08-25
@@ -8193,7 +8193,7 @@
     - python3-smmap: upgrade 5.0.0 -> 6.0.0 | 6.0.0 | U |  | 2023-09-28
     - python3-smmap: update to 5.0.0 | 5.0.0 | U |  | 2021-10-18
     - Initial import at master release start. | 4.0.0 | U |  | 2021-09-21
-* python3-snowballstemmer 3.0.1 3.0.1 Up-to-date
+* python3-snowballstemmer 3.0.1 3.1.0 Not updated
     - python3-snowballstemmer: upgrade 2.2.0 -> 3.0.1 | 3.0.1 | U |  | 2025-06-02
     - python3-snowballstemmer: Add new recipe | 2.2.0 | U |  | 2022-03-18
 * python3-sortedcontainers 2.4.0 2.4.0 Up-to-date
@@ -8382,7 +8382,7 @@
     - python3-urllib3: upgrade 1.26.9 -> 1.26.10 | 1.26.10 | U |  | 2022-07-12
     - python3-urllib3: upgrade 1.26.8 -> 1.26.9 | 1.26.9 | U |  | 2022-03-30
     - python3-urllib3: Add from meta-oe/meta-python | 1.26.8 | U |  | 2022-03-18
-* python3-uv-build 0.10.10 0.11.16 Not updated
+* python3-uv-build 0.10.10 0.11.17 Not updated
     - python3-uv-build: upgrade 0.10.4 -> 0.10.10 | 0.10.10 | U |  | 2026-03-23
     - python3-uv-build: upgrade 0.9.28 -> 0.10.4 | 0.10.4 | U |  | 2026-03-09
     - python3-uv-build: upgrade 0.9.26 -> 0.9.28 | 0.9.28 | U |  | 2026-02-12
@@ -8472,7 +8472,7 @@
     - python3-zipp: upgrade 3.6.0 -> 3.7.0 | 3.7.0 | U |  | 2022-01-05
     - python3-zipp: upgrade 3.5.0 -> 3.6.0 | 3.6.0 | U |  | 2021-10-14
     - Initial import at master release start. | 3.5.0 | U |  | 2021-09-21
-* qemu 10.2.0 11.0.0 Not updated
+* qemu 10.2.0 11.0.1 Not updated
     - qemu: 10.1.3 -> 10.2.0 | 10.2.0 | U |  | 2026-01-22
     - qemu: upgrade 10.0.7 -> 10.1.3 | 10.1.3 | U |  | 2025-12-31
     - qemu: upgrade 10.0.6 -> 10.0.7 | 10.0.7 | U |  | 2025-12-08
@@ -8501,7 +8501,7 @@
     - Initial import at master release start. | 6.0.0 | U |  | 2021-09-21
 * qemu-helper-native 1.0 1.0 Up-to-date
     - Initial import at master release start. | 1.0 | U |  | 2021-09-21
-* qemu-native 10.2.0 11.0.0 Not updated
+* qemu-native 10.2.0 11.0.1 Not updated
     - qemu: 10.1.3 -> 10.2.0 | 10.2.0 | U |  | 2026-01-22
     - qemu: upgrade 10.0.7 -> 10.1.3 | 10.1.3 | U |  | 2025-12-31
     - qemu: upgrade 10.0.6 -> 10.0.7 | 10.0.7 | U |  | 2025-12-08
@@ -8528,7 +8528,7 @@
     - qemu: Upgrade 6.1.0 -> 6.2.0 | 6.2.0 | U |  | 2021-12-20
     - qemu: update 6.0.0 -> 6.1.0 | 6.1.0 | U |  | 2021-10-11
     - Initial import at master release start. | 6.0.0 | U |  | 2021-09-21
-* qemu-system-native 10.2.0 11.0.0 Not updated
+* qemu-system-native 10.2.0 11.0.1 Not updated
     - qemu: 10.1.3 -> 10.2.0 | 10.2.0 | U |  | 2026-01-22
     - qemu: upgrade 10.0.7 -> 10.1.3 | 10.1.3 | U |  | 2025-12-31
     - qemu: upgrade 10.0.6 -> 10.0.7 | 10.0.7 | U |  | 2025-12-08
@@ -8653,7 +8653,7 @@
     - rng-tools: upgrade 6.15 -> 6.16 | 6.16 | U |  | 2023-02-09
     - rng-tools: upgrade 6.14 -> 6.15 | 6.15 | U |  | 2022-02-16
     - Initial import at master release start. | 6.14 | U |  | 2021-09-21
-* rpcbind 1.2.8 1.2.8 Up-to-date
+* rpcbind 1.2.8 1.2.9 Not updated
     - rpcbind: 1.2.7 -> 1.2.8 | 1.2.8 | U |  | 2025-08-28
     - rpcbind: upgrade 1.2.6 -> 1.2.7 | 1.2.7 | U |  | 2024-08-21
     - Initial import at master release start. | 1.2.6 | U |  | 2021-09-21
@@ -8722,7 +8722,7 @@
     - Initial import at master release start. | 3.0.2 | U |  | 2021-09-21
 * run-postinsts 1.0 1.0 Up-to-date
     - Initial import at master release start. | 1.0 | U |  | 2021-09-21
-* rust 1.94.1 1.95.0 Not updated
+* rust 1.94.1 1.96.0 Not updated
     - rust: Upgrade 1.94.0 -> 1.94.1 | 1.94.1 | U |  | 2026-04-09
     - rust: Upgrade 1.93.0 -> 1.94.0 | 1.94.0 | U |  | 2026-03-09
     - rust: Upgrade 1.92.0 -> 1.93.0 | 1.93.0 | U |  | 2026-02-12
@@ -8851,7 +8851,7 @@
     - Initial import at master release start. | 1.5 | U |  | 2021-09-21
 * sbom-cve-check-update-cvelist-native 1.0 2026 Not updated
     - sbom-cve-check: Add class for post-build CVE analysis | 1.0 | U |  | 2026-03-30
-* sbom-cve-check-update-nvd-native 1.0 2026.05.23 Not updated
+* sbom-cve-check-update-nvd-native 1.0 2026.05.30 Not updated
     - sbom-cve-check: Add class for post-build CVE analysis | 1.0 | U |  | 2026-03-30
 * scdoc 1.11.4 1.11.4 Up-to-date
     - scdoc: Upgrade 1.11.3 -> 1.11.4 | 1.11.4 | U |  | 2025-11-27
@@ -8871,7 +8871,7 @@
     - seatd: update 0.6.4 -> 0.7.0 | 0.7.0 | U |  | 2022-06-07
     - seatd: upgrade to 0.6.4 (fixes CVE-2022-25643) | 0.6.4 | U |  | 2022-03-11
     - seatd: add recipe | 0.6.3 | U |  | 2022-02-05
-* sed 4.9 4.10 Not updated
+* sed 4.9  Unknown
     - sed: update 4.8 -> 4.9 | 4.9 | U |  | 2022-11-14
     - Initial import at master release start. | 4.8 | U |  | 2021-09-21
 * serf 1.3.10 1.3.10 Up-to-date
@@ -9213,7 +9213,7 @@
     - sysstat: upgrade 12.4.4 -> 12.4.5 | 12.4.5 | U |  | 2022-03-02
     - sysstat: upgrade 12.4.3 -> 12.4.4 | 12.4.4 | U |  | 2021-12-08
     - Initial import at master release start. | 12.4.3 | U |  | 2021-09-21
-* systemd 259.5 260.1 Not updated
+* systemd 259.5 260.2 Not updated
     - systemd: upgrade 259.3 -> 259.5 | 259.5 | U |  | 2026-03-18
     - systemd: upgrade 259.1 -> 259.3 | 259.3 | U |  | 2026-03-09
     - systemd: upgrade from 258.1 to 259.1 | 259.1 | U |  | 2026-03-05
@@ -9255,7 +9255,7 @@
     - systemd: update 249.4 -> 249.5 | 249.5 | U |  | 2021-10-23
     - systemd: update 249.3 -> 249.4 | 249.4 | U |  | 2021-10-11
     - Initial import at master release start. | 249.3 | U |  | 2021-09-21
-* systemd-boot 259.5 260.1 Not updated
+* systemd-boot 259.5 260.2 Not updated
     - systemd: upgrade 259.3 -> 259.5 | 259.5 | U |  | 2026-03-18
     - systemd: upgrade 259.1 -> 259.3 | 259.3 | U |  | 2026-03-09
     - systemd: upgrade from 258.1 to 259.1 | 259.1 | U |  | 2026-03-05
@@ -9297,7 +9297,7 @@
     - systemd: update 249.4 -> 249.5 | 249.5 | U |  | 2021-10-23
     - systemd: update 249.3 -> 249.4 | 249.4 | U |  | 2021-10-11
     - Initial import at master release start. | 249.3 | U |  | 2021-09-21
-* systemd-boot-native 259.5 260.1 Not updated
+* systemd-boot-native 259.5 260.2 Not updated
     - systemd: upgrade 259.3 -> 259.5 | 259.5 | U |  | 2026-03-18
     - systemd: upgrade 259.1 -> 259.3 | 259.3 | U |  | 2026-03-09
     - systemd: upgrade from 258.1 to 259.1 | 259.1 | U |  | 2026-03-05
@@ -9330,7 +9330,7 @@
     - Initial import at master release start. | 1.0 | U |  | 2021-09-21
 * systemd-serialgetty 1.0 1.0 Up-to-date
     - Initial import at master release start. | 1.0 | U |  | 2021-09-21
-* systemd-systemctl-native 259.5 260.1 Not updated
+* systemd-systemctl-native 259.5 260.2 Not updated
     - systemd: upgrade 259.3 -> 259.5 | 259.5 | U |  | 2026-03-18
     - systemd: upgrade 259.1 -> 259.3 | 259.3 | U |  | 2026-03-09
     - systemd: upgrade from 258.1 to 259.1 | 259.1 | U |  | 2026-03-05
@@ -9385,7 +9385,7 @@
     - taglib: upgrade 1.13 -> 1.13.1 | 1.13.1 | U |  | 2023-07-14
     - taglib: upgrade 1.12 -> 1.13 | 1.13 | U |  | 2022-11-08
     - Initial import at master release start. | 1.12 | U |  | 2021-09-21
-* tar 1.35  Unknown
+* tar 1.35 1.35 Up-to-date
     - tar: upgrade 1.34 -> 1.35 | 1.35 | U |  | 2023-08-21
     - Initial import at master release start. | 1.34 | U |  | 2021-09-21
 * target-sdk-provides-dummy 1.0 1.0 Up-to-date
@@ -10085,14 +10085,14 @@
 * xf86-input-evdev 2.11.0 2.11.0 Up-to-date
     - xf86-input-evdev: update 2.10.6 -> 2.11.0 | 2.11.0 | U |  | 2024-11-01
     - Initial import at master release start. | 2.10.6 | U |  | 2021-09-21
-* xf86-input-libinput 1.5.0  Unknown
+* xf86-input-libinput 1.5.0 1.5.0 Up-to-date
     - xf86-input-libinput: update 1.4.0 -> 1.5.0 | 1.5.0 | U |  | 2024-11-01
     - xf86-input-libinput: upgrade 1.3.0 -> 1.4.0 | 1.4.0 | U |  | 2023-09-26
     - xf86-input-libinput: upgrade 1.2.1 -> 1.3.0 | 1.3.0 | U |  | 2023-06-16
     - xf86-input-libinput: update 1.2.0 -> 1.2.1 | 1.2.1 | U |  | 2022-02-05
     - xf86-input-libinput: update to 1.2.0 | 1.2.0 | U |  | 2021-10-11
     - Initial import at master release start. | 1.1.0 | U |  | 2021-09-21
-* xf86-input-synaptics 1.10.0  Unknown
+* xf86-input-synaptics 1.10.0 1.10.0 Up-to-date
     - xf86-input-synaptics: upgrade 1.9.2 -> 1.10.0 | 1.10.0 | U |  | 2025-01-09
     - xf86-input-synaptics: update 1.9.1 -> 1.9.2 | 1.9.2 | U |  | 2022-07-23
     - Initial import at master release start. | 1.9.1 | U |  | 2021-09-21
@@ -10105,7 +10105,7 @@
 * xf86-video-intel 2.99.917+gitAUTOINC+31486f40f8 2.99.917 Up-to-date
     - xf86-video-intel: update to latest commit | 2.99.917+gitAUTOINC+31486f40f8 | U |  | 2021-11-03
     - Initial import at master release start. | 2.99.917+gitAUTOINC+f66d39544b | U |  | 2021-09-21
-* xf86-video-vesa 2.6.0  Unknown
+* xf86-video-vesa 2.6.0 2.6.0 Up-to-date
     - xf86-video-vesa: update 2.5.0 -> 2.6.0 | 2.6.0 | U |  | 2022-12-28
     - Initial import at master release start. | 2.5.0 | U |  | 2021-09-21
 * xf86-video-vmware 13.4.0 13.4.0 Up-to-date

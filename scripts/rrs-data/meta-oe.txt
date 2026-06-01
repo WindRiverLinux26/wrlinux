@@ -30,7 +30,7 @@
     - Initial import at master release start. | 0.1.1f | U | Default | 2021-09-24
 * agent-proxy 1.97 1.97 Up-to-date
     - Initial import at master release start. | 1.97 | U | Default | 2021-09-24
-* atkmm 2.28.4 2.36.3 Not updated
+* atkmm 2.28.4 2.36.4 Not updated
     - atkmm: upgrade 2.28.2 to 2.28.4 | 2.28.4 | U | Default | 2026-03-18
     - Initial import at master release start. | 2.28.2 | U | Default | 2021-09-24
 * audit 4.1.4 4.1.4 Up-to-date
@@ -82,7 +82,7 @@
     - Initial import at master release start. | 1.04 | U | Default | 2021-09-24
 * bpftool 1.0 1.0 Up-to-date
     - Initial import at master release start. | 1.0 | U | Default | 2021-09-24
-* bpftrace 0.25.1 0.25.1 Up-to-date
+* bpftrace 0.25.1 0.26.0 Not updated
     - bpftrace: Upgrade to 0.25.1 release | 0.25.1 | U | Default | 2026-03-31
     - bpftrace: Upgrade to 0.24.1 release | 0.24.1 | U | Default | 2025-10-29
     - bpftrace: Upgrade to 0.24.0 | 0.24.0 | U | Default | 2025-09-11
@@ -193,7 +193,7 @@
     - replace libdbd-mysql-perl with dbd-mariadb | 1.23 | U | Default | 2024-06-10
 * dbus-daemon-proxy 0.0.0+gitrAUTOINC+1226a0a137 0.0.0 Up-to-date
     - Initial import at master release start. | 0.0.0+gitrAUTOINC+1226a0a137 | U | Default | 2021-09-24
-* debootstrap 1.0.143 1.0.143 Up-to-date
+* debootstrap 1.0.143 1.0.144 Not updated
     - debootstrap: upgrade 1.0.142 -> 1.0.143 | 1.0.143 | U | Default | 2026-04-02
     - debootstrap: upgrade 1.0.141 -> 1.0.142 | 1.0.142 | U | Default | 2025-11-25
     - debootstrap: upgrade 1.0.140 -> 1.0.141 | 1.0.141 | U | Default | 2025-04-29
@@ -249,7 +249,7 @@
     - Initial import at master release start. | 2.1 | U | Default | 2021-09-24
 * fbset-modes 0.1.0 0.1.0 Up-to-date
     - Initial import at master release start. | 0.1.0 | U | Default | 2021-09-24
-* fio 3.42  Unknown
+* fio 3.42 3.42 Up-to-date
     - fio: upgrade 3.41 -> 3.42 | 3.42 | U | Default | 2026-04-20
     - fio: upgrade 3.39 -> 3.41 | 3.41 | U | Default | 2026-01-31
     - fio: upgrade 3.38 -> 3.39 | 3.39 | U | Default | 2025-03-11
@@ -370,7 +370,7 @@
     - gperftools: 2.10 -> 2.15 | 2.15 | U | Default | 2024-03-21
     - gperftools: upgrade 2.9.1 -> 2.10 | 2.10 | U | Default | 2022-07-02
     - Initial import at master release start. | 2.9.1 | U | Default | 2021-09-24
-* graphviz 14.1.5 14.1.5 Up-to-date
+* graphviz 14.1.5 15.0.0 Not updated
     - graphviz: upgrade 14.1.4 -> 14.1.5 | 14.1.5 | U | Default | 2026-04-14
     - graphviz: upgrade 14.1.3 -> 14.1.4 | 14.1.4 | U | Default | 2026-03-27
     - graphviz: upgrade 14.1.2 -> 14.1.3 | 14.1.3 | U | Default | 2026-03-17
@@ -417,7 +417,7 @@
 * gtkmm4 4.20.0 4.22.0 Not updated
     - gtkmm4: update | 4.20.0 | U | Default | 2025-12-04
     - gtk4mm: add recipe | 4.14.0 | U | Default | 2024-03-23
-* haveged 1.9.20  Unknown
+* haveged 1.9.20 1.9.22 Not updated
     - haveged: upgrade 1.9.19 -> 1.9.20 | 1.9.20 | U | Default | 2026-05-13
     - haveged: upgrade 1.9.18 -> 1.9.19 | 1.9.19 | U | Default | 2024-10-10
     - haveged: upgrade 1.9.17 -> 1.9.18 | 1.9.18 | U | Default | 2022-04-11
@@ -454,7 +454,7 @@
     - htop: upgrade 3.1.2 -> 3.2.0 | 3.2.0 | U | Default | 2022-05-09
     - htop: Update to 3.1.2 | 3.1.2 | U | Default | 2022-01-18
     - Initial import at master release start. | 3.0.5 | U | Default | 2021-09-24
-* hunspell 1.7.3  Unknown
+* hunspell 1.7.3 1.7.3 Up-to-date
     - hunspell: upgrade 1.7.2 -> 1.7.3 | 1.7.3 | U | Default | 2026-05-13
     - hunspell: upgrade 1.7.1 -> 1.7.2 | 1.7.2 | U | Default | 2023-01-04
     - hunspell: upgrade 1.7.0 -> 1.7.1 | 1.7.1 | U | Default | 2022-08-29
@@ -467,7 +467,7 @@
     - hwloc: upgrade 2.9.0 -> 2.9.1 | 2.9.1 | U | Default | 2023-04-10
     - hwloc: Update to 2.9.0 | 2.9.0 | U | Default | 2023-01-08
     - Initial import at master release start. | 1.11.13 | U | Default | 2021-09-24
-* iceauth 1.0.11  Unknown
+* iceauth 1.0.11 1.0.11 Up-to-date
     - iceauth: upgrade 1.0.10 -> 1.0.11 | 1.0.11 | U | Default | 2026-05-14
     - iceauth: upgrade 1.0.9 -> 1.0.10 | 1.0.10 | U | Default | 2024-03-20
     - iceauth: upgrade 1.0.8 -> 1.0.9 | 1.0.9 | U | Default | 2022-09-21
@@ -535,7 +535,7 @@
     - jasper: upgrade 2.0.33 -> 4.1.1 | 4.1.1 | U | Default | 2023-12-06
     - jasper: upgrade 2.0.26 -> 2.0.33 | 2.0.33 | U | Default | 2021-11-03
     - Initial import at master release start. | 2.0.26 | U | Default | 2021-09-24
-* jemalloc 5.3.1  Unknown
+* jemalloc 5.3.1 5.3.1 Up-to-date
     - jemalloc: upgrade 5.3.0 -> 5.3.1 | 5.3.1 | U | Default | 2026-05-19
     - jemalloc: add +git to version | 5.3.0+git | U | Default | 2024-05-23
     - jemalloc: upgrade 5.2.1 -> 5.3.0 | 5.3.0 | U | Default | 2022-05-09
@@ -671,7 +671,7 @@
 * libfastjson 1.2304.0 1.2304.0 Up-to-date
     - libfastjson: upgrade 0.99.9 -> 1.2304.0 | 1.2304.0 | U | Default | 2023-11-06
     - Initial import at master release start. | 0.99.9 | U | Default | 2021-09-24
-* libgphoto2 2.5.33 2.5.33 Up-to-date
+* libgphoto2 2.5.33 2.5.34 Not updated
     - libgphoto2: upgrade 2.5.32 -> 2.5.33 | 2.5.33 | U | Default | 2025-11-25
     - libgphoto2: Upgrade to 2.5.32 | 2.5.32 | U | Default | 2025-08-06
     - libgphoto2: upgrade 2.5.30 -> 2.5.31 | 2.5.31 | U | Default | 2023-09-07
@@ -903,7 +903,7 @@
     - Initial import at master release start. | 2.03.11 | U | Default | 2021-09-24
 * lxdm 0.5.3 0.5.3 Up-to-date
     - Initial import at master release start. | 0.5.3 | U | Default | 2021-09-24
-* mariadb 11.4.10 12.3.1 Not updated
+* mariadb 11.4.10 13.0.1 Not updated
     - mariadb: Upgrade 11.4.9 -> 11.4.10 | 11.4.10 | U | Default | 2026-03-05
     - mariadb: Upgrade 11.4.8 -> 11.4.9 | 11.4.9 | U | Default | 2025-11-25
     - mariadb: 11.4.8 | 11.4.8 | U | Default | 2025-10-02
@@ -1075,13 +1075,13 @@
     - onig: upgrade 6.9.8 -> 6.9.9 | 6.9.9 | U | Default | 2024-01-05
     - onig: Upgrade 6.9.4 -> 6.9.8 | 6.9.8 | U | Default | 2022-09-29
     - Initial import at master release start. | 6.9.4 | U | Default | 2021-09-24
-* opencl-clhpp 2025.07.22 2025.07.22 Up-to-date
+* opencl-clhpp 2025.07.22 2026.05.29 Not updated
     - opencl-{headers,clhpp}: update to release 2025.07.22 | 2025.07.22 | U | Default | 2025-07-29
     - opencl-headers: upgrade to 2024.10.24 | 2024.10.24 | U | Default | 2025-04-11
     - opencl-clhpp: Update to 2024.05.08 | 2024.05.08 | U | Default | 2025-03-29
     - opencl-clhpp: Update 2.0.15 -> 2.0.16 | 2.0.16+gitAUTOINC+1df82b9749 | U | Default | 2022-03-14
     - Initial import at master release start. | 2.0.15+gitAUTOINC+f7237f3799 | U | Default | 2021-09-24
-* opencl-headers 2025.07.22 2025.07.22 Up-to-date
+* opencl-headers 2025.07.22 2026.05.29 Not updated
     - opencl-{headers,clhpp}: update to release 2025.07.22 | 2025.07.22 | U | Default | 2025-07-29
     - opencl-headers: upgrade to 2024.10.24 | 2024.10.24 | U | Default | 2025-04-11
     - opencl-headers: upgrade 2023.12.14 -> 2024.05.08 | 2024.05.08 | U | Default | 2024-05-19
@@ -1094,7 +1094,7 @@
     - opencl-headers: upgrade 2022.01.04 -> 2022.05.18 | 2022.05.18 | U | Default | 2022-05-24
     - opencl-headers: Update v2020.12.18 -> v2022.01.04 | v2022.01.04+gitAUTOINC+59ac4dc2f2 | U | Default | 2022-03-14
     - Initial import at master release start. | git | U | Default | 2021-09-24
-* opencl-icd-loader 2025.07.22 2025.07.22 Up-to-date
+* opencl-icd-loader 2025.07.22 2026.05.29 Not updated
     - opencl-icd-loader: upgrade 2024.05.08 -> 2025.07.22 | 2025.07.22 | U | Default | 2025-10-24
     - opencl-icd-loader: upgrade 2023.12.14 -> 2024.05.08 | 2024.05.08 | U | Default | 2024-05-19
     - opencl-icd-loader: upgrade 2023.04.17 -> 2023.12.14 | 2023.12.14 | U | Default | 2023-12-29
@@ -1186,7 +1186,7 @@
     - pangomm-2.48: upgrade 2.50.1 -> 2.52.0 | 2.52.0 | U | Default | 2024-06-07
     - pangomm-2.48: upgrade 2.50.0 -> 2.50.1 | 2.50.1 | U | Default | 2022-09-27
     - pangomm: Add recipe for pangomm-2.48 | 2.50.0 | U | Default | 2022-02-22
-* parallel 20260322 20260422 Not updated
+* parallel 20260322 20260522 Not updated
     - parallel: upgrade 20260222 -> 20260322 | 20260322 | U | Default | 2026-04-02
     - parallel: upgrade 20251122 -> 20260222 | 20260222 | U | Default | 2026-03-03
     - parallel: upgrade 20251022 -> 20251122 | 20251122 | U | Default | 2025-12-02
@@ -1323,7 +1323,8 @@
 * poppler-data 0.4.12 0.4.12 Up-to-date
     - poppler-data: upgrade 0.4.11 -> 0.4.12 | 0.4.12 | U | Default | 2023-02-20
     - Initial import at master release start. | 0.4.11 | U | Default | 2021-09-24
-* postgresql 17.8 18.4 Not updated
+* postgresql 17.10  Unknown
+    - postgresql: upgrade 17.8 -> 17.10 | 17.10 | U | Default | 2026-05-27
     - postgresql: upgrade 17.7 -> 17.8 | 17.8 | U | Default | 2026-02-21
     - postgresql: upgrade 17.6 -> 17.7 | 17.7 | U | Default | 2025-12-17
     - postgresql: upgrade 17.5 -> 17.6 | 17.6 | U | Default | 2025-08-20
@@ -1438,7 +1439,7 @@
     - rocksdb: Upgrade to 7.9.2 | 7.9.2 | U | Default | 2023-01-26
     - rocksdb: Upgrade to 7.5.3 release | 7.5.3 | U | Default | 2022-09-12
     - Initial import at master release start. | 6.20.3 | U | Default | 2021-09-24
-* rrdtool 1.9.0 1.10.2 Not updated
+* rrdtool 1.9.0 1.10.3 Not updated
     - rrdtool: upgrade 1.8.0 -> 1.9.0 | 1.9.0 | U | Default | 2025-03-12
     - rrdtool: upgrade 1.7.2 -> 1.8.0 | 1.8.0 | U | Default | 2022-03-24
     - Initial import at master release start. | 1.7.2 | U | Default | 2021-09-24
@@ -1659,7 +1660,7 @@
     - Initial import at master release start. | 2.2.3 | U | Default | 2021-09-24
 * volume-key 0.3.12 0.3.12 Up-to-date
     - Initial import at master release start. | 0.3.12 | U | Default | 2021-09-24
-* webkitgtk3 2.50.6  Unknown
+* webkitgtk3 2.50.6 2.52.3 Not updated
     - webkitgtk3 update 2.50.5 -> 2.50.6 | 2.50.6 | U | Default | 2026-04-21
     - webkitgtk3: upgrade 2.48.7 -> 2.50.5 | 2.50.5 | U | Default | 2026-02-16
     - webkitgtk3: upgrade 2.48.3 -> 2.48.7 | 2.48.7 | U | Default | 2025-09-29

@@ -1,3 +1,5 @@
+* boot-tf 1.0  Unknown
+    - boot-tf: move recipe to wrlinux-distro layer | 1.0 | U | Default | 2026-05-25
 * kernel-initramfs-image 1.0 1.0 Up-to-date
     - kernel-initramfs-image.bb: disable a QA error for qemuppc64 | 1.0 | U | Default | 2024-10-31
 * nativesdk-multiconfig-multlib-toolchain-packager 0.1 0.1 Up-to-date
