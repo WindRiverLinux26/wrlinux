@@ -21,7 +21,7 @@ python wrl_set_dl_handler() {
     if dl_name:
         dl_name = dl_name.split('/')[1] + '-dl'
         dl_dir = d.getVar('DL_DIR')
-        dl_dir = os.path.join(dl_dir, dl_name)
+        dl_dir = os.path.join(dl_dir, dl_name, 'downloads')
         d.setVar('DL_DIR', dl_dir)
 
 }
