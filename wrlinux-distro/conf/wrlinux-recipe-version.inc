@@ -6,7 +6,7 @@ require wrlinux-recipe-version-manual.inc
 
 WRL_RECIPE_VERSION[7zip] ??= '26.00'
 WRL_RECIPE_VERSION[a2jmidid] ??= 'N'
-WRL_RECIPE_VERSION[aardvark-dns] ??= '1.17.0'
+WRL_RECIPE_VERSION[aardvark-dns] ??= '1.17.1'
 WRL_RECIPE_VERSION[abseil-cpp] ??= '20260107.1'
 WRL_RECIPE_VERSION[accountsservice] ??= 'N'
 WRL_RECIPE_VERSION[ace] ??= 'N'
