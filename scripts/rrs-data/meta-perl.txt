@@ -1,4 +1,4 @@
-* adduser 3.118 3.155 Not updated
+* adduser 3.118 3.156 Not updated
     - Initial import at master release start. | 3.118 | U | Default | 2021-09-24
 * libdbd-sqlite-perl 1.78 1.78 Up-to-date
     - libdbd-sqlite-perl: upgrade 1.76 -> 1.78 | 1.78 | U | Default | 2026-01-12

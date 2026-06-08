@@ -35,7 +35,7 @@
     - dhcp-relay: upgrade 4.4.3 -> 4.4.3-P1 | 4.4.3p1 | U | Default | 2022-10-11
     - dhcp-relay: upgrade 4.4.2p1 -> 4.4.3 | 4.4.3 | U | Default | 2022-03-24
     - Initial import at master release start. | 4.4.2p1 | U | Default | 2021-09-24
-* dnsmasq 2.92 2.92rel2 Not updated
+* dnsmasq 2.92 2.93 Not updated
     - dnsmasq: upgrade 2.91 -> 2.92 | 2.92 | U | Default | 2026-01-23
     - dnsmasq: upgrade 2.90 -> 2.91 | 2.91 | U | Default | 2025-03-24
     - dnsmasq: Upgrade 2.89 -> 2.90 | 2.90 | U | Default | 2024-02-26
@@ -53,7 +53,7 @@
     - Initial import at master release start. | 9.13.1 | U | Default | 2021-09-24
 * ebtables 2.0.11 2.0.11 Up-to-date
     - Initial import at master release start. | 2.0.11 | U | Default | 2021-09-24
-* freeradius 3.2.8+git 3.2.8 Up-to-date
+* freeradius 3.2.8+git 3.2.10 Not updated
     - freeradius: Update to latest on 3.2 release | 3.2.8+git | U | Default | 2026-04-11
     - freeradius: upgrade 3.2.7 -> 3.2.8 | 3.2.8 | U | Default | 2025-10-30
     - freeradius: 3.2.5 -> 3.2.7 | 3.2.7 | U | Default | 2025-03-21

@@ -1,4 +1,5 @@
-* aardvark-dns 1.17.0 1.17.1 Not updated
+* aardvark-dns 1.17.1 1.17.1 Up-to-date
+    - aardvark-dns: upgrade to 1.17.1 | 1.17.1 | U | Default | 2026-06-03
     - aardvark-dns: update to v1.17.0 | 1.17.0 | U | Default | 2026-03-24
     - aardvark-dns: upate to v1.16.0 | 1.16.0 | U | Default | 2025-10-16
     - aardvark-dns: update to v1.15.0 | 1.15.0 | U | Default | 2025-06-26
@@ -72,7 +73,7 @@
     - containerd: update to v2.0.0-rc.2 | v2.0.0-rc.2+git | U | Default | 2024-05-29
     - containerd: update to v2.0.0-rc.1 | v2.0.0-rc.1+git | U | Default | 2024-05-14
     - containerd: consolidate to "containerd" | v2.0.0-beta.0+git | U | Default | 2024-05-14
-* cri-o 1.36.0+git 1.36.0 Up-to-date
+* cri-o 1.36.0+git 1.36.1 Not updated
     - cri-o: upgrade to 1.36.0 | 1.36.0+git | U | Default | 2026-05-26
     - cri-o: update to v1.35.0 | 1.35.0+git | U | Default | 2026-03-18
     - cri-o: update to v1.34.1 | 1.34.1+git | U | Default | 2025-10-16
@@ -143,7 +144,8 @@
     - crun: update to 1.4.3 | 1.4.3+git3b3061afdeb49d691cfbbeaca09c0a0f45694cb2 | U | Default | 2022-03-21
     - crun: bump to version 1.2 | 1.2+git718b94edc37e010a866d8b6b69ec0d30ada24613 | U | Default | 2021-10-18
     - Initial import at master release start. | 0.18+git360f5d02c37d5f7a67d38622010228ae2eeb80f1 | U | Default | 2021-09-22
-* docker-compose 5.1.0 5.1.4 Not updated
+* docker-compose 5.1.4 5.1.4 Up-to-date
+    - docker-compose: bump from 5.1.0 to 5.1.4 | 5.1.4 | U | Default | 2026-06-01
     - docker-compose: fix PV | 5.1.0 | U | Default | 2026-05-27
     - docker-compose: update to v5.0.0 | v5.0.0 | U | Default | 2025-12-09
     - docker-compose: update to v2.33.1 | v2.33.1 | U | Default | 2025-03-11
@@ -158,7 +160,8 @@
     - docker-compose: update to v2.17.2 | v2.17.2 | U | Default | 2023-04-05
     - docker-compose: update to v2.15.1 | v2.15.2 | U | Default | 2023-02-10
     - docker-compose2: introduce go version of docker-compose | v2.11.2 | U | Default | 2022-10-25
-* docker-distribution v3.0.0 3.1.1 Not updated
+* docker-distribution 3.1.1 3.1.1 Up-to-date
+    - docker-distribution: update to 3.1.1 | 3.1.1 | U | Default | 2026-06-01
     - docker-distribution: update to v3.0.0 | v3.0.0 | D | Default | 2025-07-07
     - docker-distribution: update to v3.0.0-beta.1 | v3.0.0-beta.1 | U | Default | 2024-07-11
     - docker-distribution: update to 2.8.3 | v2.8.3+git | U | Default | 2023-11-06
@@ -166,7 +169,7 @@
     - docker-distribution: upgrade to 2.8.1 | v2.8.1+gitAUTOINC+b5ca020cfb | U | Default | 2022-06-20
     - docker-distribution: update to 2.8.0 | v2.8.0+gitAUTOINC+3b7b534569 | U | Default | 2022-03-21
     - Initial import at master release start. | v2.7.1 | U | Default | 2021-09-22
-* docker-moby v29.4.3+git56be73107b381194c27938965bca74c4e2bb475b 29.5.2 Not updated
+* docker-moby v29.4.3+git56be73107b381194c27938965bca74c4e2bb475b 29.5.3 Not updated
     - docker: upgrade to v29.4.3 | v29.4.3+git56be73107b381194c27938965bca74c4e2bb475b | U | Default | 2026-05-21
     - docker: RDEPENDS on virtual-runc | v29.3.0+git1da6517e1a4381297e56862f6f373f265c28d102 | U | Default | 2026-04-20
     - docker-moby: remove local recipe to sync to upstream for LTS25 | 26.1.5 | R | Default | 2026-04-20
@@ -315,7 +318,8 @@
     - Initial import at master release start. | 2.15+AUTOINC+8dc1733eae | U | Default | 2021-09-22
 * packagegroup-container 1.0 1.0 Up-to-date
     - Initial import at master release start. | 1.0 | U | Default | 2021-09-22
-* podman 5.8.3-dev 5.8.2 Unknown
+* podman 5.8.2 5.8.2 Up-to-date
+    - podman: 5.8.3-dev (dev) -> 5.8.2 (stable) | 5.8.2 | D | Default | 2026-06-01
     - podman: update version to match golangs version.go | 5.8.3-dev | U | Default | 2026-04-28
     - podman: update to v5.8.2 | 5.8.2 | U | Default | 2026-04-24
     - podman: remove local recipe to sync to upstream for LTS25 | 5.3.1 | R | Default | 2026-04-20

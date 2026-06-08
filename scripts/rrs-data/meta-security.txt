@@ -30,7 +30,7 @@
     - Initial import at master release start. | 0.11.2 | U | Default | 2021-09-28
 * python3-pyinotify 0.9.6 0.9.6 Up-to-date
     - python3-pyinotify: fail2ban needs this module | 0.9.6 | U | Default | 2023-12-29
-* samhain-client 4.5.3  Unknown
+* samhain-client 4.5.3 4.5.3 Up-to-date
     - samhain: upgrade 4.5.2 -> 4.5.3 | 4.5.3 | U | Default | 2026-05-14
     - samhain: upgrade 4.4.10 -> 4.5.2 | 4.5.2 | U | Default | 2025-04-13
     - samhain: Update to 4.4.10 | 4.4.10 | U | Default | 2023-05-22
@@ -38,7 +38,7 @@
     - samhain: update to 4.4.7 | 4.4.7 | U | Default | 2022-04-07
     - samhain: upgrade 4.4.3 -> 4.4.6 | 4.4.6 | U | Default | 2022-01-30
     - Initial import at master release start. | 4.4.3 | U | Default | 2021-09-28
-* samhain-server 4.5.3  Unknown
+* samhain-server 4.5.3 4.5.3 Up-to-date
     - samhain: upgrade 4.5.2 -> 4.5.3 | 4.5.3 | U | Default | 2026-05-14
     - samhain: upgrade 4.4.10 -> 4.5.2 | 4.5.2 | U | Default | 2025-04-13
     - samhain: Update to 4.4.10 | 4.4.10 | U | Default | 2023-05-22
@@ -46,7 +46,7 @@
     - samhain: update to 4.4.7 | 4.4.7 | U | Default | 2022-04-07
     - samhain: upgrade 4.4.3 -> 4.4.6 | 4.4.6 | U | Default | 2022-01-30
     - Initial import at master release start. | 4.4.3 | U | Default | 2021-09-28
-* samhain-standalone 4.5.3  Unknown
+* samhain-standalone 4.5.3 4.5.3 Up-to-date
     - samhain: upgrade 4.5.2 -> 4.5.3 | 4.5.3 | U | Default | 2026-05-14
     - samhain: upgrade 4.4.10 -> 4.5.2 | 4.5.2 | U | Default | 2025-04-13
     - samhain: Update to 4.4.10 | 4.4.10 | U | Default | 2023-05-22
@@ -54,7 +54,7 @@
     - samhain: update to 4.4.7 | 4.4.7 | U | Default | 2022-04-07
     - samhain: upgrade 4.4.3 -> 4.4.6 | 4.4.6 | U | Default | 2022-01-30
     - Initial import at master release start. | 4.4.3 | U | Default | 2021-09-28
-* scap-security-guide 0.1.80 0.1.80 Up-to-date
+* scap-security-guide 0.1.80 0.1.81 Not updated
     - scap-security-guide: upgrade 0.1.78 -> 0.1.80 | 0.1.80 | U | Default | 2026-05-18
     - scap-security-guide: upgrade 0.1.77 -> 0.1.78 | 0.1.78 | U | Default | 2025-11-21
     - scap-security-guide: upgrade 0.1.76 -> 0.1.77 | 0.1.77 | U | Default | 2025-07-18
