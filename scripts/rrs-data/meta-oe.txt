@@ -388,7 +388,7 @@
     - graphviz: Upgrade to 8.1.0 release | 8.1.0 | U | Default | 2023-07-13
     - graphviz: 2.44.1 -> 2.50.0 | 2.50.0 | U | Default | 2022-03-17
     - Initial import at master release start. | 2.44.1 | U | Default | 2021-09-24
-* grpc 1.80.0 1.81.0 Not updated
+* grpc 1.80.0 1.82.0 Not updated
     - grpc: upgrade 1.78.1 -> 1.80.0 | 1.80.0 | U | Default | 2026-03-31
     - grpc: upgrade 1.76.0 -> 1.78.1 | 1.78.1 | U | Default | 2026-03-17
     - grpc: Upgrade to 1.76.0 | 1.76.0 | U | Default | 2026-01-15
@@ -412,9 +412,9 @@
     - gtk-layer-shell: Add recipe for GTK3 version | 0.10.0 | U | Default | 2025-11-18
 * gtk+ 2.24.33 2.24.33 Up-to-date
     - Initial import at master release start. | 2.24.33 | U | Default | 2021-09-24
-* gtkmm 2.24.5 4.22.0 Not updated
+* gtkmm 2.24.5 4.23.0 Not updated
     - Initial import at master release start. | 2.24.5 | U | Default | 2021-09-24
-* gtkmm4 4.20.0 4.22.0 Not updated
+* gtkmm4 4.20.0 4.23.0 Not updated
     - gtkmm4: update | 4.20.0 | U | Default | 2025-12-04
     - gtk4mm: add recipe | 4.14.0 | U | Default | 2024-03-23
 * haveged 1.9.21 1.9.22 Not updated
@@ -460,7 +460,7 @@
     - hunspell: upgrade 1.7.1 -> 1.7.2 | 1.7.2 | U | Default | 2023-01-04
     - hunspell: upgrade 1.7.0 -> 1.7.1 | 1.7.1 | U | Default | 2022-08-29
     - Initial import at master release start. | 1.7.0 | U | Default | 2021-09-24
-* hwloc 2.12.2 2.12.2 Up-to-date
+* hwloc 2.12.2  Unknown
     - hwloc: upgrade 2.12.1 -> 2.12.2 | 2.12.2 | U | Default | 2025-09-04
     - hwloc: upgrade 2.9.3 -> 2.12.1 | 2.12.1 | U | Default | 2025-07-02
     - hwloc: upgrade 2.9.2 -> 2.9.3 | 2.9.3 | U | Default | 2023-09-20
@@ -838,7 +838,8 @@
     - libtracefs: upgrade 1.6.4 -> 1.7.0 | 1.7.0 | U | Default | 2023-06-14
     - libtracefs: upgrade 1.6.3 -> 1.6.4 | 1.6.4 | U | Default | 2023-01-17
     - libtracefs: Add recipe | 1.6.3 | U | Default | 2022-12-24
-* libusb-compat 0.1.8 0.1.9 Not updated
+* libusb-compat 0.1.9 0.1.9 Up-to-date
+    - libusb-compat: upgrade 0.1.8 -> 0.1.9 | 0.1.9 | U | Default | 2026-06-08
     - libusb-compat: upgrade 0.1.7 -> 0.1.8 | 0.1.8 | U | Default | 2023-02-18
     - Initial import at master release start. | 0.1.7 | U | Default | 2021-09-24
 * libxpresent 1.0.2 1.0.2 Up-to-date
@@ -927,7 +928,7 @@
     - Initial import at master release start. | git | U | Default | 2021-09-24
 * memstat 1.0 1.0 Up-to-date
     - Initial import at master release start. | 1.0 | U | Default | 2021-09-24
-* minicoredumper 2.0.8  Unknown
+* minicoredumper 2.0.8 2.0.8 Up-to-date
     - minicoredumper: upgrade 2.0.7 -> 2.0.8 | 2.0.8 | U | Default | 2026-06-03
     - minicoredumper: upgrade 2.0.6 -> 2.0.7 | 2.0.7 | U | Default | 2024-01-27
     - minicoredumper: upgrade 2.0.3 -> 2.0.6 | 2.0.6 | U | Default | 2023-07-07
@@ -1049,7 +1050,7 @@
     - nspr: upgrade 4.35 -> 4.36 | 4.36 | U | Default | 2025-01-02
     - nspr: Upgrade to 4.35 | 4.35 | U | Default | 2022-12-18
     - Initial import at master release start. | 4.29 | U | Default | 2021-09-24
-* nss 3.122 3.124 Not updated
+* nss 3.122 3.125 Not updated
     - nss: upgrade 3.121 -> 3.122 | 3.122 | U | Default | 2026-04-02
     - nss: upgrade 3.119 -> 3.121 | 3.121 | U | Default | 2026-03-18
     - nss: upgrade 3.118.1 -> 3.119 | 3.119 | U | Default | 2025-12-09
@@ -1220,7 +1221,7 @@
     - phoronix-test-suite: upgrade 10.8.1 -> 10.8.2 | 10.8.2 | U | Default | 2022-04-14
     - phoronix-test-suite: upgrade 9.2.1 -> 10.8.1 | 10.8.1 | U | Default | 2022-02-03
     - Initial import at master release start. | 9.2.1 | U | Default | 2021-09-24
-* php 8.5.6  Unknown
+* php 8.5.6 8.5.7 Not updated
     - php: upgrade 8.5.5 -> 8.5.6 | 8.5.6 | U | Default | 2026-06-04
     - php: upgrade 8.5.4 -> 8.5.5 | 8.5.5 | U | Default | 2026-04-11
     - php: upgrade 8.5.3 -> 8.5.4 | 8.5.4 | U | Default | 2026-03-18
@@ -1386,7 +1387,7 @@
     - pugixml: upgrade 1.11.4 -> 1.12 | 1.12 | U | Default | 2022-02-23
     - pugixml: upgrade 1.11.2 -> 1.11.4 | 1.11.4 | U | Default | 2022-01-05
     - Initial import at master release start. | 1.11.2 | U | Default | 2021-09-24
-* pv 1.10.1 1.10.5 Not updated
+* pv 1.10.1 1.11.0 Not updated
     - pv: upgrade 1.10.0 -> 1.10.1 | 1.10.1 | U | Default | 2025-11-18
     - pv: upgrade 1.9.44 -> 1.10.0 | 1.10.0 | U | Default | 2025-11-11
     - pv: upgrade 1.9.42 -> 1.9.44 | 1.9.44 | U | Default | 2025-10-22
@@ -1416,7 +1417,7 @@
     - flatbuffers: update to 2.0.6 | 2.0.6 | U | Default | 2022-06-30
 * python3-looseversion 1.3.0 1.3.0 Up-to-date
     - python3-looseversion: Move to meta-oe | 1.3.0 | U | Default | 2024-05-19
-* rabbitmq-c 0.15.0 0.15.0 Up-to-date
+* rabbitmq-c 0.15.0 0.16.0 Not updated
     - rabbitmq-c: upgrade 0.14.0 -> 0.15.0 | 0.15.0 | U | Default | 2024-12-03
     - rabbitmp-c: upgrade 0.13.0 -> 0.14.0 | 0.14.0 | U | Default | 2024-10-15
     - rabbitmq-c: upgrade 0.11.0 -> 0.13.0 | 0.13.0 | U | Default | 2023-03-09
