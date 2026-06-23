@@ -139,7 +139,7 @@
     - can-utils: Upgrade 2023.03 -> 2025.01 | 2025.01 | U | Default | 2025-02-13
     - can-utils: upgrade 2021.08.0 -> 2023.03 | 2023.03 | U | Default | 2023-03-24
     - Initial import at master release start. | 2021.08.0 | U | Default | 2021-09-24
-* catch2 3.14.0 3.15.0 Not updated
+* catch2 3.14.0 3.15.1 Not updated
     - catch2: upgrade 3.13.0 -> 3.14.0 | 3.14.0 | U | Default | 2026-04-10
     - catch2: upgrade 3.12.0 -> 3.13.0 | 3.13.0 | U | Default | 2026-02-25
     - catch2: upgrade 3.8.1 -> 3.12.0 | 3.12.0 | U | Default | 2026-01-23
@@ -417,7 +417,7 @@
 * gtkmm4 4.20.0 4.23.0 Not updated
     - gtkmm4: update | 4.20.0 | U | Default | 2025-12-04
     - gtk4mm: add recipe | 4.14.0 | U | Default | 2024-03-23
-* haveged 1.9.21 1.9.22 Not updated
+* haveged 1.9.21 1.9.24 Not updated
     - haveged: upgrade 1.9.20 -> 1.9.21 | 1.9.21 | U | Default | 2026-06-01
     - haveged: upgrade 1.9.19 -> 1.9.20 | 1.9.20 | U | Default | 2026-05-13
     - haveged: upgrade 1.9.18 -> 1.9.19 | 1.9.19 | U | Default | 2024-10-10
@@ -460,7 +460,7 @@
     - hunspell: upgrade 1.7.1 -> 1.7.2 | 1.7.2 | U | Default | 2023-01-04
     - hunspell: upgrade 1.7.0 -> 1.7.1 | 1.7.1 | U | Default | 2022-08-29
     - Initial import at master release start. | 1.7.0 | U | Default | 2021-09-24
-* hwloc 2.12.2  Unknown
+* hwloc 2.12.2 2.12.2 Up-to-date
     - hwloc: upgrade 2.12.1 -> 2.12.2 | 2.12.2 | U | Default | 2025-09-04
     - hwloc: upgrade 2.9.3 -> 2.12.1 | 2.12.1 | U | Default | 2025-07-02
     - hwloc: upgrade 2.9.2 -> 2.9.3 | 2.9.3 | U | Default | 2023-09-20
@@ -549,7 +549,7 @@
     - jq: Upgrade to latest and fix configure tests | 1.6+gitAUTOINC+cff5336ec7 | U | Default | 2022-09-07
     - jq: upgrade 1.6 -> 2021-10-24 git | 1.6+gitAUTOINC+a9f97e9e61 | U | Default | 2022-01-19
     - Initial import at master release start. | 1.6 | U | Default | 2021-09-24
-* jsoncpp 1.9.7 1.9.7 Up-to-date
+* jsoncpp 1.9.7 1.9.8 Not updated
     - jsoncpp: upgrade 1.9.6 -> 1.9.7 | 1.9.7 | U | Default | 2026-03-23
     - jsoncpp: upgrade 1.9.5 -> 1.9.6 | 1.9.6 | U | Default | 2024-09-15
     - jsoncpp: upgrade 1.9.4 -> 1.9.5 | 1.9.5 | U | Default | 2021-11-10
@@ -678,7 +678,7 @@
     - libgphoto2: upgrade 2.5.30 -> 2.5.31 | 2.5.31 | U | Default | 2023-09-07
     - gphoto2: Upgrade to 2.5.28 | 2.5.30 | U | Default | 2022-09-06
     - Initial import at master release start. | 2.5.27 | U | Default | 2021-09-24
-* libgpiod 2.2.4 2.2.4 Up-to-date
+* libgpiod 2.2.4 2.3 Not updated
     - libgpiod: update to v2.2.4 | 2.2.4 | U | Default | 2026-04-10
     - libgpiod: update to v2.2.3 | 2.2.3 | U | Default | 2026-02-25
     - libgpiod: update to v2.2.2 | 2.2.2 | U | Default | 2025-07-09
@@ -703,7 +703,7 @@
     - Initial import at master release start. | 2.23 | U | Default | 2021-09-24
 * libid3tag 0.15.1b 0.15.1b Up-to-date
     - libid3tag: add from oe-core | 0.15.1b | U | Default | 2021-12-03
-* libidn 1.43 1.43 Up-to-date
+* libidn 1.43 1.44 Not updated
     - libidn: upgrade 1.42 -> 1.43 | 1.43 | U | Default | 2025-03-31
     - libidn: upgrade 1.41 -> 1.42 | 1.42 | U | Default | 2024-09-29
     - libidn: update to 1.41 | 1.41 | U | Default | 2023-03-10
@@ -751,7 +751,7 @@
 * libnewt 0.52.25 0.52.25 Up-to-date
     - libnewt: upgrade 0.52.24 -> 0.52.25 | 0.52.25 | U | Default | 2025-03-25
     - libnewt: add from oe-core | 0.52.24 | U | Default | 2024-06-19
-* libnvme 1.16.1 1.16.1 Up-to-date
+* libnvme 1.16.1 1.16.2 Not updated
     - libnvme: upgrade 1.12 -> 1.16.1 | 1.16.1 | U | Default | 2025-11-14
     - libnvme: upgrade 1.11.1 -> 1.12 | 1.12 | U | Default | 2025-04-07
     - libnvme: upgrade 1.11 -> 1.11.1 | 1.11.1 | U | Default | 2024-12-03
@@ -905,7 +905,8 @@
     - Initial import at master release start. | 2.03.11 | U | Default | 2021-09-24
 * lxdm 0.5.3 0.5.3 Up-to-date
     - Initial import at master release start. | 0.5.3 | U | Default | 2021-09-24
-* mariadb 11.4.10 13.0.1 Not updated
+* mariadb 11.4.12 13.0.1 Not updated
+    - mariadb: Upgrade 11.4.10 -> 11.4.12 | 11.4.12 | U | Default | 2026-06-15
     - mariadb: Upgrade 11.4.9 -> 11.4.10 | 11.4.10 | U | Default | 2026-03-05
     - mariadb: Upgrade 11.4.8 -> 11.4.9 | 11.4.9 | U | Default | 2025-11-25
     - mariadb: 11.4.8 | 11.4.8 | U | Default | 2025-10-02
@@ -935,7 +936,8 @@
     - minicoredumper: upgrade 2.0.2 -> 2.0.3 | 2.0.3 | U | Default | 2023-02-18
     - minicoredumper: Upgrade to 2.0.2 release | 2.0.2 | U | Default | 2023-02-05
     - Initial import at master release start. | 2.0.1 | U | Default | 2021-09-24
-* minifi-cpp 0.99.1 0.99.2 Not updated
+* minifi-cpp 0.99.2 0.99.2 Up-to-date
+    - minifi-cpp: upgrade 0.99.1 -> 0.99.2 | 0.99.2 | U | Default | 2026-06-16
     - minifi: upgrade 0.15.0 -> 0.99.1 | 0.99.1 | U | Default | 2025-03-17
     - minifi-cpp: upgrade 0.7.0 -> 0.15.0 | 0.15.0 | U | Default | 2024-03-21
     - Initial import at master release start. | 0.7.0 | U | Default | 2021-09-24
@@ -1008,7 +1010,7 @@
     - nlohmann-json: upgrade 3.10.4 -> 3.10.5 | 3.10.5 | U | Default | 2022-01-18
     - nlohmann-json: upgrade 3.10.2 -> 3.10.4 | 3.10.4 | U | Default | 2021-10-19
     - Initial import at master release start. | 3.10.2 | U | Default | 2021-09-24
-* nodejs 22.22.2 26.3.0 Not updated
+* nodejs 22.22.2 26.3.1 Not updated
     - nodejs: upgrade 22.22.1 -> 22.22.2 | 22.22.2 | U | Default | 2026-03-25
     - nodejs: upgrade 22.22.0 -> 22.22.1 | 22.22.1 | U | Default | 2026-03-17
     - nodejs: upgrade 22.21.1 -> 22.22.0 | 22.22.0 | U | Default | 2026-01-14
@@ -1121,7 +1123,7 @@
     - openjpeg: upgrade 2.5.0 -> 2.5.2 | 2.5.2 | U | Default | 2024-09-15
     - openjpeg: upgrade 2.4.0 -> 2.5.0 | 2.5.0 | U | Default | 2022-05-16
     - Initial import at master release start. | 2.4.0 | U | Default | 2021-09-24
-* openldap 2.6.13  Unknown
+* openldap 2.6.13 2.6.13 Up-to-date
     - openldap: upgrade 2.6.12 -> 2.6.13 | 2.6.13 | U | Default | 2026-03-27
     - openldap: upgrade 2.6.10 -> 2.6.12 | 2.6.12 | U | Default | 2026-02-06
     - openldap: upgrade 2.6.9 -> 2.6.10 | 2.6.10 | U | Default | 2025-06-10
@@ -1380,7 +1382,7 @@
     - protobuf-c: update to 1.4.1 fix CVE-2022-33070 | 1.4.1 | U | Default | 2022-07-12
     - protobuf-c: update to 1.4.0 | 1.4.0 | U | Default | 2021-10-16
     - Initial import at master release start. | 1.3.3 | U | Default | 2021-09-24
-* pugixml 1.15 1.15 Up-to-date
+* pugixml 1.15 1.16 Not updated
     - pugixml: upgrade 1.14 -> 1.15 | 1.15 | U | Default | 2025-01-14
     - pugixml: Update 1.13 -> 1.14 | 1.14 | U | Default | 2023-10-04
     - pugixml: upgrade 1.12 -> 1.13 | 1.13 | U | Default | 2022-11-07
@@ -1501,7 +1503,7 @@
     - Initial import at master release start. | 2.6.1 | U | Default | 2021-09-24
 * sound-theme-freedesktop 0.8 0.8 Up-to-date
     - Initial import at master release start. | 0.8 | U | Default | 2021-09-24
-* syslog-ng 4.11.0 4.11.0 Up-to-date
+* syslog-ng 4.11.0 4.12.0 Not updated
     - syslog-ng: upgrade 4.10.2 -> 4.11.0 | 4.11.0 | U | Default | 2026-03-17
     - syslog-ng: upgrade 4.8.2 -> 4.10.2 | 4.10.2 | U | Default | 2025-12-09
     - syslog-ng: upgrade 4.8.1 -> 4.8.2 | 4.8.2 | U | Default | 2025-05-15
@@ -1636,7 +1638,7 @@
     - valkey: Upgrade 8.0.1 -> 8.0.2 | 8.0.2 | U | Default | 2025-02-07
     - valkey: Upgrade 8.0.0 -> 8.0.1 | 8.0.1 | U | Default | 2024-10-11
     - valkey: Add recipe | 8.0.0 | U | Default | 2024-09-26
-* vboxguestdrivers 7.2.6 7.2.8 Not updated
+* vboxguestdrivers 7.2.6 7.2.10 Not updated
     - vboxguestdrivers: Upgrade to 7.2.6 | 7.2.6 | U | Default | 2026-02-05
     - vboxguestdrivers: Upgrade to 7.2.4 | 7.2.4 | U | Default | 2025-12-24
     - vboxguestdrivers: Upgrade to 7.2.2 | 7.2.2 | U | Default | 2025-09-16
