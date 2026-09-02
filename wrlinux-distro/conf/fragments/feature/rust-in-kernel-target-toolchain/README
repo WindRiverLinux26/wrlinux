@@ -1,0 +1,18 @@
+ 
+                             RUST SUPPORT IN KERNEL
+                             ----------------------
+
+1. Introduction
+----------------
+
+Enable rust support in kernel for on target development. 
+
+If you need more details, Please see https://docs.kernel.org/rust/index.html
+
+2. Usage
+--------
+
+Add this template using the following configure script option.
+i.e.: --templates feature/rust-in-kernel-target
+
+This will ensure the required config values are set and will enable support kernel module development on target.
