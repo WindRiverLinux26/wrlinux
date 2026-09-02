@@ -1,0 +1,21 @@
+
+                             RUST SUPPORT IN KERNEL
+                             ----------------------
+
+1. Introduction
+----------------
+
+Enables the kernel's Rust build support (CONFIG_RUST infra), allowing the target kernel 
+and any Rust-based kernel modules, both in-tree samples and out-of-tree module recipes 
+to be cross-compiled as part of the normal Yocto cross-build for the target machine.
+
+If you need more details, Please see https://docs.kernel.org/rust/index.html
+
+2. Usage
+--------
+
+Add this template using the following configure script option.
+i.e.: --templates feature/rust-in-kernel
+
+This will ensure the required config values are set and enables the ability to build 
+Rust-based kernel modules and recipes for the target.
