@@ -1,4 +1,4 @@
-* nvidia-kernel-oot 36.5.0+git 39.2.0 Not updated
+* nvidia-kernel-oot 36.5.0+git 39.2.1 Not updated
     - meta: update L4T R36.4.4 -> R36.5.0 | 36.5.0+git | U | Default | 2026-02-28
     - meta: update L4T R36.4.4 -> R36.5.0 | 36.5.0 | U | Default | 2026-02-28
     - nvidia-kernel-oot: update git recipe for R36.4.4 | 36.4.4+git | U | Default | 2025-08-09

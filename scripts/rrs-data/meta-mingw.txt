@@ -1,6 +1,6 @@
 * core-image-mingw-sdktest 1.0 1.0 Up-to-date
     - Initial import at master release start. | 1.0 | U | Default | 2021-11-07
-* libiconv 1.19 1.19 Up-to-date
+* libiconv 1.19  Unknown
     - libiconv: Upgrade 1.18 -> 1.19 | 1.19 | U | Default | 2026-06-04
     - libiconv: Upgrade to 1.18 release | 1.18 | U | Default | 2025-04-30
     - Initial import at master release start. | 1.15 | U | Default | 2021-11-07

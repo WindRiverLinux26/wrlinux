@@ -1,10 +1,10 @@
-* libcamera-apps 1.9.0 1.12.0 Not updated
+* libcamera-apps 1.9.0 1.13.0 Not updated
     - libcamera-apps: upgrade 1.4.2 -> 1.9.0 | 1.9.0 | U | Default | 2025-10-18
     - libcamera-apps: fix build with libcamera-0.2.0 | 1.4.2+git | U | Default | 2024-02-01
     - libcamera-apps: bump to latest main | 1.2.1+gitAUTOINC+1c1d1c1a2a | U | Default | 2023-08-08
     - libcamera-apps: bump to 3d9ac10 | 1.2.1+gitAUTOINC+3d9ac1087b | U | Default | 2023-08-08
     - rpi-libcamera-apps: rename to libcamera-apps | 1.1.2+gitAUTOINC+12098520a3 | U | Default | 2023-08-08
-* libpisp 1.3.0 1.5.0 Not updated
+* libpisp 1.3.0 1.7.0 Not updated
     - libpisp: Upgrade to 1.3.0 release | 1.3.0 | U | Default | 2025-10-25
     - libpisp: introduce recipe | 1.2.1 | U | Default | 2025-10-18
 * pi-bluetooth 0.1.19  Unknown

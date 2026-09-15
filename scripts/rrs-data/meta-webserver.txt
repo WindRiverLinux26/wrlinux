@@ -1,4 +1,6 @@
-* apache2 2.4.66 2.4.68 Not updated
+* apache2 2.4.68 2.4.68 Up-to-date
+    - apache2: upgrade 2.4.67 -> 2.4.68 | 2.4.68 | U | Default | 2026-07-22
+    - apache2: upgrade 2.4.66 -> 2.4.67 | 2.4.67 | U | Default | 2026-05-15
     - apache2: upgrade 2.4.65 -> 2.4.66 | 2.4.66 | U | Default | 2025-12-05
     - apache2: upgrade 2.4.64 -> 2.4.65 | 2.4.65 | U | Default | 2025-07-30
     - apache2: upgrade 2.4.63 -> 2.4.64 | 2.4.64 | U | Default | 2025-07-16
@@ -17,7 +19,7 @@
     - Apache: Several CVE fixes | 2.4.51 | U | Default | 2021-10-22
     - apache2: upgrade 2.4.48 -> 2.4.49 | 2.4.49 | U | Default | 2021-09-24
     - Initial import at master release start. | 2.4.48 | U | Default | 2021-09-24
-* nginx 1.29.7 1.31.2 Not updated
+* nginx 1.29.7 1.31.5 Not updated
     - nginx: upgrade 1.29.6 -> 1.29.7 | 1.29.7 | U | Default | 2026-03-28
     - nginx: upgrade 1.28.2 -> 1.28.3 | 1.28.3 | D | Default | 2026-03-28
     - nginx: upgrade 1.29.5 -> 1.29.6 | 1.29.6 | U | Default | 2026-03-18
@@ -56,7 +58,8 @@
     - phpmyadmin: upgrade 5.1.1 -> 5.1.2 | 5.1.2 | U | Default | 2022-01-25
     - phpmyadmin: upgrade 5.1.0 -> 5.1.1 | 5.1.1 | U | Default | 2021-09-30
     - Initial import at master release start. | 5.1.0 | U | Default | 2021-09-24
-* xdebug 3.5.1 3.5.3 Not updated
+* xdebug 3.5.3 3.5.3 Up-to-date
+    - xdebug: upgrade 3.5.1 -> 3.5.3 | 3.5.3 | U | Default | 2026-07-22
     - xdebug: upgrade 3.5.0 -> 3.5.1 | 3.5.1 | U | Default | 2026-03-03
     - xdebug: upgrade 3.4.7 -> 3.5.0 | 3.5.0 | U | Default | 2025-12-05
     - xdebug: upgrade 3.4.6 -> 3.4.7 | 3.4.7 | U | Default | 2025-11-23

@@ -24,7 +24,7 @@
     - gigolo: upgrade 0.5.3 -> 0.6.0 | 0.6.0 | U | Default | 2025-11-18
     - gigolo: upgrade 0.5.2 -> 0.5.3 | 0.5.3 | U | Default | 2023-11-06
     - Initial import at master release start. | 0.5.2 | U | Default | 2021-09-24
-* libxfce4ui 4.21.7 4.21.8 Not updated
+* libxfce4ui 4.21.7 4.21.9 Not updated
     - libxfce4ui: upgrade 4.20.2 -> 4.21.7 | 4.21.7 | U | Default | 2026-03-24
     - libxfce4ui: upgrade 4.20.1 -> 4.20.2 | 4.20.2 | U | Default | 2025-09-21
     - libxfce4ui: upgrade 4.20.0 -> 4.20.1 | 4.20.1 | U | Default | 2025-06-25
@@ -43,7 +43,7 @@
     - libxfce4util: 4.18.0 -> 4.18.1 | 4.18.1 | U | Default | 2023-04-13
     - libxfce4util: 4.16.0 -> 4.18.0 | 4.18.0 | U | Default | 2022-12-28
     - Initial import at master release start. | 4.16.0 | U | Default | 2021-09-24
-* libxfce4windowing 4.20.5 4.20.6 Not updated
+* libxfce4windowing 4.20.5 4.20.7 Not updated
     - libxfce4windowing: upgrade 4.20.4 -> 4.20.5 | 4.20.5 | U | Default | 2026-01-15
     - libxfce4windowing: update 4.20.3 -> 4.20.4 | 4.20.4 | U | Default | 2025-09-17
     - libxfce4windowing: upgrade 4.20.0 -> 4.20.3 | 4.20.3 | U | Default | 2025-06-25
@@ -72,7 +72,7 @@
     - ristretto: upgrade 0.12.0 -> 0.12.1 | 0.12.1 | U | Default | 2022-01-05
     - ristretto: upgrade 0.11.0 -> 0.12.0 | 0.12.0 | U | Default | 2021-11-20
     - Initial import at master release start. | 0.11.0 | U | Default | 2021-09-24
-* thunar 4.21.5 4.21.5 Up-to-date
+* thunar 4.21.5 4.21.6 Not updated
     - thunar: upgrade 4.21.4 -> 4.21.5 | 4.21.5 | U | Default | 2026-04-02
     - thunar: upgrade 4.20.7 -> 4.21.4 | 4.21.4 | U | Default | 2026-03-24
     - thunar: upgrade 4.20.5 -> 4.20.7 | 4.20.7 | U | Default | 2026-02-18
@@ -265,7 +265,7 @@
     - xfce4-session: 4.18.0 -> 4.18.2 | 4.18.2 | U | Default | 2023-04-13
     - xfce4-session: 4.16.0 -> 4.18.0 | 4.18.0 | U | Default | 2022-12-28
     - Initial import at master release start. | 4.16.0 | U | Default | 2021-09-24
-* xfce4-settings 4.21.1 4.21.1 Up-to-date
+* xfce4-settings 4.21.1 4.21.3 Not updated
     - xfce4-settings: upgrade 4.20.1 -> 4.21.1 | 4.21.1 | U | Default | 2026-03-24
     - xfce4-settings: upgrade 4.20.0 -> 4.20.1 | 4.20.1 | U | Default | 2025-05-11
     - xfce4-settings: 4.18.3 -> 4.20.0 | 4.20.0 | U | Default | 2024-12-19
@@ -333,7 +333,8 @@
     - xfconf: Upgrade 4.18.0 -> 4.18.1 | 4.18.1 | U | Default | 2024-11-23
     - xfconf: 4.16.0 -> 4.18.0 | 4.18.0 | U | Default | 2022-12-28
     - Initial import at master release start. | 4.16.0 | U | Default | 2021-09-24
-* xfdesktop 4.20.1 4.20.2 Not updated
+* xfdesktop 4.20.2 4.21.0 Not updated
+    - xfdesktop: upgrade 4.20.1 -> 4.20.2 | 4.20.2 | U | Default | 2026-05-15
     - xfdesktop: upgrade 4.20.0 -> 4.20.1 | 4.20.1 | U | Default | 2025-06-11
     - xfdesktop: 4.18.1 -> 4.20.0 | 4.20.0 | U | Default | 2024-12-19
     - xfdesktop: update 4.18.0 -> 4.18.1 | 4.18.1 | U | Default | 2023-02-04

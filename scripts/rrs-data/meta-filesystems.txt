@@ -7,7 +7,7 @@
     - Initial import at master release start. | 1.14.0 | U | Default | 2021-09-24
 * fuse 2.9.9  Unknown
     - Initial import at master release start. | 2.9.9 | U | Default | 2021-09-24
-* ntfs-3g-ntfsprogs 2026.2.25 2026.2.25 Up-to-date
+* ntfs-3g-ntfsprogs 2026.2.25 2026.7.7 Not updated
     - ntfs-3g-ntfsprogs: upgrade 2022.10.3 -> 2026.2.25 | 2026.2.25 | U | Default | 2026-05-13
     - ntfs-3g-ntfsprogs: fix CVE-2023-52890 | 2022.10.3 | U | Default | 2024-11-22
     - ntfs-3g-ntfsprogs: upgrade to 2022.5.17 | 2022.5.17 | U | Default | 2022-07-06
@@ -27,7 +27,7 @@
     - xfsdump: upgrade 3.1.10 -> 3.1.11 | 3.1.11 | U | Default | 2022-08-29
     - xfsdump: upgrade 3.1.9 -> 3.1.10 | 3.1.10 | U | Default | 2022-02-16
     - Initial import at master release start. | 3.1.9 | U | Default | 2021-09-24
-* xfsprogs 6.18.0 7.0.1 Not updated
+* xfsprogs 6.18.0 7.1.1 Not updated
     - xfsprogs: upgrade 6.6.0 -> 6.18.0 | 6.18.0 | U | Default | 2026-03-22
     - xfsprogs: 6.5.0 -> 6.6.0 | 6.6.0 | U | Default | 2024-03-08
     - xfsprogs: upgrade 6.1.1 -> 6.5.0 | 6.5.0 | U | Default | 2023-11-06

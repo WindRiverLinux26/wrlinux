@@ -15,7 +15,7 @@
 * bridge-utils 1.7.1 1.7.1 Up-to-date
     - bridge-utils: upgrade 1.7 -> 1.7.1 | 1.7.1 | U | Default | 2022-01-18
     - Initial import at master release start. | 1.7 | U | Default | 2021-09-24
-* chrony 4.8 4.8 Up-to-date
+* chrony 4.8 4.9 Not updated
     - chrony: upgrade 4.7 -> 4.8 | 4.8 | U | Default | 2025-10-30
     - chrony: upgrade 4.6.1 -> 4.7 | 4.7 | U | Default | 2025-07-22
     - chrony: upgrade 4.5 -> 4.6.1 | 4.6.1 | U | Default | 2025-01-14
@@ -35,7 +35,8 @@
     - dhcp-relay: upgrade 4.4.3 -> 4.4.3-P1 | 4.4.3p1 | U | Default | 2022-10-11
     - dhcp-relay: upgrade 4.4.2p1 -> 4.4.3 | 4.4.3 | U | Default | 2022-03-24
     - Initial import at master release start. | 4.4.2p1 | U | Default | 2021-09-24
-* dnsmasq 2.92 2.93 Not updated
+* dnsmasq 2.93 2.93 Up-to-date
+    - dnsmasq: upgrade 2.92 -> 2.93 | 2.93 | U | Default | 2026-06-18
     - dnsmasq: upgrade 2.91 -> 2.92 | 2.92 | U | Default | 2026-01-23
     - dnsmasq: upgrade 2.90 -> 2.91 | 2.91 | U | Default | 2025-03-24
     - dnsmasq: Upgrade 2.89 -> 2.90 | 2.90 | U | Default | 2024-02-26
@@ -61,7 +62,7 @@
     - freeradius: 3.0.26 -> 3.2.3 | 3.2.3 | U | Default | 2024-04-02
     - freeradius: upgrade 3.0.21 -> 3.0.26 | 3.0.26 | U | Default | 2023-01-09
     - Initial import at master release start. | 3.0.21 | U | Default | 2021-09-24
-* frr 10.6.1 10.6.1 Up-to-date
+* frr 10.6.1 10.7.1 Not updated
     - frr: upgrade 10.5.3 -> 10.6.1 | 10.6.1 | U | Default | 2026-04-23
     - frr: upgrade 10.5.2 -> 10.5.3 | 10.5.3 | U | Default | 2026-03-23
     - frr: upgrade 10.5.1 -> 10.5.2 | 10.5.2 | U | Default | 2026-03-03
@@ -127,13 +128,13 @@
 * libnetfilter-cttimeout 1.0.1  Unknown
     - libnetfilter-cttimeout: upgrade 1.0.0 -> 1.0.1 | 1.0.1 | U | Default | 2023-03-06
     - Initial import at master release start. | 1.0.0 | U | Default | 2021-09-24
-* libnetfilter-queue 1.0.5 1.0.5 Up-to-date
+* libnetfilter-queue 1.0.5  Unknown
     - libnetfilter-queue: upgrade 1.0.3 -> 1.0.5 | 1.0.5 | U | Default | 2022-01-18
     - Initial import at master release start. | 1.0.3 | U | Default | 2021-09-24
 * libnfnetlink 1.0.2  Unknown
     - libnfnetlink: upgrade 1.0.1 -> 1.0.2 | 1.0.2 | U | Default | 2023-03-06
     - Initial import at master release start. | 1.0.1 | U | Default | 2021-09-24
-* libnftnl 1.3.1 1.3.1 Up-to-date
+* libnftnl 1.3.1  Unknown
     - libnftnl: upgrade 1.3.0 -> 1.3.1 | 1.3.1 | U | Default | 2025-12-09
     - libnftnl: upgrade 1.2.9 -> 1.3.0 | 1.3.0 | U | Default | 2025-08-20
     - libnftnl: upgrade 1.2.8 -> 1.2.9 | 1.2.9 | U | Default | 2025-04-24
@@ -146,7 +147,7 @@
     - libnftnl: upgrade 1.2.1 -> 1.2.2 | 1.2.2 | U | Default | 2022-06-30
     - libnftnl: upgrade 1.2.0 -> 1.2.1 | 1.2.1 | U | Default | 2021-12-01
     - Initial import at master release start. | 1.2.0 | U | Default | 2021-09-24
-* libtalloc 2.4.4 2.4.4 Up-to-date
+* libtalloc 2.4.4 2.5.0 Not updated
     - libtalloc: upgrade 2.4.3 -> 2.4.4 | 2.4.4 | U | Default | 2026-01-31
     - libtalloc: upgrade 2.4.2 -> 2.4.3 | 2.4.3 | U | Default | 2025-02-26
     - libtalloc: upgrade 2.4.1 -> 2.4.2 | 2.4.2 | U | Default | 2024-03-08
@@ -165,7 +166,7 @@
     - libtdb: upgrade 1.4.7 -> 1.4.8 | 1.4.8 | U | Default | 2023-02-18
     - libtdb: upgrade 1.4.3 -> 1.4.7 | 1.4.7 | U | Default | 2023-01-01
     - Initial import at master release start. | 1.4.3 | U | Default | 2021-09-24
-* libtevent 0.17.1 0.17.1 Up-to-date
+* libtevent 0.17.1 0.17.2 Not updated
     - libtevent: upgrade 0.17.0 -> 0.17.1 | 0.17.1 | U | Default | 2025-08-20
     - libtevent: upgrade 0.16.2 -> 0.17.0 | 0.17.0 | U | Default | 2025-06-26
     - libtevent: upgrade 0.16.1 -> 0.16.2 | 0.16.2 | U | Default | 2025-02-26
@@ -178,7 +179,8 @@
     - lksctp-tools: upgrade 1.0.20 -> 1.0.21 | 1.0.21 | U | Default | 2024-09-29
     - lksctp-tools: upgrade 1.0.19 -> 1.0.20 | 1.0.20 | U | Default | 2024-09-23
     - Initial import at master release start. | 1.0.19+gitAUTOINC+05b50d379f | U | Default | 2021-09-24
-* lldpd 1.0.21 1.0.22 Not updated
+* lldpd 1.0.22 1.0.22 Up-to-date
+    - lldpd: upgrade 1.0.21 -> 1.0.22 | 1.0.22 | U | Default | 2026-05-29
     - lldpd: upgrade 1.0.20 -> 1.0.21 | 1.0.21 | U | Default | 2026-03-27
     - lldpd: upgrade 1.0.19 -> 1.0.20 | 1.0.20 | U | Default | 2025-09-16
     - lldpd: upgrade 1.0.18 -> 1.0.19 | 1.0.19 | U | Default | 2025-01-14
@@ -188,7 +190,7 @@
     - lldpd: Upgrade 1.0.14 -> 1.0.15 | 1.0.15 | U | Default | 2022-10-22
     - lldpd: upgrade 1.0.8 -> 1.0.14 | 1.0.14 | U | Default | 2022-06-30
     - Initial import at master release start. | 1.0.8 | U | Default | 2021-09-24
-* mbedtls 3.6.6 4.1.0 Not updated
+* mbedtls 3.6.6 4.2.0 Not updated
     - mbedtls: upgrade 3.6.5 -> 3.6.6 | 3.6.6 | U | Default | 2026-04-06
     - mbedtls: drop recipe for v2 | 2.28.10 | N | Default | 2026-04-06
     - mbedtls: upgrade 3.6.4 -> 3.6.5 | 3.6.5 | U | Default | 2025-11-05
@@ -228,7 +230,7 @@
     - Initial import at master release start. | 1.195 | U | Default | 2021-09-24
 * netperf 2.7.0+gitAUTOINC+3bc455b23f 2.7.0 Up-to-date
     - Initial import at master release start. | 2.7.0+gitAUTOINC+3bc455b23f | U | Default | 2021-09-24
-* networkmanager 1.56.0 1.57.4 Not updated
+* networkmanager 1.56.0 1.59.1 Not updated
     - networkmanager: upgrade 1.52.2 -> 1.56.0 | 1.56.0 | U | Default | 2026-03-18
     - networkmanager: upgrade 1.52.0 -> 1.52.2 | 1.52.2 | U | Default | 2025-12-31
     - networkmanager: update 1.50.0 -> 1.52.0 | 1.52.0 | U | Default | 2025-05-28
@@ -298,7 +300,7 @@
     - openipmi: update 2.0.32 -> 2.0.34 | 2.0.34 | U | Default | 2023-12-31
     - openipmi: upgrade 2.0.31 -> 2.0.32 | 2.0.32 | U | Default | 2021-12-22
     - Initial import at master release start. | 2.0.31 | U | Default | 2021-09-24
-* openvpn 2.7.0 2.7.4 Not updated
+* openvpn 2.7.0 2.7.7 Not updated
     - openvpn: Upgrade to 2.7.0 | 2.7.0 | U | Default | 2026-03-25
     - openvpn: upgrade 2.6.16 -> 2.6.17 | 2.6.17 | U | Default | 2025-12-17
     - openvpn: upgrade 2.6.15 -> 2.6.16 | 2.6.16 | U | Default | 2025-11-25
@@ -324,8 +326,12 @@
 * phytool 2+git 2 Up-to-date
     - phytool: Update to latest | 2+git | U | Default | 2026-03-20
     - Initial import at master release start. | 2+gitAUTOINC+8882328c08 | U | Default | 2021-09-24
-* postfix 3.10.9 3.11.4 Not updated
+* postfix 3.10.13  Unknown
+    - postfix: upgrade 3.10.12 -> 3.10.13 | 3.10.13 | U | Default | 2026-08-24
+    - postfix: upgrade 3.10.10 -> 3.10.12 | 3.10.12 | U | Default | 2026-07-22
+    - postfix: upgrade 3.10.9 -> 3.10.10 | 3.10.10 | U | Default | 2026-06-18
     - postfix: upgrade 3.10.8 -> 3.10.9 | 3.10.9 | U | Default | 2026-06-16
+    - postfix: make it can compile with linux 7.x | 3.10.8 | D | Default | 2026-05-15
     - postfix: upgrade 3.10.6 -> 3.10.8 | 3.10.8 | U | Default | 2026-03-03
     - postfix: upgrade 3.10.5 -> 3.10.6 | 3.10.6 | U | Default | 2025-12-02
     - postfix: upgrade 3.10.1 -> 3.10.5 | 3.10.5 | U | Default | 2025-10-29
@@ -341,6 +347,8 @@
 * ptpd 2.3.1 2.3.1 Up-to-date
     - Initial import at master release start. | 2.3.1 | U | Default | 2021-09-24
 * radvd 2.21 2.21 Up-to-date
+    - Merge remote-tracking branch 'base/upstream-wrynose' into WRLINUX_10_26_LTS | 2.21 | U | Default | 2026-08-11
+    - radvd: fix CVE-2026-48715 | 2.20 | D | Default | 2026-07-22
     - radvd: upgrade 2.20 -> 2.21 | 2.21 | U | Default | 2026-06-16
     - radvd: upgrade 2.19 -> 2.20 | 2.20 | U | Default | 2025-02-24
     - Initial import at master release start. | 2.19 | U | Default | 2021-09-24
@@ -349,7 +357,8 @@
     - snort: upgrade 2.9.18.1 -> 2.9.19 | 2.9.19 | U | Default | 2021-12-14
     - snort: upgrade 2.9.18 -> 2.9.18.1 | 2.9.18.1 | U | Default | 2021-09-27
     - Initial import at master release start. | 2.9.18 | U | Default | 2021-09-24
-* strongswan 6.0.5 6.0.7 Not updated
+* strongswan 6.0.6 6.0.7 Not updated
+    - strongswan: upgrade 6.0.5 -> 6.0.6 | 6.0.6 | U | Default | 2026-05-15
     - strongswan: upgrade 6.0.4 -> 6.0.5 | 6.0.5 | U | Default | 2026-04-01
     - strongswan: upgrade 6.0.3 -> 6.0.4 | 6.0.4 | U | Default | 2025-12-21
     - strongswan: upgrade 6.0.2 -> 6.0.3 | 6.0.3 | U | Default | 2025-11-02
@@ -376,7 +385,8 @@
     - tcpdump: upgrade 4.99.1 -> 4.99.2 | 4.99.2 | U | Default | 2023-01-06
     - tcpdump: upgrade 4.99.0 -> 4.99.1 | 4.99.1 | U | Default | 2022-02-03
     - Initial import at master release start. | 4.99.0 | U | Default | 2021-09-24
-* tcpreplay 4.5.2 4.5.2 Up-to-date
+* tcpreplay 4.5.5 4.6.1 Not updated
+    - tcpreplay: upgrade 4.5.2 -> 4.5.5 | 4.5.5 | U | Default | 2026-08-07
     - tcpreplay: upgrade 4.5.1 -> 4.5.2 | 4.5.2 | U | Default | 2025-09-23
     - tcpreplay: upgrade 4.4.4 -> 4.5.1 | 4.5.1 | U | Default | 2024-08-02
     - tcpreplay: upgrade 4.4.3 -> 4.4.4 | 4.4.4 | U | Default | 2023-06-26
@@ -391,7 +401,7 @@
     - tcpslice: upgrade 1.5 -> 1.6 | 1.6 | U | Default | 2022-10-24
     - tcpslice: upgrade 1.2a3 -> 1.5 | 1.5 | U | Default | 2022-02-03
     - Initial import at master release start. | 1.2a3 | U | Default | 2021-09-24
-* tftp-hpa 5.3 5.3 Up-to-date
+* tftp-hpa 5.3 6.0 Not updated
     - tftp-hpa: upgrade 5.2 -> 5.3 | 5.3 | U | Default | 2026-04-01
     - Initial import at master release start. | 5.2 | U | Default | 2021-09-24
 * tnftp 20260211 20260211 Up-to-date
@@ -410,7 +420,7 @@
     - Initial import at master release start. | 1.5 | U | Default | 2021-09-24
 * vsftpd 3.0.5 3.0.5 Up-to-date
     - Initial import at master release start. | 3.0.5 | U | Default | 2021-09-24
-* vsomeip 3.5.11 3.7.3 Not updated
+* vsomeip 3.5.11 3.7.5 Not updated
     - vsomeip: upgrade 3.5.10 -> 3.5.11 | 3.5.11 | U | Default | 2025-11-20
     - vsomeip: upgrade 3.5.3 -> 3.5.10 | 3.5.10 | U | Default | 2025-11-07
     - vsomeip: Upgrade to 3.5.3 | 3.5.3 | U | Default | 2025-01-13

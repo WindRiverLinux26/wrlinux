@@ -1,4 +1,5 @@
-* intel-cmt-cat 25.04 26.03 Not updated
+* intel-cmt-cat 26.06 26.06 Up-to-date
+    - intel-cmt-cat : upgrade version 25.04 -> 26.06 | 26.06 | U | Default | 2026-06-27
     - intel-cmt-cat: upgrade 24.05 -> 25.04 | 25.04 | U | Default | 2025-05-15
     - intel-cmt-cat : upgrade 23.11.1 -> 24.05 | 24.05 | U | Default | 2024-07-30
     - intel-cmt-cat : upgrade 23.11 -> 23.11.1 | 23.11.1 | U | Default | 2024-03-11
@@ -6,7 +7,8 @@
     - intel-cmt-cat: upgrade 4.6.0 -> 23.08 | 23.08 | U | Default | 2023-08-29
     - intel-cmt-cat: upgrade 4.5.0 -> 4.6.0 | 4.6.0 | U | Default | 2023-06-16
     - intel-cmt-cat: add recipe | 4.5.0 | U | Default | 2023-04-05
-* intel-microcode 20260210 20260512 Not updated
+* intel-microcode 20260512 20260812 Not updated
+    - intel-microcode : upgrade version 20260210 -> 20260512 | 20260512 | U | Default | 2026-06-26
     - intel-microcode: upgrade 20251111 -> 20260210 | 20260210 | U | Default | 2026-02-25
     - intel-microcode: upgrade 20250812 -> 20251111 | 20251111 | U | Default | 2026-01-27
     - intel-microcode: upgrade 20250512 -> 20250812 | 20250812 | U | Default | 2025-08-21
@@ -29,7 +31,8 @@
     - intel-microcode: upgrade 20220207 -> 20220419 | 20220419 | U | Default | 2022-05-06
     - intel-microcode: upgrade 20210608 -> 20220207 | 20220207 | U | Default | 2022-02-09
     - Initial import at master release start. | 20210608 | U | Default | 2021-09-30
-* itt 3.26.5 3.28.0 Not updated
+* itt 3.28.0 3.28.2 Not updated
+    - itt : upgrade version 3.26.5 -> 3.28.0 | 3.28.0 | U | Default | 2026-06-27
     - itt : upgrade 3.26.1 -> 3.26.5 | 3.26.5 | U | Default | 2026-01-27
     - itt: upgrade 3.25.3 -> 3.26.1 | 3.26.1 | U | Default | 2025-05-19
     - itt : upgrade 3.25.2-> 3.25.3 | 3.25.3 | U | Default | 2024-10-22
