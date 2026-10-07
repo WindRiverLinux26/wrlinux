@@ -5,6 +5,7 @@ WRL_RECIPE_VERSION[refpolicy-minimum] ?= '${@d.getVarFlag("WRL_RECIPE_VERSION", 
 WRL_RECIPE_VERSION[refpolicy-mls] ?= '${@d.getVarFlag("WRL_RECIPE_VERSION", "refpolicy-targeted")}'
 WRL_RECIPE_VERSION[refpolicy-standard] ?= '${@d.getVarFlag("WRL_RECIPE_VERSION", "refpolicy-targeted")}'
 WRL_RECIPE_VERSION[linux-yocto-rt] ?= '${@d.getVarFlag("WRL_RECIPE_VERSION", "linux-yocto")}'
+WRL_RECIPE_VERSION[linux-yocto-tiny] ?= '${@d.getVarFlag("WRL_RECIPE_VERSION", "linux-yocto")}'
 WRL_RECIPE_VERSION[linux-dummy] ?= '1.0'
 WRL_RECIPE_VERSION[wrlinux-image-installer] ?= '1.0'
 WRL_RECIPE_VERSION[wrlinux-image-installer-initramfs] ?= '1.0'
